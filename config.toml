@@ -1,8 +1,24 @@
 baseURL = "http://example.org/"
 languageCode = "de"
-title = "Hugowarte"
+title = "Sternwarte Bad Kreuznach e.V."
 theme = "stubborn"
 # googleAnalytics = "UA-123-45"
 
 [params]
     description = "This is the Sternwarte Website built with Hugo"
+
+[[menu.main]]
+    name = "Über uns"
+    url = "/ueber-uns"
+
+[[menu.main]]
+    name = "VHS"
+    url = "/vhs"
+
+[[menu.main]]
+    name = "Blog"
+    url = "/blog"
+
+[[menu.main]]
+    name = "Galerie"
+    url = "/galerie"
