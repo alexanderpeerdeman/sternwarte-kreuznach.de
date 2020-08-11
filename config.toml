@@ -1,0 +1,8 @@
+baseURL = "http://example.org/"
+languageCode = "de"
+title = "Hugowarte"
+theme = "stubborn"
+# googleAnalytics = "UA-123-45"
+
+[params]
+    description = "This is the Sternwarte Website built with Hugo"
