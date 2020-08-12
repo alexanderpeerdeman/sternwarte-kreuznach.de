@@ -22,3 +22,14 @@ theme = "stubborn"
 [[menu.main]]
     name = "Galerie"
     url = "/galerie"
+
+
+[[menu.social]]
+    name = "Facebook"
+    url = "https://www.facebook.com/Sternwarte-Bad-Kreuznach-eV-1041582079283448"
+    pre = "svg/027-facebook.svg"
+
+[[menu.social]]
+    name = "YouTube"
+    url = "https://www.youtube.com/channel/UCiPx2XenNCDxbFA-XXnfnvg?sub_confirmation=1"
+    pre = "svg/028-youtube.svg"

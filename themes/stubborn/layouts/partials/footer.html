@@ -1,0 +1,31 @@
+<div class="container footer text-center">
+  <div class="row">
+    <div class="col-md-4 col-md-offset-2">
+      <a href="{{ .Site.BaseURL }}"><img src="{{ absURL "svg/sternwarte-logo-transparent.svg" }}"
+          alt="{{ .Site.Title }}" width=197></a>
+    </div>
+
+    <div class="col-md-3">
+      <ul class="list-inline">
+        <li><a title="Impressum" href="/impressum/">Impressum</a></li>
+        <li>·</li>
+        <li><a title="Datenschutz" href="/datenschutz/">Datenschutz</a></li>
+        <li>·</li>
+        <li><a title="Kontakt" href="/infos/kontakt/">Kontakt</a></li>
+        <li>·</li>
+        <li><a rel="noopener" href="http://www.vds-astro.de/" target="_blank">VdS</a></li>
+      </ul>
+      <ul class="list-inline social-media">
+        {{ range .Site.Menus.social }}
+        <li><a href="{{ .URL }}"><img class="icon" src="{{ .Pre }}" alt="{{ .Name }}"></a></li>
+        {{ end }}
+      </ul>
+      <a href="http://astronomie-mitte.de/" target="_blank">
+        <img id="mitte-logo" src="{{ absURL "img/vds_mitte_logo.png" }}" alt="Vereinigung der Sternfreunde">
+      </a>
+    </div>
+  </div>
+  <hr>
+  <p class="sub">&copy; 2020</p>
+</div>
+#
