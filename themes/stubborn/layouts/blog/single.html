@@ -1,0 +1,18 @@
+{{ define "main" }}
+<header class="masthead" {{ with .Params.images }} style="background-image: url('{{ index . 0 }}')" {{ end }}>
+  <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+        <div class="post-heading">
+          <h1>{{ .Title }}</h1>
+          <span class="meta"><span class="glyphicon glyphicon-pencil"></span> Veröffentlicht am {{ .PublishDate.Format "2. January 2006" }}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<article>
+  {{ .Content }}
+</article>
+{{ end }}

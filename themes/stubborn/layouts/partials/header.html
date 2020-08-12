@@ -11,7 +11,7 @@
         </button>
 
         <a href="{{ .Site.BaseURL }} ">
-          <img class="navbar-brand" id="navbar-logo" src="svg/sternwarte-logo-transparent.svg" alt=""></a>
+          <img class="navbar-brand" id="navbar-logo" src='{{ absURL "svg/sternwarte-logo-transparent.svg" }}' alt=""></a>
         <a id="navbar-schriftzug" class="navbar-brand visible-xs-inline-block"
           href="{{ .Site.BaseURL }} ">{{ .Site.Title }}</a>
       </div>

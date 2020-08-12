@@ -5,7 +5,9 @@
 <body id="app-root">
     {{- partial "header.html" . -}}
     <main>
-        {{- block "main" . }}{{- end }}
+        <div class="container" id="container-main">
+            {{- block "main" . }}{{- end }}
+        </div>
     </main>
     {{- partial "footer.html" . -}}
 </body>
