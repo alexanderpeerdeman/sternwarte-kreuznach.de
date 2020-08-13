@@ -2,7 +2,7 @@
 <div class="page-header">
     <h1>{{ .Title }}</h1>
 </div>
-{{ range .Paginator.Pages }}
+{{ range (.Paginator 2).Pages }}
 <div class="row post-summary">
     <div class="col-md-3">
         <a href="{{ .Permalink }}" title='{{ .Title }}'>
@@ -31,18 +31,7 @@
 </div>
 <hr>
 {{ end }}
-{{ partial "pagination.html" . }}
-
-
-
-
-
-
-
-
-
-
-
-
-
+<div class="text-center">
+    {{ template "_internal/pagination.html" . }}
+</div>
 {{ end }}
