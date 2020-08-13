@@ -39,7 +39,7 @@ theme = "stubborn"
 
 [[menu.main]]
     name = "Shop"
-    url = "/shop"
+    url = "http://shop.spreadshirt.de/sternwarte-kreuznach/"
     weight = 7
 
 
