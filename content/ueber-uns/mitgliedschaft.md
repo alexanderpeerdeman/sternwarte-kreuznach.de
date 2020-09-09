@@ -1,0 +1,33 @@
+---
+title: "Mitgliedschaft"
+date: 2020-08-30T12:34:25+02:00
+menu:
+    main: 
+        parent: 'Über uns'
+        weight: 2
+---
+
+Haben Sie Freude an der Astronomie? Dann kommen Sie zu uns. Unterstützen Sie die Sternwarte durch ihre Mitgliedschaft.
+
+{{<table "table">}}
+|   |   |
+|:--|--:|
+| Jugendliche unter 18 Jahren | 40 € |
+| Schüler / Studenten ab 18 Jahren, Zivil-/Wehrdienstleistende | 40 € |
+| Rentner | 60 € |
+| Personen über 18 Jahren | 80 € |
+| Familien mit Kindern unter 18 Jahren | 120 € |
+| Ehepaare | 150 € |
+{{</table>}}
+
+## Fördermitgliedschaft
+{{<table "table">}}
+|   |   |
+|:--|--:|
+| Fördermitglieder (Mindestbeitrag) | 48 € |
+| Fördermitglieder (freiwilliger Beitrag) |> 48 € |
+{{</table>}}
+
+### Weitere Informationen:
+
+Die Beitrittserklärung finden Sie in der Sektion [Downloads]({{< ref "/infos/downloads" >}} "Downloads").

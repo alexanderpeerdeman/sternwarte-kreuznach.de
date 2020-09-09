@@ -14,7 +14,6 @@ theme = "stubborn"
 
 [[menu.main]]
     name = "Über uns"
-    url = "/ueber-uns"
     weight = 2
 
 [[menu.main]]
@@ -34,7 +33,6 @@ theme = "stubborn"
 
 [[menu.main]]
     name = "Infos"
-    url = "/infos"
     weight = 6
 
 [[menu.main]]

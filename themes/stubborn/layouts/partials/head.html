@@ -6,9 +6,9 @@
         content='{{ with .Description }}{{ . }}{{ else }}{{ with .Summary }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}{{ end }}'>
     <link rel="canonical" href="{{ .Permalink }}" />
 
-    <link rel="stylesheet" href='{{ absURL "css/index.css" }}'>
+    <link rel="stylesheet" href='{{ relURL "css/index.css" }}'>
 
-    <script type='application/javascript' src='{{ absURL "js/index.js" }}' async></script>
+    <script type='application/javascript' src='{{ relURL "js/index.js" }}' async></script>
 
     {{- partial "favicon.html" . -}}
 
