@@ -7,7 +7,7 @@ menu:
         weight: 3
 ---
 
-###  Wir zeigen Ihnen die Schönheit des Universums mit:
+##  Wir zeigen Ihnen die Schönheit des Universums mit:
 
 - der Beobachtung des Sternhimmels
 - Sonnenbeobachtungen durch verschiedenste Filter
@@ -18,7 +18,8 @@ menu:
 ![MG 0085](/images/MG_0085.jpg)
 &nbsp;  
 &nbsp;
-### Unser Programmangebot für Sie:
+
+## Unser Programmangebot für Sie:
 
 Seit vielen Jahren bieten wir unseren Gästen ein umfangreiches Vortragsprogramm an. Die meisten Besucher unserer Vorträge sind Schüler aus allen Bereichen und jeden Alters. Sogar Kindergärten haben vermehrt Interesse an der Astronomie gezeigt. Wir sind bemüht, den Erwachsenen, Jugendlichen und Kindern einen umfassenden Überblick über die Geschehnisse im Universum zu geben. So werden viele Bereiche der Astronomie leicht verständlich - aber wissenschaftlich korrekt - vermittelt.
 
@@ -26,7 +27,7 @@ Gruppenführungen sind nur **Montags bis Donnerstags** nach Terminvereinbarung m
 
 Detaillierte Informationen finden Sie auch im [Downloadbereich](/infos/downloads/) unter dem Punkt „Programmangebot“.
 
-### Programm 1:
+## Programm 1:
 
 **Eine Reise ins Universum, geeignet ab 8 Jahren, Dauer ca. 1 Stunde.**
 
@@ -35,7 +36,7 @@ Die Reise beginnt auf der Sternwarte Bad Kreuznach mit Informationen über den V
 Anschließend gehen wir zu unseren Teleskopen und erläutern Ihnen die Funktionsweise einer Sternwarte. Sollte das Wetter mitspielen, werden wir Ihnen einige astronomische Objekte mit unseren Instrumenten zeigen. Bei schlechtem Wetter können wir Ihnen mit einer Simulationssoftware den
 Sternhimmel in Echtzeit präsentieren.
 
-### Programm 2:
+## Programm 2:
 
 **Raketen basteln, Dauer ca. 3 Stunden**
 
@@ -44,7 +45,7 @@ Näheres dazu finden Sie hier.
 
 raketen basteln
 
-### Programm 3:
+## Programm 3:
 
 **Kita - Vortag Max und sein Teleskop, Dauer ca. 45 min**
 
