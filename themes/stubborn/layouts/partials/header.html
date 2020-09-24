@@ -1,15 +1,46 @@
 <nav>
   <div class="menu">
     <img src='{{ relURL "svg/logo.svg" }}' alt="">
-    <ul>
-      <li><a href="#">Verein</a></li>
-      <li><a class="active" href="#">Vorträge</a></li>
+    <ul class="navbar">
+      <li><a href="#">Sterne</a></li>
+      <li class="dropdown active">
+        <button class="dropdown-button">Der Verein</button>
+        <ul class="dropdown-items">
+          <li><a href="#">Über uns</a></li>
+          <li><a href="#">Mitgliedschaft</a></li>
+          <li><a href="#">Angebot</a></li>
+          <li><a href="#">Sonnenbeobachtung</a></li>
+          <li><a href="#">Planetenweg</a></li>
+          <li><a href="#">Jugendgruppe</a></li>
+          <li><a class="active" href="#">Raketen basteln</a></li>
+          <li><a href="#">Sternpatenschaften</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Vorträge</a></li>
       <li><a href="#">Blog</a></li>
       <li><a href="#">Galerie</a></li>
       <li><a href="#">Shop</a></li>
     </ul>
   </div>
 </nav>
+
+
+<!-- {{ $currentPage := . }}
+<nav>
+  <div class="menu">
+    <a href="{{ .Site.BaseURL }}"><img src='{{ relURL "svg/logo.svg" }}' alt=""></a>
+    <ul>
+      {{ range .Site.Menus.main }}
+      <li><a {{ if $currentPage.HasMenuCurrent "main" . }} class="active"{{ end }} href="{{ .URL }}">{{ .Name }}</a></li>
+      {{ end }}
+    </ul>
+  </div>
+</nav> -->
+
+
+
+
+
 
 
 <!-- <header>
