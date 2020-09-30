@@ -9,11 +9,8 @@ body {
 
 main {
   margin: 0 auto;
+  max-width: 55em;
   padding: 4em 1em;
-}
-
-p {
-  max-width: 42em;
 }
 
 hr {
@@ -58,14 +55,16 @@ nav {
 
 .menu {
   display: flex;
-  max-width: 65em;
+  max-width: 55em;
   margin: 0 auto;
-  padding-left: 0.75em;
+  padding: 0 1em;
   align-items: center;
+  justify-content: flex-start;
 }
 
 .menu > .logo {
   height: 64px;
+  padding: 2px;
 }
 
 .navbar {
@@ -75,7 +74,7 @@ nav {
   padding: 0 0 0 1.5em;
   align-items: center;
 }
-
+.menu > span,
 .navbar a,
 .navbar button {
   text-decoration: none;
@@ -88,6 +87,23 @@ nav {
   background: none;
   padding: 1.5em 1em;
   transition: ease .2s;
+}
+
+.menu > span {
+  display: none;
+}
+
+.hamburger {
+  display: none;
+}
+
+.hamburger > span {
+  display: block;
+  width: 28px;
+  height: 2px;
+  border-radius: 2px;
+  background-color: aliceblue;
+  margin: 6px;
 }
 
 .navbar > li:hover > a,
@@ -156,4 +172,37 @@ nav {
   visibility: visible;
   opacity: 1;
   transition: ease .2s;
+}
+
+
+@media (max-width: 769px) {
+  .navbar {
+    display: none;
+  }
+
+  .menu {
+    justify-content: space-between;
+    padding: 0 0.5em 0 1em;
+  }
+
+  .menu > span {
+    display: block;
+    padding: 0;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .hamburger:hover {
+    cursor: pointer;
+  }
+
+  main img {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
 }
