@@ -1,5 +1,5 @@
 body {
-  margin: 2em 0 0 0;
+  margin: 2rem 0 0 0;
   padding: 0;
   font-family: 'MetropolisRegular', "Arial", "Helvetica", sans-serif;
   line-height: 1.5;
@@ -9,8 +9,8 @@ body {
 
 main {
   margin: 0 auto;
-  max-width: 55em;
-  padding: 1em;
+  max-width: 55rem;
+  padding: 0 1rem;
 }
 
 hr {
@@ -18,7 +18,6 @@ hr {
   border-top: 3px solid #597694;
   margin-top: 40px;
   padding-top: 30px;
-
 }
 
 h1,
@@ -30,29 +29,25 @@ strong {
 }
 
 h1 {
-  font-size: 2.5em;
+  font-size: 2.5rem;
   font-weight: 300;
 }
 
 h2 {
-  margin-top: 1em;
-  padding-top: 1em;
+  padding-top: 1rem;
 }
 
 .titlebar {
   margin-top: 68px;
-  display: flex;
   width: 100%;
   background-color: #eee;
-  justify-content: center;
-  align-content: flex-start;
   font-family: 'MetropolisSemiBold';
-  padding-left: 1rem;
 }
 
 .title {
-  width: 55rem;
-
+  max-width: 55rem;
+  padding: 1.75rem 1rem;
+  margin: 0 auto;
 }
 
 a {
@@ -72,9 +67,9 @@ a {
 
 .menu {
   display: flex;
-  max-width: 55em;
+  max-width: 55rem;
   margin: 0 auto;
-  padding: 0 1em;
+  padding: 0 1rem;
   align-items: center;
   justify-content: flex-start;
 }
@@ -88,9 +83,10 @@ a {
   display: flex;
   list-style: none;
   margin: 0;
-  padding: 0 0 0 1.5em;
+  padding: 0 0 0 1.5rem;
   align-items: center;
 }
+
 .menu > span,
 .navbar a,
 .navbar button {
@@ -102,7 +98,7 @@ a {
   border: none;
   outline: none;
   background: none;
-  padding: 1.5em 1em;
+  padding: 25px 1rem;
   transition: ease .2s;
 }
 
@@ -143,9 +139,9 @@ a {
 
   position: absolute;
   z-index: 9999;
-  min-width: 7em;
+  min-width: 7rem;
   background-color: white;
-  border-left: #003366 0.37em solid;
+  border-left: #003366 0.37rem solid;
   left: 50%;
   -webkit-transform: translate(-50%, 0);
   -o-transform: translate(-50%, 0);
@@ -162,13 +158,13 @@ a {
   content: "";
   width: 0; 
   height: 0; 
-  border-left: 0.7em solid transparent;
-  border-right: 0.7em solid transparent;  
-  border-bottom: 0.7em solid white;
+  border-left: 0.7rem solid transparent;
+  border-right: 0.7rem solid transparent;  
+  border-bottom: 0.7rem solid white;
   position: absolute;
   bottom: 0;
   left: 50%;
-  margin-left: -0.7em;
+  margin-left: -0.7rem;
   z-index: 9998;
   transition: ease .2s;
 }
@@ -180,7 +176,7 @@ a {
 .dropdown-items > li > a {
   display: block;
   color: #333;
-  padding: 0.4em 0.7em;
+  padding: 0.4rem 0.7rem;
   transition: ease .2s;  
 }
 
@@ -199,7 +195,7 @@ a {
 
   .menu {
     justify-content: space-between;
-    padding: 0 0.5em 0 1em;
+    padding: 0 0.5rem 0 1rem;
   }
 
   .menu > span {
@@ -220,6 +216,6 @@ a {
   }
 
   h1 {
-    font-size: 2em;
+    font-size: 2rem;
   }
 }

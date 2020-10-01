@@ -16,8 +16,6 @@ menu:
 
 ![MG 0055](/images/MG_0055.jpg)
 ![MG 0085](/images/MG_0085.jpg)
-&nbsp;  
-&nbsp;
 
 ## Unser Programmangebot für Sie:
 
