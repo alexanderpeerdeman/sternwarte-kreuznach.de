@@ -1,7 +1,7 @@
 body {
   margin: 2em 0 0 0;
   padding: 0;
-  font-family: "Arial", "Helvetica", sans-serif;
+  font-family: 'MetropolisRegular', "Arial", "Helvetica", sans-serif;
   line-height: 1.5;
   color: #555;
   background-color: #fff;
@@ -10,7 +10,7 @@ body {
 main {
   margin: 0 auto;
   max-width: 55em;
-  padding: 4em 1em;
+  padding: 1em;
 }
 
 hr {
@@ -26,6 +26,7 @@ h2,
 h3,
 strong {
   color: #222;
+  font-family: 'MetropolisSemiBold';
 }
 
 h1 {
@@ -38,11 +39,27 @@ h2 {
   padding-top: 1em;
 }
 
+.titlebar {
+  margin-top: 68px;
+  display: flex;
+  width: 100%;
+  background-color: #eee;
+  justify-content: center;
+  align-content: flex-start;
+  font-family: 'MetropolisSemiBold';
+  padding-left: 1rem;
+}
+
+.title {
+  width: 55rem;
+
+}
+
 a {
   color: #003366;
 }
 
-nav {
+#topnav {
   background-color: #003366;
   background-image: linear-gradient(to right, #003366, #0b5fb3);
   position: fixed;

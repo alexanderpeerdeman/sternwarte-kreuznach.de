@@ -9,7 +9,6 @@ menu:
 
 Haben Sie Freude an der Astronomie? Dann kommen Sie zu uns. Unterstützen Sie die Sternwarte durch ihre Mitgliedschaft.
 
-{{<table "table">}}
 |   |   |
 |:--|--:|
 | Jugendliche unter 18 Jahren | 40 € |
@@ -18,16 +17,14 @@ Haben Sie Freude an der Astronomie? Dann kommen Sie zu uns. Unterstützen Sie di
 | Personen über 18 Jahren | 80 € |
 | Familien mit Kindern unter 18 Jahren | 120 € |
 | Ehepaare | 150 € |
-{{</table>}}
 
 ## Fördermitgliedschaft
-{{<table "table">}}
+
 |   |   |
 |:--|--:|
 | Fördermitglieder (Mindestbeitrag) | 48 € |
 | Fördermitglieder (freiwilliger Beitrag) |> 48 € |
-{{</table>}}
 
-### Weitere Informationen:
+### Weitere Informationen
 
 Die Beitrittserklärung finden Sie in der Sektion [Downloads]({{< ref "/infos/downloads" >}} "Downloads").
