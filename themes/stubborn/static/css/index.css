@@ -54,6 +54,17 @@ a {
   color: #003366;
 }
 
+blockquote {
+  padding: 0.4rem 0 0 0.4rem;
+  margin: 0;
+  background-color: #ddd;
+  border-left: 4px solid #003366;
+}
+
+blockquote > p {
+  padding: 0.8rem;
+}
+  
 #topnav {
   background-color: #003366;
   background-image: linear-gradient(to right, #003366, #0b5fb3);
@@ -61,7 +72,7 @@ a {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 9999;
+  z-index: 9998;
   width: 100%;
 }
 
@@ -74,9 +85,8 @@ a {
   justify-content: flex-start;
 }
 
-.menu > .logo {
-  height: 64px;
-  padding: 2px;
+.logo {
+  height: 68px;
 }
 
 .navbar {
@@ -87,7 +97,7 @@ a {
   align-items: center;
 }
 
-.menu > span,
+.site-title,
 .navbar a,
 .navbar button {
   text-decoration: none;
@@ -102,12 +112,13 @@ a {
   transition: ease .2s;
 }
 
-.menu > span {
+.site-title {
   display: none;
 }
 
 .hamburger {
   display: none;
+  z-index: 9998;
 }
 
 .hamburger > span {
@@ -138,7 +149,7 @@ a {
   opacity: 0;
 
   position: absolute;
-  z-index: 9999;
+  z-index: 9998;
   min-width: 7rem;
   background-color: white;
   border-left: #003366 0.37rem solid;
@@ -165,7 +176,7 @@ a {
   bottom: 0;
   left: 50%;
   margin-left: -0.7rem;
-  z-index: 9998;
+  z-index: 9997;
   transition: ease .2s;
 }
 
@@ -187,20 +198,84 @@ a {
   transition: ease .2s;
 }
 
+.navbar-toggle {
+  display: none;
+}
+
 
 @media (max-width: 769px) {
   .navbar {
     display: none;
+    position: fixed;
+    top: 68px;
+    left: 0;
+    background: white;
+    padding: 0;
+    width: 100%;
+    max-height: calc(100vh - 68px);
+    overflow-y: auto;
   }
+  
+  .navbar-toggle {
+    display: block;
+    position: absolute;
+    top: 1.2rem;
+    right: 0.5rem;
+    cursor: pointer;
+    width: 40px;
+    height: 30px;
+    margin: 0;
+    z-index: 9999;
+    opacity: 0;
+  }
+  
+  .navbar-toggle:checked + .navbar {
+    display: block;
+  }
+  
+  .navbar > li {
+    text-align: center;
+    width: 100%;
+  }
+  
+  .navbar button,
+  .navbar a {
+    color: #003366;
+    display: block;
+    padding: 0.75rem 0;
+    width: 100%;
+  }
+  
+  .navbar a {
+    line-height: normal;
+  }
+
+  .dropdown-button::after {
+    content: none;
+  }
+
+  .dropdown-items {
+    visibility: visible;
+    opacity: 1;
+    position: unset;
+    transform: none;
+    background: rgba(0, 0, 0, 0.12);
+    box-shadow: none;
+  }
+
+.dropdown-items > li > a {
+  padding: 0.5rem 0;
+}
 
   .menu {
     justify-content: space-between;
     padding: 0 0.5rem 0 1rem;
   }
 
-  .menu > span {
+  .site-title {
     display: block;
     padding: 0;
+    margin: 0 0.5rem;
   }
 
   .hamburger {
