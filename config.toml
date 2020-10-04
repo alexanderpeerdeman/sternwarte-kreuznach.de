@@ -1,7 +1,6 @@
 baseURL = "http://example.org/"
 languageCode = "de"
 title = "Sternwarte Bad Kreuznach e.V."
-theme = "stubborn"
 # googleAnalytics = "UA-123-45"
 
 [params]

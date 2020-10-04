@@ -1,4 +1,5 @@
 {{ define "main" }}
+<main>
 <header class="masthead" {{ with .Params.images }} style='background-image: url("{{ index . 0 }}")' {{ end }}>
   <div class="overlay"></div>
     <div class="container">
@@ -15,4 +16,5 @@
 <article>
   {{ .Content }}
 </article>
+</main>
 {{ end }}

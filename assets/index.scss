@@ -200,6 +200,47 @@ blockquote > p {
   display: none;
 }
 
+.blog-header {
+  margin-top: 68px;
+}
+
+.posts-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.post {
+  width: 33.32%;
+  box-sizing: border-box;
+  padding-left: 10px;
+  padding-right: 10px;
+  
+  .post-link {
+    img {
+      width: 100%;
+    }
+
+    .post-title {
+      padding: 0 1rem;
+    }
+  }
+
+  .post-info {
+    padding: 0 1rem;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .post-summary {
+    padding: 0 1rem;
+
+    .go::after {
+      content: " >";
+      text-decoration: none;
+    }
+  }
+}
+
 
 @media (max-width: 769px) {
   .navbar {

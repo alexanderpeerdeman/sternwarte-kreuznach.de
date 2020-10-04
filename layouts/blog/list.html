@@ -1,0 +1,81 @@
+{{ define "main" }}
+<div class="blog-header">
+    <h1>Neues auf der Sternwarte</h1>
+</div>
+<main>    
+    <div class="posts-grid">
+    {{/*  {{ range (.Paginator 2).Pages }}  */}}
+        <article class="post">
+            <header class="post-header">
+                <a class="post-link" href="#" title='Perseiden'>
+                    <img src='/images/blog/2020/08/perseiden.jpg' alt="">
+                    <h2 class="post-title">Perseiden</h2>
+                </a>
+                <div class="post-info">
+                    <time class="date published" datetime="2020-09-30T19:33:38-07:00">30. September 2020</time>
+                </div>
+            </header>
+            <div class="post-summary">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia molestiae facilis cum ...</p>
+                <a class="go" href="#">Weiterlesen</a>
+            </div>        
+        </article>
+        <article class="post">
+            <header class="post-header">
+                <a class="post-link" href="#" title='Perseiden'>
+                    <img src='/images/blog/2020/08/perseiden.jpg' alt="">
+                    <h2 class="post-title">Perseiden</h2>
+                </a>
+                <div class="post-info">
+                    <time class="date published" datetime="2020-09-30T19:33:38-07:00">30. September 2020</time>
+                </div>
+            </header>
+            <div class="post-summary">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia molestiae facilis cum ...</p>
+                <a class="go" href="#">Weiterlesen</a>
+            </div>        
+        </article>
+    </div>
+    {{/*  {{ end }}  */}}
+    <div class="text-center">
+        {{ template "_internal/pagination.html" . }}
+    </div>
+</main>
+{{ end }}
+
+{{/*  {{ define "main" }}
+<main>
+<div class="page-header">
+    <h1>{{ .Title }}</h1>
+</div>
+{{ range (.Paginator 2).Pages }}
+<div class="row post-summary">
+    <div class="col-md-3">
+        <a href="{{ .Permalink }}" title='{{ .Title }}'>
+            <img class="img-responsive img-rounded" src='{{ index .Params.images 0 }}' alt="">
+        </a>
+    </div>
+    <div class="col-md-7">
+        <h3>
+            <a href="{{ .Permalink }}" title='{{ .Title }}'>
+                {{ .Title }}
+            </a>
+        </h3>
+        <p>{{ .Summary }}</p>
+
+    </div>
+    <div class="col-md-2">
+        <ul class="list-inline visible-xs-block visible-sm-block">
+            <span class="glyphicon glyphicon-pencil"></span> {{ .PublishDate.Format "2. January 2006" }}
+        </ul>
+        <a href="{{ .Permalink }}"><button type="button" class="btn btn-default">mehr dazu <span
+                    class="glyphicon glyphicon-chevron-right"></span></button></a>
+    </div>
+</div>
+<hr>
+{{ end }}
+<div class="text-center">
+    {{ template "_internal/pagination.html" . }}
+</div>
+</main>
+{{ end }}  */}}

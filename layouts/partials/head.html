@@ -5,7 +5,12 @@
     <meta name="description"
         content='{{ with .Description }}{{ . }}{{ else }}{{ with .Summary }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}{{ end }}'>
     <link rel="canonical" href="{{ .Permalink }}" />
-    <link rel="stylesheet" href='{{ relURL "css/index.css" }}'>
+    
+    {{ $sass := resources.Get "index.scss" }}
+    {{ $style := $sass | resources.ToCSS }}
+    
+    <link rel="stylesheet" href='{{ $style.Permalink }}'>
+
     <link rel="stylesheet" href='{{ relURL "fonts/metropolis/WOFF2/metropolis.css" }}'>
     
     {{- partial "favicon.html" . -}}
