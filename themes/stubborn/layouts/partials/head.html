@@ -6,13 +6,11 @@
         content='{{ with .Description }}{{ . }}{{ else }}{{ with .Summary }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}{{ end }}'>
     <link rel="canonical" href="{{ .Permalink }}" />
     <link rel="stylesheet" href='{{ relURL "css/index.css" }}'>
-    
     <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/metropolis" type="text/css"/> 
-
-    <script type='application/javascript' src='{{ relURL "js/index.js" }}' async></script>
+    
+    {{/*  <script type='application/javascript' src='{{ relURL "js/index.js" }}' async></script>  */}}
 
     {{- partial "favicon.html" . -}}
-
 
     {{ template "_internal/opengraph.html" . }}
     {{ template "_internal/twitter_cards.html" . }}

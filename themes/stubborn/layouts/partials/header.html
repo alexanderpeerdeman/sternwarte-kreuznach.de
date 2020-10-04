@@ -1,35 +1,24 @@
+{{ $currentPage := . }}
 <nav id="topnav">
   <div class="menu">
     <a class="logo" href="{{ .Site.BaseURL }}"><img src='{{ relURL "svg/logo.svg" }}' width=68 height=68 alt="Logo"></a>
     <a class="site-title" href="{{ .Site.BaseURL }}">Sternwarte Bad Kreuznach e.V.</a>
     <input class="navbar-toggle" type="checkbox">
     <ul class="navbar">
-      <li><a href="#">Sterne</a></li>
+      {{ range .Site.Menus.main }}
+      {{ if .HasChildren }}
       <li class="dropdown">
-        <button class="dropdown-button">Der Verein</button>
+        <button class="dropdown-button">{{ .Name }}</button>
         <ul class="dropdown-items">
-          <li><a href="#">Über uns</a></li>
-          <li><a href="#">Mitgliedschaft</a></li>
-          <li><a href="#">Angebot</a></li>
-          <li><a href="#">Sonnenbeobachtung</a></li>
-          <li><a href="#">Planetenweg</a></li>
-          <li><a href="#">Jugendgruppe</a></li>
-          <li><a href="#">Raketen basteln</a></li>
-          <li><a href="#">Sternpatenschaften</a></li>
+          {{ range .Children }}
+          <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+          {{ end }}
         </ul>
       </li>
-      <li><a href="#">Vorträge</a></li>
-      <li><a href="#">Blog</a></li>
-      <li class="dropdown">
-        <button class="dropdown-button">Bilder</button>
-        <ul class="dropdown-items">
-          <li><a href="#">Galerie</a></li>
-          <li><a href="#">Sonne</a></li>
-          <li><a href="#">Mond</a></li>
-          <li><a href="#">Sterne</a></li>
-        </ul>
-      </li>
-      <li><a href="#">Shop</a></li>
+      {{ else}}
+      <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+      {{ end }}
+      {{ end }}
     </ul>
     <div class="hamburger">
       <span></span>
@@ -38,67 +27,3 @@
     </div>
   </div>
 </nav>
-
-
-<!-- {{ $currentPage := . }}
-<nav>
-  <div class="menu">
-    <a href="{{ .Site.BaseURL }}"><img src='{{ relURL "svg/logo.svg" }}' alt=""></a>
-    <ul>
-      {{ range .Site.Menus.main }}
-      <li><a {{ if $currentPage.HasMenuCurrent "main" . }} class="active"{{ end }} href="{{ .URL }}">{{ .Name }}</a></li>
-      {{ end }}
-    </ul>
-  </div>
-</nav> -->
-
-
-
-
-
-
-
-<!-- <header>
-  <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#sw-navigation-main"
-          aria-expanded="false">
-          <span class="sr-only">Navigation umschalten</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-
-        <a href="{{ .Site.BaseURL }} ">
-          <img class="navbar-brand" id="navbar-logo" src='{{ relURL "svg/sternwarte-logo-transparent.svg" }}' alt=""></a>
-        <a id="navbar-schriftzug" class="navbar-brand visible-xs-inline-block"
-          href="{{ .Site.BaseURL }} ">{{ .Site.Title }}</a>
-      </div>
-      <div class="collapse navbar-collapse" id="sw-navigation-main">
-        <ul class="nav navbar-nav">
-          {{ $currentPage := . }}
-          {{ range .Site.Menus.main }}
-            {{ if .HasChildren }}
-              <li class='dropdown{{ if $currentPage.HasMenuCurrent "main" . }} active{{ end }}'>
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                  aria-expanded="false">{{ .Name }} <span class="small glyphicon glyphicon-chevron-down"></span></a>
-                <ul class="dropdown-menu">
-                  {{ range .Children }}
-                    <li{{if $currentPage.IsMenuCurrent "main" . }} class="active"{{ end }}><a href="{{ .URL }}"><span class="glyphicon glyphicon-chevron-right"></span> {{ .Name }}</a></li>
-                  {{ end }}
-                </ul>
-              </li>
-            {{ else }}
-              <li><a href="{{ .URL }}">{{ .Name }}</a></li>
-            {{ end }}
-          {{ end }}
-        </ul>
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="/admin" target="_blank"><span class="glyphicon glyphicon-user hidden-xs"></span><span
-                class="visible-xs">Login</span></a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-</header> -->
