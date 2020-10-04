@@ -1,5 +1,5 @@
 body {
-  margin: 2rem 0 0 0;
+  margin: 0;
   padding: 0;
   font-family: 'MetropolisRegular', "Arial", "Helvetica", sans-serif;
   line-height: 1.5;
@@ -210,10 +210,10 @@ blockquote > p {
     top: 68px;
     left: 0;
     background: white;
-    padding: 0;
-    width: 100%;
     max-height: calc(100vh - 68px);
     overflow-y: auto;
+    width: calc(100vw - calc( 2 * 2rem));
+    padding: 0 2rem;
   }
   
   .navbar-toggle {
@@ -232,22 +232,24 @@ blockquote > p {
   .navbar-toggle:checked + .navbar {
     display: block;
   }
-  
-  .navbar > li {
-    text-align: center;
-    width: 100%;
-  }
-  
-  .navbar button,
-  .navbar a {
-    color: #003366;
+    
+  .navbar > li > button,
+  .navbar > li > a {
+    color: #333;
+    border-bottom: 1px solid #333;
     display: block;
-    padding: 0.75rem 0;
     width: 100%;
+    margin: 0.75rem 0;
+    padding: 0.75rem 0;
+    text-align: left;
   }
   
-  .navbar a {
+  .navbar > li > a {
     line-height: normal;
+  }
+  
+  .navbar > li:last-child > a {
+    margin-bottom: 10rem;
   }
 
   .dropdown-button::after {
@@ -259,13 +261,17 @@ blockquote > p {
     opacity: 1;
     position: unset;
     transform: none;
-    background: rgba(0, 0, 0, 0.12);
     box-shadow: none;
+    padding: 0.5rem 0 1rem 3rem;
+    border-left: none;
   }
 
-.dropdown-items > li > a {
-  padding: 0.5rem 0;
-}
+  .dropdown-items > li > a {
+    padding: 0.7rem 0;
+    color: #555;
+    background: none;
+    border-bottom: none;
+  }
 
   .menu {
     justify-content: space-between;
@@ -282,15 +288,21 @@ blockquote > p {
     display: block;
   }
 
-  .hamburger:hover {
-    cursor: pointer;
-  }
-
   main img {
     width: 100%;
   }
 
   h1 {
     font-size: 2rem;
+  }
+
+  .navbar > li:hover > a,
+  .navbar > li.active > a,
+  .navbar > li:hover > button,
+  .navbar > li.active > button,
+  .dropdown-items > li:hover > a,
+  .dropdown-items > li.active > a {
+    background-color: inherit;
+    transition: none;
   }
 }
