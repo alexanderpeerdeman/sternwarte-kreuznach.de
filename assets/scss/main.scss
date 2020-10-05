@@ -204,12 +204,10 @@ blockquote > p {
   margin-top: 68px;
   margin-bottom: 2rem;
   background-color: #ddd;
-  @media screen and (min-width: 420px) {
-    background-image: url("/images/namibia.jpg");
-    background-size: 100% auto;
-    background-position: center center;
-    background-repeat: no-repeat;
-  }
+  background-image: url("/images/namibia.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 
   h1 {
     padding: 5rem 2rem;
@@ -239,7 +237,7 @@ blockquote > p {
   box-sizing: border-box;
   padding-left: 10px;
   padding-right: 10px;
-  margin-bottom: 1rem;
+  margin-bottom: 6rem;
 
   @media (max-width: 1100px) {
     width: 50%;
@@ -248,14 +246,29 @@ blockquote > p {
   @media (max-width: 769px) {
     width: 100%;
   }
-  
+
+   
   .post-link {
+    text-decoration: none;
+
     img {
       width: 100%;
     }
 
     .post-title {
       padding: 0 1rem;
+      margin-bottom: 0;
+
+      @media screen and (max-width: 769px) {
+        font-size: 18px;
+      }
+    }
+
+    &:hover {
+      text-decoration: underline;
+      .post-title {
+        color: #036;
+      }
     }
   }
 
@@ -267,10 +280,14 @@ blockquote > p {
 
   .post-summary {
     padding: 0 1rem;
-
-    .go::after {
-      content: " >";
-      text-decoration: none;
+    
+    .go {      
+      font-weight: 600;
+      
+      &::after {
+        content: " >";
+        text-decoration: none;
+      }
     }
   }
 }

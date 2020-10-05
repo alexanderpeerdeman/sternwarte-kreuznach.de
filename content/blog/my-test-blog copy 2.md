@@ -3,6 +3,7 @@ title: "Perseiden 2020"
 date: 2020-08-12T00:35:02+02:00
 images:
     - /images/blog/2020/08/perseiden.jpg
+summary: Bitte denken Sie an Ihre Mund- und Nasenschutzmaske und beachten Sie die Abstandsregeln
 ---
 lorem impsum
 

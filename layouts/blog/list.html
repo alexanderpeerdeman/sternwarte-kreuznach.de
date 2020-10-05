@@ -4,54 +4,26 @@
 </header>
 <main>    
     <div class="posts-grid">
-    {{/*  {{ range (.Paginator 2).Pages }}  */}}
+    {{ range (.Paginator 12).Pages }}
         <article class="post">
             <header class="post-header">
-                <a class="post-link" href="#" title='Perseiden'>
-                    <img src='https://picsum.photos/600/330' alt="">
-                    <h2 class="post-title">Perseiden</h2>
+                <a class="post-link" href="{{ .Permalink }}" title='Permanenter Link zu "{{ .Title }}"'>
+                    <div class="post-image">
+                        <img src='{{ index .Params.images 0 }}' alt="{{ .Title }}">
+                    </div>
+                    <h2 class="post-title">{{ .Title }}</h2>
                 </a>
                 <div class="post-info">
-                    <time class="date published" datetime="2020-09-30T19:33:38-07:00">30. September 2020</time>
+                    <time class="date published" datetime='{{ .PublishDate }}'>{{ .PublishDate.Format "2. January 2006" }}</time>
                 </div>
             </header>
             <div class="post-summary">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia molestiae facilis cum ...</p>
-                <a class="go" href="#">Weiterlesen</a>
+                <p>{{ .Summary }}</p>
+                <a class="go" href="{{ .Permalink }}">Weiterlesen</a>
             </div>        
         </article>
-        <article class="post">
-            <header class="post-header">
-                <a class="post-link" href="#" title='Perseiden'>
-                    <img src='https://picsum.photos/600/330' alt="">
-                    <h2 class="post-title">Perseiden</h2>
-                </a>
-                <div class="post-info">
-                    <time class="date published" datetime="2020-09-30T19:33:38-07:00">30. September 2020</time>
-                </div>
-            </header>
-            <div class="post-summary">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia molestiae facilis cum ...</p>
-                <a class="go" href="#">Weiterlesen</a>
-            </div>        
-        </article>
-        <article class="post">
-            <header class="post-header">
-                <a class="post-link" href="#" title='Perseiden'>
-                    <img src='https://picsum.photos/600/330' alt="">
-                    <h2 class="post-title">Perseiden</h2>
-                </a>
-                <div class="post-info">
-                    <time class="date published" datetime="2020-09-30T19:33:38-07:00">30. September 2020</time>
-                </div>
-            </header>
-            <div class="post-summary">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia molestiae facilis cum ...</p>
-                <a class="go" href="#">Weiterlesen</a>
-            </div>        
-        </article>
+    {{ end }}
     </div>
-    {{/*  {{ end }}  */}}
     <div class="text-center">
         {{ template "_internal/pagination.html" . }}
     </div>
