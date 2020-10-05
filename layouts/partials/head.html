@@ -9,7 +9,7 @@
     {{ $sass := resources.Get "index.scss" }}
     {{ $style := $sass | resources.ToCSS }}
     
-    <link rel="stylesheet" href='{{ $style.Permalink }}'>
+    <link rel="stylesheet" href='{{ $style.RelPermalink }}'>
 
     <link rel="stylesheet" href='{{ relURL "fonts/metropolis/WOFF2/metropolis.css" }}'>
     

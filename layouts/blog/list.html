@@ -1,14 +1,14 @@
 {{ define "main" }}
-<div class="blog-header">
-    <h1>Neues auf der Sternwarte</h1>
-</div>
+<header class="blog-header">
+    <h1><span>Neues auf der Sternwarte</span></h1>
+</header>
 <main>    
     <div class="posts-grid">
     {{/*  {{ range (.Paginator 2).Pages }}  */}}
         <article class="post">
             <header class="post-header">
                 <a class="post-link" href="#" title='Perseiden'>
-                    <img src='/images/blog/2020/08/perseiden.jpg' alt="">
+                    <img src='https://picsum.photos/600/330' alt="">
                     <h2 class="post-title">Perseiden</h2>
                 </a>
                 <div class="post-info">
@@ -23,7 +23,22 @@
         <article class="post">
             <header class="post-header">
                 <a class="post-link" href="#" title='Perseiden'>
-                    <img src='/images/blog/2020/08/perseiden.jpg' alt="">
+                    <img src='https://picsum.photos/600/330' alt="">
+                    <h2 class="post-title">Perseiden</h2>
+                </a>
+                <div class="post-info">
+                    <time class="date published" datetime="2020-09-30T19:33:38-07:00">30. September 2020</time>
+                </div>
+            </header>
+            <div class="post-summary">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia molestiae facilis cum ...</p>
+                <a class="go" href="#">Weiterlesen</a>
+            </div>        
+        </article>
+        <article class="post">
+            <header class="post-header">
+                <a class="post-link" href="#" title='Perseiden'>
+                    <img src='https://picsum.photos/600/330' alt="">
                     <h2 class="post-title">Perseiden</h2>
                 </a>
                 <div class="post-info">
