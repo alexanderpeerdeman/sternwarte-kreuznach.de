@@ -1,3 +1,5 @@
+{{ $sass := resources.Get "scss/main.scss" }}
+{{ $styles := $sass | resources.ToCSS (dict "outputStyle" "compressed" "enableSourceMap" true) | fingerprint }}
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
@@ -5,16 +7,10 @@
     <meta name="description"
         content='{{ with .Description }}{{ . }}{{ else }}{{ with .Summary }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}{{ end }}'>
     <link rel="canonical" href="{{ .Permalink }}" />
-    
-    {{ $sass := resources.Get "index.scss" }}
-    {{ $style := $sass | resources.ToCSS }}
-    
-    <link rel="stylesheet" href='{{ $style.RelPermalink }}'>
-
+    <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
     <link rel="stylesheet" href='{{ relURL "fonts/metropolis/WOFF2/metropolis.css" }}'>
     
     {{- partial "favicon.html" . -}}
-
     {{ template "_internal/opengraph.html" . }}
     {{ template "_internal/twitter_cards.html" . }}
     {{ if not (in (string .Site.BaseURL) "localhost") }}
