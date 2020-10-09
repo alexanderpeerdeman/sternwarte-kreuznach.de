@@ -200,6 +200,13 @@ blockquote > p {
   display: none;
 }
 
+.pagination {
+  list-style: none;
+  .page-item {
+    display: inline;
+  }
+}
+
 .blog-header {
   margin-top: 68px;
   margin-bottom: 2rem;

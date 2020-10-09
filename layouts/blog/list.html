@@ -9,12 +9,18 @@
             <header class="post-header">
                 <a class="post-link" href="{{ .Permalink }}" title='Permanenter Link zu "{{ .Title }}"'>
                     <div class="post-image">
+                        {{ if (isset .Params.images "0") }}
                         <img src='{{ index .Params.images 0 }}' alt="{{ .Title }}">
+                        {{ else }}
+                        <img src='https://via.placeholder.com/600x330' alt="{{ .Title }}">
+                        {{ end }}
                     </div>
                     <h2 class="post-title">{{ .Title }}</h2>
                 </a>
                 <div class="post-info">
-                    <time class="date published" datetime='{{ .PublishDate }}'>{{ .PublishDate.Format "2. January 2006" }}</time>
+                    {{ with .PublishDate }}
+                    <time class="date published" datetime='{{ . }}'>{{ partial "date.html" (dict "date" . "monate" $.Site.Data.monate )}}</time>                        
+                    {{ end }}
                 </div>
             </header>
             <div class="post-summary">
@@ -23,46 +29,7 @@
             </div>        
         </article>
     {{ end }}
-    </div>
-    <div class="text-center">
-        {{ template "_internal/pagination.html" . }}
-    </div>
-</main>
-{{ end }}
-
-{{/*  {{ define "main" }}
-<main>
-<div class="page-header">
-    <h1>{{ .Title }}</h1>
-</div>
-{{ range (.Paginator 2).Pages }}
-<div class="row post-summary">
-    <div class="col-md-3">
-        <a href="{{ .Permalink }}" title='{{ .Title }}'>
-            <img class="img-responsive img-rounded" src='{{ index .Params.images 0 }}' alt="">
-        </a>
-    </div>
-    <div class="col-md-7">
-        <h3>
-            <a href="{{ .Permalink }}" title='{{ .Title }}'>
-                {{ .Title }}
-            </a>
-        </h3>
-        <p>{{ .Summary }}</p>
-
-    </div>
-    <div class="col-md-2">
-        <ul class="list-inline visible-xs-block visible-sm-block">
-            <span class="glyphicon glyphicon-pencil"></span> {{ .PublishDate.Format "2. January 2006" }}
-        </ul>
-        <a href="{{ .Permalink }}"><button type="button" class="btn btn-default">mehr dazu <span
-                    class="glyphicon glyphicon-chevron-right"></span></button></a>
-    </div>
-</div>
-<hr>
-{{ end }}
-<div class="text-center">
     {{ template "_internal/pagination.html" . }}
-</div>
+    </div>
 </main>
-{{ end }}  */}}
+{{ end }}
