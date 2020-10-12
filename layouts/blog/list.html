@@ -7,12 +7,12 @@
     {{ range (.Paginator 12).Pages }}
         <article class="post">
             <header class="post-header">
-                <a class="post-link" href="{{ .Permalink }}" title='Permanenter Link zu "{{ .Title }}"'>
+                <a class="post-link" href="{{ .RelPermalink }}" title='Permanenter Link zu "{{ .Title }}"'>
                     <div class="post-image">
-                        {{ if (isset .Params.images "0") }}
-                        <img src='{{ index .Params.images 0 }}' alt="{{ .Title }}">
-                        {{ else }}
-                        <img src='https://via.placeholder.com/600x330' alt="{{ .Title }}">
+                        {{ if .Params.images }}
+                            {{ with (.Resources.GetMatch (index .Params.images 0)).Fit "600x330 q60" }}
+                                <img src="{{ .RelPermalink }}" alt="{{ .Title }}">
+                            {{ end }}
                         {{ end }}
                     </div>
                     <h2 class="post-title">{{ .Title }}</h2>
@@ -25,7 +25,7 @@
             </header>
             <div class="post-summary">
                 <p>{{ .Summary }}</p>
-                <a class="go" href="{{ .Permalink }}">Weiterlesen</a>
+                <a class="go" href="{{ .RelPermalink }}">Weiterlesen</a>
             </div>        
         </article>
     {{ end }}

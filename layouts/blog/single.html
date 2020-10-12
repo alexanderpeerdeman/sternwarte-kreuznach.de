@@ -1,19 +1,22 @@
 {{ define "main" }}
-<main>
-<header class="masthead" {{ with .Params.images }} style='background-image: url("{{ index . 0 }}")' {{ end }}>
-  <div class="overlay"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-        <div class="post-heading">
-          <h1>{{ .Title }}</h1>
-          <span class="meta"><span class="glyphicon glyphicon-pencil"></span> Veröffentlicht am {{ .PublishDate.Format "2. January 2006" }}</span>
-        </div>
-      </div>
-    </div>
-  </div>
+<header class="blog-header">
+  <h4><span>Neues auf der Sternwarte</span></h4>
 </header>
-<article>
+<main>
+  {{ if .Params.images }}
+  {{ with .Resources.GetMatch (index .Params.images 0) }}
+      <div class="post-image">
+            <img src="{{ .RelPermalink }}" alt="{{ .Title }}">
+      </div>
+  {{ end }}
+  {{ end }}
+<article class="content">
+  <h1 class="post-title">{{ .Title }}</h1>
+  <div class="post-info">
+  {{ with .PublishDate }}
+  <time class="date published" datetime='{{ . }}'>{{ partial "date.html" (dict "date" . "monate" $.Site.Data.monate )}}</time>                        
+  {{ end }}
+  </div>
   {{ .Content }}
 </article>
 </main>
