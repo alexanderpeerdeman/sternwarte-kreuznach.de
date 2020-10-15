@@ -6,6 +6,7 @@ menu:
         parent: 'Über uns'
         weight: 2
 ---
+`TODO: Mitgliedsbeitrag ist jährlich.`
 
 Haben Sie Freude an der Astronomie? Dann kommen Sie zu uns. Unterstützen Sie die Sternwarte durch ihre Mitgliedschaft.
 

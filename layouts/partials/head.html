@@ -1,6 +1,6 @@
-{{ $sass := resources.Get "scss/main.scss" }}
-{{/*  {{ $styles := $sass | resources.ToCSS (dict "outputStyle" "compressed" "enableSourceMap" true) | fingerprint }}  */}}
-{{ $styles := $sass | resources.ToCSS | fingerprint }}
+{{ $sass := resources.Get "css/main.scss" }}
+{{ $styles := $sass | resources.ToCSS (dict "outputStyle" "compressed" "enableSourceMap" true) | fingerprint }}
+{{/*  {{ $styles := $sass | resources.ToCSS | fingerprint }}  */}}
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">

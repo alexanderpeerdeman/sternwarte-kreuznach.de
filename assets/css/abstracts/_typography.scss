@@ -1,0 +1,86 @@
+body {
+  font-family: "Metropolis", "Arial", "Helvetica", sans-serif;
+  line-height: 1.5;
+}
+
+hr {
+  border: 0;
+  border-top: 2px solid #597694;
+  margin-top: 20px;
+  padding-top: 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+  color: #222;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 2.5rem;
+  @media #{$phone} {
+    font-size: 2rem;
+  }
+}
+
+h2 {
+  padding-top: 1rem;
+}
+
+.titlebar {
+  margin-top: 68px;
+  width: 100%;
+  background-color: #eee;
+}
+
+.title {
+  max-width: 55rem;
+  padding: 1.75rem 1rem;
+  margin: 0 auto;
+}
+
+a {
+  color: #003366;
+}
+
+blockquote {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 21px;
+  border-left: 2px solid #597694;
+  margin-left: 1rem;
+  padding: 0.2rem 0 0.1rem 1rem;
+}
+
+code {
+  padding: 2px 5px;
+  font-family: monospace;
+  color: #036;
+  background-color: #eee;
+  border-radius: 4px;
+}
+
+pre {
+  padding: 9.5px;
+  margin: 0 0 10px;
+  font-size: 13px;
+  color: #333;
+  word-break: break-all;
+  word-wrap: break-word;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  code {
+    padding: 0;
+    font-size: inherit;
+    color: inherit;
+    white-space: pre-wrap;
+    background-color: transparent;
+    border-radius: 0;
+  }
+}
