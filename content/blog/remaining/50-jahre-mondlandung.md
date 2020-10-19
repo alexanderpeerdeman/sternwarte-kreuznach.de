@@ -3,6 +3,7 @@ title: 50 Jahre Mondlandung
 date: 2019-07-01 12:46:10
 images: 
 summary: TODO...
+draft: true
 ---
 Die Sternwarte Bad Kreuznach e.V. lädt ein zu 50 Jahre Mondlandung.
 

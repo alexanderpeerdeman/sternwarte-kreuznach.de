@@ -1,5 +1,5 @@
 ---
-title: Perseiden 2020
+title: Perseidenbeobachtung 2020
 date: 2020-08-07 11:46:23
 images: 
     - perseiden.jpg

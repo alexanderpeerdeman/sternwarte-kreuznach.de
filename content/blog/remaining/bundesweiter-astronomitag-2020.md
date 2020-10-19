@@ -3,6 +3,7 @@ title: Bundesweiter Astronomietag 2020
 date: 2020-03-07 11:13:05
 images: 
 summary: TODO...
+draft: true
 ---
 Wir laden ein zum:
 

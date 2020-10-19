@@ -1,0 +1,56 @@
+$pseudo-full-bleed-fixed-width: 1000px;
+
+.blogpost-image {
+  text-align: center;
+  img {
+    width: 100%;
+    max-width: $pseudo-full-bleed-fixed-width;
+  }
+}
+// using full-bleed layout: https://joshwcomeau.com/css/full-bleed/
+.post-content {
+  display: grid;
+  grid-template-columns:
+    1fr
+    1rem
+    // workaround because sass wants to use its own implementation of min(), but we need the css-native one.
+    #{"min(65ch, calc(100% - 2rem))"}
+    1rem
+    1fr;
+
+  > * {
+    //   use only row three
+    grid-column: 3;
+  }
+
+  > hr {
+    width: 65%;
+  }
+}
+
+.full-bleed {
+  width: 100%;
+  grid-column: 1 / -1;
+
+  //   constrain width for really large monitor sized
+  max-width: $pseudo-full-bleed-fixed-width;
+  //   center element
+  margin: 0 auto;
+  text-align: center;
+
+  img {
+    max-width: 100%;
+  }
+}
+
+#adjacent-posts {
+  display: flex;
+  text-align: center;
+  background: #eee;
+  margin: 40px 0;
+}
+
+.nav-paging-prev,
+.nav-paging-next {
+  padding: 30px;
+}

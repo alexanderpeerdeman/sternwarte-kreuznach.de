@@ -4,20 +4,52 @@
 </header>
 <main>
   {{ if .Params.images }}
-  {{ with .Resources.GetMatch (index .Params.images 0) }}
-      <div class="post-image">
-            <img src="{{ .RelPermalink }}" alt="{{ .Title }}">
-      </div>
-  {{ end }}
-  {{ end }}
-<article class="content">
-  <h1 class="post-title">{{ .Title }}</h1>
-  <div class="post-info">
-  {{ with .PublishDate }}
-  <time class="date published" datetime='{{ . }}'>{{ partial "date.html" (dict "date" . "monate" $.Site.Data.monate )}}</time>                        
-  {{ end }}
+  {{ with (.Resources.GetMatch (index .Params.images 0)).Resize "1000x q90" }}
+  <div class="blogpost-image">
+    <img src="{{ .RelPermalink }}" alt="{{ .Title }}">
   </div>
-  {{ .Content }}
-</article>
+  {{ end }}
+  {{ end }}
+  <article class="post-content">
+    <h1 class="post-title">{{ .Title }}</h1>
+    <div class="post-info">
+      {{ with .PublishDate }}
+      <time class="date published"
+        datetime='{{ . }}'>{{ partial "date.html" (dict "date" . "monate" $.Site.Data.monate )}}</time>
+      {{ end }}
+    </div>
+    {{ .Content }}
+  </article>
 </main>
+
+<nav id="adjacent-posts">
+  {{ if .PrevInSection }}
+  {{ with .PrevInSection }}
+  <p class="nav-paging-prev">
+    <a href="{{ .RelPermalink }}">
+      Vorheriger Post
+      {{ .Title }}
+      {{ with .PublishDate }}
+      <time class="date" datetime='{{ . }}'>{{ partial "date.html" (dict "date" . "monate" $.Site.Data.monate )}}</time>
+      {{ end }}
+    </a>
+  </p>
+  {{ end }}
+  {{ end }}
+
+  {{ if .NextInSection }}
+  {{ with .NextInSection }}
+  <p class="nav-paging-next">
+    <a href="{{ .RelPermalink }}">
+      Nächster Post
+      {{ .Title }}
+      {{ with .PublishDate }}
+      <time class="date" datetime='{{ . }}'>{{ partial "date.html" (dict "date" . "monate" $.Site.Data.monate )}}</time>
+      {{ end }}
+    </a>
+  </p>
+  {{ end }}
+  {{ end }}
+</nav>
+
 {{ end }}
