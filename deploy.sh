@@ -1,2 +1,2 @@
 hugo
-rsync -aP public/* uberspace:./html
+rsync -aP --delete public/* uberspace:./html
