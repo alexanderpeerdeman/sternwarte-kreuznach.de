@@ -4,7 +4,11 @@
 </header>
 <main>
   {{ if .Params.images }}
-  {{ with (.Resources.GetMatch (index .Params.images 0)).Resize "1000x q100" }}
+  {{ $img := (.Resources.GetMatch (index .Params.images 0)) }}
+  {{ if gt $img.Width 1000 }}
+  {{ $img := $img.Resize "1000x" }}
+  {{ end }}
+  {{ with $img }}
   <div class="blogpost-image">
     <img src="{{ .RelPermalink }}" alt="{{ .Title }}">
   </div>
@@ -23,7 +27,7 @@
 </main>
 
 <nav id="adjacent-posts">
-  <div id="adjacent-posts-entries">
+  <div class="adjacent-posts-entries">
     {{ if .PrevInSection }}
     {{ with .PrevInSection }}
     <p class="nav-paging-prev">
