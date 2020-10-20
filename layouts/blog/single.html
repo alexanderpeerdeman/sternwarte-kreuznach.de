@@ -4,7 +4,7 @@
 </header>
 <main>
   {{ if .Params.images }}
-  {{ with (.Resources.GetMatch (index .Params.images 0)).Resize "1000x q90" }}
+  {{ with (.Resources.GetMatch (index .Params.images 0)).Resize "1000x q100" }}
   <div class="blogpost-image">
     <img src="{{ .RelPermalink }}" alt="{{ .Title }}">
   </div>
@@ -23,33 +23,37 @@
 </main>
 
 <nav id="adjacent-posts">
-  {{ if .PrevInSection }}
-  {{ with .PrevInSection }}
-  <p class="nav-paging-prev">
-    <a href="{{ .RelPermalink }}">
-      Vorheriger Post
-      {{ .Title }}
-      {{ with .PublishDate }}
-      <time class="date" datetime='{{ . }}'>{{ partial "date.html" (dict "date" . "monate" $.Site.Data.monate )}}</time>
-      {{ end }}
-    </a>
-  </p>
-  {{ end }}
-  {{ end }}
+  <div id="adjacent-posts-entries">
+    {{ if .PrevInSection }}
+    {{ with .PrevInSection }}
+    <p class="nav-paging-prev">
+      <a href="{{ .RelPermalink }}">
+        <span class="label">🢀 Vorheriger Eintrag</span>
+        <strong class="entry-title">{{ .Title }}</strong>
+        {{ with .PublishDate }}
+        <time class="date"
+          datetime='{{ . }}'>{{ partial "date.html" (dict "date" . "monate" $.Site.Data.monate )}}</time>
+        {{ end }}
+      </a>
+    </p>
+    {{ end }}
+    {{ end }}
 
-  {{ if .NextInSection }}
-  {{ with .NextInSection }}
-  <p class="nav-paging-next">
-    <a href="{{ .RelPermalink }}">
-      Nächster Post
-      {{ .Title }}
-      {{ with .PublishDate }}
-      <time class="date" datetime='{{ . }}'>{{ partial "date.html" (dict "date" . "monate" $.Site.Data.monate )}}</time>
-      {{ end }}
-    </a>
-  </p>
-  {{ end }}
-  {{ end }}
+    {{ if .NextInSection }}
+    {{ with .NextInSection }}
+    <p class="nav-paging-next">
+      <a href="{{ .RelPermalink }}">
+        <span class="label">Nächster Eintrag 🢂</span>
+        <strong class="entry-title">{{ .Title }}</strong>
+        {{ with .PublishDate }}
+        <time class="date"
+          datetime='{{ . }}'>{{ partial "date.html" (dict "date" . "monate" $.Site.Data.monate )}}</time>
+        {{ end }}
+      </a>
+    </p>
+    {{ end }}
+    {{ end }}
+  </div>
 </nav>
 
 {{ end }}

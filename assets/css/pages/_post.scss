@@ -24,7 +24,7 @@ $pseudo-full-bleed-fixed-width: 1000px;
   }
 
   > hr {
-    width: 65%;
+    width: 100%;
   }
 }
 
@@ -45,12 +45,48 @@ $pseudo-full-bleed-fixed-width: 1000px;
 
 #adjacent-posts {
   display: flex;
-  text-align: center;
   background: #eee;
-  margin: 40px 0;
+  margin: 30px 0 40px;
+  text-align: center;
+}
+
+#adjacent-posts-entries {
+  margin: 0 auto;
+  width: 100ch;
+
+  a {
+    text-decoration: none;
+    color: black;
+    display: block;
+
+    .label,
+    .date {
+      font-weight: 300;
+      font-size: 14px;
+    }
+
+    .entry-title {
+      display: block;
+      margin: 10px 10px 0;
+    }
+
+    &:hover .entry-title {
+      text-decoration: underline;
+      color: #036;
+    }
+  }
 }
 
 .nav-paging-prev,
 .nav-paging-next {
-  padding: 30px;
+  width: 50%;
+}
+
+.nav-paging-prev {
+  float: left;
+  border-right: 1px solid #ccc;
+  margin-right: -1px;
+}
+.nav-paging-next {
+  float: right;
 }

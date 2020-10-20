@@ -1,2 +1,2 @@
-hugo -D
+hugo
 rsync -aP public/* uberspace:./html
