@@ -1,5 +1,5 @@
 ---
-title: Perseidenbeobachtung 2019
+title: Perseidenbeobachtung
 date: 2019-08-05 17:05:52
 images: 
     - perseiden.jpg

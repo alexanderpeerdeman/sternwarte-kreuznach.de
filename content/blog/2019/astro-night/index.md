@@ -3,12 +3,13 @@ title: Astro-Night am Samstag 19. Oktober 2019
 date: 2019-05-20 14:42:03
 images: 
     - Astro-Night.jpg
-summary: TODO...
+summary: Faszination Weltraumforschung und Astronomie. Die Sternwarte Bad Kreuznach präsentiert die „Astro Night 2019“!
 ---
 
-## Faszination Weltraumforschung und Astronomie
+**Faszination Weltraumforschung und Astronomie**  
+Die Sternwarte Bad Kreuznach präsentiert die Astro Night 2019.
 
-Die Sternwarte Bad Kreuznach präsentiert die Astro Night 2019. Zur Stärkung vor der Reise in die Weiten des Weltalls beginnt das Event mit einem Sektempfang und Fingerfood. Dann starten wir mit Kurzvorträgen zu aktuellen Themen.
+Zur Stärkung vor der Reise in die Weiten des Weltalls beginnt das Event mit einem Sektempfang und Fingerfood. Dann starten wir mit Kurzvorträgen zu aktuellen Themen.
 
 Unsere erfahrenen Referenten zeigen Ihnen Science-Fiction die Realität ist und wird, neuste Entdeckungen der Weltraumforschung, die Schönheit unseres Universums und noch viele weitere Themen. Atemberaubende Videosequenzen bringen einen Kino-Flair in die Vorträge und Veranstaltung.  
 Zu gewinnen gibt es auch etwas bei der Teilnahme an unseren Astro Games 2019. Der Hauptgewinn ist ein 6" Newton Teleskop! Musikalische Beiträge der Band G-Volt werden der Veranstaltung eine passende akustische Atmosphäre geben.  

@@ -4,7 +4,7 @@ date: 2019-10-30 16:41:50
 images: 
     - merkurtransit.jpg
     - merkurtransit-vds.jpg
-summary: TODO...
+summary: Der sonnennächste Planet Merkur die Sonnenscheibe. Seien Sie herzlich willkommen und beobachten Sie mit uns dieses Naturschauspiel...
 ---
 Seien Sie als Gast herzlich willkommen und beobachten Sie mit uns dieses Naturschauspiel.  
 Von 13:35 Uhr bis 19:04 MEZ Uhr überquert der sonnennächste Planet Merkur die Sonnenscheibe.

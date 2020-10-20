@@ -26,6 +26,14 @@ $pseudo-full-bleed-fixed-width: 1000px;
   > hr {
     width: 100%;
   }
+  
+  > img {
+    max-width: 100%;
+  }
+  
+  video {
+    width: 100%;
+  }
 }
 
 .full-bleed {

@@ -46,6 +46,11 @@ h2 {
 
 a {
   color: #003366;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+
 }
 
 blockquote {
