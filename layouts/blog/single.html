@@ -32,7 +32,7 @@
     {{ with .PrevInSection }}
     <p class="nav-paging-prev">
       <a href="{{ .RelPermalink }}">
-        <span class="label">🢀 Vorheriger Eintrag</span>
+        <span class="label">{{ partial "arrow.html" }} Vorheriger Eintrag</span>
         <strong class="entry-title">{{ .Title }}</strong>
         {{ with .PublishDate }}
         <time class="date"
@@ -47,7 +47,7 @@
     {{ with .NextInSection }}
     <p class="nav-paging-next">
       <a href="{{ .RelPermalink }}">
-        <span class="label">Nächster Eintrag 🢂</span>
+        <span class="label">Nächster Eintrag {{ partial "arrow.html" }}</span>
         <strong class="entry-title">{{ .Title }}</strong>
         {{ with .PublishDate }}
         <time class="date"

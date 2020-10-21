@@ -26,11 +26,11 @@ $pseudo-full-bleed-fixed-width: 1000px;
   > hr {
     width: 100%;
   }
-  
-  > img {
+
+  img {
     max-width: 100%;
   }
-  
+
   video {
     width: 100%;
   }
@@ -94,6 +94,9 @@ $pseudo-full-bleed-fixed-width: 1000px;
   float: left;
   border-right: 1px solid #ccc;
   margin-right: -1px;
+  .arrow {
+    transform: rotate(180deg);
+  }
 }
 .nav-paging-next {
   float: right;

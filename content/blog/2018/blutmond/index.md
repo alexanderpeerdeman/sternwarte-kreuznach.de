@@ -10,7 +10,7 @@ summary: Großes Himmelsspektakel am Vinorant Rosenhof - "Wir hätten nie gedach
 
 {{< video beitrag-swr-aktuell.mp4 >}}
 
-Mit freundlicher Genehmigung vom SWR-Fernsehen
+Mit freundlicher Genehmigung vom SWR-Fernsehen  
 [![SWR Aktuell](swr-logo.gif)](https://www.swr.de/swraktuell)
 
 {{< youtube d4B_-pCzCCk >}}

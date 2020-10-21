@@ -2,10 +2,10 @@
 <header class="blog-header">
     <h1><span>Neues auf der Sternwarte</span></h1>
 </header>
-<main>    
+<main>
     <div class="posts-grid">
-    {{/*  {{ range (.Paginator 12).Pages }}  */}}
-    {{ range (.Paginator 100000000000).Pages }}
+        {{/*  {{ range (.Paginator 12).Pages }} */}}
+        {{ range (.Paginator 100000000000).Pages }}
         <article class="post">
             <header class="post-header">
                 <a class="post-link" href="{{ .RelPermalink }}" title='Permanenter Link zu "{{ .Title }}"'>
@@ -20,17 +20,18 @@
                 </a>
                 <div class="post-info">
                     {{ with .PublishDate }}
-                    <time class="date published" datetime='{{ . }}'>{{ partial "date.html" (dict "date" . "monate" $.Site.Data.monate )}}</time>                        
+                    <time class="date published"
+                        datetime='{{ . }}'>{{ partial "date.html" (dict "date" . "monate" $.Site.Data.monate )}}</time>
                     {{ end }}
                 </div>
             </header>
             <div class="post-summary">
                 <p>{{ .Summary }}</p>
-                <a class="go" href="{{ .RelPermalink }}">Weiterlesen</a>
-            </div>        
+                <a class="go" href="{{ .RelPermalink }}">Weiterlesen {{ partial "arrow.html" }}</a>
+            </div>
         </article>
-    {{ end }}
-    {{ template "_internal/pagination.html" . }}
+        {{ end }}
+        {{ template "_internal/pagination.html" . }}
     </div>
 </main>
 {{ end }}
