@@ -5,9 +5,13 @@ images:
     - mofi.jpg
 summary: TODO...
 ---
+
+---
 ## ⚠️ Wichtiger Hinweis: Brandgefahr in Bad Kreuznach!
-Aufgrund der anhaltenden Hitzewelle und akuten Waldbrandgefahr im Raum Bad Kreuznach möchten wir alle Autofahrer daran erinnern, dass sich durch die heiße Auspuffanlage abgestellter Fahrzeuge der sich darunter befindliche Boden <strong>möglicherweise entzünden kann</strong>.  
+Aufgrund der anhaltenden Hitzewelle und akuten Waldbrandgefahr im Raum Bad Kreuznach möchten wir alle Autofahrer daran erinnern, dass sich durch die heiße Auspuffanlage abgestellter Fahrzeuge der sich darunter befindliche Boden **möglicherweise entzünden kann**.  
 Jeder Autofahrer hat selbstverantwortlich dafür zu sorgen, dass durch das geparkte Auto die Brandgefahr nicht zusätzlich steigt.
+
+---
 
 Die Totale Mondfinsternis am 27.07.2018 gehört zweifelsohne zu den ganz großen astronomischen Ereignissen unserer Zeit. Mit einer Dauer von 103 Minuten ist sie die längste totale Mondfinsternis des 21. Jahrhunderts. Da der Mond in Mitteleuropa während der einleitenden partiellen Phase aufgeht, kann die Totalität am dunkelblauen Dämmerungshimmel in voller Länge verfolgt werden.
 

@@ -3,10 +3,9 @@ title: Messiermarathon
 date: 2018-03-12 11:56:36
 images: 
     - messiermarathon.jpg
+caption: "Die Messierobjekte im Foto: Mit freundlicher Genehmigung von Mehmet Ergün"
 summary: TODO...
 ---
-Die Messierobjekte im Foto: Mit freundlicher Genehmigung von Mehmet Ergün.
-
 Die Sternwarte Bad Kreuznach lädt ein zum:
 
 ## Messiermarathon in der Nacht vom 17. auf den 18. März 2018
