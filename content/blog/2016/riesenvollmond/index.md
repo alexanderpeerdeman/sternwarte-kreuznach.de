@@ -2,6 +2,7 @@
 title: Riesenvollmond am 14. November 2016
 date: 2016-10-08 11:22:12
 images: 
+    - riesenvollmond.jpg
 summary: TODO...
 ---
 ## Größter Vollmond seit mehr als 68 Jahren

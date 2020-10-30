@@ -3,6 +3,7 @@ title: Zusätzlicher Raum für die Jugendgruppe
 date: 2016-06-20 13:44:41
 images: 
 summary: TODO...
+draft: true
 ---
 ### Die Jugendgruppe platzt aus allen Nähten - Helfen Sie uns!
 
