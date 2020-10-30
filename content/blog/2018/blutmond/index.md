@@ -10,8 +10,8 @@ summary: Großes Himmelsspektakel am Vinorant Rosenhof - "Wir hätten nie gedach
 
 {{< video beitrag-swr-aktuell.mp4 >}}
 
-Mit freundlicher Genehmigung vom SWR-Fernsehen  
-[![SWR Aktuell](swr-logo.gif)](https://www.swr.de/swraktuell)
+Mit freundlicher Genehmigung vom [SWR-Fernsehen](https://www.swr.de/swraktuell)  
+![SWR Aktuell](swr-logo.gif)
 
 {{< youtube d4B_-pCzCCk >}}
 
@@ -27,8 +27,8 @@ Auf den Stoppelfeldern rund um den Rosenhof warten die Mondsüchtigen auf das gr
 Foto: Wolfgang Bartels
 
 ![Blutmond](blutmond.jpg)  
-Foto: Wolfgang Bartels
 Es dauert ein wenig, bis die kupferrote Diva aus dem Dunst herauskommt und auf der großen Bühne des Nachthimmels erscheint.   
+Foto: Wolfgang Bartels  
 
 
 *Von Wolfgang Bartels*
