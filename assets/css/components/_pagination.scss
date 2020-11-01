@@ -1,0 +1,28 @@
+.pagination {
+    width: 100%;
+    padding: 0;
+    text-align: center;     
+}
+
+.page-item {
+    font-weight: bold;
+
+    &.active a {
+        color: black;
+    }
+
+    &.disabled a {
+        color: #555;
+    }
+}
+
+
+.page-link {
+    margin: 0 4px;
+    padding: 7px 12px;
+    background-color: white;
+    border: 1px solid #555;
+    &:hover {
+        text-decoration: none;
+    }
+}

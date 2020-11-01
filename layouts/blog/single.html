@@ -48,7 +48,7 @@
     {{ with .NextInSection }}
     <p class="nav-paging-next">
       <a href="{{ .RelPermalink }}">
-        <span class="label">Nächster Eintrag {{ partial "arrow.html" }}</span>
+        <span class="label">Nächster Eintrag{{ partial "arrow.html" }}</span>
         <strong class="entry-title">{{ .Title }}</strong>
         {{ with .PublishDate }}
         <time class="date"
