@@ -7,22 +7,29 @@
 .page-item {
     font-weight: bold;
 
-    &.active a {
-        color: black;
+    &.active{ 
+        a {            
+            background-color: #036;
+            color: white;
+        } 
     }
 
     &.disabled a {
         color: #555;
+        background-color: white;
     }
 }
 
 
 .page-link {
-    margin: 0 4px;
-    padding: 7px 12px;
+    margin: 0 2px;
+    padding: 8px 13px;
     background-color: white;
-    border: 1px solid #555;
+    border: 1px solid #036;    
+    transition: ease .2s;
     &:hover {
         text-decoration: none;
+        background-color: #036;
+        color: white;
     }
 }
