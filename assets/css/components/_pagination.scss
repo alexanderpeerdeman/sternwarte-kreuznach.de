@@ -1,7 +1,10 @@
 .pagination {
     width: 100%;
-    padding: 0;
-    text-align: center;     
+    padding: 1rem 0;
+    text-align: center;   
+    background-color: #003366;
+    background-image: linear-gradient(to right, #003366, lighten(#036, 17.5%));
+    color: white;
 }
 
 .page-item {
@@ -9,27 +12,26 @@
 
     &.active{ 
         a {            
-            background-color: #036;
+            background-color: rgba(0,0,0,0.2);
             color: white;
         } 
     }
 
     &.disabled a {
-        color: #555;
-        background-color: white;
+        color: #aaa;
+        background: none;
     }
 }
 
 
 .page-link {
-    margin: 0 2px;
+    margin: 0;
     padding: 8px 13px;
-    background-color: white;
-    border: 1px solid #036;    
     transition: ease .2s;
+    color: white;
     &:hover {
         text-decoration: none;
-        background-color: #036;
+        background-color: rgba(0,0,0,0.2);
         color: white;
     }
 }
