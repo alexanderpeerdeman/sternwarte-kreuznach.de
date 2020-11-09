@@ -8,37 +8,40 @@ if __name__ == "__main__":
     with open("db1033256-1.json", "r") as json_file:
         data = json.load(json_file)
 
+        talk = data[88]["data"][13]
 
-        ## List all tables
-        # for idx, entry in enumerate(data[2:]):
-        #     print(idx, entry["name"])
+        talk_content = talk["Content"]
+        print("Talk content: \n{}".format(html2markdown.convert(talk_content)))
 
-        ## List all field of vortrag
-        for x in data[88]["data"]:
-            print(x.keys())
-            print(x["BildID"])
-            break
+        talk_created = talk["Created"]
+        print("Created: {}".format(talk_created))
 
-            # Content
-            # Created
-            # Datum
-            # Referent
-            # Title
-            # UhrzeitAnfang
-            # BildID
-            # Preis (+ Ermäßigt)
-            # IsZusatz
-            # Keine Details?
+        talk_date = talk["Datum"]
+        print("Date: {}".format(talk_date))
 
+        talk_speaker = talk["Referent"]
+        print("Referent: {}".format(talk_speaker))
 
+        talk_title = talk["Title"]
+        print("Title: {}".format(talk_title))
+
+        talk_start = talk["UhrzeitAnfang"]
+        print("UhrzeitAnfang: {}".format(talk_start))
+
+        talk_price = "{} (Ermäßigt: {})".format(talk["PreisAmount"], talk["PreisErmAmount"])
+        print("Preis: {}".format(talk_price))
+
+        talk_is_supplementary = talk["IsZusatz"]
+        print("IsZusatz: {}".format(talk_is_supplementary))
+
+        talk_is_sparse = talk["KeineDetails"]
+        print("KeineDetails: {}".format(talk_is_sparse))
+
+        talk_image_id = int(talk["BildID"])
 
         file_database_id = 43
-        image_id = 278
 
-        image_object = data[file_database_id]["data"][image_id]
-
-        print(data[43]["data"][278].keys())
-        print(image_object)
+        image_object = data[file_database_id]["data"][talk_image_id]
 
         image_file_name = image_object["Name"]
         image_file_title = image_object["Title"]
