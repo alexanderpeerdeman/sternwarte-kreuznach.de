@@ -1,3 +1,7 @@
+from slugify import slugify
+from datetime import datetime
+from pathlib import Path
+import re
 import json
 import html2markdown
 import requests
@@ -8,7 +12,7 @@ if __name__ == "__main__":
     with open("db1033256-1.json", "r") as json_file:
         data = json.load(json_file)
 
-        talk = data[88]["data"][13]
+        talk = data[88]["data"][16]
 
         talk_content = talk["Content"]
         print("Talk content: \n{}".format(html2markdown.convert(talk_content)))
@@ -28,7 +32,8 @@ if __name__ == "__main__":
         talk_start = talk["UhrzeitAnfang"]
         print("UhrzeitAnfang: {}".format(talk_start))
 
-        talk_price = "{} (Ermäßigt: {})".format(talk["PreisAmount"], talk["PreisErmAmount"])
+        talk_price = "{} (Ermäßigt: {})".format(
+            talk["PreisAmount"], talk["PreisErmAmount"])
         print("Preis: {}".format(talk_price))
 
         talk_is_supplementary = talk["IsZusatz"]
@@ -47,26 +52,31 @@ if __name__ == "__main__":
         image_file_title = image_object["Title"]
         image_file_location = image_object["Filename"]
 
-        print("### File: {}\nTitle: {}\n{}\n".format(image_file_name, image_file_title, image_file_location))
+        print("### File: {}\nTitle: {}\n{}\n".format(
+            image_file_name, image_file_title, image_file_location))
 
         download_url = "https://sternwarte-kreuznach.de/" + image_file_location
 
+        friendly_name = slugify(talk_title)
+
+        talk_year = talk_date[:4]
+        talk_folder = "{}/{}".format(talk_year, friendly_name)
+        Path(talk_folder).mkdir(parents=True, exist_ok=True)
+
         print("Attemting to download from {}".format(download_url))
         r = requests.get(download_url, stream=True)
-        print(r)
+
+        new_image_file_name = talk_folder + "/" + friendly_name + "-title" + \
+            "." + image_file_location.split(".")[-1].lower()
 
         if r.status_code == 200:
             # Set decode_content value to True, otherwise the downloaded image file's size will be zero.
             r.raw.decode_content = True
 
             # Open a local file with wb ( write binary ) permission.
-            with open(image_file_name, 'wb') as f:
+            with open(new_image_file_name, 'wb') as f:
                 shutil.copyfileobj(r.raw, f)
 
-            print('Image sucessfully Downloaded: ', image_file_name)
+            print('Image sucessfully Downloaded: ', new_image_file_name)
         else:
             print('Image could not be retreived!')
-
-
-
-
