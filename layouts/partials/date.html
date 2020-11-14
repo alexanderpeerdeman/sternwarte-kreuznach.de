@@ -1,1 +1,1 @@
-{{ .date.Day }}. {{ index .monate (printf "%d" .date.Month) }} {{ .date.Year }}
+{{ (time .date).Day }}. {{ index .monate (printf "%d" (time .date).Month) }} {{ (time .date).Year }}

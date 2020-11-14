@@ -1,6 +1,6 @@
 {{ define "main" }}
 <header class="blog-header">
-  <h4><span>Der Blog der Sternwarte Bad Kreuznach</span></h4>
+  <h4><span>{{ .Parent.Title }}</span></h4>
 </header>
 <main>
   {{ if .Params.images }}
@@ -18,7 +18,7 @@
   <article class="post-content">
     <h1 class="post-title">{{ .Title }}</h1>
     <div class="post-info">
-      {{ with .PublishDate }}
+      {{ with .Params.talk_date }}
       <time class="date published"
         datetime='{{ . }}'>{{ partial "date.html" (dict "date" . "monate" $.Site.Data.monate )}}</time>
       {{ end }}
@@ -35,7 +35,7 @@
       <a href="{{ .RelPermalink }}">
         <span class="label">{{ partial "arrow.html" }} Vorheriger Eintrag</span>
         <strong class="entry-title">{{ .Title }}</strong>
-        {{ with .PublishDate }}
+        {{ with .Params.talk_date }}
         <time class="date"
           datetime='{{ . }}'>{{ partial "date.html" (dict "date" . "monate" $.Site.Data.monate )}}</time>
         {{ end }}
@@ -50,7 +50,7 @@
       <a href="{{ .RelPermalink }}">
         <span class="label">Nächster Eintrag{{ partial "arrow.html" }}</span>
         <strong class="entry-title">{{ .Title }}</strong>
-        {{ with .PublishDate }}
+        {{ with .Params.talk_date }}
         <time class="date"
           datetime='{{ . }}'>{{ partial "date.html" (dict "date" . "monate" $.Site.Data.monate )}}</time>
         {{ end }}
