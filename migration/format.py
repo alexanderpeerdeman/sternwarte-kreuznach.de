@@ -11,9 +11,31 @@ import shutil
 def find_image(data, id):
     file_database = data[43]["data"]
 
-    for idx, entry in enumerate(file_database):
+    for entry in file_database:
         if int(entry["ID"]) == id:
             return entry
+
+
+def find_speakers(talk_id):
+
+    # Not every talk has a speaker
+
+    talk_id = int(talk_id)
+    print("\n#### VortragID:", talk_id)
+    relations = data[97]["data"]
+
+    ref_strings = []
+
+    for relation in relations:
+        if int(relation["VortragID"]) == talk_id:
+            speakers_database = data[68]["data"]
+
+            for entry in speakers_database:
+                if int(entry["ID"]) == int(relation["ReferentID"]):
+                    print(entry["Title"])
+                    ref_strings.append(entry["Title"])
+
+    return ref_strings
 
 
 if __name__ == "__main__":
@@ -21,20 +43,20 @@ if __name__ == "__main__":
     with open("db1033256-1.json", "r") as json_file:
         data = json.load(json_file)
 
-        for id in range(len(data[88]["data"])):
-            talk = data[88]["data"][id]
+        for talk in data[88]["data"]:
             talk_content = ""
             if talk["Content"] is not None:
-                talk_content = html2text.html2text(talk["Content"])
+                original_stripped = html2text.html2text(talk["Content"])
+
+                talk_content = re.sub(
+                    r'(?<!\n)\n(?![\n\t])', ' ', original_stripped.replace('\r', ''))
 
             talk_created = datetime.strptime(
                 talk["Created"], '%Y-%m-%d %H:%M:%S')
-            talk_date = talk["Datum"]
 
-            # FIND REFERENTEN BASED ON VORTRAGID
+            talk_date = datetime.strptime(talk["Datum"], '%Y-%m-%d')
 
-            # talk_speaker = talk["Referent"]
-            # print("Referent: {}".format(talk_speaker))
+            talk_speakers = find_speakers(talk["ID"])
 
             talk_title = talk["Title"]
             print(talk_title)
@@ -51,11 +73,11 @@ if __name__ == "__main__":
                 ['ß', 'ss'],
             ])
 
-            talk_year = talk_date[:4]
-            if int(talk_year) < 2005:
+            if talk_date < datetime(2005, 1, 1):
                 continue
+
             talk_folder = "../content/vhs/{}/{}".format(
-                talk_year, friendly_name)
+                talk_date.year, friendly_name)
             Path(talk_folder).mkdir(parents=True, exist_ok=True)
 
             # Find corresponding image and download it
@@ -68,7 +90,6 @@ if __name__ == "__main__":
                 new_image_file_name = talk_folder + "/" + friendly_name + "-title" + \
                     "." + image_file_location.split(".")[-1].lower()
 
-
                 image_file_name = image_object["Name"]
                 image_file_title = image_object["Title"]
 
@@ -76,7 +97,6 @@ if __name__ == "__main__":
                     download_url = "https://sternwarte-kreuznach.de/assets/" + image_file_location
 
                     r = requests.get(download_url, stream=True)
-
 
                     if r.status_code == 200:
                         # Set decode_content value to True, otherwise the downloaded image file's size will be zero.
@@ -93,12 +113,19 @@ if __name__ == "__main__":
                 else:
                     downloaded_image = True
 
-
             markdown_output = [
                 "---\n",
-                'title: "{}"\n'.format(talk_title),
-                "talk_date: {}\n".format(talk_date)
+                'title: "{}"\n'.format(talk_title)
             ]
+
+            # TODO Check for date in theme and display accordingly
+            markdown_output += "talk_date: {}\n".format(talk_date.strftime("%Y-%m-%d"))
+
+            if len(talk_speakers) > 0:
+                markdown_output += "talk_speakers:\n"
+
+                for speaker in talk_speakers:
+                    markdown_output += "    - {}\n".format(speaker)
 
             if downloaded_image:
                 markdown_output += [
