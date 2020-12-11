@@ -1,7 +1,7 @@
 #topnav {
   background-color: #003366;
   background-image: linear-gradient(to right, #003366, lighten(#036, 17.5%));
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   right: 0;
@@ -13,9 +13,7 @@
   display: flex;
   max-width: 70rem;
   margin: 0 auto;
-  padding: 0 1rem;
   align-items: center;
-  justify-content: flex-start;
 
   @media #{$phone} {
     justify-content: space-between;
@@ -24,7 +22,12 @@
 }
 
 .logo {
-  height: 68px;
+  display: flex;
+  max-width: 100px;
+  > img {
+    height: 47px;
+    padding: 10px;
+  }
 }
 
 .navbar {
@@ -37,10 +40,10 @@
   @media #{$phone} {
     display: none;
     position: fixed;
-    top: 68px;
+    top: 67px;
     left: 0;
     background: white;
-    max-height: calc(100vh - 68px);
+    max-height: calc(100vh - 67px);
     overflow-y: auto;
     width: calc(100vw - calc(2 * 2rem));
     padding: 0 2rem;
@@ -118,8 +121,6 @@
   background-color: white;
   border-left: #003366 0.37rem solid;
   left: 50%;
-  -webkit-transform: translate(-50%, 0);
-  -o-transform: translate(-50%, 0);
   transform: translate(-50%, 0);
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.12);
   padding: 0;
@@ -187,15 +188,12 @@
 
   @media #{$phone} {
     display: block;
-    position: absolute;
-    top: 1.2rem;
-    right: 0.5rem;
     cursor: pointer;
     width: 40px;
     height: 30px;
     margin: 0;
-    z-index: 9999;
     opacity: 0;
+    float: left;
 
     &:checked + .navbar {
       display: block;

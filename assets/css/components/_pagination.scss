@@ -1,37 +1,34 @@
+@mixin gray-overlay {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
 .pagination {
-    width: 100%;
-    padding: 1rem 0;
-    text-align: center;   
-    background-color: #003366;
-    background-image: linear-gradient(to right, #003366, lighten(#036, 17.5%));
-    color: white;
+  width: 100%;
+  padding: 1rem 0;
+  text-align: center;
 }
 
 .page-item {
-    font-weight: bold;
+  font-weight: bold;
 
-    &.active{ 
-        a {            
-            background-color: rgba(0,0,0,0.2);
-            color: white;
-        } 
+  &.active {
+    a {
+      @include gray-overlay;
     }
+  }
 
-    &.disabled a {
-        color: #aaa;
-        background: none;
-    }
+  &.disabled a {
+    color: #999;
+    background: none;
+  }
 }
 
-
 .page-link {
-    margin: 0;
-    padding: 8px 13px;
-    transition: ease .2s;
-    color: white;
-    &:hover {
-        text-decoration: none;
-        background-color: rgba(0,0,0,0.2);
-        color: white;
-    }
+  margin: 0;
+  padding: 8px 13px;
+  transition: ease 0.2s;
+  &:hover {
+    @include gray-overlay;
+    text-decoration: none;
+  }
 }
