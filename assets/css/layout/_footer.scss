@@ -1,4 +1,13 @@
 footer {
+    background-color: rgba($color: #000, $alpha: 0.2);
+}
+
+#footer {
     margin: 0 auto;
     max-width: 65ch;
+    
+}
+
+#primary {
+    display: flex;
 }

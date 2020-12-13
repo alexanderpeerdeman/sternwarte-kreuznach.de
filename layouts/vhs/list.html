@@ -1,36 +1,42 @@
 {{ define "main" }}
-<header class="blog-header">
-    <h1><span>{{ .Title }}</span></h1>
+<header class="vhs-header">
+    <h1>Vorträge <span class="subtitle">angeboten durch die Volkshochschule der Stadt Bad Kreuznach
+        </span></h1>
+    <a href="https://vhs-bad-kreuznach.de/" target="_blank" rel="noopener noreferrer"><img id="vhs-logo"
+            src='{{ relURL "vhs-logo.jpg" }}' alt="vhs logo"></a>
 </header>
-<main>
-    <div class="posts-grid">
-        {{ range (.Paginate (.Pages.ByParam "talk_date").Reverse 12 ).Pages }}
-        <article class="post">
-            <header class="post-header">
-                <a class="post-link" href="{{ .RelPermalink }}" title='Permanenter Link zu "{{ .Title }}"'>
-                    <div class="post-image">
+<main>    
+    <div class="talks-list">
+        {{ $currentTime := now.Format "2006-01-02T15:04:05" }}
+        {{ range (.Paginate (where (.Pages.ByParam "talk_date") ".Params.talk_date" "ge" $currentTime) 12 ).Pages }}
+        <article>
+            <header>
+                <a href="{{ .RelPermalink }}" title='Permanenter Link zu "{{ .Title }}"'>
+                    <div>
                         {{ if .Params.images }}
-                            {{ with (.Resources.GetMatch (index .Params.images 0)).Fill "600x330 q80" }}
-                                <img src="{{ .RelPermalink }}" alt="{{ .Title }}">
-                            {{ end }}
+                        {{ with (.Resources.GetMatch (index .Params.images 0)).Fill "600x330 q80" }}
+                        <img src="{{ .RelPermalink }}" alt="{{ .Title }}">
+                        {{ end }}
                         {{ end }}
                     </div>
-                    <h2 class="post-title">{{ .Title }}</h2>
+                    <h2>{{ .Title }}</h2>
                 </a>
-                <div class="post-info">
+                <div>
                     {{ with .Params.talk_date }}
                     <time class="date published"
-                    datetime='{{ . }}'>{{ partial "date.html" (dict "date" . "monate" $.Site.Data.monate )}}</time>
+                        datetime='{{ . }}'>{{ partial "date.html" (dict "date" . "monate" $.Site.Data.monate )}}</time>
                     {{ end }}
                 </div>
             </header>
-            <div class="post-summary">
+            <div>
                 <p>{{ .Summary }}</p>
-                <a class="go" href="{{ .RelPermalink }}">Weiterlesen {{ partial "arrow.html" }}</a>
+                <a href="{{ .RelPermalink }}">Weiterlesen {{ partial "arrow.html" }}</a>
             </div>
         </article>
+        {{ else }}
+        Here i will say stuff if there are no more talks in the future.
         {{ end }}
-    </div>    
-    {{ template "_internal/pagination.html" . }}
+    </div>
+    <div class="content">{{ .Content }}</div>
 </main>
 {{ end }}

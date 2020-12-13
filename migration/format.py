@@ -119,7 +119,7 @@ if __name__ == "__main__":
             ]
 
             # TODO Check for date in theme and display accordingly
-            markdown_output += "talk_date: {}\n".format(talk_date.strftime("%Y-%m-%d"))
+            markdown_output += "talk_date: {}\n".format(talk_date.isoformat())
 
             if len(talk_speakers) > 0:
                 markdown_output += "talk_speakers:\n"
