@@ -1,14 +1,14 @@
 {{ define "main" }}
 <header class="vhs-header">
-    <h1>Vorträge <span class="subtitle">angeboten durch die Volkshochschule der Stadt Bad Kreuznach
+    <h1>Vorträge <span class="subtitle">in Zusammenarbeit mit der <a href="https://vhs-bad-kreuznach.de/"
+                target="_blank" rel="noopener noreferrer">Volkshochschule der Stadt Bad Kreuznach</a>
         </span></h1>
     <a href="https://vhs-bad-kreuznach.de/" target="_blank" rel="noopener noreferrer"><img id="vhs-logo"
             src='{{ relURL "vhs-logo.jpg" }}' alt="vhs logo"></a>
 </header>
-<main>    
-    <div class="talks-list">
-        {{ $currentTime := now.Format "2006-01-02T15:04:05" }}
-        {{ range (.Paginate (where (.Pages.ByParam "talk_date") ".Params.talk_date" "ge" $currentTime) 12 ).Pages }}
+<main>
+    <div class="talks-list content">
+        {{ range .Pages.ByParam "talk.date" }}
         <article>
             <header>
                 <a href="{{ .RelPermalink }}" title='Permanenter Link zu "{{ .Title }}"'>
@@ -23,8 +23,9 @@
                 </a>
                 <div>
                     {{ with .Params.talk_date }}
-                    <time class="date published"
-                        datetime='{{ . }}'>{{ partial "date.html" (dict "date" . "monate" $.Site.Data.monate )}}</time>
+                    <time class="date published" datetime='{{ . }}'>
+                        {{ partial "date.html" (dict "date" . "monate" $.Site.Data.monate )}}
+                    </time>
                     {{ end }}
                 </div>
             </header>
@@ -34,7 +35,7 @@
             </div>
         </article>
         {{ else }}
-        Here i will say stuff if there are no more talks in the future.
+        Keine weiteren Vorträge angekündigt.
         {{ end }}
     </div>
     <div class="content">{{ .Content }}</div>

@@ -1,5 +1,5 @@
 from slugify import slugify
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 import re
 import json
@@ -54,13 +54,24 @@ if __name__ == "__main__":
             talk_created = datetime.strptime(
                 talk["Created"], '%Y-%m-%d %H:%M:%S')
 
+            talk_start = talk["UhrzeitAnfang"]
+
+            if talk_start is not None:
+                talk_start_precise = [int(e) for e in talk_start.split(":")]
+                print(talk_start_precise)
+                talk_start_time_offset = timedelta(
+                    hours=talk_start_precise[0], minutes=talk_start_precise[1], seconds=talk_start_precise[2])
+            else:
+                # if there is no record of the start time, set start time to 20:00:00
+                talk_start_time_offset = timedelta(hours=20)
+
             talk_date = datetime.strptime(talk["Datum"], '%Y-%m-%d')
+            talk_date += talk_start_time_offset
 
             talk_speakers = find_speakers(talk["ID"])
 
             talk_title = talk["Title"]
             print(talk_title)
-            talk_start = talk["UhrzeitAnfang"]
             talk_price = "{} (Ermäßigt: {})".format(
                 talk["PreisAmount"], talk["PreisErmAmount"])
             talk_is_supplementary = talk["IsZusatz"]
