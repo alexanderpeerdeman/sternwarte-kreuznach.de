@@ -7,6 +7,11 @@ menu:
         weight: 1
 ---
 
+# Todo:
+- Erste Anlaufstelle sollte die E-Mail-Adresse sein.
+- Erst danach den Hinweise auf die Telefonnummer des ersten Vorsitzenden machen.
+- Personen nur noch mit Namen und Funktion im Verein selbst erwähnen, nicht detaillierter!
+
 [info@sternwarte-kreuznach.de](mailto:info@sternwarte-kreuznach.de)
 
 **1.Vorsitzender:**  

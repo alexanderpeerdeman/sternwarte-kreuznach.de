@@ -6,7 +6,10 @@ menu:
         parent: 'Über uns'
         weight: 2
 ---
-`TODO: Mitgliedsbeitrag ist jährlich.`
+## Todo:
+- Mitgliedsbeitrag ist jährlich
+- Warum sollte ich Mitglied werden?
+
 
 Haben Sie Freude an der Astronomie? Dann kommen Sie zu uns. Unterstützen Sie die Sternwarte durch ihre Mitgliedschaft.
 
