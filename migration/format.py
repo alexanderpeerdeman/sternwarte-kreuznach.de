@@ -84,7 +84,7 @@ if __name__ == "__main__":
                 ['ß', 'ss'],
             ])
 
-            if talk_date < datetime(2005, 1, 1):
+            if talk_date < datetime(2015, 7, 1):
                 continue
 
             talk_folder = "../content/vhs/{}/{}".format(
@@ -123,29 +123,32 @@ if __name__ == "__main__":
                         print('Image could not be retreived!')
                 else:
                     downloaded_image = True
-
+            
             markdown_output = [
                 "---\n",
-                'title: "{}"\n'.format(talk_title)
+                'title: "{}"\n'.format(talk_title),
+                "date: {}\n".format(talk_created.isoformat())
             ]
 
+            # write talk stuff
+            markdown_output += "talk:\n"
+
             # TODO Check for date in theme and display accordingly
-            markdown_output += "talk_date: {}\n".format(talk_date.isoformat())
+            markdown_output += "    date: {}\n".format(talk_date.isoformat())
 
             if len(talk_speakers) > 0:
-                markdown_output += "talk_speakers:\n"
+                markdown_output += "    speakers:\n"
 
                 for speaker in talk_speakers:
-                    markdown_output += "    - {}\n".format(speaker)
+                    markdown_output += "        - {}\n".format(speaker)
 
             if downloaded_image:
                 markdown_output += [
-                    "images:\n    - {}\n".format(
+                    "    images:\n        - {}\n".format(
                         new_image_file_name.split("/")[-1])
                 ]
 
-            markdown_output += [
-                "date: {}\n".format(talk_created.isoformat()),
+            markdown_output += [                
                 "---\n",
                 talk_content
             ]

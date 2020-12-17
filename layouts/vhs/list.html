@@ -13,8 +13,8 @@
             <header>
                 <a href="{{ .RelPermalink }}" title='Permanenter Link zu "{{ .Title }}"'>
                     <div>
-                        {{ if .Params.images }}
-                        {{ with (.Resources.GetMatch (index .Params.images 0)).Fill "600x330 q80" }}
+                        {{ if .Params.talk.images }}
+                        {{ with (.Resources.GetMatch (index .Params.talk.images 0)).Fill "600x330 q80" }}
                         <img src="{{ .RelPermalink }}" alt="{{ .Title }}">
                         {{ end }}
                         {{ end }}
@@ -22,7 +22,7 @@
                     <h2>{{ .Title }}</h2>
                 </a>
                 <div>
-                    {{ with .Params.talk_date }}
+                    {{ with .Params.talk.talk_date }}
                     <time class="date published" datetime='{{ . }}'>
                         {{ partial "date.html" (dict "date" . "monate" $.Site.Data.monate )}}
                     </time>

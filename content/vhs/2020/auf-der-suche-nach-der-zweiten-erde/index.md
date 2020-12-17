@@ -5,7 +5,6 @@ talk:
     date: 2020-02-28T20:00:00
     speakers:
         - Jonas Kemmer
-        - Anders Herum
     images:
         - auf-der-suche-nach-der-zweiten-erde-title.png
 ---
