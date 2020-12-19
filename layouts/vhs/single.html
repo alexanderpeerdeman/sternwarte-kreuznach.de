@@ -22,6 +22,9 @@
       <time class="date published"
         datetime='{{ . }}'>{{ partial "date.html" (dict "date" . "monate" $.Site.Data.monate )}}</time>
       {{ end }}
+      {{ range .Params.talk.speakers }}
+      {{ . }}
+      {{ end }}
     </div>
     {{ .Content }}
   </article>

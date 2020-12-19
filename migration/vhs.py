@@ -6,14 +6,16 @@ import json
 import html2text
 import requests
 import shutil
+import yaml
 
 
 def find_image(data, id):
     file_database = data[43]["data"]
 
-    for entry in file_database:
-        if int(entry["ID"]) == id:
-            return entry
+    result = [entry for entry in file_database if int(entry["ID"]) == id]
+
+    assert len(result) <= 1
+    return result
 
 
 def find_speakers(talk_id):
@@ -96,13 +98,13 @@ if __name__ == "__main__":
             image_object = find_image(data, talk_image_id)
             downloaded_image = False
 
-            if image_object is not None:
-                image_file_location = image_object["FileFilename"]
+            if len(image_object) > 0:
+                image_file_location = image_object[0]["FileFilename"]
                 new_image_file_name = talk_folder + "/" + friendly_name + "-title" + \
                     "." + image_file_location.split(".")[-1].lower()
 
-                image_file_name = image_object["Name"]
-                image_file_title = image_object["Title"]
+                image_file_name = image_object[0]["Name"]
+                image_file_title = image_object[0]["Title"]
 
                 if not Path(new_image_file_name).is_file():
                     download_url = "https://sternwarte-kreuznach.de/assets/" + image_file_location
@@ -124,31 +126,27 @@ if __name__ == "__main__":
                 else:
                     downloaded_image = True
             
-            markdown_output = [
-                "---\n",
-                'title: "{}"\n'.format(talk_title),
-                "date: {}\n".format(talk_created.isoformat())
-            ]
+            ### Write talk as markdown file with yaml front matter ###
 
-            # write talk stuff
-            markdown_output += "talk:\n"
-
-            # TODO Check for date in theme and display accordingly
-            markdown_output += "    date: {}\n".format(talk_date.isoformat())
-
+            yaml_dict = {}
+            yaml_dict["title"] = talk_title
+            yaml_dict["date"] = talk_created.isoformat()
+            yaml_dict["talk"] = {}
+            yaml_dict["talk"]["date"] = talk_date.isoformat()
+            
             if len(talk_speakers) > 0:
-                markdown_output += "    speakers:\n"
+                yaml_dict["talk"]["speakers"] = []
 
                 for speaker in talk_speakers:
-                    markdown_output += "        - {}\n".format(speaker)
+                    yaml_dict["talk"]["speakers"].append(speaker)
 
             if downloaded_image:
-                markdown_output += [
-                    "    images:\n        - {}\n".format(
-                        new_image_file_name.split("/")[-1])
-                ]
+                yaml_dict["talk"]["images"] = []
+                yaml_dict["talk"]["images"].append(new_image_file_name.split("/")[-1])
 
-            markdown_output += [                
+            markdown_output = [  
+                "---\n",
+                yaml.dump(yaml_dict),
                 "---\n",
                 talk_content
             ]

@@ -1,12 +1,12 @@
 ---
-title: "Sternbilder und die Mythen, die Sie umgeben "
-date: 2017-06-16T22:04:10
+date: '2017-06-16T22:04:10'
 talk:
-    date: 2017-10-27T20:00:00
-    speakers:
-        - Roland Zahn
-    images:
-        - sternbilder-und-die-mythen-die-sie-umgeben-title.jpg
+  date: '2017-10-27T20:00:00'
+  images:
+  - sternbilder-und-die-mythen-die-sie-umgeben-title.jpg
+  speakers:
+  - Roland Zahn
+title: 'Sternbilder und die Mythen, die Sie umgeben '
 ---
 **Der Vortrag heute Abend muss wegen Krankheit des Referenten leider ausfallen.   Wir bitten um Ihr Verständnis und werden sobald als möglich einen Ersatztermin in der Presse, bei Facebook und auf unserer Website bekanntgeben. **
 

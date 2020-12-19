@@ -1,12 +1,12 @@
 ---
-title: "Praktische Astronomie"
-date: 2016-08-03T12:54:49
+date: '2016-08-03T12:54:49'
 talk:
-    date: 2016-02-26T20:00:00
-    speakers:
-        - Dr. med. Carsten Blumenröther
-    images:
-        - praktische-astronomie-title.jpg
+  date: '2016-02-26T20:00:00'
+  images:
+  - praktische-astronomie-title.jpg
+  speakers:
+  - "Dr. med. Carsten Blumenr\xF6ther"
+title: Praktische Astronomie
 ---
 **Refraktortestung mit einfachen Mitteln und Beispiel der Modifikation an einem catadioptrischen Kaufhausteleskop aus den 80er Jahren.**
 

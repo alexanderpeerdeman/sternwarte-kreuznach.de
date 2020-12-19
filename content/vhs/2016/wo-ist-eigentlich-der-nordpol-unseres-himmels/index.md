@@ -1,12 +1,12 @@
 ---
-title: "Wo ist eigentlich der Nordpol unseres Himmels?"
-date: 2016-08-03T12:55:24
+date: '2016-08-03T12:55:24'
 talk:
-    date: 2016-03-25T20:00:00
-    speakers:
-        - Rüdiger Brenner
-    images:
-        - wo-ist-eigentlich-der-nordpol-unseres-himmels-title.jpg
+  date: '2016-03-25T20:00:00'
+  images:
+  - wo-ist-eigentlich-der-nordpol-unseres-himmels-title.jpg
+  speakers:
+  - "R\xFCdiger Brenner"
+title: Wo ist eigentlich der Nordpol unseres Himmels?
 ---
 Eine Langzeitaufnahme des Nachthimmels in Richtung Norden lässt kreisförmige Sternbahnen erkennen.
 

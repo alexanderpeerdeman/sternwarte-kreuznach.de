@@ -1,12 +1,12 @@
 ---
-title: "Der Tod eines Sterns"
-date: 2019-06-25T13:07:38
+date: '2019-06-25T13:07:38'
 talk:
-    date: 2019-10-25T20:00:00
-    speakers:
-        - Johannes Bock
-    images:
-        - der-tod-eines-sterns-title.jpg
+  date: '2019-10-25T20:00:00'
+  images:
+  - der-tod-eines-sterns-title.jpg
+  speakers:
+  - Johannes Bock
+title: Der Tod eines Sterns
 ---
 Der Moment, in dem einem Stern der Treibstoff ausgeht nennt sich Supernova. Ein Ende mit einer gewaltigen Explosion, die teilweise tagelang von der Erde aus beobachtbar ist. Dabei wird eine unglaublich große Menge an Energie freigesetzt. Doch was passiert danach? Diese Frage wollen wir gemeinsam in diesem Vortrag beantworten.
 
