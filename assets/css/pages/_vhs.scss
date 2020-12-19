@@ -1,6 +1,6 @@
 .vhs-header {
   margin: 2rem auto;
-  max-width: 55rem;
+  max-width: 70rem;
   padding: 0 1em;
   display: flex;
   justify-content: space-between;
@@ -31,8 +31,59 @@
 }
 
 .talks-list {
-  > article {
-    &:first-of-type {
+  margin: 0 auto;
+  max-width: 70rem;
+  padding: 0 1rem;
+  h2 {
+    &:hover {
+      color: #036;
     }
+    margin: 0;
+    padding: 0.2rem 0 0 0;
+  }
+  > article {
+    margin-bottom: 4rem;
+    display: flex;
+    @media #{$phone} {
+      flex-direction: column;
+    }
+
+    // &:first-of-type {
+
+    // }
+  }
+}
+
+.talk-entry {
+  width: 60%;
+  padding-right: 2rem;
+
+  @media #{$phone} {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+.talk-meta {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.talk-thumb {
+  width: 40%;
+
+  @media #{$phone} {
+    width: 100%;
+    order: -1;
+  }
+}
+
+.vhs-image {
+  margin-bottom: 2rem;
+  max-width: 100%;
+  float: right;
+  @media #{$phone} {
+    width: 100%;
+    float: none;
   }
 }

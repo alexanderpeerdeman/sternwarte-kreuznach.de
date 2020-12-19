@@ -1,37 +1,37 @@
 {{ define "main" }}
 <header class="vhs-header">
-    <h1>Vorträge <span class="subtitle">in Zusammenarbeit mit der <a href="https://vhs-bad-kreuznach.de/"
+    <h1>{{ .Title }} <span class="subtitle">in Zusammenarbeit mit der <a href="https://vhs-bad-kreuznach.de/"
                 target="_blank" rel="noopener noreferrer">Volkshochschule der Stadt Bad Kreuznach</a>
         </span></h1>
     <a href="https://vhs-bad-kreuznach.de/" target="_blank" rel="noopener noreferrer"><img id="vhs-logo"
             src='{{ relURL "vhs-logo.jpg" }}' alt="vhs logo"></a>
 </header>
 <main>
-    <div class="talks-list content">
-        {{ range .Pages.ByParam "talk.date" }}
+    <div class="talks-list">
+        {{ range last 6 (.Pages.ByParam "talk.date") }}
         <article>
-            <header>
+            <div class="talk-entry">
                 <a href="{{ .RelPermalink }}" title='Permanenter Link zu "{{ .Title }}"'>
-                    <div>
-                        {{ if .Params.talk.images }}
-                        {{ with (.Resources.GetMatch (index .Params.talk.images 0)).Fill "600x330 q80" }}
-                        <img src="{{ .RelPermalink }}" alt="{{ .Title }}">
-                        {{ end }}
-                        {{ end }}
-                    </div>
                     <h2>{{ .Title }}</h2>
                 </a>
-                <div>
-                    {{ with .Params.talk.talk_date }}
+                <div class="talk-meta">
+                    {{ with .Params.talk.date }}
                     <time class="date published" datetime='{{ . }}'>
                         {{ partial "date.html" (dict "date" . "monate" $.Site.Data.monate )}}
                     </time>
+                    um {{ (time .).Format "15:04 Uhr" }}
                     {{ end }}
                 </div>
-            </header>
-            <div>
-                <p>{{ .Summary }}</p>
-                <a href="{{ .RelPermalink }}">Weiterlesen {{ partial "arrow.html" }}</a>
+                <p>{{ truncate 450 .Summary }}</p>
+            </div>
+            <div class="talk-thumb">
+                {{ if .Params.talk.images }}
+                <a href="{{ .RelPermalink }}" title='Permanenter Link zu "{{ .Title }}"'>
+                    {{ with (.Resources.GetMatch (index .Params.talk.images 0)).Fill "723x400 q80" }}
+                    <img class="vhs-image" src="{{ .RelPermalink }}" alt="{{ .Title }}">
+                    {{ end }}
+                </a>
+                {{ end }}
             </div>
         </article>
         {{ else }}
