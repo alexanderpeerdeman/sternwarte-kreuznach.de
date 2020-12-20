@@ -7,37 +7,22 @@
             src='{{ relURL "vhs-logo.jpg" }}' alt="vhs logo"></a>
 </header>
 <main>
+    {{ $currentTime := now.Format "2006-01-02T15:04:05" }}
+    {{ $currentTime := (time "2019-10-01").Format "2006-01-02T15:04:05" }}
+    {{ $talks := (where (.Pages.ByParam "talk.date") ".Params.talk.date" "ge" $currentTime) }}
+
     <div class="talks-list">
-        {{ range last 6 (.Pages.ByParam "talk.date") }}
-        <article>
-            <div class="talk-entry">
-                <a href="{{ .RelPermalink }}" title='Permanenter Link zu "{{ .Title }}"'>
-                    <h2>{{ .Title }}</h2>
-                </a>
-                <div class="talk-meta">
-                    {{ with .Params.talk.date }}
-                    <time class="date published" datetime='{{ . }}'>
-                        {{ partial "date.html" (dict "date" . "monate" $.Site.Data.monate )}}
-                    </time>
-                    um {{ (time .).Format "15:04 Uhr" }}
-                    {{ end }}
-                </div>
-                <p>{{ truncate 450 .Summary }}</p>
-            </div>
-            <div class="talk-thumb">
-                {{ if .Params.talk.images }}
-                <a href="{{ .RelPermalink }}" title='Permanenter Link zu "{{ .Title }}"'>
-                    {{ with (.Resources.GetMatch (index .Params.talk.images 0)).Fill "723x400 q80" }}
-                    <img class="vhs-image" src="{{ .RelPermalink }}" alt="{{ .Title }}">
-                    {{ end }}
-                </a>
-                {{ end }}
-            </div>
-        </article>
+        {{ range first 3 $talks }}
+        {{ partial "vhs/talk-list-article.html" . }}
         {{ else }}
         Keine weiteren Vorträge angekündigt.
         {{ end }}
     </div>
-    <div class="content">{{ .Content }}</div>
+    <div class="talks-banner">{{ .Content }}</div>
+    <div class="talks-list">
+        {{ range first 3 (after 3 $talks) }}
+        {{ partial "vhs/talk-list-article.html" . }}
+        {{ end }}
+    </div>
 </main>
 {{ end }}

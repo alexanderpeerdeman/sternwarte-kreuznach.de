@@ -1,0 +1,27 @@
+<article>
+    <div class="talk-entry">
+        <span class="talk-type">Vortrag</span>
+        <a href="{{ .RelPermalink }}" title='Permanenter Link zu "{{ .Title }}"'>
+            <h2>{{ .Title }}</h2>
+        </a>
+        <div class="talk-meta">
+            {{ with .Params.talk.date }}
+            am 
+            <time class="date published" datetime='{{ . }}'>
+                {{ partial "date.html" (dict "date" . "monate" $.Site.Data.monate )}}
+            </time>
+            um {{ (time .).Format "15:04 Uhr" }}
+            {{ end }}
+        </div>
+        <p>{{ .Summary }}</p>
+    </div>
+    <div class="talk-thumb">
+        {{ if .Params.talk.images }}
+        <a href="{{ .RelPermalink }}" title='Permanenter Link zu "{{ .Title }}"'>
+            {{ with (.Resources.GetMatch (index .Params.talk.images 0)).Fill "723x400 q80" }}
+            <img class="vhs-image" src="{{ .RelPermalink }}" alt="{{ .Title }}">
+            {{ end }}
+        </a>
+        {{ end }}
+    </div>
+</article>

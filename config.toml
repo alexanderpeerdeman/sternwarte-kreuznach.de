@@ -1,6 +1,7 @@
 baseURL = "https://apeer.uber.space/"
 languageCode = "de"
 title = "Sternwarte Bad Kreuznach e.V."
+summaryLength = 25
 # googleAnalytics = "UA-123-45"
 
 [params]
@@ -28,11 +29,6 @@ title = "Sternwarte Bad Kreuznach e.V."
 [[menu.main]]
     name = "Infos"
     weight = 5
-
-[[menu.main]]
-    name = "Shop"
-    url = "http://shop.spreadshirt.de/sternwarte-kreuznach/"
-    weight = 6
 
 
 [[menu.social]]
