@@ -18,11 +18,17 @@
         Keine weiteren Vorträge angekündigt.
         {{ end }}
     </div>
-    <div class="talks-banner">{{ .Content }}</div>
+    <div class="talks-banner">
+        <div class="talk-content">
+            <h2>Hier stehen dann die Informationen über Vorträge</h2>
+        </div>
+        <img src='{{ relURL "vortragsraum.jpg" }}' alt="Vortragsraum im Hauptgebäude">
+    </div>
     <div class="talks-list">
         {{ range first 3 (after 3 $talks) }}
         {{ partial "vhs/talk-list-article.html" . }}
         {{ end }}
     </div>
 </main>
+{{ .Content }}
 {{ end }}
