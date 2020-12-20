@@ -30,6 +30,17 @@
   font-size: small;
 }
 
+.vhs-content-banner {
+  background-color: #eee;
+  padding: 1rem 0;
+  margin: 2rem 0 4rem;
+  > div {
+    margin: 2rem auto;
+    max-width: 70rem;
+    padding: 0 1em;
+  }
+}
+
 .talks-list {
   margin: 0 auto;
   max-width: 70rem;

@@ -6,6 +6,11 @@
     <a href="https://vhs-bad-kreuznach.de/" target="_blank" rel="noopener noreferrer"><img id="vhs-logo"
             src='{{ relURL "vhs-logo.jpg" }}' alt="vhs logo"></a>
 </header>
+{{ if .Content }}
+<section class="vhs-content-banner">
+    <div>{{ .Content }}</div>
+</section>
+{{ end }}
 <main>
     {{ $currentTime := now.Format "2006-01-02T15:04:05" }}
     {{ $currentTime := (time "2019-10-01").Format "2006-01-02T15:04:05" }}
@@ -22,15 +27,19 @@
         <div class="talks-info-wrapper">
             <div class="talks-info">
                 <h2>Vorträge auf der Sternwarte</h2>
-                <p>Von <strong>Januar bis November</strong> jeden letzten Freitag im Monat</p>
-                <p><strong>Eintritt 6€</strong>, ermäßigt 4€</p>
-                <p>Nur Barzahlung möglich</p>            
-                <a class="btn" href='/infos/oeffnungszeiten#vhs-vorträge'>Weitere Informationen zu Vorträgen</a>                
+                <p>Die Vorträge finden <strong>Januar bis November</strong> jeden letzten Freitag im Monat statt. Sofern
+                    nicht anders angegeben, werden alle Vorträge auf dem <a href="/infos/anfahrt">Gelände der
+                        Sternwarte</a> gehalten. Der Verkauf von Karten erfolgt nur an der Abendkasse, Möglichkeiten zur
+                    Reservierung oder Kartenvorverkauf gibt es nicht.</p>
+                <p>Der <strong>Eintritt beträgt 6,00€</strong> (ermäßigt 4,00€) und es ist ausschließlich Barzahlung
+                    möglich.</p>
+                <a class="btn" href='/infos/anfahrt'>Anfahrt</a>
+                <a class="btn" href='/infos/vortraege'>Weitere Informationen zu Vorträgen</a>
             </div>
         </div>
         <div class="aspect-wrapper">
             <div class="aspect-spacer"></div>
-            <span class="aspect-bg" style='background-image: url({{ relURL "images/chairs.jpg" }});'></span>
+            <span class="aspect-bg" style='background-image: url("/images/chairs.jpg");'></span>
         </div>
     </div>
     {{ if (gt (len $talks) 3) }}
@@ -42,5 +51,4 @@
     </div>
     {{ end }}
 </main>
-{{ .Content }}
 {{ end }}

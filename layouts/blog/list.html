@@ -3,7 +3,7 @@
     <h1><span>{{ .Title }}</span></h1>
 </header>
 <main>
-    <div class="posts-grid">
+    <div class="posts-grid">        
         {{ range (.Paginator 12).Pages }}
         <article class="post">
             <header class="post-header">
