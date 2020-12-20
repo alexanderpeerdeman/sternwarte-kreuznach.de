@@ -19,16 +19,28 @@
         {{ end }}
     </div>
     <div class="talks-banner">
-        <div class="talk-content">
-            <h2>Hier stehen dann die Informationen über Vorträge</h2>
+        <div class="talks-info-wrapper">
+            <div class="talks-info">
+                <h2>Vorträge auf der Sternwarte</h2>
+                <p>Von <strong>Januar bis November</strong> jeden letzten Freitag im Monat</p>
+                <p><strong>Eintritt 6€</strong>, ermäßigt 4€</p>
+                <p>Nur Barzahlung möglich</p>            
+                <a class="btn" href='/infos/oeffnungszeiten#vhs-vorträge'>Weitere Informationen zu Vorträgen</a>                
+            </div>
         </div>
-        <img src='{{ relURL "vortragsraum.jpg" }}' alt="Vortragsraum im Hauptgebäude">
+        <div class="aspect-wrapper">
+            <div class="aspect-spacer"></div>
+            <span class="aspect-bg" style='background-image: url({{ relURL "images/chairs.jpg" }});'></span>
+        </div>
     </div>
+    {{ if (gt (len $talks) 3) }}
     <div class="talks-list">
+        <h3>Weitere Vorträge</h3>
         {{ range first 3 (after 3 $talks) }}
         {{ partial "vhs/talk-list-article.html" . }}
         {{ end }}
     </div>
+    {{ end }}
 </main>
 {{ .Content }}
 {{ end }}

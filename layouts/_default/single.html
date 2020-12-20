@@ -1,9 +1,11 @@
 {{ define "main" }}
 <header class="titlebar">
-<h1 class="title">{{ .Title }}</h1>
+    <h1 class="title">{{ .Title }}</h1>
 </header>
-<main><article class="content">
-{{ .Content }}
-</article></main>
-{{ .TableOfContents }}
+<main>
+    <article class="content">
+        {{ .Content }}
+        {{ .TableOfContents }}
+    </article>
+</main>
 {{ end }}

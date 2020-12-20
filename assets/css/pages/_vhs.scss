@@ -103,17 +103,59 @@
   justify-content: space-between;
   width: 100%;
   padding: 0;
-  margin: 0 0 2rem 0;
+  margin: 0 0 6rem 0;
   background-color: #ddd;
 
-  > img {
-    align-self: flex-end;
+  @media #{$phone} {
+    flex-direction: column;
   }
 }
 
-.talk-content {
-  width: 60%;
-  padding: 2rem;
+.talks-info-wrapper {
+  width: 50%;
+
   display: flex;
   align-items: center;
+  justify-content: center;
+
+  @media #{$phone} {
+    width: auto;
+  }
+
+}
+
+.talks-info {
+  padding: 3rem;
+  > h2 {
+    margin-top: 0;
+    padding: 0;
+    font-size: 32px;
+    @media (max-width: 1100px) {
+      font-size: 20px;
+    }
+  }
+}
+.aspect-wrapper {
+  position: relative;
+  width: 50%;
+  @media #{$phone} {
+    width: 100%;
+  }
+}
+.aspect-spacer {
+  padding-bottom: 75%;
+}
+
+.aspect-bg {
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
