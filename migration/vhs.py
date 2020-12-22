@@ -79,12 +79,8 @@ if __name__ == "__main__":
 
             if len(talk_speakers) > 0:
                 yaml_dict["talk"]["speakers"] = []
-                if len(talk_speakers) > 1:
-                    print(talk["Title"])
-                    print(talk_speakers)
 
                 for speaker in talk_speakers:
-
                     yaml_dict["talk"]["speakers"].append(speaker)
 
             yaml_dict["title"] = talk["Title"]
@@ -104,7 +100,6 @@ if __name__ == "__main__":
             Path(talk_folder).mkdir(parents=True, exist_ok=True)
 
             # Find corresponding image and download it
-            talk_image_id = int()
             image_object = find_image(data, talk)
             downloaded_image = False
 

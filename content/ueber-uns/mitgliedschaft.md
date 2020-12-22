@@ -31,4 +31,4 @@ Haben Sie Freude an der Astronomie? Dann kommen Sie zu uns. Unterstützen Sie di
 
 ### Weitere Informationen
 
-Die Beitrittserklärung finden Sie in der Sektion [Downloads]({{< ref "/infos/downloads" >}} "Downloads").
+Die Beitrittserklärung finden Sie in der Sektion [Downloads](/infos/downloads).
