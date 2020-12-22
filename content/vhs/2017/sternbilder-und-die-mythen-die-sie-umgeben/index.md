@@ -1,7 +1,7 @@
 ---
 date: '2017-06-16T22:04:10'
 talk:
-  date: '2017-10-27T20:00:00'
+  date: '2017-10-27T00:00:00'
   images:
   - sternbilder-und-die-mythen-die-sie-umgeben-title.jpg
   speakers:

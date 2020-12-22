@@ -1,7 +1,7 @@
 ---
 date: '2016-08-03T12:58:48'
 talk:
-  date: '2016-06-24T20:00:00'
+  date: '2016-06-24T00:00:00'
   images:
   - praktische-astronomie-live-title.jpg
   speakers:

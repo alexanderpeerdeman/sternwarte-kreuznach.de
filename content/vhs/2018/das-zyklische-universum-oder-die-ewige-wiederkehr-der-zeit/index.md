@@ -1,7 +1,7 @@
 ---
 date: '2017-11-25T21:44:28'
 talk:
-  date: '2018-04-27T20:00:00'
+  date: '2018-04-27T00:00:00'
   images:
   - das-zyklische-universum-oder-die-ewige-wiederkehr-der-zeit-title.jpg
   speakers:

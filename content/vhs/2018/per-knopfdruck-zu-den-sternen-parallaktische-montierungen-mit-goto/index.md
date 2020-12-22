@@ -1,7 +1,7 @@
 ---
 date: '2017-11-25T21:42:10'
 talk:
-  date: '2018-04-13T20:00:00'
+  date: '2018-04-13T00:00:00'
   images:
   - per-knopfdruck-zu-den-sternen-parallaktische-montierungen-mit-goto-title.jpg
   speakers:

@@ -1,7 +1,7 @@
 ---
 date: '2016-11-27T14:35:13'
 talk:
-  date: '2017-06-30T20:00:00'
+  date: '2017-06-30T00:00:00'
   images:
   - faszination-astronomie-title.jpg
   speakers:

@@ -1,7 +1,7 @@
 ---
 date: '2016-08-03T12:56:38'
 talk:
-  date: '2016-04-29T20:00:00'
+  date: '2016-04-29T00:00:00'
   images:
   - elektromagnetische-felder-title.jpg
   speakers:

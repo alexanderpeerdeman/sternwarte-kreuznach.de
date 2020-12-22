@@ -1,7 +1,7 @@
 ---
 date: '2018-07-02T19:28:13'
 talk:
-  date: '2018-11-30T20:00:00'
+  date: '2018-11-30T00:00:00'
   images:
   - teleskopberatung-title.jpg
   speakers:

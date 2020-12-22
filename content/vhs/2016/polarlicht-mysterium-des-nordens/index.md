@@ -1,7 +1,7 @@
 ---
 date: '2016-08-01T01:23:47'
 talk:
-  date: '2016-08-26T20:00:00'
+  date: '2016-08-26T00:00:00'
   images:
   - polarlicht-mysterium-des-nordens-title.jpg
   speakers:

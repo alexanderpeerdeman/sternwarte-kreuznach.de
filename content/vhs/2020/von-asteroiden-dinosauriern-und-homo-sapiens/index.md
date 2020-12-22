@@ -1,7 +1,7 @@
 ---
 date: '2019-12-27T12:07:24'
 talk:
-  date: '2020-01-31T20:00:00'
+  date: '2020-01-31T00:00:00'
   images:
   - von-asteroiden-dinosauriern-und-homo-sapiens-title.jpg
   speakers:

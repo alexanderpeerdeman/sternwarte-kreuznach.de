@@ -1,7 +1,7 @@
 ---
 date: '2018-07-02T19:20:43'
 talk:
-  date: '2018-08-31T20:00:00'
+  date: '2018-08-31T00:00:00'
   images:
   - astronomie-in-der-muslimischen-kultur-title.jpg
   speakers:

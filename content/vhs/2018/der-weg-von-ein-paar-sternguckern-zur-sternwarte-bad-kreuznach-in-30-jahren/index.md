@@ -1,7 +1,7 @@
 ---
 date: '2017-11-25T21:55:10'
 talk:
-  date: '2018-06-29T20:00:00'
+  date: '2018-06-29T00:00:00'
   images:
   - der-weg-von-ein-paar-sternguckern-zur-sternwarte-bad-kreuznach-in-30-jahren-title.jpg
   speakers:
