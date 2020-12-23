@@ -12,17 +12,21 @@
 </section>
 {{ end }}
 <main>
-    {{ $currentTime := (time "2019-10-01").Format "2006-01-02T15:04:05" }}
+    {{ $currentTime := (time "2019-01-01").Format "2006-01-02T15:04:05" }}
     {{ $currentTime := now.Format "2006-01-02T15:04:05" }}
     {{ $talks := (where (.Pages.ByParam "talk.date") ".Params.talk.date" "ge" $currentTime) }}
 
-    <div class="talks-list">
+    <section class="talks-list">
         {{ range first 3 $talks }}
         {{ partial "vhs/talk-list-article.html" . }}
         {{ else }}
-        Keine weiteren Vorträge angekündigt.
+        <div class="no-talks-notice">
+            <h2>Derzeit keine Vorträge</h2>
+            <p>Sobald die nächsten Vorträge feststehen,
+                werden sie an dieser Stelle angekündigt.</p>
+        </div>
         {{ end }}
-    </div>
+    </section>
     <div class="talks-banner">
         <div class="talks-info-wrapper">
             <div class="talks-info">
@@ -33,7 +37,8 @@
                     Reservierung oder Kartenvorverkauf gibt es nicht.</p>
                 <p>Der <strong>Eintritt beträgt 6,00€</strong> (ermäßigt 4,00€) und es ist ausschließlich Barzahlung
                     möglich.</p>
-                <p>Da nur <strong>35 Plätze</strong> zur Verfügung stehen empfehlen wir es, rechtzeitig einzutreffen.</p>
+                <p>Da nur <strong>35 Plätze</strong> zur Verfügung stehen empfehlen wir es, rechtzeitig einzutreffen.
+                </p>
                 <a class="btn" href='/infos/anfahrt'>Anfahrt</a>
                 <a class="btn" href='/infos/vortraege'>Weitere Informationen zu Vorträgen</a>
             </div>
@@ -44,12 +49,35 @@
         </div>
     </div>
     {{ if (gt (len $talks) 3) }}
-    <div class="talks-list">
+    <section class="talks-list">
         <h3>Weitere Vorträge</h3>
         {{ range first 3 (after 3 $talks) }}
         {{ partial "vhs/talk-list-article.html" . }}
         {{ end }}
-    </div>
+    </section>
     {{ end }}
+    <section class="archive">
+        <hr>
+        <h2>Ältere Vorträge</h2>
+        <div class="archive-preview-list">
+            {{ $past_talks := (where (.Pages.ByParam "talk.date") ".Params.talk.date" "lt" $currentTime) }}
+            {{ range (first 4 $past_talks.Reverse) }}
+            <article>
+                <a href="{{ .RelPermalink }}" title='Permanenter Link zu "{{ .Title }}"'>
+                    {{ with (.Resources.GetMatch (index .Params.talk.images 0)).Fill "300x180" }}
+                    <img src="{{ .RelPermalink }}" alt="{{ .Title }}">
+                    {{ end }}
+                    <h2>{{ .Title }}</h2>
+                </a>
+                <p>
+                    <time class="date published" datetime='{{ .Params.talk.date }}'>
+                        {{ partial "date.html" (dict "date" .Params.talk.date "monate" $.Site.Data.monate )}}
+                    </time>
+                </p>
+            </article>
+            {{ end }}
+        </div>
+        <p class="center"><a class="btn" href="archiv">Ältere Vorträge</a></p>
+    </section>
 </main>
 {{ end }}

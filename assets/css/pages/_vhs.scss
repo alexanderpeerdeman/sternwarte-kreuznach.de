@@ -41,6 +41,10 @@
   }
 }
 
+.no-talks-notice {
+  margin-bottom: 4rem;
+}
+
 .talks-list {
   margin: 0 auto;
   max-width: 70rem;
@@ -115,7 +119,7 @@
   width: 100%;
   padding: 0;
   margin: 0 0 6rem 0;
-  background-color: #ddd;
+  background-color: #eee;
 
   @media #{$phone} {
     flex-direction: column;
@@ -169,4 +173,29 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.archive {
+  padding-top: 2rem;
+  margin: 2rem auto;
+  max-width: 70rem;
+}
+
+.archive-preview-list {
+  display: flex;
+  > article {
+    padding-right: 2rem;
+    margin-bottom: 0;
+    width: 25%;
+    h2 {
+      line-height: 1.125;
+      font-size: 18px;
+      padding: 0;
+      color: #555;
+    }
+    img {
+      margin-bottom: 1rem;
+      width: 100%;
+    }
+  }
 }

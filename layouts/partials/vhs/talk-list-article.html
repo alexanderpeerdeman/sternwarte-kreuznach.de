@@ -10,7 +10,6 @@
             <time class="date published" datetime='{{ . }}'>
                 {{ partial "date.html" (dict "date" . "monate" $.Site.Data.monate )}}
             </time>
-            um {{ (time .).Format "15:04 Uhr" }}
             {{ end }}
         </div>
         <p>{{ .Summary }}</p>
