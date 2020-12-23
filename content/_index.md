@@ -18,3 +18,5 @@ date: 2020-08-11T00:41:25+02:00
         - Datum und Uhrzeit
     - Aktuelles im Blog
 
+- Teleskop Kaufberatung: Prospekt als PDF
+
