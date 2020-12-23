@@ -136,7 +136,6 @@
   @media #{$phone} {
     width: auto;
   }
-
 }
 
 .talks-info {
@@ -173,20 +172,31 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  background-image: url("/images/chairs.jpg");
 }
 
 .archive {
-  padding-top: 2rem;
+  padding: 2rem 1rem 0;
   margin: 2rem auto;
   max-width: 70rem;
 }
 
 .archive-preview-list {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   > article {
-    padding-right: 2rem;
-    margin-bottom: 0;
-    width: 25%;
+    margin-bottom: 1rem;
+    width: 22.5%;
+
+    > a {
+      &:hover {
+        > h2 {
+          color: #036;
+        }
+      }
+    }
+
     h2 {
       line-height: 1.125;
       font-size: 18px;
@@ -194,8 +204,17 @@
       color: #555;
     }
     img {
-      margin-bottom: 1rem;
       width: 100%;
+    }
+  }
+
+  @media (max-width: 1100px) {
+    > article {
+      width: 48%;
+      font-size: 14px;
+      h2 {
+        font-size: 16px;
+      }
     }
   }
 }
