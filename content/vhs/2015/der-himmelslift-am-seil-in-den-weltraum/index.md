@@ -1,7 +1,7 @@
 ---
 date: '2016-08-03T13:31:18'
 talk:
-  date: '2015-11-27T20:00:00'
+  date: '2015-11-27T00:00:00'
   images:
   - der-himmelslift-am-seil-in-den-weltraum-title.jpg
   speakers:

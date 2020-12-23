@@ -1,7 +1,7 @@
 ---
 date: '2016-08-03T13:29:45'
 talk:
-  date: '2015-09-25T20:00:00'
+  date: '2015-09-25T00:00:00'
   images:
   - stonehenge-title.jpg
   speakers:

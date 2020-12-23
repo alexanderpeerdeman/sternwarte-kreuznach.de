@@ -1,7 +1,7 @@
 ---
 date: '2016-11-27T14:31:14'
 talk:
-  date: '2017-03-31T20:00:00'
+  date: '2017-03-31T00:00:00'
   images:
   - juice-die-eismonde-des-jupiters-title.jpg
   speakers:

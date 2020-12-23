@@ -1,7 +1,7 @@
 ---
 date: '2017-11-25T21:29:36'
 talk:
-  date: '2018-01-26T20:00:00'
+  date: '2018-01-26T00:00:00'
   images:
   - saturn-sonde-warum-musste-cassini-sterben-title.jpg
   speakers:

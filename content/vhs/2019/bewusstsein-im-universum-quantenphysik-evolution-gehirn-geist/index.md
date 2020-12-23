@@ -1,7 +1,7 @@
 ---
 date: '2019-06-25T13:05:28'
 talk:
-  date: '2019-09-27T20:00:00'
+  date: '2019-09-27T00:00:00'
   images:
   - bewusstsein-im-universum-quantenphysik-evolution-gehirn-geist-title.jpg
   speakers:

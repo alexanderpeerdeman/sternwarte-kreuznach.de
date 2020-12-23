@@ -1,23 +1,20 @@
 {{ define "main" }}
-<header class="blog-header">
-  <h4><span>{{ .Parent.Title }}</span></h4>
-</header>
 <main>
   {{ if .Params.talk.images }}
   {{ $img := (.Resources.GetMatch (index .Params.talk.images 0)) }}
   {{ if gt $img.Width 1000}}
   {{ $img := $img.Resize "1000x" }}
   {{ end }}
-  <div class="blogpost-image">
+  <div class="vhs-talk-image">
     <img src="{{ $img.RelPermalink }}" alt="{{ $img.Title }}">
     
     <p>{{ .Params.caption }}</p>
     
   </div>
   {{ end }}
-  <article class="post-content">
-    <h1 class="post-title">{{ .Title }}</h1>
-    <div class="post-info">
+  <article class="vhs-talk-content">
+    <h1 class="vhs-talk-title">{{ .Title }}</h1>
+    <div class="vhs-talk-info">
       {{ with .Params.talk.date }}
       <time class="date published"
         datetime='{{ . }}'>{{ partial "date.html" (dict "date" . "monate" $.Site.Data.monate )}}</time>
@@ -29,39 +26,5 @@
     {{ .Content }}
   </article>
 </main>
-
-<nav id="adjacent-posts">
-  <div class="adjacent-posts-entries">
-    {{ if .PrevInSection }}
-    {{ with .PrevInSection }}
-    <p class="nav-paging-prev">
-      <a href="{{ .RelPermalink }}">
-        <span class="label">{{ partial "arrow.html" }} Vorheriger Eintrag</span>
-        <strong class="entry-title">{{ .Title }}</strong>
-        {{ with .Params.talk.date }}
-        <time class="date"
-          datetime='{{ . }}'>{{ partial "date.html" (dict "date" . "monate" $.Site.Data.monate )}}</time>
-        {{ end }}
-      </a>
-    </p>
-    {{ end }}
-    {{ end }}
-
-    {{ if .NextInSection }}
-    {{ with .NextInSection }}
-    <p class="nav-paging-next">
-      <a href="{{ .RelPermalink }}">
-        <span class="label">Nächster Eintrag{{ partial "arrow.html" }}</span>
-        <strong class="entry-title">{{ .Title }}</strong>
-        {{ with .Params.talk.date }}
-        <time class="date"
-          datetime='{{ . }}'>{{ partial "date.html" (dict "date" . "monate" $.Site.Data.monate )}}</time>
-        {{ end }}
-      </a>
-    </p>
-    {{ end }}
-    {{ end }}
-  </div>
-</nav>
 
 {{ end }}

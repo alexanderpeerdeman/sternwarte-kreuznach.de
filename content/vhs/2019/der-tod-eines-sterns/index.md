@@ -1,7 +1,7 @@
 ---
 date: '2019-06-25T13:07:38'
 talk:
-  date: '2019-10-25T20:00:00'
+  date: '2019-10-25T00:00:00'
   images:
   - der-tod-eines-sterns-title.jpg
   speakers:

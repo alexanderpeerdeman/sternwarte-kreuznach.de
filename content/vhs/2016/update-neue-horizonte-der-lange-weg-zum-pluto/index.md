@@ -1,7 +1,7 @@
 ---
 date: '2016-08-03T12:51:17'
 talk:
-  date: '2016-11-25T20:00:00'
+  date: '2016-11-25T00:00:00'
   images:
   - update-neue-horizonte-der-lange-weg-zum-pluto-title.jpg
   speakers:

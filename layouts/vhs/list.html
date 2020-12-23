@@ -4,7 +4,7 @@
                 target="_blank" rel="noopener noreferrer">Volkshochschule der Stadt Bad Kreuznach</a>
         </span></h1>
     <a href="https://vhs-bad-kreuznach.de/" target="_blank" rel="noopener noreferrer"><img id="vhs-logo"
-            src='{{ relURL "vhs-logo.jpg" }}' alt="vhs logo"></a>
+            src='{{ relURL "images/vhs-logo.jpg" }}' alt="vhs logo"></a>
 </header>
 {{ if .Content }}
 <section class="vhs-content-banner">
@@ -12,8 +12,8 @@
 </section>
 {{ end }}
 <main>
-    {{ $currentTime := now.Format "2006-01-02T15:04:05" }}
     {{ $currentTime := (time "2019-10-01").Format "2006-01-02T15:04:05" }}
+    {{ $currentTime := now.Format "2006-01-02T15:04:05" }}
     {{ $talks := (where (.Pages.ByParam "talk.date") ".Params.talk.date" "ge" $currentTime) }}
 
     <div class="talks-list">

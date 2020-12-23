@@ -1,7 +1,7 @@
 ---
 date: '2018-07-02T19:25:28'
 talk:
-  date: '2018-10-26T20:00:00'
+  date: '2018-10-26T00:00:00'
   images:
   - aufbruch-ins-unbekannte-die-voyager-sonden-title.jpg
   speakers:
