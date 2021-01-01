@@ -1,0 +1,8 @@
+[
+    {{- range $index, $page := .Site.RegularPages -}}
+    {{- if gt $index 0 -}},{{ end}}
+    {{- $entry := dict "href" $page.RelPermalink "title" $page.Title -}}
+    {{- $entry = merge $entry (dict "content" ($page.Plain | htmlUnescape)) -}}
+    {{- $entry | jsonify -}}
+    {{- end -}}
+]

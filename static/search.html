@@ -6,19 +6,25 @@
 </head>
 
 <body>
-    Search:
-    <input id="search" type="text">
-    <br> Results:
-    <ul id="results">
-    </ul>
+    <p>
+        Search:
+        <input id="search" type="text">
+    </p>
+    <p>
+        Results:
+        <div id="results">
+        </div>
+    </p>
     <script src="https://unpkg.com/lunr/lunr.js"></script>
+    <script src="https://unpkg.com/lunr-languages/lunr.stemmer.support.js"></script>
+    <script src="https://unpkg.com/lunr-languages/lunr.de.js"></script>
     <script type="text/javascript">
         let lunr_index;
         let pages_index;
 
         function initLunr() {
 
-            fetch("js/lunr/pages_index.json")
+            fetch("search.json")
                 .then(res => res.json())
                 .then((documents) => {
                     pages_index = documents;
@@ -51,8 +57,12 @@
                 renderResults(lunr_results);
             })
         }
+
         function perform_search(query) {
-            return lunr_index.search(query).map(function (result) {
+            query = "*"+query+"* "+query+"~1";
+            search_results = lunr_index.search(query);
+
+            return search_results.map(function (result) {
                 return pages_index.filter(function (page) {
                     return page.href === result.ref;
                 })[0];
@@ -68,12 +78,12 @@
             const results_item = document.getElementById('results');
 
             results.slice(0, 15).forEach(function (result) {
-                results_item.innerHTML += ("<li><a href='" + result.href + "'>" + result.title + "</a></li>");
+                results_item.innerHTML += ("<a href='" + result.href + "'><p>" + result.title + "</p></a>");
             })
         }
 
         initLunr();
-        document.addEventListener("DOMContentLoaded", function(event) {
+        document.addEventListener("DOMContentLoaded", function (event) {
             initUI();
         });
 

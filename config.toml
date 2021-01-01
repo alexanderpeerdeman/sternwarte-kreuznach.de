@@ -40,3 +40,11 @@ summaryLength = 25
     name = "YouTube"
     url = "https://www.youtube.com/channel/UCiPx2XenNCDxbFA-XXnfnvg?sub_confirmation=1"
     pre = "svg/028-youtube.svg"
+
+
+[outputFormats.SearchIndex]
+    baseName = "search"
+    mediaType = "application/json"
+
+[outputs]
+    home = ["HTML", "SearchIndex"]
