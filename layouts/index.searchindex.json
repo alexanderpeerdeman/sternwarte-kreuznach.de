@@ -1,4 +1,4 @@
-{{/* https://palant.info/2020/06/04/the-easier-way-to-use-lunr-search-with-hugo/ */}}[
+[
     {{- range $index, $page := .Site.RegularPages -}}
     {{- if gt $index 0 -}},{{ end}}
     {{- $entry := dict "href" $page.RelPermalink "title" $page.Title -}}
