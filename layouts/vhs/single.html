@@ -18,8 +18,10 @@
           <time class="date published"
           datetime='{{ . }}'>{{ partial "date.html" (dict "date" . "monate" $.Site.Data.monate )}}</time>
           {{ end }}
+          {{ with .Params.talk.speakers }}
           <span class="delimiter">|</span> 
-          <span class="speakers">{{ delimit .Params.talk.speakers ", " " und "}}</span> 
+          <span class="speakers">{{ delimit . ", " " und "}}</span>             
+          {{ end }}
           <span class="delimiter">|</span> <a href="/infos/vortraege">Eintritt & Zeiten</a>
         </div>
       </div>
