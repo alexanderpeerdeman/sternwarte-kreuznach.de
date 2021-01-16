@@ -10,8 +10,9 @@
   {{ end }}
   <div class="blogpost-image">
     <img src="{{ $img.RelPermalink }}" alt="{{ $img.Title }}">
-    
+    {{ if .Params.caption }}
     <p>{{ .Params.caption }}</p>
+    {{ end }}
     
   </div>
   {{ end }}

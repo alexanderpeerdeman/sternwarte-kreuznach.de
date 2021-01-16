@@ -1,29 +1,32 @@
 {{ define "main" }}
 <main>
-  {{ if .Params.talk.images }}
-  {{ $img := (.Resources.GetMatch (index .Params.talk.images 0)) }}
-  {{ if gt $img.Width 1000}}
-  {{ $img := $img.Resize "1000x" }}
-  {{ end }}
-  <div class="vhs-talk-image">
-    <img src="{{ $img.RelPermalink }}" alt="{{ $img.Title }}">
-    
-    <p>{{ .Params.caption }}</p>
-    
-  </div>
-  {{ end }}
-  <article class="vhs-talk-content">
-    <h1 class="vhs-talk-title">{{ .Title }}</h1>
-    <div class="vhs-talk-info">
-      {{ with .Params.talk.date }}
-      <time class="date published"
-        datetime='{{ . }}'>{{ partial "date.html" (dict "date" . "monate" $.Site.Data.monate )}}</time>
+  <article>
+    {{ if .Params.talk.images }}
+      {{ $img := (.Resources.GetMatch (index .Params.talk.images 0)) }}
+      {{ if gt $img.Width 750}}
+      {{ $img := $img.Resize "750x" }}
       {{ end }}
-      {{ range .Params.talk.speakers }}
-      {{ . }}
-      {{ end }}
+      <div class="vhs-talk-image">
+        <img src="{{ $img.RelPermalink }}" alt="{{ $img.Title }}">        
+      </div>
+    {{ end }}
+    <div class="vhs-talk-titlebar">
+      <div>        
+        <h1 class="vhs-talk-title">{{ .Title }}</h1>
+        <div class="vhs-talk-info">
+          {{ with .Params.talk.date }}
+          <time class="date published"
+          datetime='{{ . }}'>{{ partial "date.html" (dict "date" . "monate" $.Site.Data.monate )}}</time>
+          {{ end }}
+          <span class="delimiter">|</span> 
+          <span class="speakers">{{ delimit .Params.talk.speakers ", " " und "}}</span> 
+          <span class="delimiter">|</span> <a href="/infos/vortraege">Eintritt & Zeiten</a>
+        </div>
+      </div>
     </div>
-    {{ .Content }}
+    <div class="vhs-talk-content">
+      {{ .Content }}
+    </div>    
   </article>
 </main>
 
