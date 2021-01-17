@@ -1,11 +1,10 @@
 ---
 date: '2019-12-27T12:07:24'
-talk:
-  date: '2020-01-31T00:00:00'
-  images:
-  - von-asteroiden-dinosauriern-und-homo-sapiens-title.jpg
-  speakers:
-  - Rainer Kesper
+talk_date: '2020-01-31T00:00:00'
+talk_images:
+- von-asteroiden-dinosauriern-und-homo-sapiens-title.jpg
+talk_speakers:
+- Rainer Kesper
 title: Von Asteroiden, Dinosauriern und Homo Sapiens!
 ---
 Asteroiden können die Erde treffen.

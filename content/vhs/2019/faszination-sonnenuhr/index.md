@@ -1,11 +1,10 @@
 ---
 date: '2019-06-25T13:09:49'
-talk:
-  date: '2019-11-29T00:00:00'
-  images:
-  - faszination-sonnenuhr-title.jpg
-  speakers:
-  - Wolfgang Heisselmann
+talk_date: '2019-11-29T00:00:00'
+talk_images:
+- faszination-sonnenuhr-title.jpg
+talk_speakers:
+- Wolfgang Heisselmann
 title: Faszination Sonnenuhr
 ---
 Noch geschieht es ab und zu, dass wir auf eine alte Sonnenuhr stoßen. Sofort wird getestet und die Zeit der Sonnenuhr mit der Armbanduhr verglichen. Und siehe da, unsere Annahme wird bestätigt: Die Sonnenuhr geht falsch. Wie könnte auch ein solch‘ einfaches, dazu altes Gerät die Errungenschaften unserer modernen Zeit übertreffen. Und dennoch: Die alte Sonnenuhr zeigt ihre Zeit konstant genauer als die modernste Funkuhr. Wir können diese  Zeit nur nicht richtig lesen.

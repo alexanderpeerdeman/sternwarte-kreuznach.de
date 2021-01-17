@@ -1,11 +1,10 @@
 ---
 date: '2016-11-27T14:24:33'
-talk:
-  date: '2017-01-27T00:00:00'
-  images:
-  - spacex-die-menschheit-wird-zu-einer-multiplanetarischen-spezies-title.jpg
-  speakers:
-  - Andreas Metzen
+talk_date: '2017-01-27T00:00:00'
+talk_images:
+- spacex-die-menschheit-wird-zu-einer-multiplanetarischen-spezies-title.jpg
+talk_speakers:
+- Andreas Metzen
 title: SpaceX – Die Menschheit wird zu einer multiplanetarischen Spezies
 ---
 Science Fiction Filme wie „Der Marsianer – Rettet Mark Watney“ sind längst nicht mehr so viel Zukunftsmusik wie man glaubt. Bei dem Film mit Matt Damon dreht es sich um eine Notevakuierung der NASA Basisstation auf dem Mars.

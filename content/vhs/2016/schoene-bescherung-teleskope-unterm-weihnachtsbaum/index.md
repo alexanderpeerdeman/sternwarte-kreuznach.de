@@ -1,11 +1,10 @@
 ---
 date: '2016-08-03T12:49:19'
-talk:
-  date: '2016-10-14T00:00:00'
-  images:
-  - schoene-bescherung-teleskope-unterm-weihnachtsbaum-title.jpg
-  speakers:
-  - Roman Schneider
+talk_date: '2016-10-14T00:00:00'
+talk_images:
+- schoene-bescherung-teleskope-unterm-weihnachtsbaum-title.jpg
+talk_speakers:
+- Roman Schneider
 title: Schöne Bescherung ?! - Teleskope unterm Weihnachtsbaum
 ---
 Alle Jahre wieder...

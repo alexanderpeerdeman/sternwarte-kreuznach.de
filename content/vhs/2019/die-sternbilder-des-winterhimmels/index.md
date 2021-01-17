@@ -1,10 +1,9 @@
 ---
 date: '2018-11-14T11:50:42'
-talk:
-  date: '2019-01-25T00:00:00'
-  images:
+talk_date: '2019-01-25T00:00:00'
+talk_images:
   - die-sternbilder-des-winterhimmels-title.jpg
-  speakers:
+talk_speakers:
   - Reinhold Frey
 title: Die Sternbilder des Winterhimmels
 ---

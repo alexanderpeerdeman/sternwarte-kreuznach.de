@@ -1,11 +1,10 @@
 ---
 date: '2016-08-03T13:29:01'
-talk:
-  date: '2015-08-28T00:00:00'
-  images:
-  - zurueck-in-die-zukunft-title.jpg
-  speakers:
-  - Rüdiger Brenner
+talk_date: '2015-08-28T00:00:00'
+talk_images:
+- zurueck-in-die-zukunft-title.jpg
+talk_speakers:
+- Rüdiger Brenner
 title: Zurück in die Zukunft
 ---
 Im Jahr 2011 ging nach einer dreißigjährigen Erfolgsgeschichte die Ära der Spaceshuttles zu ende. Dabei darf nicht vergessen werden, dass dieses System nur für erdnahe Aufgaben konzipiert war und nicht mehr die Leistungsklasse der Saturn V erreichte! Warum die NASA jetzt praktisch zum Konzept dieser Großrakete und der Apollo Raumschiffe zurückkehrt, soll in diesem Vortrag geklärt werden.

@@ -1,6 +1,20 @@
 {{ define "main" }}
     <main>
-    {{ partial "vhs/vhs-header.html" .Parent.Title }}
-    <div class="vhs-archiv-content">{{ .Content }}</div>
+    {{ partial "vhs/vhs-header.html" .Parent.Title }}    
+    {{ $currentTime := now.Format "2006-01-02T15:04:05" }}
+    {{ $talks := (where (.Parent.Pages.ByParam "talk_date") ".Params.talk_date" "le" $currentTime) }}
+    <div class="vhs-archiv-content">
+        
+        {{ range $talks.GroupByParamDate "talk_date" "2006" }}
+        <h2 id="{{ .Key }}">{{ .Key }}</h2>
+        <ul>
+        {{ range .Pages }}
+            <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        {{ end }}
+        </ul>
+        {{ end }}
+        <h1>Ältere Vorträge</h1>
+        {{ .Content }}
+    </div>
     </main>
 {{ end }}

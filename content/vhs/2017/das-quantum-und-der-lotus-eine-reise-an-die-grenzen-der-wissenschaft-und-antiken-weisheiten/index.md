@@ -1,11 +1,10 @@
 ---
 date: '2017-06-16T22:06:30'
-talk:
-  date: '2017-11-24T00:00:00'
-  images:
-  - das-quantum-und-der-lotus-eine-reise-an-die-grenzen-der-wissenschaft-und-antiken-weisheiten-title.jpg
-  speakers:
-  - Andreas Metzen
+talk_date: '2017-11-24T00:00:00'
+talk_images:
+- das-quantum-und-der-lotus-eine-reise-an-die-grenzen-der-wissenschaft-und-antiken-weisheiten-title.jpg
+talk_speakers:
+- Andreas Metzen
 title: „Das Quantum und der Lotus -  Eine Reise an die Grenzen der Wissenschaft und
   Antiken Weisheiten“
 ---

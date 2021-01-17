@@ -1,11 +1,10 @@
 ---
 date: '2016-08-03T13:21:49'
-talk:
-  date: '2015-07-31T00:00:00'
-  images:
-  - neue-horizonte-der-lange-weg-zum-pluto-title.jpg
-  speakers:
-  - Bernd Peerdeman
+talk_date: '2015-07-31T00:00:00'
+talk_images:
+- neue-horizonte-der-lange-weg-zum-pluto-title.jpg
+talk_speakers:
+- Bernd Peerdeman
 title: Neue Horizonte - der lange Weg zum Pluto
 ---
 **Dieser Vortrag wird aufgrund von großer Nachfrage am Freitag, den 14. August um 20:00 Uhr wiederholt.**

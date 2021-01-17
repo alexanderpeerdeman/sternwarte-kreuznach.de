@@ -68,7 +68,6 @@ if __name__ == "__main__":
         for talk in data[88]["data"]:
 
             yaml_dict = {}
-            yaml_dict["talk"] = {}
 
             talk_created = datetime.strptime(
                 talk["Created"], '%Y-%m-%d %H:%M:%S')
@@ -78,10 +77,10 @@ if __name__ == "__main__":
             talk_speakers = find_speakers(talk)
 
             if len(talk_speakers) > 0:
-                yaml_dict["talk"]["speakers"] = []
+                yaml_dict["talk_speakers"] = []
 
                 for speaker in talk_speakers:
-                    yaml_dict["talk"]["speakers"].append(speaker)
+                    yaml_dict["talk_speakers"].append(speaker)
 
             yaml_dict["title"] = talk["Title"]
 
@@ -129,11 +128,11 @@ if __name__ == "__main__":
                     else:
                         print('Image could not be retreived!')
 
-                yaml_dict["talk"]["images"] = []
-                yaml_dict["talk"]["images"].append(
+                yaml_dict["talk_images"] = []
+                yaml_dict["talk_images"].append(
                     new_image_file_name.split("/")[-1])
 
             yaml_dict["date"] = talk_created.isoformat()
-            yaml_dict["talk"]["date"] = talk_date.isoformat()
+            yaml_dict["talk_date"] = talk_date.isoformat()
 
             write_file(talk_folder, yaml_dict, find_content(talk))
