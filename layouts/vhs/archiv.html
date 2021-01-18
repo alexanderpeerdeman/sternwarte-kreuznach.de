@@ -3,17 +3,29 @@
     {{ partial "vhs/vhs-header.html" .Title }}    
     {{ $currentTime := now.Format "2006-01-02T15:04:05" }}
     {{ $talks := (where (.Parent.Pages.ByParam "talk_date") ".Params.talk_date" "le" $currentTime) }}
-    <div class="vhs-archiv-content">
-        
-        {{ range $talks.GroupByParamDate "talk_date" "2006" }}
-        <h2 id="{{ .Key }}">{{ .Key }}</h2>
-        <ul>
-        {{ range .Pages.Reverse }}
-            <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-        {{ end }}
-        </ul>
-        {{ end }}
-        {{ .Content }}
+    {{ $groups := $talks.GroupByParamDate "talk_date" "2006" }}
+    <div class="vhs-archiv">
+        <nav class="vhs-archiv-nav">
+            <ul>
+                {{ range $groups }}
+                    <li><a href="#{{ .Key }}">{{ .Key }}</li></a>
+                {{ end }}
+            </ul>
+        </nav>
+        <div class="vhs-archiv-content">
+            {{ range $groups }}
+            <div class="yearbox">
+                <h2 id="{{ .Key}}">{{ .Key }}</h2>
+                <ul>
+                {{ range .Pages }}
+                    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+                {{ end }}
+                </ul>
+                <a class="uplink" href="#">▲</a>
+            </div>
+            {{ end }}
+            {{ .Content }}
+        </div>
     </div>
     </main>
 {{ end }}

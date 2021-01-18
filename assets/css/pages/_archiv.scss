@@ -1,28 +1,85 @@
 .vhs-archiv-content {
-    max-width: 65ch;
-    margin: 0 auto;
-    padding: 0 1rem;
+  max-width: 70ch;
+  padding: 0 1rem;
+
+  .yearbox {
+    position: relative;
+    background-color: rgba($color: #000000, $alpha: 0.05);
+    padding: 1.2rem;
+    margin: 0 0 1rem 0;
+    border-radius: 12px;
+    > ul {
+      padding: 0 1rem 0 0;
+      margin: 0;
+      list-style: none;
+      > li:not(:last-child) {
+        padding-bottom: 1rem;
+      }
+    }
 
     > h2 {
-        margin: 1rem 1rem 0 0;
-        
-        padding: 0;        
-        float: right;
-        font-size: 2rem;
-        font-weight: 900;
-        line-height: 1;
-        color: rgba($color: #000000, $alpha: 0.15);
+      margin: 0 0 1rem 1rem;
+      padding: 0;
+      float: right;
+      line-height: 1;
+      font-size: 2rem;
+      font-weight: 900;
+      color: #ccc;
     }
-    
-    > h2 ~ ul {
-        background-color: rgba($color: #000000, $alpha: 0.05);
-        margin: 0 0 1rem 0;
-        padding: 1rem 2rem;
-        list-style: none;
-        border-radius: 12px;
-        > li:not(:last-child) {
-            padding-bottom: 1rem;
-        }
+
+    > a.uplink {
+      position: absolute;
+      line-height: 1;
+      bottom: 1.2rem;
+      right: 1.2rem;
+      color: #ccc;
+      &:hover {
+        text-decoration: none;
+      }
     }
+  }
 }
 
+.vhs-archiv-nav {
+  font-weight: 800;
+  padding: 0 1rem;
+  order: 1;
+
+  @media #{$phone} {
+    order: -1;
+  }
+
+  > ul {
+    padding-left: 0;
+    list-style: none;
+    @media #{$phone} {
+      padding: 0 2rem;
+    }
+
+    > li {
+      @media #{$phone} {
+          display: inline;
+        }
+        
+        > a {
+        background-color: rgba($color: #000000, $alpha: 0.05);
+        padding: 0.1rem 0.25rem;
+        margin-bottom: 0.4rem;
+        border-radius: 12px;
+        display: inline-block;
+        min-width: 4ch;
+        text-align: center;
+      }
+    }
+  }
+}
+
+.vhs-archiv {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: row;
+  @media #{$phone} {
+    flex-direction: column;
+  }
+}

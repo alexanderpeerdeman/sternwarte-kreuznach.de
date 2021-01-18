@@ -84,15 +84,12 @@ if __name__ == "__main__":
 
             yaml_dict["title"] = talk["Title"]
 
-            friendly_name = slugify(yaml_dict["title"], replacements=[
+            friendly_name = slugify(yaml_dict["title"], max_length=255, replacements=[
                 ['Ä', 'AE'], ['ä', 'ae'],
                 ['Ö', 'OE'], ['ö', 'oe'],
                 ['Ü', 'UE'], ['ü', 'ue'],
                 ['ß', 'ss'],
             ])
-
-            if talk_date < datetime(2015, 7, 1):
-                continue
 
             talk_folder = "../content/vhs/{}/{}".format(
                 talk_date.year, friendly_name)
