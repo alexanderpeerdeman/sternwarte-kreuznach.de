@@ -13,21 +13,21 @@ menu:
 
 Haben Sie Freude an der Astronomie? Dann kommen Sie zu uns. Unterstützen Sie die Sternwarte durch ihre Mitgliedschaft.
 
-|   |   |
+| Beitragsart | Jährlicher Beitrag |
 |:--|--:|
-| Jugendliche unter 18 Jahren | 40 € |
-| Schüler / Studenten ab 18 Jahren, Zivil-/Wehrdienstleistende | 40 € |
-| Rentner | 60 € |
-| Personen über 18 Jahren | 80 € |
-| Familien mit Kindern unter 18 Jahren | 120 € |
-| Ehepaare | 150 € |
+| Jugendliche unter 18 Jahren | **40 €** |
+| Schüler / Studenten ab 18 Jahren, Zivil-/Wehrdienstleistende | **40 €** |
+| Rentner | **60 €** |
+| Personen über 18 Jahren | **80 €** |
+| Familien mit Kindern unter 18 Jahren | **120 €** |
+| Ehepaare | **150 €** |
 
 ## Fördermitgliedschaft
 
-|   |   |
+| Beitragsart | Jährlicher Beitrag |
 |:--|--:|
-| Fördermitglieder (Mindestbeitrag) | 48 € |
-| Fördermitglieder (freiwilliger Beitrag) |> 48 € |
+| Fördermitglieder (Mindestbeitrag) | **48 €** |
+| Fördermitglieder (freiwilliger Beitrag) |**> 48 €**|
 
 ### Weitere Informationen
 

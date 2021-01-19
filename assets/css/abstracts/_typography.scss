@@ -100,3 +100,27 @@ pre {
 .center {
   text-align: center;
 }
+
+table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9rem;
+
+  > thead tr {
+    background: #003366;
+    background: linear-gradient(to right, #003366, lighten(#036, 12%));
+    color: white;
+  }
+
+  th,
+  td {
+    padding: 0.7rem 1.5rem;
+  }
+
+  > tbody tr {
+    border-bottom: thin solid #ccc;
+    &:nth-of-type(2n) {
+      background-color: #f7f7f7;
+    }
+  }
+}
