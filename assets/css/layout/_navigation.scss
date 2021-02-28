@@ -7,6 +7,15 @@
   right: 0;
   z-index: 9998;
   width: 100%;
+
+  .logo {
+    display: flex;
+    max-width: 100px;
+    > img {
+      height: 47px;
+      padding: 10px;
+    }
+  }
 }
 
 .menu {
@@ -19,15 +28,6 @@
   @media #{$phone} {
     justify-content: space-between;
     padding: 0 0.5rem 0 1rem;
-  }
-}
-
-.logo {
-  display: flex;
-  max-width: 100px;
-  > img {
-    height: 47px;
-    padding: 10px;
   }
 }
 

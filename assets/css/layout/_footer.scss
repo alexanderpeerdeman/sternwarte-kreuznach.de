@@ -1,13 +1,76 @@
 footer {
-    background-color: rgba($color: #000, $alpha: 0.2);
+  background-color: #333;
+  color: #ccc;
+  font-size: 13px;
+
+  a {
+    color: lighten($color: #036, $amount: 65);
+  }
+
+  > .content {
+    max-width: 1200px;
+    padding: 2rem 1rem 41rem;
+  }
 }
 
-#footer {
-    margin: 0 auto;
-    max-width: 65ch;
-    
+#copyright {
+  text-align: right;
+  color: #777;
 }
 
-#primary {
+#footer-logo {
+  padding-right: 2rem;
+  > img {
+    height: 8rem;
+  }
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  @media #{$phone} {
+    justify-content: start;
+  }
+
+  .links {
+    > ul {
+      padding: 0;
+      list-style: none;
+    }
+  }
+
+  .address {
     display: flex;
+
+    @media screen and (max-width: 1000px) {
+      flex-flow: column;
+    }
+
+    @media #{$phone} {
+      flex-flow: row;
+      flex-wrap: wrap;
+    }
+
+    address {
+      padding: 0 2rem;
+      border-left: #ddd solid 1px;
+      @media #{$phone} {
+        border-left: none;
+        padding-left: 0;
+      }
+    }
+
+    > .map {
+      align-self: flex-start;
+
+      @media screen and (max-width: 1000px) {
+        align-self: flex-end;
+      }
+      > iframe {
+        width: 100%;
+      }
+    }
+  }
 }

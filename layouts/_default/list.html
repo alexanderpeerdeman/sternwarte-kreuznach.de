@@ -3,11 +3,13 @@
 <h1 class="title">{{ .Title }}</h1>
 </header>
 <main>
-<ul>
-{{ range .Pages }}
-<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-{{ end }}
-</ul>    
+    {{ with .Pages }}        
+    <ul>
+        {{ range . }}
+        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        {{ end }}
+    </ul>    
+    {{ end }}
 {{ .Content }}
 </main>
 {{ end }}
