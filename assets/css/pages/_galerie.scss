@@ -1,0 +1,21 @@
+#galerie {
+  column-count: 3;
+  column-gap: 0px;
+  line-height: 0;
+  max-width: 85rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+
+  @media (max-width: 1100px) {
+    column-count: 2;
+  }
+
+  @media #{$phone} {
+    column-count: 1;
+  }
+
+  > img {
+    width: 100%;
+    height: auto;
+  }
+}

@@ -1,0 +1,12 @@
+{{ define "main" }}
+<main>
+    <header class="titlebar">
+        <h1 class="title">{{ .Title }}</h1>
+    </header>
+    <section id="galerie">
+        {{ range (seq 25) }}
+        <img src="https://source.unsplash.com/random/{{ add 200 (index (seq 300 | shuffle) 0) }}" alt="" loading="lazy">
+        {{ end }}
+    </section>
+</main>
+{{ end }}
