@@ -1,88 +1,82 @@
 footer {
   background-color: #333;
-  color: #ccc;
+  color: #ddd;
   font-size: 13px;
-  margin-top: 2rem;
+  margin-top: 3rem;
 
   a {
-    color: lighten($color: #036, $amount: 65);
+    color: lighten($color: #036, $amount: 55);
   }
 
-  > .content {
+  .content {
     max-width: 1200px;
     padding: 1rem 2rem 1rem;
   }
-}
-
-#copyright {
-  color: #777;
-  font-size: 11px;
-  font-family: monospace;
-  padding-top: 1rem;
-}
-
-#footer-logo {
-  > img {
-    height: 8rem;
-  }
-  padding: 0.75rem 2rem 0 0;
-}
-
-.footer-wrapper {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-
-  @media #{$phone} {
-    justify-content: start;
+  
+  #copyright {
+    color: #555;
+    font-size: 11px;
+    font-family: monospace;
+    padding-top: 1rem;
   }
 
-  .links {
-    padding-right: 2rem;
-    padding-top: 0.75rem;
-
-    @media screen and (max-width: 1123px) and (min-width: 430px) {
-      column-count: 2;
+  #logo {
+    > img {
+      height: 8rem;
     }
-
-    > ul {
-      padding: 0;
-      margin: 0;
-      list-style: none;
-    }
+    padding: 0.75rem 2rem 0 0;
   }
 
-  .address {
+  .wrapper {
     display: flex;
-
-    border-left: #ddd solid 1px;
-    @media #{$phone} {
-      border-left: none;
-      padding-left: 0;
-    }
+    justify-content: space-around;
+    flex-wrap: wrap;
 
     @media #{$phone} {
-      flex-flow: row;
-      flex-wrap: wrap;
+      justify-content: start;
     }
 
-    address {
-      padding: 0 2rem;
-      @media #{$phone} {
-        padding-left: 0;
+    .links {
+      padding: 0.75rem 2rem 0 0; 
+
+      @media screen and (max-width: 1123px) and (min-width: 430px) {
+        column-count: 2;
+      }
+
+      > ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
       }
     }
 
-    > .map {
-      align-self: flex-start;
-      padding: 0.75rem 0 1rem 2rem;
+    .address {
+      display: flex;
+      border-left: #ddd solid 1px;
 
       @media #{$phone} {
+        border-left: none;
         padding-left: 0;
+        flex-wrap: wrap;
       }
 
-      > iframe {
-        width: 100%;
+      address {
+        padding: 0 2rem;
+        @media #{$phone} {
+          padding-left: 0;
+        }
+      }
+
+      > .map {
+        padding: 0.75rem 0 1rem 2rem;
+
+        @media #{$phone} {
+          padding-left: 0;
+        }
+
+        > iframe {
+          width: 100%;
+        }
       }
     }
   }
