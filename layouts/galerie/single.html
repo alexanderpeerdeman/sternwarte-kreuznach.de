@@ -1,0 +1,17 @@
+{{ define "main" }}
+{{ $page := . }}
+<header class="titlebar">
+    <h1 class="title">{{ .Title }}</h1>
+</header>
+<main>
+    <article class="content">
+        {{ .Params.creator }}
+        {{ if .Params.images }}
+            {{ with (.Resources.GetMatch (index .Params.images 0)) }}
+                <img src="{{ .RelPermalink }}" alt="{{ $page.Title }}">
+            {{ end }}
+        {{ end }}
+        {{ .Content }}
+    </article>
+</main>
+{{ end }}

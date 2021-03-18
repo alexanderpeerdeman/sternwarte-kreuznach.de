@@ -17,7 +17,7 @@
     <div class="talk-thumb">
         {{ if .Params.talk_images }}
         <a href="{{ .RelPermalink }}" title='Permanenter Link zu "{{ .Title }}"'>
-            {{ with (.Resources.GetMatch (index .Params.talk_images 0)).Fill "723x400 q80" }}
+            {{ with (.Resources.GetMatch (index .Params.talk_images 0)).Fill "723x400 q80 smart" }}
             <img class="vhs-image" src="{{ .RelPermalink }}" alt="{{ .Title }}">
             {{ end }}
         </a>

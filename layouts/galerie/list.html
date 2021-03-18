@@ -1,12 +1,33 @@
 {{ define "main" }}
+{{ $segment_size := 30.0 }}
+{{ $padding := 1 }}
 <main>
     <header class="titlebar">
         <h1 class="title">{{ .Title }}</h1>
     </header>
-    <section id="galerie">
-        {{ range (seq 25) }}
-        <img src="https://source.unsplash.com/random/{{ add 200 (index (seq 300 | shuffle) 0) }}" alt="" loading="lazy">
-        {{ end }}
+    <section class="galerie">
+        <div class="galerie-container">
+            {{ range .Pages }}
+                {{ $page := . }}
+                {{ if .Params.images }}
+                    {{ with (.Resources.GetMatch (index .Params.images 0)) }}
+                        {{ $resized_height := math.Ceil (mul (div (float .Height) .Width) 500) }}
+                        {{ $span := math.Ceil (div $resized_height $segment_size) }}
+
+                        <div class="galerie-item"{{ if gt $span 0 }} style="grid-row: span {{ $span }};"{{ end }}>
+                            {{ $quantized_height := (add (mul $segment_size $span) (mul (mul 2 $padding) (sub $span 2))) }}
+                            {{ $formatting_string := (print "500x" $quantized_height " q50 jpg") }}
+                            <a href="{{ $page.RelPermalink }}" title="{{ $page.Title }}">
+                                {{ with .Fill $formatting_string }}
+                                    <img src="{{ .RelPermalink }}" alt="{{ $page.Title }}" loading="lazy" width="{{ .Width }}" height="{{ .Height }}">
+                                {{ end }}                     
+                            </a>           
+                        </div>
+
+                    {{ end }}
+                {{ end }}
+            {{ end }}
+        </div>
     </section>
 </main>
 {{ end }}

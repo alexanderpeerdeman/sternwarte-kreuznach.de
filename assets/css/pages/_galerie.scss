@@ -1,20 +1,21 @@
-#galerie {
-  column-count: 3;
-  column-gap: 0px;
-  line-height: 0;
-  max-width: 85rem;
+.galerie {
   margin: 0 auto;
-  padding: 0 1rem;
-
-  @media (max-width: 1100px) {
-    column-count: 2;
-  }
-
+  max-width: 85rem;
   @media #{$phone} {
-    column-count: 1;
+    padding: 0.5rem;
   }
+  padding: 1rem;
+}
 
-  > img {
+.galerie-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+}
+
+.galerie-item {
+  line-height: 0;
+  padding: 1px;
+  img {
     width: 100%;
     height: auto;
   }

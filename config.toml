@@ -4,6 +4,9 @@ title = "Sternwarte Bad Kreuznach e.V."
 summaryLength = 25
 # googleAnalytics = "UA-123-45"
 
+[imaging]
+anchor = "center"
+
 [params]
     description = "This is the Sternwarte Website built with Hugo"
 
