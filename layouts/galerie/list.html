@@ -1,10 +1,11 @@
 {{ define "main" }}
 {{ $segment_size := 30.0 }}
 {{ $padding := 1 }}
+<header class="titlebar">
+    <h1 class="title">{{ .Title }}</h1>
+</header>
 <main>
-    <header class="titlebar">
-        <h1 class="title">{{ .Title }}</h1>
-    </header>
+    <section class="content">{{ .Content }}</section>
     <section class="galerie">
         <div class="galerie-container">
             {{ range .Pages }}

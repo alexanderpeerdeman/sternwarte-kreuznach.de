@@ -7,7 +7,7 @@
 {{ end }}
 <main>
     {{ $currentTime := now.Format "2006-01-02T15:04:05" }}
-    {{ $currentTime := (time "2019-09-01").Format "2006-01-02T15:04:05" }}
+    {{/*  {{ $currentTime := (time "2019-09-01").Format "2006-01-02T15:04:05" }}  */}}
     {{ $talks := (where (.Pages.ByParam "talk_date") ".Params.talk_date" "ge" $currentTime) }}
 
     <section class="talks-list">
