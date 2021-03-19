@@ -16,8 +16,7 @@
         {{ else }}
         <div class="no-talks-notice">
             <h2>Derzeit keine Vorträge</h2>
-            <p>Sobald die nächsten Vorträge feststehen,
-                werden sie an dieser Stelle angekündigt.</p>
+            <p>Sobald die nächsten Vorträge feststehen, werden sie an dieser Stelle angekündigt.</p>
         </div>
         {{ end }}
     </section>
@@ -52,7 +51,7 @@
     {{ end }}
     <section class="archive">
         <hr>
-        <h2>Ältere Vorträge</h2>
+        <h2>Vergangene Vorträge</h2>
         <div class="archive-preview-list">
             {{ $past_talks := (where (.Pages.ByParam "talk_date") ".Params.talk_date" "lt" $currentTime) }}
             {{ range (first 4 $past_talks.Reverse) }}
@@ -71,7 +70,7 @@
             </article>
             {{ end }}
         </div>
-        <p class="center"><a class="btn" href="archiv">Weitere Vorträge</a></p>
+        <p class="center"><a class="btn" href="archiv" title="Weitere Vorträge im Vortragsarchiv">Vortragsarchiv</a></p>
     </section>
 </main>
 {{ end }}
