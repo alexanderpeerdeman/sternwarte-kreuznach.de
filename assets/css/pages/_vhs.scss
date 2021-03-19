@@ -41,10 +41,6 @@
   }
 }
 
-.no-talks-notice {
-  margin-bottom: 4rem;
-}
-
 .talks-list {
   margin: 0 auto;
   max-width: 70rem;
@@ -62,10 +58,13 @@
     @media #{$phone} {
       flex-direction: column;
     }
+  }
+}
 
-    // &:first-of-type {
-
-    // }
+.no-talks-notice {
+  margin-bottom: 4rem;
+  > h2:hover {
+    color: black;
   }
 }
 
