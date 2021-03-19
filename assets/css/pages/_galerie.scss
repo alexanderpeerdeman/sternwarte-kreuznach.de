@@ -24,3 +24,20 @@
 .galerie-detail-view {
   padding-top: 1rem;
 }
+
+.galerie-titlebar {
+  background-color: #eee;
+
+  .title {
+    max-width: 55rem;
+    margin: 0 auto;
+    padding: 1rem 0 0.5rem;
+  }
+  .creator {
+    max-width: 55rem;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+    font-size: 16px;
+    font-weight: 600;
+  }
+}
