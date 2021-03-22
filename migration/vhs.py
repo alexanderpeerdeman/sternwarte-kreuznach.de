@@ -84,7 +84,7 @@ if __name__ == "__main__":
 
             yaml_dict["title"] = talk["Title"]
 
-            friendly_name = slugify(yaml_dict["title"], max_length=255, replacements=[
+            friendly_name = slugify(" ".join(yaml_dict["title"].split(" ")[:7]), max_length=96, replacements=[
                 ['Ä', 'AE'], ['ä', 'ae'],
                 ['Ö', 'OE'], ['ö', 'oe'],
                 ['Ü', 'UE'], ['ü', 'ue'],

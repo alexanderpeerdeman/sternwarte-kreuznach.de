@@ -17,4 +17,4 @@ To deploy the static site onto staging environment [uberspace](https://apeer.ube
 
 ## Search
 
-Inspiration for using Hugo to create the search index was take from [https://palant.info/2020/06/04/the-easier-way-to-use-lunr-search-with-hugo/](https://palant.info/2020/06/04/the-easier-way-to-use-lunr-search-with-hugo/)
+Inspiration for using Hugo to create the search index was taken from [https://palant.info/2020/06/04/the-easier-way-to-use-lunr-search-with-hugo/](https://palant.info/2020/06/04/the-easier-way-to-use-lunr-search-with-hugo/)

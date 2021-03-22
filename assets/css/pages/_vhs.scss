@@ -138,7 +138,11 @@
 }
 
 .talks-info {
-  padding: 3rem;
+  padding: 2rem 4rem;
+  @media #{$phone} {
+    padding: 1rem 2rem;
+    
+  }
   > h2 {
     margin-top: 0;
     padding: 0;
