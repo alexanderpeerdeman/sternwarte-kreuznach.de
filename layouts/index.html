@@ -1,8 +1,166 @@
 {{ define "main" }}
-<main class="content">
-    <h1>Astronomie auf dem Kuhberg</h1>
-    <div>
-        {{ .Content }}
+
+<section class="intro-wrapper">
+  <div class="intro">
+    <img src="images/namibia.jpg" alt="" />
+    <div class="stuff">
+      <h1>Besuchen sie uns auf den Namibia Inseln</h1>
+      <p>
+        Ein Spaß für Kinder und Senioren, Erwachsene haben keine Freunde. Enten
+        werden durch Kopfhörer gegossen.
+      </p>
     </div>
+  </div>
+</section>
+
+<!-- <section class="home-slides" data-slides>
+  <div class="slide prev" style="background-image: url('images/namibia.jpg')">
+    <div class="slide-content">
+      <h1>Now theres other stuff</h1>
+      <p>
+        and much test Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+        Molestias accusantium sed placeat cupiditate tempore! Quidem eius
+        architecto similique cupiditate dolore blanditiis commodi, obcaecati
+        facere quisquam. Provident sapiente harum qui esse. Lorem ipsum dolor
+        sit amet consectetur adipisicing elit. Sequi mollitia fugit alias
+      </p>
+    </div>
+  </div>
+  <div class="slide" style="background-image: url('images/chairs.jpg')"></div>
+  <div
+    class="slide"
+    style="
+      background-image: url('https://images.unsplash.com/photo-1611095970111-fc87b5315dc3?ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80');
+    "
+  ></div>
+</section> -->
+<main class="content">
+  <h1>Astronomie auf dem Kuhbergerer</h1>
+  <div>{{ .Content }}</div>
 </main>
+<hr />
+<section class="cards">
+  <div class="card">
+    <div class="card-header">Regelmäßige Öffnungszeiten</div>
+    <div class="card-content">
+      <p>Vereinsabend:<br />Freitags ab 19:00 Uhr.</p>
+      <p>Sonnenbeobachtung:<br />Sonntags von 10:30 bis 13:00 Uhr.</p>
+    </div>
+    <a class="btn small" href="/infos/oeffnungszeiten">Öffnungszeiten</a>
+  </div>
+  <div class="card">
+    <div class="card-header">Planetenweg</div>
+    <div class="card-content">
+      <p>
+        Alles zur Wanderstrecke „Planetenweg“ in Bad Kreuznach und Umgebung.
+      </p>
+    </div>
+    <a class="btn small" href="/ueber-uns/planetenweg">Planetenweg</a></div>
+  <div class="card">
+    <div class="card-header">Programmangebot</div>
+    <div class="card-content"><p>Hier finden sie unser Angebot.</p>
+    </div>
+    <a class="btn small" href="#">Programmangebot</a></div>
+  <div class="card">
+    <div class="card-header">Teleskop Kaufberatung</div>
+    <div class="card-content">
+      <p>
+        Sie wollen sich ein neues Teleskop kaufen? Das sollten Sie. Wir stehen gerne für Beratung zur Verfügung.
+      </p>
+    </div>
+    <a class="btn small" href="#">Kaufberatung</a>
+  </div>
+</section>
+<hr />
+<section class="blog-newest">
+  <h2>Aktuelle Blogeinträge</h2>
+  <div class="posts-grid">
+    {{ range (first 3 (where .Site.RegularPages "Type" "blog")) }}
+    <article class="post">
+      <header class="post-header">
+        <a
+          class="post-link"
+          href="{{ .RelPermalink }}"
+          title='Permanenter Link zu "{{ .Title }}"'
+        >
+          <div class="post-image">
+            {{ if .Params.images }} {{ with (.Resources.GetMatch (index
+            .Params.images 0)).Fill "600x330 q80 smart" }}
+            <img src="{{ .RelPermalink }}" alt="{{ .Title }}" />
+            {{ end }} {{ end }}
+          </div>
+          <h2 class="post-title">{{ .Title }}</h2>
+        </a>
+        <div class="post-info">
+          {{ with .PublishDate }}
+          <time class="date published" datetime="{{ . }}"
+            >{{ partial "date.html" (dict "date" . "monate" $.Site.Data.monate
+            )}}</time
+          >
+          {{ end }}
+        </div>
+      </header>
+      <div class="post-summary">
+        <p>{{ .Summary }}</p>
+        <a class="go" href="{{ .RelPermalink }}"
+          >Weiterlesen {{ partial "arrow.html" }}</a
+        >
+      </div>
+    </article>
+    {{ end }}
+  </div>
+</section>
+<!-- <script>
+  class Slideshow {
+    constructor() {
+      this.initSlides();
+      this.initSlideshow();
+      this.playSlideshow();
+    }
+
+    initSlideshow() {
+      this.currentSlideIndex = 0;
+      this.setNextSlide();
+    }
+
+    initSlides() {
+      this.container = document.querySelector("[data-slides]");
+      this.slides = this.container.children;
+    }
+
+    setNextSlide() {
+      this.nextSlide = this.slides[this.currentSlideIndex];
+      this.nextSlide.classList.add("next");
+    }
+
+    playSlideshow() {
+      this.slideshow = window.setInterval(() => {
+        this.performSlide();
+      }, 2 * 1000);
+    }
+
+    performSlide() {
+      if (
+        this.container.parentElement.querySelector(":hover") === this.container
+      ) {
+        return;
+      }
+      if (this.prevSlide) {
+        this.prevSlide.classList.remove("prev", "fade-out");
+      }
+      this.nextSlide.classList.remove("next");
+      this.prevSlide = this.nextSlide;
+      this.prevSlide.classList.add("prev");
+
+      this.currentSlideIndex++;
+      if (this.currentSlideIndex >= this.slides.length) {
+        this.currentSlideIndex = 0;
+      }
+      this.setNextSlide();
+      this.prevSlide.classList.add("fade-out");
+    }
+  }
+
+  sls = new Slideshow();
+</script> -->
 {{ end }}

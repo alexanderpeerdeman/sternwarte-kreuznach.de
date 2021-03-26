@@ -33,7 +33,7 @@
 .vhs-content-banner {
   background-color: #eee;
   padding: 1rem 0;
-  margin: 2rem 0 4rem;
+  margin: 2rem 0;
   > div {
     margin: 2rem auto;
     max-width: 70rem;
@@ -44,6 +44,7 @@
 .talks-list {
   margin: 0 auto;
   max-width: 70rem;
+  min-height: 40vh;
   padding: 0 1rem;
   h2 {
     &:hover {
@@ -62,7 +63,6 @@
 }
 
 .no-talks-notice {
-  margin-bottom: 4rem;
   > h2:hover {
     color: black;
   }

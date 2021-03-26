@@ -27,9 +27,11 @@ Jeden Sonntag von 10:30 bis 13:00 Uhr
 
 Jeden letzten Freitag im Monat um 20:00 Uhr
 
-Anschließend gibt es, sofern es das Wetter zulässt, die Möglichkeit zur Beobachtung verschiedenster Himmelskörper durch unsere Instrumente.
+Anschließend gibt es, sofern es das Wetter zulässt, die Möglichkeit zur Beobachtung verschiedener Himmelskörper durch unsere Instrumente.
 
 Zu den aktuellen VHS-Vorträgen
+
+Weitere Informationen
 
 ## Jugendgruppe
 
