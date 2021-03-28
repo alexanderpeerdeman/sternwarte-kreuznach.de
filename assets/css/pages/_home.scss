@@ -1,55 +1,121 @@
-.intro-wrapper {
-    max-width: 140ch;
-    margin: 0 auto;
+#featured {
+  padding: 0 1rem;
+}
+.jumbotron {
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  border-radius: 5px;
+  max-width: 55rem;
+  min-height: 340px;
+  display: flex;
+  align-items: center;
+
+  padding: 1.4rem 3rem;
+  @media #{$phone} {
+    padding: 1.4rem;
+  }
+
+  background: no-repeat center/cover url("/images/namibia.jpg");
+  position: relative;
+  &::before {
+    content: "";
+    display: inline-block;
+    background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.6) 40ch,
+      rgba(0, 0, 0, 0)
+    );
+
+    @media #{$phone} {
+      background: rgba(0, 0, 0, 0.6);
+    }
+
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-radius: inherit;
+    z-index: 10;
+    height: 100%;
+  }
+
+  .jumbotron-content {
+    position: relative;
+    z-index: 11;
+
+    color: white;
+    h1, h2, h3, h4, h5, h6, strong {
+        color: white;
+    }
+
+    a {
+      color: white;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+        color: #bbb;
+      }
+    }
+
+    max-width: 40ch;
+    :first-child {
+      margin-top: 0;
+    }
+    :last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+#wrapper-oeffnungszeiten {
+  // background-color: #aaa;
+  padding: 1rem 0;
 }
 
-.intro {    
-    display: flex;
-    justify-content: space-between;
-    > * {
-        width: 45%;
-        height: auto;
-    }
+#banner-oeffnungszeiten {
+  text-align: center;
+  max-width: 65ch;
+  margin: 0 auto;
+  padding: 0 3rem;
 }
+
 .cards {
-    display: flex;
-    flex-wrap: wrap; 
-    justify-content: space-evenly;  
-    margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 0 auto;
 }
 .card {
-    width: 200px;
-    border-radius: 15px;
-    padding: 1rem;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+  width: 300px;
+  border-radius: 15px;
+  padding: 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 .card-header {
-    font-size: 14px;
-    font-weight: 700;
+  font-size: 14px;
+  font-weight: 700;
 }
 .card-content {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 .blog-newest {
-    > h2 {
-        margin: 1.5rem auto;
-        max-width: 70rem;
-        padding: 0 1rem;
-    }
+  > h2 {
+    margin: 1.5rem auto;
+    max-width: 70rem;
+    padding: 0 1rem;
+  }
 }
-
 
 // .home-slides {
 //     max-width: 100ch;
 //     margin: 0 auto;
 //     line-height: 0;
 //     height: 40vh;
-//     position: relative;    
+//     position: relative;
 //     > .slide {
 //         position: absolute;
 //         background-position: center;

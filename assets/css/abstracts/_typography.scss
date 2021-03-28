@@ -11,7 +11,7 @@ body {
 
 hr {
   border: 0;
-  border-top: 2px solid #597694;
+  border-top: 2px solid lighten($color: #036, $amount: 15%);
   margin-top: 20px;
   padding-top: 10px;
 }
