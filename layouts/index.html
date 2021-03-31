@@ -1,9 +1,12 @@
 {{ define "main" }}
-<div class="content">
-  <h1>Sternwarte Bad Kreuznach e.V.</h1>
-</div>
+<header class="titlebar">
+  <h1 class="title">Sternwarte Bad Kreuznach e.V.</h1>
+</header>
 <section id="featured">
-  <div class="jumbotron" style="background-image: url('/blog/2020/corona-aktuell/coronavirus.jpg')">
+  <div
+    class="jumbotron"
+    style="background-image: url('/blog/2020/corona-aktuell/coronavirus.jpg')"
+  >
     <div class="jumbotron-content">
       <h1>Corona Aktuell</h1>
       <p>
@@ -17,46 +20,16 @@
 <main class="content">
   <div>{{ .Content }}</div>
 </main>
-<section class="next-vhs">
-  <div class="announcement">TODO</div>
-  <div class="oeffnungszeiten">
-    <h3>VHS-Vorträge</h3>
-    <p>Jeden letzten Freitag im Monat um 20:00 Uhr.</p>
-    <p>
-      Anschließend gibt es, sofern es das Wetter zulässt, die Möglichkeit zur
-      Beobachtung verschiedener Himmelskörper durch unsere Instrumente.
-    </p>
-    <p><a href="/infos/vhs">Weitere Informationen</a></p>
-  </div>
-</section>
-<section id="wrapper-oeffnungszeiten">
-  <div id="banner-oeffnungszeiten">
-    <h2>Regelmäßige Öffnungszeiten</h2>
-    <h3>Vereinsabend</h3>
-    <p>Freitags ab 19:00 Uhr.</p>
-    <p>Besucher sind recht herzlich willkommen. Der Eintritt ist frei!</p>
-    <p>
-      Kontaktieren Sie uns bitte vorher per Mail, denn wir möchten nicht, dass
-      Sie vor verschlossenen Türen stehen.
-    </p>
-    <h3>Sonnenbeobachtung</h3>
-    <p>Sonntags, jeweils von 10:30 bis 13:00 Uhr.</p>
-    <p>
-      Von Oktober bis einschließlich Februar: Nur jeden zweiten und vierten
-      Sonntag
-    </p>
-    <p><a href="/ueber-uns/sonnenbeobachtung">Weitere Informationen</a></p>
-    <h3>Jugendgruppe</h3>
-    <p>
-      Jeden zweiten und vierten Samstag im Monat um 16:00 Uhr (außer während der
-      Schulferien).
-    </p>
-    <p><a href="/ueber-uns/jugendgruppe">Weitere Informationen</a></p>
-  </div>
-</section>
 <section class="cards">
   <div class="card">
-    <div class="card-header">Planetenweg</div>
+    <h4 class="card-header">Öffnungszeiten</h4>
+    <div class="card-content">
+      <p>Vereinsabend, Sonnenbeobachtung und Jugendgruppe</p>
+    </div>
+    <a class="btn small" href="/infos/oeffnungszeiten">Öffnungszeiten</a>
+  </div>
+  <div class="card">
+    <h4 class="card-header">Planetenweg</h4>
     <div class="card-content">
       <p>
         Alles zur Wanderstrecke „Planetenweg“ in Bad Kreuznach und Umgebung.
@@ -65,14 +38,14 @@
     <a class="btn small" href="/ueber-uns/planetenweg">Planetenweg</a>
   </div>
   <div class="card">
-    <div class="card-header">Programmangebot</div>
+    <h4 class="card-header">Programmangebot</h4>
     <div class="card-content">
       <p>Hier finden sie unser Angebot über aktuelle Führungen und Vorträge.</p>
     </div>
     <a class="btn small" href="#">Programmangebot</a>
   </div>
   <div class="card">
-    <div class="card-header">Teleskop Kaufberatung</div>
+    <h4 class="card-header">Teleskop Kaufberatung</h4>
     <div class="card-content">
       <p>
         Sie wollen sich ein neues Teleskop kaufen? Das sollten Sie. Wir stehen
@@ -80,6 +53,38 @@
       </p>
     </div>
     <a class="btn small" href="#">Kaufberatung</a>
+  </div>
+</section>
+<hr>
+<section id="next-vhs">
+  {{ $currentTime := now.Format "2006-01-02T15:04:05" }} {{ $currentTime :=
+  (time "2019-09-01").Format "2006-01-02T15:04:05" }} {{ $talks := (where
+  ((.GetPage "/vhs").Pages.ByParam "talk_date") ".Params.talk_date" "ge"
+  $currentTime) }}
+
+  <div class="announcement">
+    <h2>Anstehende Veranstaltungen</h2>
+    {{ range (first 4 $talks)}}
+    <article>
+      <a href="{{ .RelPermalink }}" title='Permanenter Link zu "{{ .Title }}"'>
+        {{ with .Params.talk_date }}
+        <time class="date published" datetime="{{ . }}">
+          {{ partial "date.html" (dict "date" . "monate" $.Site.Data.monate )}}
+        </time>
+        {{ end }}
+        <div class="title">{{ .Title }}</div>
+      </a>
+    </article>
+    {{ end }}
+  </div>
+  <div class="oeffnungszeiten">
+    <h3>VHS-Vorträge</h3>
+    <p>Jeden letzten Freitag im Monat um 20:00 Uhr.</p>
+    <p>
+      Anschließend gibt es, sofern es das Wetter zulässt, die Möglichkeit zur
+      Beobachtung verschiedener Himmelskörper durch unsere Instrumente.
+    </p>
+    <p><a href="/infos/vhs">Weitere Informationen</a></p>
   </div>
 </section>
 <hr />
@@ -97,8 +102,8 @@
           <div class="post-image">
             {{ if .Params.images }} {{ with (.Resources.GetMatch (index
             .Params.images 0)).Fill "600x330 q80 smart" }}
-            <img src="{{ .RelPermalink }}" alt="{{ .Title }}" />
-            {{ end }} {{ end }}
+            <img src="{{ .RelPermalink }}" alt="{{ .Title }}" />{{ end }} {{ end
+            }}
           </div>
           <h2 class="post-title">{{ .Title }}</h2>
         </a>
@@ -107,8 +112,7 @@
           <time class="date published" datetime="{{ . }}"
             >{{ partial "date.html" (dict "date" . "monate" $.Site.Data.monate
             )}}</time
-          >
-          {{ end }}
+          >{{ end }}
         </div>
       </header>
       <div class="post-summary">

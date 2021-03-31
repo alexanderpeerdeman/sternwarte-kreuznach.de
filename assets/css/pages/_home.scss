@@ -1,5 +1,5 @@
 #featured {
-  padding: 0 1rem;
+  padding: 1rem 1rem 0;
 }
 .jumbotron {
   margin: 0 auto;
@@ -44,12 +44,19 @@
     z-index: 11;
 
     color: white;
-    h1, h2, h3, h4, h5, h6, strong {
-        color: white;
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    strong {
+      color: white;
     }
 
     a {
       color: white;
+      font-weight: 600;
       text-decoration: none;
       &:hover {
         text-decoration: underline;
@@ -66,6 +73,44 @@
     }
   }
 }
+#next-vhs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 80rem;
+  margin: 0 auto;
+  .announcement {
+    width: 60ch;
+    article {
+      border-bottom: 1px #666 solid;
+      padding: 0.8rem 1.4rem;
+      text-decoration: none;
+      &:last-of-type {
+        border: none;
+      }
+      a,
+      a:hover {
+        text-decoration: none;
+      }
+
+      time {
+        color: #666;
+        font-weight: 400;
+        font-variant: small-caps;
+      }
+      .title {
+        color: #555;
+        font-size: 17px;
+        font-weight: 700;
+        padding: 0.4rem 0;
+      }
+    }
+  }
+  .oeffnungszeiten {
+    width: 40ch;
+  }
+}
+
 #wrapper-oeffnungszeiten {
   // background-color: #aaa;
   padding: 1rem 0;
@@ -97,6 +142,8 @@
 .card-header {
   font-size: 14px;
   font-weight: 700;
+  color: #444;
+  margin: 0.4rem 0;
 }
 .card-content {
   font-size: 14px;
@@ -109,52 +156,3 @@
     padding: 0 1rem;
   }
 }
-
-// .home-slides {
-//     max-width: 100ch;
-//     margin: 0 auto;
-//     line-height: 0;
-//     height: 40vh;
-//     position: relative;
-//     > .slide {
-//         position: absolute;
-//         background-position: center;
-//         background-size: cover;
-//         height: 100%;
-//         width: 100%;
-//         opacity: 0;
-//         z-index: -1;
-//         display: flex;
-//         align-items: flex-end;
-//         justify-content: center;
-//         &::before {
-//             content: "";
-//             width: 100%;
-//             height: 100%;
-//             position: absolute;
-//             z-index: -1;
-//             background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
-//         }
-//         &.next {
-//             opacity: 1;
-//             z-index: 1;
-//         }
-//         &.prev {
-//             opacity: 1;
-//             z-index: 2;
-//         }
-//         &.fade-out {
-//             opacity: 0;
-//             transition: visibility 0s 0.75s, opacity 0.75s linear;
-//             visibility: hidden;
-//         }
-//         > .slide-content {
-//             > * {
-//                 color: #bbb;
-//             }
-//             line-height: 1.5;
-//             padding: 0 1rem .5rem;
-//             max-width: 65ch;
-//         }
-//     }
-// }
