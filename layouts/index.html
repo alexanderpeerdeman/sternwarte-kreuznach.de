@@ -2,11 +2,8 @@
 <header class="titlebar">
   <h1 class="title">Sternwarte Bad Kreuznach e.V.</h1>
 </header>
-<section id="featured">
-  <div
-    class="jumbotron"
-    style="background-image: url('/blog/2020/corona-aktuell/coronavirus.jpg')"
-  >
+<section id="featured" class="content">
+  <div class="jumbotron" style="background-image: url('/blog/2020/corona-aktuell/coronavirus.jpg')">
     <div class="jumbotron-content">
       <h1>Corona Aktuell</h1>
       <p>
@@ -20,50 +17,51 @@
 <main class="content">
   <div>{{ .Content }}</div>
 </main>
-<section class="cards">
-  <div class="card">
-    <h4 class="card-header">Öffnungszeiten</h4>
-    <div class="card-content">
-      <p>Vereinsabend, Sonnenbeobachtung und Jugendgruppe</p>
+<section id="cards-wrapper">
+  <div class="cards">
+    <div class="card">
+      <h2 class="card-header">Öffnungszeiten</h2>
+      <div class="card-content">
+        <p>Vereinsabend, Sonnenbeobachtung und Jugendgruppe</p>
+      </div>
+      <a class="btn small" href="/infos/oeffnungszeiten">Öffnungszeiten</a>
     </div>
-    <a class="btn small" href="/infos/oeffnungszeiten">Öffnungszeiten</a>
-  </div>
-  <div class="card">
-    <h4 class="card-header">Planetenweg</h4>
-    <div class="card-content">
-      <p>
-        Alles zur Wanderstrecke „Planetenweg“ in Bad Kreuznach und Umgebung.
-      </p>
+    <div class="card">
+      <h2 class="card-header">Planetenweg</h2>
+      <div class="card-content">
+        <p>
+          Alles zur Wanderstrecke „Planetenweg“ in Bad Kreuznach und Umgebung.
+        </p>
+      </div>
+      <a class="btn small" href="/ueber-uns/planetenweg">Planetenweg</a>
     </div>
-    <a class="btn small" href="/ueber-uns/planetenweg">Planetenweg</a>
-  </div>
-  <div class="card">
-    <h4 class="card-header">Programmangebot</h4>
-    <div class="card-content">
-      <p>Hier finden sie unser Angebot über aktuelle Führungen und Vorträge.</p>
+    <div class="card">
+      <h2 class="card-header">Programmangebot</h2>
+      <div class="card-content">
+        <p>Hier finden sie unser Angebot über aktuelle Führungen und Vorträge.</p>
+      </div>
+      <a class="btn small" href="#">Programmangebot</a>
     </div>
-    <a class="btn small" href="#">Programmangebot</a>
-  </div>
-  <div class="card">
-    <h4 class="card-header">Teleskop Kaufberatung</h4>
-    <div class="card-content">
-      <p>
-        Sie wollen sich ein neues Teleskop kaufen? Das sollten Sie. Wir stehen
-        gerne für Beratung zur Verfügung.
-      </p>
+    <div class="card">
+      <h2 class="card-header">Teleskop Kaufberatung</h2>
+      <div class="card-content">
+        <p>
+          Sie wollen sich ein neues Teleskop kaufen? Das sollten Sie. Wir stehen
+          gerne für Beratung zur Verfügung.
+        </p>
+      </div>
+      <a class="btn small" href="#">Kaufberatung</a>
     </div>
-    <a class="btn small" href="#">Kaufberatung</a>
   </div>
 </section>
-<hr>
-<section id="next-vhs">
+<section id="next-vhs" class="content">
   {{ $currentTime := now.Format "2006-01-02T15:04:05" }} {{ $currentTime :=
   (time "2019-09-01").Format "2006-01-02T15:04:05" }} {{ $talks := (where
   ((.GetPage "/vhs").Pages.ByParam "talk_date") ".Params.talk_date" "ge"
   $currentTime) }}
 
   <div class="announcement">
-    <h2>Anstehende Veranstaltungen</h2>
+    <h2><a href="/vhs">Aktuelle Veranstaltungen</a></h2>
     {{ range (first 4 $talks)}}
     <article>
       <a href="{{ .RelPermalink }}" title='Permanenter Link zu "{{ .Title }}"'>
@@ -84,21 +82,16 @@
       Anschließend gibt es, sofern es das Wetter zulässt, die Möglichkeit zur
       Beobachtung verschiedener Himmelskörper durch unsere Instrumente.
     </p>
-    <p><a href="/infos/vhs">Weitere Informationen</a></p>
+    <p><a href="/infos/vortraege">Weitere Informationen</a></p>
   </div>
 </section>
-<hr />
 <section class="blog-newest">
-  <h2>Aktuelle Blogeinträge</h2>
+  <h2><a href="/blog">Aktuelles im Blog</a></h2>
   <div class="posts-grid">
     {{ range (first 3 (where .Site.RegularPages "Type" "blog")) }}
     <article class="post">
       <header class="post-header">
-        <a
-          class="post-link"
-          href="{{ .RelPermalink }}"
-          title='Permanenter Link zu "{{ .Title }}"'
-        >
+        <a class="post-link" href="{{ .RelPermalink }}" title='Permanenter Link zu "{{ .Title }}"'>
           <div class="post-image">
             {{ if .Params.images }} {{ with (.Resources.GetMatch (index
             .Params.images 0)).Fill "600x330 q80 smart" }}
@@ -109,17 +102,14 @@
         </a>
         <div class="post-info">
           {{ with .PublishDate }}
-          <time class="date published" datetime="{{ . }}"
-            >{{ partial "date.html" (dict "date" . "monate" $.Site.Data.monate
-            )}}</time
-          >{{ end }}
+          <time class="date published" datetime="{{ . }}">{{ partial "date.html" (dict "date" . "monate"
+            $.Site.Data.monate
+            )}}</time>{{ end }}
         </div>
       </header>
       <div class="post-summary">
         <p>{{ .Summary }}</p>
-        <a class="go" href="{{ .RelPermalink }}"
-          >Weiterlesen {{ partial "arrow.html" }}</a
-        >
+        <a class="go" href="{{ .RelPermalink }}">Weiterlesen {{ partial "arrow.html" }}</a>
       </div>
     </article>
     {{ end }}

@@ -1,12 +1,9 @@
 #featured {
-  padding: 1rem 1rem 0;
+  padding-top: 1rem;
 }
 .jumbotron {
-  margin: 0 auto;
-  margin-bottom: 2rem;
   border-radius: 5px;
-  max-width: 55rem;
-  min-height: 340px;
+  min-height: 20rem;
   display: flex;
   align-items: center;
 
@@ -14,12 +11,17 @@
   @media #{$phone} {
     padding: 1.4rem;
   }
-
+  // fallback image
   background: no-repeat center/cover url("/images/namibia.jpg");
   position: relative;
   &::before {
     content: "";
-    display: inline-block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    border-radius: inherit;
+    z-index: 10;
     background: linear-gradient(
       to right,
       rgba(0, 0, 0, 0.6) 40ch,
@@ -30,19 +32,10 @@
       background: rgba(0, 0, 0, 0.6);
     }
 
-    position: absolute;
-    width: 100%;
-    top: 0;
-    left: 0;
-    border-radius: inherit;
-    z-index: 10;
-    height: 100%;
   }
 
   .jumbotron-content {
-    position: relative;
     z-index: 11;
-
     color: white;
     h1,
     h2,
@@ -56,7 +49,7 @@
 
     a {
       color: white;
-      font-weight: 600;
+      font-weight: 700;
       text-decoration: none;
       &:hover {
         text-decoration: underline;
@@ -74,16 +67,22 @@
   }
 }
 #next-vhs {
+  max-width: 70rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  max-width: 80rem;
-  margin: 0 auto;
+  @media #{$phone} {
+    justify-content: flex-start;
+  }
+  align-items: baseline;
   .announcement {
-    width: 60ch;
+    width: 60%;
+    @media #{$phone} {
+      width: 100%;
+    }
     article {
       border-bottom: 1px #666 solid;
-      padding: 0.8rem 1.4rem;
+      padding: 1.4rem 0 0.9rem;
       text-decoration: none;
       &:last-of-type {
         border: none;
@@ -107,7 +106,10 @@
     }
   }
   .oeffnungszeiten {
-    width: 40ch;
+    width: 35%;
+    @media #{$phone} {
+      width: 40ch;
+    }
   }
 }
 
@@ -123,15 +125,21 @@
   padding: 0 3rem;
 }
 
+#cards-wrapper {
+  background-color: #eee;
+  padding: 1rem 0;
+}
+
 .cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  max-width: 100rem;
   margin: 0 auto;
+  padding: 0 1rem;
 }
 .card {
-  width: 300px;
-  border-radius: 15px;
+  max-width: 15rem;
   padding: 1rem;
   text-align: center;
   display: flex;
@@ -144,12 +152,15 @@
   font-weight: 700;
   color: #444;
   margin: 0.4rem 0;
+  padding: 0;
 }
 .card-content {
   font-size: 14px;
 }
 
 .blog-newest {
+  background-color: #eee;
+  padding-top: 1rem;
   > h2 {
     margin: 1.5rem auto;
     max-width: 70rem;
