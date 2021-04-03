@@ -1,6 +1,6 @@
 ---
 date: '2019-12-27T12:10:28'
-talk_date: '2020-02-28T00:00:00'
+talk_date: '2020-02-28T20:00:00'
 talk_images:
 - auf-der-suche-nach-der-zweiten-erde-title.png
 talk_speakers:
