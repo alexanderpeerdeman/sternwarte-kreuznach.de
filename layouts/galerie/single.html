@@ -1,8 +1,10 @@
 {{ define "main" }}
 {{ $page := . }}
 <header class="galerie-titlebar">
-    <h1 class="title">{{ .Title }}</h1>
-    <div class="creator">von {{ .Params.creator }}</div>
+    <div>
+        <h1>{{ .Title }}</h1>
+        <div class="creator">von {{ .Params.creator }}</div>
+    </div>
 </header>
 <main class="galerie-detail-view">
     <article class="content">

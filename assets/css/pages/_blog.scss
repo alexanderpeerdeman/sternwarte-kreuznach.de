@@ -9,6 +9,9 @@
   h1,
   h4 {
     padding: 5rem 2rem;
+    @media #{$phone} {
+      padding: 5rem 1rem;
+    }
     max-width: 70rem;
     margin: 0 auto;
 
@@ -33,7 +36,10 @@
 .posts-grid {
   max-width: 70rem;
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 0 2rem;
+  @media #{$phone} {
+    padding: 0 1rem;
+  }
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;

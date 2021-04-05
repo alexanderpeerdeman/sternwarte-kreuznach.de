@@ -1,21 +1,24 @@
 {{ define "main" }}
-<header class="titlebar">
-  <h1 class="title">Sternwarte Bad Kreuznach e.V.</h1>
-</header>
-<section id="featured" class="content">
-  <div class="jumbotron" style="background-image: url('/blog/2020/corona-aktuell/coronavirus.jpg')">
-    <div class="jumbotron-content">
-      <h1>Corona Aktuell</h1>
+<section id="featured">
+  <article class="article-card" style="background-image: url('/blog/2020/corona-aktuell/coronavirus.jpg')">
+    <div class="article-card-content">
+      <div class="heading">Corona Aktuell</div>
       <p>
         Aufgrund der aktuell rasant steigenden Fallzahlen müssen wir unsere
         Aktivitäten wieder einschränken. Wir bedauern diesen Schritt sehr.
       </p>
       <p><a href="/blog/2020/corona-aktuell/">Weiterlesen ...</a></p>
     </div>
-  </div>
+  </article>
 </section>
-<main class="content">
-  <div>{{ .Content }}</div>
+<main class="main-with-aside">
+  <div class="main-content">{{ .Content }}</div>
+  <div class="main-aside">
+    <h4>aside</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima obcaecati consequatur tempore accusamus tempora.
+      Sint hic sed repudiandae! Earum ex iste illo voluptatibus inventore nobis quibusdam placeat nesciunt fugiat
+      beatae.</p>
+  </div>
 </main>
 <section id="cards-wrapper">
   <div class="cards">
@@ -25,6 +28,15 @@
         <p>Vereinsabend, Sonnenbeobachtung und Jugendgruppe</p>
       </div>
       <a class="btn small" href="/infos/oeffnungszeiten">Öffnungszeiten</a>
+    </div>
+    <div class="card">
+      <h2 class="card-header">Anfahrt</h2>
+      <div class="card-content">
+        <p>
+          So finden Sie uns. Wanderwege in der Nähe und die Anfahrt mit dem Auto sowie öffentlichen Verkehrsmitteln.
+        </p>
+      </div>
+      <a class="btn small" href="#">Anfahrt</a>
     </div>
     <div class="card">
       <h2 class="card-header">Planetenweg</h2>
@@ -41,16 +53,6 @@
         <p>Hier finden sie unser Angebot über aktuelle Führungen und Vorträge.</p>
       </div>
       <a class="btn small" href="#">Programmangebot</a>
-    </div>
-    <div class="card">
-      <h2 class="card-header">Teleskop Kaufberatung</h2>
-      <div class="card-content">
-        <p>
-          Sie wollen sich ein neues Teleskop kaufen? Das sollten Sie. Wir stehen
-          gerne für Beratung zur Verfügung.
-        </p>
-      </div>
-      <a class="btn small" href="#">Kaufberatung</a>
     </div>
   </div>
 </section>

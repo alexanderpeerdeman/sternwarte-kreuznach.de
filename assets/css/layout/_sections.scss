@@ -12,5 +12,8 @@ main {
 .content {
   margin: 0 auto 2rem auto;
   max-width: 55rem;
-  padding: 0 1rem;
+  padding: 0 2rem;
+  @media #{$phone} {
+    padding: 0 1rem;
+  }
 }

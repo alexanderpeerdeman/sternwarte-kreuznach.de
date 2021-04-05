@@ -1,7 +1,10 @@
 .vhs-header {
   margin: 2rem auto;
   max-width: 70rem;
-  padding: 0 1em;
+  padding: 0 2rem;
+  @media #{$phone} {
+    padding: 0 1rem;
+  }
   display: flex;
   justify-content: space-between;
   > h1 {
@@ -32,12 +35,15 @@
 
 .vhs-content-banner {
   background-color: #eee;
-  padding: 1rem 0;
   margin: 2rem 0;
+  padding: 1rem 0;
   > div {
     margin: 2rem auto;
     max-width: 70rem;
-    padding: 0 1em;
+    padding: 0 2rem;
+    @media #{$phone} {
+      padding: 0 1rem;
+    }
   }
 }
 
@@ -45,7 +51,10 @@
   margin: 0 auto;
   max-width: 70rem;
   min-height: 40vh;
-  padding: 0 1rem;
+  padding: 0 2rem;
+  @media #{$phone} {
+    padding: 0 1rem;
+  }
   h2 {
     &:hover {
       color: #036;
