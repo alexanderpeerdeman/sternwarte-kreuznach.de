@@ -1,11 +1,10 @@
 #topnav {
   background-color: #003366;
   background-image: linear-gradient(to right, #003366, lighten(#036, 17.5%));
-  position: sticky;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 9998;
+  // position: sticky;
+  // top: 0;
+  // left: 0;
+  // right: 0;
   width: 100%;
 
   .logo {
@@ -13,7 +12,7 @@
     max-width: 100px;
     > img {
       height: 47px;
-      padding: 10px;
+      padding: 10px 1rem;
       width: 100%;
     }
   }
@@ -24,11 +23,11 @@
   max-width: 70rem;
   margin: 0 auto;
   align-items: center;
-  padding-left: 1em;
+  padding-left: 1rem;
 
   @media #{$phone} {
     justify-content: space-between;
-    padding: 0 0.5rem 0 1rem;
+    padding: 0 0.5rem 0 0;
   }
 }
 
@@ -38,6 +37,7 @@
   margin: 0;
   padding: 0 0 0 1.5rem;
   align-items: center;
+  z-index: 9999;
 
   @media #{$phone} {
     display: none;
@@ -64,7 +64,7 @@
   outline: none;
   background: none;
   padding: 25px 1rem;
-  transition: ease 0.2s;
+  transition: background-color ease 0.2s;
 }
 
 .site-title {
@@ -100,11 +100,10 @@
 .dropdown-items > li:hover > a,
 .dropdown-items > li.active > a {
   background-color: rgba(0, 0, 0, 0.12);
-  transition: ease 0.2s;
+  transition: background-color ease 0.2s;
 
   @media #{$phone} {
     background-color: inherit;
-    transition: none;
   }
 }
 
@@ -125,7 +124,7 @@
   transform: translate(-50%, 0);
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.12);
   padding: 0;
-  transition: ease 0.2s;
+  transition: opacity ease 0.2s;
 
   @media #{$phone} {
     visibility: visible;
@@ -153,7 +152,7 @@
   left: 50%;
   margin-left: -0.7rem;
   z-index: 9997;
-  transition: ease 0.2s;
+  transition: opacity ease 0.2s;
 
   @media #{$phone} {
     content: none;
@@ -168,7 +167,7 @@
   display: block;
   color: #333;
   padding: 0.4rem 0.7rem;
-  transition: ease 0.2s;
+  transition: opacity ease 0.2s;
 
   @media #{$phone} {
     color: #555;
@@ -181,7 +180,7 @@
 .dropdown:hover .dropdown-button::after {
   visibility: visible;
   opacity: 1;
-  transition: ease 0.2s;
+  transition: opacity ease 0.2s;
 }
 
 .navbar-toggle {
