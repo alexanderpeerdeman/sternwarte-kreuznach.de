@@ -1,6 +1,6 @@
 ---
 date: '2017-06-16T22:02:03'
-talk_date: '2017-09-29T00:00:00'
+talk_date: '2017-09-29T20:00:00'
 talk_images:
 - namibia-sonne-sand-und-sterne-title.jpg
 talk_speakers:
