@@ -1,6 +1,6 @@
 ---
 date: '2017-11-25T21:46:23'
-talk_date: '2018-05-25T00:00:00'
+talk_date: '2018-05-25T20:00:00'
 talk_images:
 - raumschiff-antriebe-der-zukunft-title.jpg
 talk_speakers:
