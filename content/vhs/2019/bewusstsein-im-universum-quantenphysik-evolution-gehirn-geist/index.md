@@ -7,5 +7,5 @@ talk_speakers:
 - Andreas Metzen
 title: Bewusstsein im Universum - Quantenphysik, Evolution, Gehirn & Geist
 ---
-„Bewusstsein im Universum - Quantenphysik, Evolution, Gehirn & Geist   Ist unser Bewusstsein ein quantenmechanischer Effekt?   Was bedeutet das für uns und das Universum?   Dieser Vortrag steigt ein in die Physik des Geistes und erklärt wie und wo Bewusstsein funktioniert.“
-
+Bewusstsein im Universum - Quantenphysik, Evolution, Gehirn & Geist  
+Ist unser Bewusstsein ein quantenmechanischer Effekt? Was bedeutet das für uns und das Universum? Dieser Vortrag steigt ein in die Physik des Geistes und erklärt wie und wo Bewusstsein funktioniert.

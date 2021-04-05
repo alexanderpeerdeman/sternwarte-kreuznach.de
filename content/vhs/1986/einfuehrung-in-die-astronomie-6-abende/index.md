@@ -1,6 +1,6 @@
 ---
 date: '2016-08-24T23:35:00'
-talk_date: '1986-03-01T00:00:00'
+talk_date: '1986-03-01T20:00:00'
 title: 'Einführung in die Astronomie – 6 Abende'
 ---
 - Einblick in die Astronomie der letzten 20 Jahre

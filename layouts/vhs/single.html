@@ -10,25 +10,24 @@
         <img src="{{ $img.RelPermalink }}" alt="{{ $img.Title }}">        
       </div>
     {{ end }}
-    <div class="vhs-talk-titlebar">
-      <div>        
-        <h1 class="vhs-talk-title">{{ .Title }}</h1>
+    <div class="wrapper">
+      <h1 class="vhs-talk-title">{{ .Title }}</h1>        
+      <div class="vhs-talk-container">
+        <div class="vhs-talk-content">
+          {{ .Content }}
+        </div>    
         <div class="vhs-talk-info">
           {{ with .Params.talk_date }}
-          <time class="date published"
-          datetime='{{ . }}'>{{ partial "date.html" (dict "date" . "monate" $.Site.Data.monate )}}</time>
+          <p><time class="date published"datetime='{{ . }}'>{{ partial "date.html" (dict "date" . "monate" $.Site.Data.monate )}}</time></p>
           {{ end }}
-          {{ with .Params.talk_speakers }}
-          <span class="delimiter">|</span> 
-          <span class="speakers">{{ delimit . ", " " und "}}</span>             
+          {{ range .Params.talk_speakers }}          
+          <p class="referenten">{{ . }}</p>
           {{ end }}
-          <span class="delimiter">|</span> <a href="/infos/vortraege">Eintritt & Zeiten</a>
+          <p><a href="/infos/vortraege">Eintritt & Zeiten</a></p>
         </div>
       </div>
     </div>
-    <div class="vhs-talk-content">
-      {{ .Content }}
-    </div>    
+    
   </article>
 </main>
 

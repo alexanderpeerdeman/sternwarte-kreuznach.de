@@ -1,28 +1,5 @@
-.vhs-talk-content {
-  max-width: 55ch;
-  padding: 0 1rem;
-  margin: 0 auto;
-}
-
-.vhs-talk-titlebar {
-  background-color: #eee;
-  display: flex;
-  justify-content: center;
-  padding: 1.4rem 0 1.2rem;
-
-  > div {
-    max-width: 60rem;
-    padding: 0 1rem;
-    margin-bottom: 1rem;
-
-    > h1 {
-      margin: 0;
-    }
-  }
-}
-
 .vhs-talk-image {
-  padding: 1rem;
+  padding: 1rem 1rem 0;
   line-height: 0;
   text-align: center;
 
@@ -31,16 +8,53 @@
     width: 100%;
   }
 }
+.wrapper {
+  max-width: 60rem;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+
+.vhs-talk-title {
+  margin-bottom: 0.5rem;
+}
 
 .vhs-talk-info {
-  font-size: 14px;
-  font-weight: 600;
+  // font-size: 14px;
+  border-right: 5px #ddd solid;
+  padding-right: 1rem;
+  font-weight: 800;
+  min-width: 25%;
+  text-align: right;
+  @media #{$phone} {
+    width: 100%;
+    text-align: left;
+    border: 0;
+  }
+
+  .referenten {
+    margin: .25rem 0;
+  }
 
   > .date {
     color: black;
   }
+}
 
-  > .delimiter {
-    padding: 0 4px;
+.vhs-talk-container {
+  display: flex; 
+  justify-content: space-between;
+  align-items: flex-start; 
+  gap: 1rem;
+  margin-bottom: 1rem;
+  @media #{$phone} { 
+    gap: 0;
+    flex-direction: column;
+  }
+}
+
+.vhs-talk-content {
+  max-width: 60ch;
+  @media #{$phone} {
+    order: 2;
   }
 }

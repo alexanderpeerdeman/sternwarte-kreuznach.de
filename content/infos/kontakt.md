@@ -42,7 +42,7 @@ An der Sternwarte 2
 55543 Bad Kreuznach
 
 ### Postanschrift:
-Sternwarte Bad Kreuznach e. V.  
+Sternwarte Bad Kreuznach e.V.  
 c/o Bernd Peerdeman  
 Königsberger Straße 21 a  
 55543 Bad Kreuznach
