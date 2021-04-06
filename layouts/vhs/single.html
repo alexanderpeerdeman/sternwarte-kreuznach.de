@@ -21,8 +21,12 @@
           <p><time class="date published" datetime='{{ . }}'>{{ partial "date.html" (dict "date" . "monate"
               $.Site.Data.monate )}}</time></p>
           {{ end }}
-          {{ range .Params.talk_speakers }}
-          {{ .name }} <br>{{ if .extra }}<small>{{ .extra }}</small><br>{{ end }}
+          {{ with .Params.talk_speakers }}
+          <ul class="nobullets">
+          {{ range . }}
+          <li>{{ .name }}{{ if .extra }}<br><small>{{ .extra }}</small>{{ end }}</li>
+          {{ end }}
+          </ul>
           {{ end }}
           <p><a href="/infos/vortraege">Eintritt & Zeiten</a></p>
         </div>
