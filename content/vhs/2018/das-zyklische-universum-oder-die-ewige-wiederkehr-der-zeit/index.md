@@ -1,12 +1,12 @@
 ---
 date: '2017-11-25T21:44:28'
-talk_date: '2018-04-27T00:00:00'
+talk_date: '2018-04-27T20:00:00'
 talk_images:
 - das-zyklische-universum-oder-die-ewige-wiederkehr-der-zeit-title.jpg
 talk_speakers:
   speaker1:
     name: Andreas Metzen
-title: 'Das Zyklische Universum oder  Die Ewige Wiederkehr der Zeit '
+title: 'Das Zyklische Universum oder Die Ewige Wiederkehr der Zeit'
 ---
 
-Im Weltmodell von Sir Roger Penrose oszilliert das Universum zwischen Zeit und Zeitlosigkeit. Alles zerfällt – und beginnt mit einem brachialen Urknall von Neuem. Die Hypothese einer "Conformal Cyclic Cosmology" geht entgegen der bisherigen Annahme, dass sich das Universum nach dem Urknall unendlich weit ausdehnt, von einem zyklischen Universum aus. Das kosmologische Modell stammt von Sir Roger Penrose und darin verbindet der inzwischen 86-Jährige emeritierte Mathematik- und Physik-Professor von der University of Oxford geschickt seine vielen Forschungsthemen der letzten fünf Jahrzehnte. In der fernen Zukunft wird sich die gesamte Materie auflösen. Auch Schwarze Löcher werden restlos verdampfen, und sogar die Zeit wird verschwinden. Diese vollkommene „Entleerung“ der Welt entspricht der schöpferischen Fülle eines neuen Urknalls, mit dem alles wieder von vorne beginnt – bis in alle Ewigkeit. Dieser Vortrag wird einen Einblick in dieses kosmologische Weltmodels geben.
+Im Weltmodell von Sir Roger Penrose oszilliert das Universum zwischen Zeit und Zeitlosigkeit. Alles zerfällt – und beginnt mit einem brachialen Urknall von Neuem. Die Hypothese einer "Conformal Cyclic Cosmology" geht entgegen der bisherigen Annahme, dass sich das Universum nach dem Urknall unendlich weit ausdehnt, von einem zyklischen Universum aus. Das kosmologische Modell stammt von Sir Roger Penrose und darin verbindet der inzwischen 86-Jährige emeritierte Mathematik- und Physik-Professor von der University of Oxford geschickt seine vielen Forschungsthemen der letzten fünf Jahrzehnte. In der fernen Zukunft wird sich die gesamte Materie auflösen. Auch Schwarze Löcher werden restlos verdampfen, und sogar die Zeit wird verschwinden. Diese vollkommene „Entleerung“ der Welt entspricht der schöpferischen Fülle eines neuen Urknalls, mit dem alles wieder von vorne beginnt – bis in alle Ewigkeit. Dieser Vortrag wird einen Einblick in dieses kosmologische Weltmodell geben.

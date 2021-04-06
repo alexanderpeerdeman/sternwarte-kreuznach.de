@@ -1,6 +1,6 @@
 ---
 date: '2017-06-16T21:54:58'
-talk_date: '2017-07-28T00:00:00'
+talk_date: '2017-07-28T20:00:00'
 talk_images:
 - milchstrassenfotografie-von-der-planung-bis-zum-fertigen-bild-title.jpg
 talk_speakers:

@@ -1,6 +1,6 @@
 ---
 date: '2016-11-27T14:36:53'
-talk_date: '2017-05-26T00:00:00'
+talk_date: '2017-06-30T20:00:00'
 talk_images:
 - polarimetrie-in-der-astronomie-title.jpg
 talk_speakers:
