@@ -2,10 +2,14 @@
 date: '2016-08-24T23:35:00'
 talk_date: '1987-11-01T00:00:00'
 talk_speakers:
-- Gerhard Kind
-- Reinhold Frey
-- Susanne
-- Michael Maasen
+  speaker1:
+    name: Gerhard Kind
+  speaker2:
+    name: Reinhold Frey
+  speaker3:
+    name: Susanne
+  speaker4:
+    name: Michael Maasen
 title: '- Radioastronomie- Elektromagnetische Strahlung, Wie entsteht sie? Woher kommt
   sie?, Welche Informationen enthält sie?- Hertzsprung Russel Diagramm, Welche Zusammenhänge
   bestehen zw. Temperatur, Farbe, Helligkeit und Leuchtkraft der Sterne?- Veränderliche

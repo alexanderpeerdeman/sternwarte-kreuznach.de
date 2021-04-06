@@ -4,8 +4,9 @@ talk_date: '2018-08-31T00:00:00'
 talk_images:
 - astronomie-in-der-muslimischen-kultur-title.jpg
 talk_speakers:
-- Dipl. Phys. M. Stellpflug, OStR
+  speaker1:
+    name: Dipl. Phys. M. Stellpflug, OStR
 title: 'Astronomie in der muslimischen Kultur '
 ---
-Was haben Wissenschaftler der arabischen Hochkultur in der Blütezeit des Islam zur Astronomie und Mathematik beigetragen? Welchen Einfluss hatte dies auf das Wissen und das Weltbild in Europa zur Zeit des Mittelalters? Warum wird ihr Einfluss heute oft verschwiegen?
 
+Was haben Wissenschaftler der arabischen Hochkultur in der Blütezeit des Islam zur Astronomie und Mathematik beigetragen? Welchen Einfluss hatte dies auf das Wissen und das Weltbild in Europa zur Zeit des Mittelalters? Warum wird ihr Einfluss heute oft verschwiegen?

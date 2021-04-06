@@ -4,10 +4,12 @@ talk_date: '2017-11-24T00:00:00'
 talk_images:
 - das-quantum-und-der-lotus-eine-reise-an-die-grenzen-der-wissenschaft-und-antiken-weisheiten-title.jpg
 talk_speakers:
-- Andreas Metzen
+  speaker1:
+    name: Andreas Metzen
 title: „Das Quantum und der Lotus -  Eine Reise an die Grenzen der Wissenschaft und
   Antiken Weisheiten“
 ---
+
 Wie entstand das Universum? Was ist der Sinn des menschlichen Lebens gegen die Schwärze der Unendlichkeit? Religion und Wissenschaft haben viele Antworten auf diese und ähnliche Fragen, Antworten, die sich manchmal treffen, aber häufiger divergieren.
 
 Dieser Vortrag hat das Ziel, die Grenzen der Erkenntnis der Naturwissenschaft und die der antiken Weisheiten des Buddhismus auszuloten.
@@ -17,4 +19,3 @@ Wir werden gemeinsam erkennen können wie Nahe Astrophysik und antike Kosmologie
 Grammatik des Universums: Naturgesetze --- Verstand und Kontemplation: Wie erkennen wir die Welt.
 
 Kommen Sie mit auf diese Themenreise durch das Universum.
-

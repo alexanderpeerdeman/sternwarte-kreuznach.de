@@ -4,9 +4,11 @@ talk_date: '2017-01-27T00:00:00'
 talk_images:
 - spacex-die-menschheit-wird-zu-einer-multiplanetarischen-spezies-title.jpg
 talk_speakers:
-- Andreas Metzen
+  speaker1:
+    name: Andreas Metzen
 title: SpaceX – Die Menschheit wird zu einer multiplanetarischen Spezies
 ---
+
 Science Fiction Filme wie „Der Marsianer – Rettet Mark Watney“ sind längst nicht mehr so viel Zukunftsmusik wie man glaubt. Bei dem Film mit Matt Damon dreht es sich um eine Notevakuierung der NASA Basisstation auf dem Mars.
 
 Der Vortrag soll die aktuellen Planungen der NASA und des Unternehmen SpaceX aufzeigen.
@@ -14,4 +16,3 @@ Der Vortrag soll die aktuellen Planungen der NASA und des Unternehmen SpaceX auf
 Die Menschheit wird in den nächsten 10-15 Jahren eine Station auf dem Mars haben.
 
 Kommen Sie und steigen Sie ein auf dem Weg zum Mars.
-

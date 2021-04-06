@@ -4,8 +4,9 @@ talk_date: '2017-03-31T00:00:00'
 talk_images:
 - juice-die-eismonde-des-jupiters-title.jpg
 talk_speakers:
-- Dipl. Phys. M. Stellpflug, OStR
+  speaker1:
+    name: Dipl. Phys. M. Stellpflug, OStR
 title: 'JUICE - Die Eismonde des Jupiters '
 ---
-Für 2030 plant die ESA die nächste große Mission namens JUpiter ICy moons Explorer - kurz JUICE - die wohl ein ähnlich aufwendiges Unterfangen wie die ROSETTA-Mission werden dürfte. Außer den wissenschaftlichen Zielen und absehbaren technischen Schwierigkeiten möchte ich auch beleuchten, wie mehrere Generationen von Menschen solche Mammutprojekte stemmen bis es vielleicht, wie im Film Interstellar angedeutet zu einer Raumbasis im Jupitersystem oder einer bemannten Landung auf einer der Monde kommen könnte.
 
+Für 2030 plant die ESA die nächste große Mission namens JUpiter ICy moons Explorer - kurz JUICE - die wohl ein ähnlich aufwendiges Unterfangen wie die ROSETTA-Mission werden dürfte. Außer den wissenschaftlichen Zielen und absehbaren technischen Schwierigkeiten möchte ich auch beleuchten, wie mehrere Generationen von Menschen solche Mammutprojekte stemmen bis es vielleicht, wie im Film Interstellar angedeutet zu einer Raumbasis im Jupitersystem oder einer bemannten Landung auf einer der Monde kommen könnte.
