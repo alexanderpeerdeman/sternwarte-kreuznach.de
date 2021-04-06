@@ -13,47 +13,25 @@
 </section>
 <main class="main-with-aside">
   <div class="main-content">{{ .Content }}</div>
+  {{ with .GetPage "home-content/aside.md" }}
   <div class="main-aside">
-    <h4>aside</h4>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima obcaecati consequatur tempore accusamus tempora.
-      Sint hic sed repudiandae! Earum ex iste illo voluptatibus inventore nobis quibusdam placeat nesciunt fugiat
-      beatae.</p>
+    <h4>{{ .Title }}</h4>
+    {{ .Content }}
   </div>
+  {{ end }}
 </main>
+
 <section id="cards-wrapper">
   <div class="cards">
+  {{ range (.GetPage "home-cards").Pages }}
     <div class="card">
-      <h2 class="card-header">Öffnungszeiten</h2>
+      <h2 class="card-header">{{ .Title }}</h2>
       <div class="card-content">
-        <p>Vereinsabend, Sonnenbeobachtung und Jugendgruppe</p>
+        {{ .Content }}
       </div>
-      <a class="btn small" href="/infos/oeffnungszeiten">Öffnungszeiten</a>
+      <a class="btn small" href="{{ .Params.button_link }}">{{ .Params.button_text }}</a>
     </div>
-    <div class="card">
-      <h2 class="card-header">Anfahrt</h2>
-      <div class="card-content">
-        <p>
-          So finden Sie uns. Wanderwege in der Nähe und die Anfahrt mit dem Auto sowie öffentlichen Verkehrsmitteln.
-        </p>
-      </div>
-      <a class="btn small" href="#">Anfahrt</a>
-    </div>
-    <div class="card">
-      <h2 class="card-header">Planetenweg</h2>
-      <div class="card-content">
-        <p>
-          Alles zur Wanderstrecke „Planetenweg“ in Bad Kreuznach und Umgebung.
-        </p>
-      </div>
-      <a class="btn small" href="/ueber-uns/planetenweg">Planetenweg</a>
-    </div>
-    <div class="card">
-      <h2 class="card-header">Programmangebot</h2>
-      <div class="card-content">
-        <p>Hier finden sie unser Angebot über aktuelle Führungen und Vorträge.</p>
-      </div>
-      <a class="btn small" href="#">Programmangebot</a>
-    </div>
+  {{ end }}
   </div>
 </section>
 <section id="next-vhs" class="content">
