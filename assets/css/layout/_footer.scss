@@ -12,7 +12,7 @@ footer {
     padding: 1rem;
     margin: 0 auto;
 
-    .wrapper {
+    .footer-wrapper {
       display: flex;
       justify-content: space-around;
       align-items: center;
@@ -23,7 +23,7 @@ footer {
         align-items: flex-start;
       }
 
-      #logo {
+      .footer-logo {
         > img {
           height: 8rem;
         }

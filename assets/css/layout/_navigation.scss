@@ -1,11 +1,13 @@
-#topnav {
+.navigation {
   background-color: #003366;
   background-image: linear-gradient(to right, #003366, lighten(#036, 17.5%));
-  // position: sticky;
-  // top: 0;
-  // left: 0;
-  // right: 0;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
   width: 100%;
+  z-index: 9999;
+}
 
   .logo {
     display: flex;
@@ -16,7 +18,6 @@
       width: 100%;
     }
   }
-}
 
 .menu {
   display: flex;
@@ -37,7 +38,6 @@
   margin: 0;
   padding: 0 0 0 1.5rem;
   align-items: center;
-  z-index: 9999;
 
   @media #{$phone} {
     display: none;

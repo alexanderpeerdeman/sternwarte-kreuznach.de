@@ -1,5 +1,5 @@
 html {
-  scroll-padding-top: 50px;
+  scroll-padding-top: 70px;
 }
 
 body {
@@ -52,7 +52,7 @@ h2 {
 }
 
 a {
-  color: #003366;
+  color: lighten($color: #036, $amount: 10%);
   text-decoration: none;
   &:hover {
     text-decoration: underline;
