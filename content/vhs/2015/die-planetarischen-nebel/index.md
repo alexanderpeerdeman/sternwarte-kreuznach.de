@@ -1,6 +1,6 @@
 ---
 date: '2016-08-03T13:32:00'
-talk_date: '2015-04-24T00:00:00'
+talk_date: '2015-04-24T20:00:00'
 talk_speakers:
   speaker1:
     name: Stefan Lüdicke
