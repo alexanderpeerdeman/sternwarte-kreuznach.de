@@ -13,7 +13,7 @@
 </section>
 <main class="main-with-aside">
   <div class="main-content">{{ .Content }}</div>
-  {{ with .GetPage "home-content/aside.md" }}
+  {{ with (.GetPage "home-content").Resources.GetMatch "aside.md" }}
   <div class="main-aside">
     <h4>{{ .Title }}</h4>
     {{ .Content }}
