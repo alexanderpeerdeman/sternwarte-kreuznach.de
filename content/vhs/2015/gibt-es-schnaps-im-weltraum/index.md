@@ -1,6 +1,6 @@
 ---
 date: '2016-08-03T13:30:31'
-talk_date: '2015-10-30T00:00:00'
+talk_date: '2015-10-30T20:00:00'
 talk_images:
 - gibt-es-schnaps-im-weltraum-title.jpg
 talk_speakers:

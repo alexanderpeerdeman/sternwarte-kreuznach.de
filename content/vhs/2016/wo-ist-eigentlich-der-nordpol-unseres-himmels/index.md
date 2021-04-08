@@ -1,11 +1,12 @@
 ---
 date: '2016-08-03T12:55:24'
-talk_date: '2016-03-25T00:00:00'
+talk_date: '2016-03-25T20:00:00'
 talk_images:
 - wo-ist-eigentlich-der-nordpol-unseres-himmels-title.jpg
 talk_speakers:
   speaker1:
     name: Rüdiger Brenner
+    extra: Alzeyer Sternenfreunde
 title: Wo ist eigentlich der Nordpol unseres Himmels?
 ---
 
@@ -15,4 +16,8 @@ Ist der Mittelpunkt dieses Bildes der wahre Himmelsnordpol? Gilt das für immer?
 
 Im Rahmen des Themas soll allgemeinverständlich das Platonische Jahr und die Nutationsbewegungen erklärt werden. Was würde sich ändern, wenn die Erdachse sich aufrichten würde? Aber auch Folgeprobleme für die Astronomie sollen angesprochen werden:
 
-  * 50 Jahresäquinoktien   * Der Polsucher   * Das Poldreieck   * Einscheinern von Montierungen   * Vorteile einer perfekten Polausrichtung
+- 50 Jahresäquinoktien
+- Der Polsucher
+- Das Poldreieck
+- Einscheinern von Montierungen
+- Vorteile einer perfekten Polausrichtung

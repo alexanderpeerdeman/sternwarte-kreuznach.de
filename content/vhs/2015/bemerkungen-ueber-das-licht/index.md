@@ -1,6 +1,6 @@
 ---
 date: '2016-08-03T13:32:00'
-talk_date: '2015-03-27T00:00:00'
+talk_date: '2015-03-27T20:00:00'
 talk_speakers:
   speaker1:
     name: Artur Kappesser

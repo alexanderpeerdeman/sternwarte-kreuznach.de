@@ -1,9 +1,9 @@
 ---
 date: '2016-08-22T14:22:00'
-talk_date: '2014-03-28T00:00:00'
+talk_date: '2014-03-28T20:00:00'
 talk_speakers:
   speaker1:
-    name: Dipl. Phys. M. Stellpflug, OStR
+    name: Dipl. Phys. Michael Stellpflug, OStR
 title: SETI - Die Suche nach Leben außerhalb der Erde
 ---
 

@@ -1,6 +1,6 @@
 ---
 date: '2016-08-03T12:49:19'
-talk_date: '2016-10-14T00:00:00'
+talk_date: '2016-10-14T20:00:00'
 talk_images:
 - schoene-bescherung-teleskope-unterm-weihnachtsbaum-title.jpg
 talk_speakers:

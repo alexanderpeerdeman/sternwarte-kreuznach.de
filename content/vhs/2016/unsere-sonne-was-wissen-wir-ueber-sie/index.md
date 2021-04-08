@@ -1,6 +1,6 @@
 ---
 date: '2016-08-03T12:57:27'
-talk_date: '2016-05-27T00:00:00'
+talk_date: '2016-05-27T20:00:00'
 talk_images:
 - unsere-sonne-was-wissen-wir-ueber-sie-title.png
 talk_speakers:
