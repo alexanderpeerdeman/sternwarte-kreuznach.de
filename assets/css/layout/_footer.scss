@@ -4,7 +4,7 @@ footer {
   font-size: 13px;
 
   a {
-    color: lighten($color: #036, $amount: 55);
+    color: lighten($color: $link-color, $amount: 40);
   }
 
   .content {

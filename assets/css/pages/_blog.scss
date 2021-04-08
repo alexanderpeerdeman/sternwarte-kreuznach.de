@@ -45,6 +45,16 @@
   justify-content: space-between;
 }
 
+.arrow {
+  height: 11px;
+  margin-left: 0.2rem;
+}
+
+.go {
+  font-weight: 600;
+  fill: $link-color;
+}
+
 .post {
   width: 32.5%;
   box-sizing: border-box;
@@ -83,7 +93,7 @@
   &:hover {
     text-decoration: underline;
     .post-title {
-      color: #036;
+      color: $link-color;
     }
   }
 }

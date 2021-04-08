@@ -76,7 +76,7 @@
 .main-with-aside {
   display: flex;
   max-width: 80rem;
-  margin: 0 auto;
+  margin: 0 auto 2rem auto;
   padding: 0 2rem;
   justify-content: space-between;
   align-items: baseline;
@@ -86,11 +86,11 @@
     flex-direction: column;
     gap: unset;
   }
-  .main-content {
-    width: 100%;
-  }
   .main-aside {
-    width: 50ch;
+    max-width: 35%;
+    @media #{$phone} {
+      max-width: 100%;
+    }
   }
 }
 

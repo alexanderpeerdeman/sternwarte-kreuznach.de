@@ -12,18 +12,18 @@
   </article>
 </section>
 <main class="main-with-aside">
-  <div class="main-content">{{ .Content }}</div>
+  <article>{{ .Content }}</article>
   {{ with (.GetPage "home-content").Resources.GetMatch "aside.md" }}
-  <div class="main-aside">
+  <section class="main-aside">
     <h4>{{ .Title }}</h4>
     {{ .Content }}
-  </div>
+  </section>
   {{ end }}
 </main>
 
 <section id="cards-wrapper">
   <div class="cards">
-  {{ range (.GetPage "home-cards").Pages }}
+  {{ range (.GetPage "home-cards").Resources.ByType "page" }}
     <div class="card">
       <h2 class="card-header">{{ .Title }}</h2>
       <div class="card-content">

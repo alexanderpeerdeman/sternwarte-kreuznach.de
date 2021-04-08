@@ -14,7 +14,7 @@ Für Fragen, Anmerkungen oder zur Terminabsprache stehen wir Ihnen gerne zur Ver
 Auf der Seite [Kontakt](/infos/kontakt) erhalten Sie alle wichtigen Details zur Kontaktaufnahme.
 
 
-# Todo:
+<!-- # Todo:
 - Erstes Bild was man sehen kann am besten von einem Teleskop oder vom Gelände (Sternhimmel / Objekt)
 - Möglichkeit für konkrete Hinweise müssen schön darstellbar sein.
 - Carousel beibehalten?
@@ -30,4 +30,4 @@ Auf der Seite [Kontakt](/infos/kontakt) erhalten Sie alle wichtigen Details zur 
     - Aktuelles im Blog
 
 - Teleskop Kaufberatung: Prospekt als PDF
-
+ -->
