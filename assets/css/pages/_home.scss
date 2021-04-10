@@ -86,11 +86,19 @@
     flex-direction: column;
     gap: unset;
   }
-  .main-aside {
-    max-width: 35%;
-    @media #{$phone} {
-      max-width: 100%;
-    }
+}
+
+.main-content {
+  max-width: 65ch;
+}
+
+.main-aside {
+  max-width: 40ch;
+  min-width: 20ch;
+  @media #{$phone} {
+    width: 100%;
+    max-width: unset;
+    min-width: unset;
   }
 }
 

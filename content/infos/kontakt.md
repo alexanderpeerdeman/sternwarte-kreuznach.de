@@ -12,7 +12,7 @@ menu:
 - Erst danach den Hinweise auf die Telefonnummer des ersten Vorsitzenden machen.
 - Personen nur noch mit Namen und Funktion im Verein selbst erwähnen, nicht detaillierter!
 
-[info@sternwarte-kreuznach.de](mailto:info@sternwarte-kreuznach.de)
+[info@sternwarte-kreuznach.de](mailto:info@sternwarte-kreuznach.de "info@sternwarte-kreuznach.de")
 
 **1.Vorsitzender:**  
 Bernd Peerdeman  

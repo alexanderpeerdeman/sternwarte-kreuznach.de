@@ -1,7 +1,6 @@
 ---
 title: "Impressum"
 date: 2021-04-02T13:58:49+02:00
-draft: true
 ---
 
 gemäß § 5 TMG
@@ -20,7 +19,7 @@ Reinhold Frey (Kassenwart)
 Thorsten Baumgardt (Beisitzer)  
 
 **Kontakt:**  
-E-Mail: info@sternwarte-kreuznach.de
+E-Mail: [info@sternwarte-kreuznach.de](mailto:info@sternwarte-kreuznach.de "info@sternwarte-kreuznach.de")
 
 **Bankverbindung:**  
 Volksbank Rhein-Nahe-Hunsrück eG  
