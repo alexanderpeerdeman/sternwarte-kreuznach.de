@@ -1,33 +1,30 @@
 {{ define "main" }}
-<header class="blog-header">
+<div class="blog-header">
   <h4><span>{{ .Parent.Title }}</span></h4>
-</header>
-<main>
-  {{ if .Params.images }}
-  {{ $img := (.Resources.GetMatch (index .Params.images 0)) }}
-  {{ if gt $img.Width 1000}}
-  {{ $img := $img.Resize "1000x" }}
+</div>
+{{ if .Params.images }}
+{{ $img := (.Resources.GetMatch (index .Params.images 0)) }}
+{{ if gt $img.Width 1000}}
+{{ $img := $img.Resize "1000x" }}
+{{ end }}
+<div class="blogpost-image">
+  <img src="{{ $img.RelPermalink }}" alt="{{ $img.Title }}">
+  {{ if .Params.caption }}
+  <p>{{ .Params.caption }}</p>
   {{ end }}
-  <div class="blogpost-image">
-    <img src="{{ $img.RelPermalink }}" alt="{{ $img.Title }}">
-    {{ if .Params.caption }}
-    <p>{{ .Params.caption }}</p>
+  
+</div>
+{{ end }}
+<article class="post-content">
+  <h1 class="post-title">{{ .Title }}</h1>
+  <div class="post-info">
+    {{ with .PublishDate }}
+    <time class="date published"
+      datetime='{{ . }}'>{{ partial "date.html" (dict "date" . "monate" $.Site.Data.monate )}}</time>
     {{ end }}
-    
   </div>
-  {{ end }}
-  <article class="post-content">
-    <h1 class="post-title">{{ .Title }}</h1>
-    <div class="post-info">
-      {{ with .PublishDate }}
-      <time class="date published"
-        datetime='{{ . }}'>{{ partial "date.html" (dict "date" . "monate" $.Site.Data.monate )}}</time>
-      {{ end }}
-    </div>
-    {{ .Content }}
-  </article>
-</main>
-
+  {{ .Content }}
+</article>
 <nav id="adjacent-posts">
   <div class="adjacent-posts-entries">
     {{ if .PrevInSection }}

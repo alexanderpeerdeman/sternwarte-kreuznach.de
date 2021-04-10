@@ -1,8 +1,7 @@
 {{ define "main" }}
-<header class="titlebar">
+<div class="titlebar">
 <h1 class="title">{{ .Title }}</h1>
-</header>
-<main>
+</div>
     {{ with .Pages }}        
     <ul>
         {{ range . }}
@@ -11,5 +10,4 @@
     </ul>    
     {{ end }}
 {{ .Content }}
-</main>
 {{ end }}

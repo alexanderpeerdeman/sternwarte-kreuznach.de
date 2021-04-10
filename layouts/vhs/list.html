@@ -1,76 +1,74 @@
 {{ define "main" }}
 {{ partial "vhs/vhs-header.html" .Title }}
 {{ if .Content }}
-<section class="vhs-content-banner">
-    <div>{{ .Content }}</div>
-</section>
+    <div class="vhs-content-banner">
+        <div>{{ .Content }}</div>
+    </div>
 {{ end }}
-<main>
-    {{ $currentTime := now.Format "2006-01-02T15:04:05" }}
-    {{ $currentTime := (time "2019-09-01").Format "2006-01-02T15:04:05" }}
-    {{ $talks := (where (.Pages.ByParam "talk_date") ".Params.talk_date" "ge" $currentTime) }}
+{{ $currentTime := now.Format "2006-01-02T15:04:05" }}
+{{ $currentTime := (time "2019-09-01").Format "2006-01-02T15:04:05" }}
+{{ $talks := (where (.Pages.ByParam "talk_date") ".Params.talk_date" "ge" $currentTime) }}
 
-    <section class="talks-list">
-        {{ range first 3 $talks }}
-        {{ partial "vhs/talk-list-article.html" . }}
-        {{ else }}
-        <div class="no-talks-notice">
-            <h2>Derzeit keine Vorträge</h2>
-            <p>Sobald die nächsten Vorträge feststehen, werden sie an dieser Stelle angekündigt.</p>
-        </div>
-        {{ end }}
-    </section>
-    <div class="talks-banner">
-        <div class="talks-info-wrapper">
-            <div class="talks-info">
-                <h2>Vorträge auf der Sternwarte</h2>
-                <p>Die Vorträge finden <strong>Januar bis November</strong> jeden letzten Freitag im Monat statt. Sofern
-                    nicht anders angegeben, werden alle Vorträge auf dem <a href="/infos/anfahrt">Gelände der
-                        Sternwarte</a> gehalten. Der Eintritt ist an der Abendkasse zu entrichten, Möglichkeiten zur
-                    Reservierung oder Kartenvorverkauf gibt es nicht.</p>
-                <p>Der <strong>Eintritt beträgt 6,00€</strong> (ermäßigt 4,00€) und es ist ausschließlich Barzahlung
-                    möglich.</p>
-                <p>Da nur <strong>35 Plätze</strong> zur Verfügung stehen empfehlen wir es, rechtzeitig einzutreffen.
-                </p>
-                <a class="btn" href='/infos/anfahrt'>Anfahrt</a>
-                <a class="btn" href='/infos/vortraege'>Weitere Informationen zu Vorträgen</a>
-            </div>
-        </div>
-        <div class="aspect-wrapper">
-            <div class="aspect-spacer"></div>
-            <span class="aspect-bg"></span>
+<section class="talks-list">
+    {{ range first 3 $talks }}
+    {{ partial "vhs/talk-list-article.html" . }}
+    {{ else }}
+    <div class="no-talks-notice">
+        <h2>Derzeit keine Vorträge</h2>
+        <p>Sobald die nächsten Vorträge feststehen, werden sie an dieser Stelle angekündigt.</p>
+    </div>
+    {{ end }}
+</section>
+<div class="talks-banner">
+    <div class="talks-info-wrapper">
+        <div class="talks-info">
+            <h2>Vorträge auf der Sternwarte</h2>
+            <p>Die Vorträge finden <strong>Januar bis November</strong> jeden letzten Freitag im Monat statt. Sofern
+                nicht anders angegeben, werden alle Vorträge auf dem <a href="/infos/anfahrt">Gelände der
+                    Sternwarte</a> gehalten. Der Eintritt ist an der Abendkasse zu entrichten, Möglichkeiten zur
+                Reservierung oder Kartenvorverkauf gibt es nicht.</p>
+            <p>Der <strong>Eintritt beträgt 6,00€</strong> (ermäßigt 4,00€) und es ist ausschließlich Barzahlung
+                möglich.</p>
+            <p>Da nur <strong>35 Plätze</strong> zur Verfügung stehen empfehlen wir es, rechtzeitig einzutreffen.
+            </p>
+            <a class="btn" href='/infos/anfahrt'>Anfahrt</a>
+            <a class="btn" href='/infos/vortraege'>Weitere Informationen zu Vorträgen</a>
         </div>
     </div>
-    {{ if (gt (len $talks) 3) }}
-    <section class="talks-list">
-        <h3>Weitere Vorträge</h3>
-        {{ range first 3 (after 3 $talks) }}
-        {{ partial "vhs/talk-list-article.html" . }}
-        {{ end }}
-    </section>
+    <div class="aspect-wrapper">
+        <div class="aspect-spacer"></div>
+        <span class="aspect-bg"></span>
+    </div>
+</div>
+{{ if (gt (len $talks) 3) }}
+<section class="talks-list">
+    <h3>Weitere Vorträge</h3>
+    {{ range first 3 (after 3 $talks) }}
+    {{ partial "vhs/talk-list-article.html" . }}
     {{ end }}
-    <section class="archive">
-        <hr>
-        <h2>Vergangene Vorträge</h2>
-        <div class="archive-preview-list">
-            {{ $past_talks := (where (.Pages.ByParam "talk_date") ".Params.talk_date" "lt" $currentTime) }}
-            {{ range (first 4 $past_talks.Reverse) }}
-            <article>
-                <a href="{{ .RelPermalink }}" title='Permanenter Link zu "{{ .Title }}"'>
-                    {{ with (.Resources.GetMatch (index .Params.talk_images 0)).Fill "500x300 smart" }}
-                    <img src="{{ .RelPermalink }}" alt="{{ .Title }}">
-                    {{ end }}
-                    <h2>{{ .Title }}</h2>
-                </a>
-                <p>
-                    <time class="date published" datetime='{{ .Params.talk_date }}'>
-                        {{ partial "date.html" (dict "date" .Params.talk_date "monate" $.Site.Data.monate )}}
-                    </time>
-                </p>
-            </article>
-            {{ end }}
-        </div>
-        <p class="center"><a class="btn" href="archiv" title="Weitere Vorträge im Vortragsarchiv">Vortragsarchiv</a></p>
-    </section>
-</main>
+</section>
+{{ end }}
+<section class="archive">
+    <hr>
+    <h2>Vergangene Vorträge</h2>
+    <div class="archive-preview-list">
+        {{ $past_talks := (where (.Pages.ByParam "talk_date") ".Params.talk_date" "lt" $currentTime) }}
+        {{ range (first 4 $past_talks.Reverse) }}
+        <article>
+            <a href="{{ .RelPermalink }}" title='Permanenter Link zu "{{ .Title }}"'>
+                {{ with (.Resources.GetMatch (index .Params.talk_images 0)).Fill "500x300 smart" }}
+                <img src="{{ .RelPermalink }}" alt="{{ .Title }}">
+                {{ end }}
+                <h2>{{ .Title }}</h2>
+            </a>
+            <p>
+                <time class="date published" datetime='{{ .Params.talk_date }}'>
+                    {{ partial "date.html" (dict "date" .Params.talk_date "monate" $.Site.Data.monate )}}
+                </time>
+            </p>
+        </article>
+        {{ end }}
+    </div>
+    <p class="center"><a class="btn" href="archiv" title="Weitere Vorträge im Vortragsarchiv">Vortragsarchiv</a></p>
+</section>
 {{ end }}

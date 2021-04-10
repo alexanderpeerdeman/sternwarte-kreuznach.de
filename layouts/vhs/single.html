@@ -1,39 +1,36 @@
 {{ define "main" }}
-<main>
-  <article>
-    {{ if .Params.talk_images }}
-    {{ $img := (.Resources.GetMatch (index .Params.talk_images 0)) }}
-    {{ if gt $img.Width 750}}
-    {{ $img := $img.Resize "750x" }}
-    {{ end }}
-    <div class="vhs-talk-image">
-      <img src="{{ $img.RelPermalink }}" alt="{{ $img.Title }}">
-    </div>
-    {{ end }}
-    <div class="wrapper">
-      <h1 class="vhs-talk-title">{{ .Title }}</h1>
-      <div class="vhs-talk-container">
-        <div class="vhs-talk-content">
-          {{ .Content }}
-        </div>
-        <div class="vhs-talk-info">
-          {{ with .Params.talk_date }}
-          <p><time class="date published" datetime='{{ . }}'>{{ partial "date.html" (dict "date" . "monate"
-              $.Site.Data.monate )}}</time></p>
-          {{ end }}
-          {{ with .Params.talk_speakers }}
-          <ul class="nobullets">
+<article>
+  {{ if .Params.talk_images }} {{ $img := (.Resources.GetMatch (index
+  .Params.talk_images 0)) }} {{ if gt $img.Width 750}} {{ $img := $img.Resize
+  "750x" }} {{ end }}
+  <div class="vhs-talk-image">
+    <img src="{{ $img.RelPermalink }}" alt="{{ $img.Title }}" />
+  </div>
+  {{ end }}
+  <div class="wrapper">
+    <h1 class="vhs-talk-title">{{ .Title }}</h1>
+    <div class="vhs-talk-container">
+      <div class="vhs-talk-content">{{ .Content }}</div>
+      <div class="vhs-talk-info">
+        {{ with .Params.talk_date }}
+        <p>
+          <time class="date published" datetime="{{ . }}"
+            >{{ partial "date.html" (dict "date" . "monate" $.Site.Data.monate
+            )}}</time
+          >
+        </p>
+        {{ end }} {{ with .Params.talk_speakers }}
+        <ul class="nobullets">
           {{ range . }}
-          <li>{{ .name }}{{ if .extra }}<br><small>{{ .extra }}</small>{{ end }}</li>
+          <li>
+            {{ .name }}{{ if .extra }}<br /><small>{{ .extra }}</small>{{ end }}
+          </li>
           {{ end }}
-          </ul>
-          {{ end }}
-          <p><a href="/infos/vortraege">Eintritt & Zeiten</a></p>
-        </div>
+        </ul>
+        {{ end }}
+        <p><a href="/infos/vortraege">Eintritt & Zeiten</a></p>
       </div>
     </div>
-
-  </article>
-</main>
-
+  </div>
+</article>
 {{ end }}

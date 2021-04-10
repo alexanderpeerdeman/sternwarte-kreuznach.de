@@ -3,10 +3,13 @@ body {
   padding: 0;
   color: #444;
   background-color: #fff;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
 main {
-  min-height: 60vh;
+  flex: 1;
 }
 
 .content {
