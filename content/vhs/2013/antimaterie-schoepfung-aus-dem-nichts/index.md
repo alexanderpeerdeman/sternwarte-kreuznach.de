@@ -1,9 +1,9 @@
 ---
 date: '2016-08-22T14:57:00'
-talk_date: '2013-02-22T00:00:00'
+talk_date: '2013-02-22T20:00:00'
 talk_speakers:
   speaker1:
-    name: Dipl. Phys. M. Stellpflug, OStR
+    name: Dipl. Phys. Michael Stellpflug, OStR
 title: Antimaterie - Schöpfung aus dem Nichts!
 ---
 

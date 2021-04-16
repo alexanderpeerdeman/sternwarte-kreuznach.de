@@ -1,6 +1,6 @@
 ---
 date: '2016-08-22T16:23:00'
-talk_date: '2013-08-30T00:00:00'
+talk_date: '2013-08-30T20:00:00'
 talk_speakers:
   speaker1:
     name: Hartmut Waschik

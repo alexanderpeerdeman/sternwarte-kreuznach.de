@@ -1,6 +1,6 @@
 ---
 date: '2016-08-22T16:28:00'
-talk_date: '2013-11-29T00:00:00'
+talk_date: '2013-11-29T20:00:00'
 talk_speakers:
   speaker1:
     name: Dr. Ing. Rudolf Wohlleben

@@ -1,6 +1,6 @@
 ---
 date: '2016-08-22T16:28:00'
-talk_date: '2013-10-25T00:00:00'
+talk_date: '2013-10-25T20:00:00'
 talk_speakers:
   speaker1:
     name: Reinhold Frey

@@ -1,6 +1,6 @@
 ---
 date: '2016-08-22T16:40:00'
-talk_date: '2012-09-08T00:00:00'
+talk_date: '2012-09-08T20:00:00'
 talk_speakers:
   speaker1:
     name: Dr. Martin Bertges

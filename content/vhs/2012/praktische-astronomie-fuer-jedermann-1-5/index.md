@@ -1,9 +1,11 @@
 ---
 date: '2016-08-22T16:35:00'
-talk_date: '2012-10-26T00:00:00'
+talk_date: '2012-10-26T20:00:00'
 talk_speakers:
   speaker1:
     name: Volker Iserhardt
+  speaker2:
+    name: Co-Referenten der Sternwarte Bad Kreuznach e.V.
 title: Praktische Astronomie für Jedermann (1/5)
 ---
 
