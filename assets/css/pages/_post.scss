@@ -80,7 +80,7 @@ $pseudo-full-bleed-fixed-width: 1000px;
 
     &:hover .entry-title {
       text-decoration: underline;
-      color: #036;
+      color: $link-color;
     }
   }
 }

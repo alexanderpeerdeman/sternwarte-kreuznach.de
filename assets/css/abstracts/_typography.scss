@@ -1,3 +1,5 @@
+$link-color: lighten($color: #036, $amount: 10%);
+
 html {
   scroll-padding-top: 70px;
 }
@@ -52,7 +54,7 @@ h2 {
 }
 
 a {
-  color: lighten($color: #036, $amount: 10%);
+  color: $link-color;
   text-decoration: none;
   &:hover {
     text-decoration: underline;
@@ -96,18 +98,13 @@ pre {
   }
 }
 
-.arrow {
-  height: 11px;
-  margin-left: 0.2rem;
-}
-
-.go {
-  font-weight: 600;
-  fill: #036;
-}
-
 .center {
   text-align: center;
+}
+
+.nobullets {
+  list-style: none;
+  padding-left: 0;
 }
 
 table {

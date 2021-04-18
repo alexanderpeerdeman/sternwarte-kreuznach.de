@@ -1,19 +1,17 @@
 {{ define "main" }}
 {{ $page := . }}
-<header class="galerie-titlebar">
+<div class="galerie-titlebar">
     <div>
         <h1>{{ .Title }}</h1>
         <div class="creator">von {{ .Params.creator }}</div>
     </div>
-</header>
-<main class="galerie-detail-view">
-    <article class="content">
-        {{ if .Params.images }}
-            {{ with (.Resources.GetMatch (index .Params.images 0)) }}
-                <a href="{{ .RelPermalink }}" title="{{ $page.Title }}"><img src="{{ .RelPermalink }}" alt="{{ $page.Title }}"></a>
-            {{ end }}
+</div>
+<article class="content galerie-detail-view">
+    {{ if .Params.images }}
+        {{ with (.Resources.GetMatch (index .Params.images 0)) }}
+            <a href="{{ .RelPermalink }}" title="{{ $page.Title }}"><img src="{{ .RelPermalink }}" alt="{{ $page.Title }}"></a>
         {{ end }}
-        {{ .Content }}
-    </article>
-</main>
+    {{ end }}
+    {{ .Content }}
+</article>
 {{ end }}
