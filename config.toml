@@ -45,9 +45,9 @@ anchor = "center"
     pre = "svg/028-youtube.svg"
 
 
-[outputFormats.SearchIndex]
-    baseName = "search"
-    mediaType = "application/json"
+#[outputFormats.SearchIndex]
+#    baseName = "search"
+#    mediaType = "application/json"
 
-[outputs]
-    home = ["HTML", "SearchIndex"]
+#[outputs]
+#    home = ["HTML", "SearchIndex"]
