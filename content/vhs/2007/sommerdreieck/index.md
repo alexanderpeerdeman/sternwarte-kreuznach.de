@@ -1,5 +1,8 @@
 ---
 date: '2016-08-24T23:35:00'
-talk_date: '2007-08-01T00:00:00'
-title: Sommerdreieck
+talk_date: '2007-08-31T20:00:00'
+talk_speakers:
+  speaker1:
+    name: Dr. Frank Gottschald
+title: Urlaub im Sommerdreieck
 ---
