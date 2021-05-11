@@ -8,7 +8,6 @@ talk_speakers:
     name: Bernd Peerdeman
 title: Neue Horizonte - Der lange Weg zum Pluto
 ---
-
 Die Plutosonde „New Horizons“ erreicht am 14. Juli den Zwergplaneten Pluto. Nach einer Reise, die 9 1/2 Jahre andauerte, sind die Astronomen sehr gespannt wie es dort aussieht. In diesem Vortrag möchte ich Ihnen Wissenswertes über diese Mission in unterhaltsamer Weise vermitteln. Sofern die Kameras die lange Zeit unbeschadet überstanden haben, werden Sie spektakuläre Fotos von der Oberfläche des Zwergplaneten zu sehen bekommen.
 
 **Dieser Vortrag wird aufgrund großer Nachfrage am Freitag, den 14. August um 20:00 Uhr wiederholt.**

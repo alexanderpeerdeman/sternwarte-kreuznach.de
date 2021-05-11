@@ -7,18 +7,11 @@ talk_speakers:
 title: 'Astronomie – Wissenschaft zum Staunen und Mitmachen – 8 Abende:
 
   - Das Licht der Sterne
-
   - Die Sonne, unser Stern
-
   - Astronomie als Hobby
-
   - Kleinkörper im Sonnensystem
-
   - Die Erde als Planet
-
   - Nebel im Weltall
-
   - Unsere kosmische Zukunft
-
   - Gefahr aus dem All'
 ---

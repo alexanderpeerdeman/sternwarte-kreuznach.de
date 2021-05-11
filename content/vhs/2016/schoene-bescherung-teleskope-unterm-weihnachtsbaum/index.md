@@ -8,7 +8,6 @@ talk_speakers:
     name: Roman Schneider
 title: Schöne Bescherung ?! - Teleskope unterm Weihnachtsbaum
 ---
-
 Alle Jahre wieder...
 
 Insbesondere in der Zeit vor Weihnachten häufen sich die Anfragen zu diversen Einsteigerteleskopen. Sei es, einem astronomieinteressierten Freund oder einem Verwandten ein Geschenk zu machen. Die Weihnachtszeit ist die Blütezeit des Teleskopverkaufs. Damit Sie beim Kauf keine Überraschung erleben, geben wir Ihnen wertvolle Tipps für diese nicht leichte Entscheidung.

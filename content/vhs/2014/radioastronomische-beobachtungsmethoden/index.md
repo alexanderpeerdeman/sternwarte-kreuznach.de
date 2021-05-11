@@ -8,5 +8,4 @@ talk_speakers:
     name: Dr. Martin Bertges
 title: Radioastronomische Beobachtungsmethoden
 ---
-
 Für die meisten Amateurastronomen und astronomisch Interessierten sind radioastronomische Beobachtungen „ein Buch mit sieben Siegeln“. Genauer betrachtet, zeigen sich grundlegende Übereinstimmungen zwischen den optischen und radioastronomischen Beobachtungsmethoden. Wellenlängen von mehreren Meter bis hin zu Millimeter in der Radioastronomie, im Vergleich zu Nanometer bei optischer Beobachtung, verlangen jedoch ein völlig anderes Instrumentarium. Das Resultat sind neue Erkenntnisse in allen Teilen der Astronomie.

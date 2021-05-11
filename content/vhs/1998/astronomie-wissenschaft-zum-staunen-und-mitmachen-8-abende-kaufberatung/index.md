@@ -7,12 +7,8 @@ talk_speakers:
 title: 'Astronomie – Wissenschaft zum Staunen und Mitmachen – 8 Abende:
 
   - Kaufberatung für Teleskope
-
   - Orientierung am Winterhimmel
-
   - Kosmische Entfernungen
-
   - Sternhaufen und Galaxien
-
   - Besuch der Sternwarte'
 ---

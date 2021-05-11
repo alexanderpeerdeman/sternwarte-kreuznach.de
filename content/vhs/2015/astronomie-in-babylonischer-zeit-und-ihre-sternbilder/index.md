@@ -6,5 +6,4 @@ talk_speakers:
     name: Reinhold Frey
 title: Astronomie in Babylonischer Zeit und ihre Sternbilder
 ---
-
 Zu den ersten Erkenntnissen der babylonischen Himmelskunde gehörte die Entdeckung, dass viele Himmelserscheinungen periodisch ablaufen. Auch die Unterteilung des von der Sonne durchlaufenen Himmelskreises (Ekliptik) in 12 Tierkreiszeichen geht auf die frühbabylonische Astronomie zurück. Das Auffinden des Saroszyklus für gleichartige Finsternisse gehört ebenfalls zu den beachtlichsten Leistungen der Babylonier.

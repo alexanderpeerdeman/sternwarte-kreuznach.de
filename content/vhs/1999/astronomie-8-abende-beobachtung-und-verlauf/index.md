@@ -7,21 +7,12 @@ talk_speakers:
 title: 'Astronomie – 8 Abende:
 
   - Beobachtung und Verlauf der einzigen totalen Sonnenfinsternis (11.08.1999) in
-  diesem
-
-  Jahrhundert in Deutschland
-
+  diesem Jahrhundert in Deutschland
   - Astrofotografie für Beginner
-
   - Kalender und Zeitrechnung
-
   - Merkur und Venus, die inneren Planeten
-
   - Kleinplaneten
-
   - Quasare und Götter
-
   - Sterne und Dämonen am Himmel
-
   - Praktische Himmelsbeobachtung'
 ---

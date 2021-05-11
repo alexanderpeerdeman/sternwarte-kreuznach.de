@@ -8,5 +8,4 @@ talk_speakers:
     name: Co-Referenten der Sternwarte Bad Kreuznach
 title: Wie justiere ich ein astronomisches Teleskop (nach Newton)?
 ---
-
 Jeder der ein Newton Teleskop (Spiegelteleskop) besitzt, muss es regelmäßig justieren, da sich bei jedem Transport des Teleskops die Ausrichtung des Spiegels leicht verändert. Das ist aber kein Grund, auf den Kauf eines Newtons zu verzichten. Wir zeigen Ihnen Schritt für Schritt an einem Teleskop der Sternwarte, wie das Gerät justiert wird und was dabei zu beachten ist. Unter Anleitung unserer Referenten haben Sie die Gelegenheit, die Justage eines solchen Teleskops zu üben.

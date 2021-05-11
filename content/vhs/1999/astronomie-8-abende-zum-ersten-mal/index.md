@@ -7,20 +7,12 @@ talk_speakers:
 title: 'Astronomie – 8 Abende (zum ersten Mal im neuen Gebäude auf der Sternwarte):
 
   - Der Planet Mars
-
   - Galaxien
-
   - Planetarische Nebel
-
   - Radioastronomie: das unsichtbare Universum
-
-  - Weltraumastonomie: Raumsonden erforschen das All
-
+  - Weltraumastronomie: Raumsonden erforschen das All
   - Geschichte des Teleskops und die Sternwarten der Welt
-
   - Die Kreuznacher Sternwarte
-
   - Die Schöpfungsgeschichte aus astronomischer Sicht
-
-  - Wie Kauf ich ein Teleskop, auf was muß ich achten?'
+  - Wie kaufe ich ein Teleskop, auf was muss ich achten?'
 ---

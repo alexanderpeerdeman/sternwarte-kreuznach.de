@@ -6,5 +6,4 @@ talk_speakers:
     name: Artur Kappesser
 title: Bemerkungen über das Licht
 ---
-
 Eine Reise durch die Welt des Lichts in Astronomie, dem Alltag, der Geschichte und Kultur. Erfahren Sie Wissenswertes von der Rolle des Lichts in der Menschheitsgeschichte. Welchen Einfluss übte und übt Licht auf unseren Alltag aus? Welches sind die physikalischen Grundlagen? Gehen Sie mit auf einer Stippvisite durch ein Elixier, ohne das wir nicht existieren könnten.

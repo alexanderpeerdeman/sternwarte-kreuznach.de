@@ -8,5 +8,4 @@ talk_speakers:
     name: Dipl. Phys. Reinhard Hopp
 title: Elektromagnetische Felder
 ---
-
 Michael Faradays Leben leuchtet als Beispiel dafür, was ein Mensch aus sich machen kann. Trotz schweren Anfangs wurde er einer der großen Forscher: dank ihm kennen wir Magnetfelder, elektrische Motoren und Generatoren und viele Geheimnisse der Chemie. Der Vortrag stellt sein Leben und einige seiner Erkenntnisse dar.

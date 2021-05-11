@@ -7,16 +7,10 @@ talk_speakers:
 title: 'Astronomie für Einsteiger – 8 Abende:
 
   - Was zeigt der Sommerhimmel?
-
   - Das Universum und sein Aufbau
-
   - Die Kometen
-
   - Die Milchstraße
-
   - Capella, ein unglaublicher Stern
-
   - Das Teleskop – Werkzeug der Amateurastronomen
-
   - Anatomie des Mondes'
 ---

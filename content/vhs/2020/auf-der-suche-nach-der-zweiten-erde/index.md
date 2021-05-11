@@ -8,5 +8,6 @@ talk_speakers:
     name: Jonas Kemmer
 title: Auf der Suche nach der zweiten Erde
 ---
+In 2019 gewannen Michel Mayor und Didier Queloz den Nobelpreis in Physik für die Entdeckung von 51 Pegasi b - der uns erste bekannte Planet, der um einen anderen Stern als die Sonne kreist. Seit dieser Entdeckung im Jahr 1995 hat die Forschung um die sogenannten Exoplaneten rasante Fortschritte gemacht. 
 
-In 2019 gewannen Michel Mayor und Didier Queloz den Nobelpreis in Physik für die Entdeckung von 51 Pegasi b - der uns erste bekannte Planet, der um einen anderen Stern als die Sonne kreist. Seit dieser Entdeckung im Jahr 1995 hat die Forschung um die sogenannten Exoplaneten rasante Fortschritte gemacht. Der Vortrag gibt einen Überblick über die wichtigsten Methoden, mit denen heute nach Exoplaneten gesucht wird und präsentiert spannende Einblicke in erst kürzlich mit der Radialgeschwindigkeitsmethode entdeckte Planetensysteme.
+Der Vortrag gibt einen Überblick über die wichtigsten Methoden, mit denen heute nach Exoplaneten gesucht wird und präsentiert spannende Einblicke in erst kürzlich mit der Radialgeschwindigkeitsmethode entdeckte Planetensysteme.
