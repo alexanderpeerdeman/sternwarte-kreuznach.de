@@ -1,0 +1,11 @@
+.frame {
+  $bg: #036;
+  $amount: 78;
+  padding: 1rem 1.4rem;
+  min-width: 25%;
+  margin: 1rem 0;
+  display: inline-block;
+  border: lighten($color: $bg, $amount: $amount - 10) solid 1px;
+  border-radius: 3px;
+  background-color: lighten($color: $bg, $amount: $amount);
+}
