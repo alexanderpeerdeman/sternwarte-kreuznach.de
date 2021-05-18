@@ -1,3 +1,9 @@
+$fa-font-path: "/fonts/fontawesome";
+@import '../icons/fontawesome.scss';
+@import '../icons/regular.scss';
+@import '../icons/solid.scss';
+@import '../icons/brands.scss';
+
 @import 'abstracts/responsive';
 @import 'abstracts/typography';
 
