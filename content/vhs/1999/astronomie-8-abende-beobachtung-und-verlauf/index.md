@@ -1,18 +1,17 @@
 ---
 date: '2016-08-24T23:35:00'
-talk_date: '1999-02-01T00:00:00'
+talk_date: '1999-02-01T19:30:00'
 talk_speakers:
   speaker1:
     name: Mitglieder der Sternwarte
 title: 'Astronomie – 8 Abende:
-
-  - Beobachtung und Verlauf der einzigen totalen Sonnenfinsternis (11.08.1999) in
-  diesem Jahrhundert in Deutschland
+  - Beobachtung und Verlauf der einzigen totalen Sonnenfinsternis (11.08.1999) in diesem Jahrhundert in Deutschland
   - Astrofotografie für Beginner
   - Kalender und Zeitrechnung
-  - Merkur und Venus, die inneren Planeten
+  - Merkur und Venus - die inneren Planeten
   - Kleinplaneten
   - Quasare und Götter
   - Sterne und Dämonen am Himmel
   - Praktische Himmelsbeobachtung'
 ---
+8 Abende, Montag 01.02.1999 - 12.04.1999, 19:30 Uhr

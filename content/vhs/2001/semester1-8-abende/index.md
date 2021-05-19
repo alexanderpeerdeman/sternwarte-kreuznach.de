@@ -4,12 +4,13 @@ talk_date: '2001-03-26T19:30:00'
 talk_speakers:
   speaker1:
     name: Mitglieder der Sternwarte
-title: 1. Semester - 8 Abende - 26.03.2001-28.05.2001
+title: Astronomie - 8 Abende - 26.03.2001-28.05.2001
 ---
   Mit einem Vortrag zur "Geschichte des Teleskops" beginnt die Vortragsreihe des Vereins der Sternfreunde auf der Kreuznacher Sternwarte.
    
   Weitere Themen an den 8 Abenden sind: 
   * Das Leben der Sterne
+  * Supernovae
   * Sterne des Frühlings
   * Unsere Heimat, die Milchstraße
   * Pluto und Charon
