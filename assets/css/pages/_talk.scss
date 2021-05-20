@@ -1,3 +1,7 @@
+.vhs-talk {
+  margin-top: 2rem;
+}
+
 .vhs-talk-image {
   line-height: 0;
   
@@ -12,10 +16,15 @@
 .vhs-talk-title {
   margin: 0;
 }
+
 .vhs-title-prelude {
   margin-bottom: 0.2rem;
-  font-size: 18px;
-  font-weight: 500;
+  font-size: 17px;
+  font-weight: 400;
+  display: inline-block;
+  padding: 0 0.3rem 0 0.1rem;
+  color: #444;
+  border-bottom: 1px solid #444;
 }
 
 .vhs-talk-meta {

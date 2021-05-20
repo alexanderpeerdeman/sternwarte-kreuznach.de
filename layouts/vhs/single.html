@@ -1,16 +1,16 @@
 {{ define "main" }}
-<article>
+<article class="vhs-talk">
   <div class="content">
-    <h2 class="vhs-title-prelude">VHS-Vortrag</h2>
+    <span class="vhs-title-prelude">VHS-Vortrag</span>
     <h1 class="vhs-talk-title">{{ .Title }}</h1>
     <div class="vhs-talk-meta frame">
       {{ with .Params.talk_date }}
-      <time class="date published" datetime="{{ . }}"><i class="far fa-calendar-alt"></i> {{ partial "date.html" (dict "date" . "monate" $.Site.Data.monate )}}</time><br>
+      <time class="date published" datetime="{{ . }}"><i class="far fa-calendar-alt" title="Datum des Vortrags"></i> {{ partial "date.html" (dict "date" . "monate" $.Site.Data.monate )}}</time><br>
       {{ end }}
       {{ range .Params.talk_speakers }}
-      <i class="fas fa-user"></i> {{ .name }}{{ if .extra }} <small>{{ .extra }}</small>{{ end }}<br>
+      <i class="fas fa-user" title="Referent/Referentin"></i> {{ .name }}{{ if .extra }} <small>{{ .extra }}</small>{{ end }}<br>
       {{ end }}
-      <i class="fas fa-info-circle"></i> <a href="/infos/vortraege">Eintritt & Zeiten</a>
+      <i class="fas fa-info-circle" title="Weitere Informationen"></i> <a href="/infos/vortraege">Eintritt & Zeiten</a>
     </div>
     {{ if .Params.talk_images }} {{ $img := (.Resources.GetMatch (index
     .Params.talk_images 0)) }} {{ if gt $img.Width 750}} {{ $img := $img.Resize
