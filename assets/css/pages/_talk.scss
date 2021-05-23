@@ -2,21 +2,6 @@
   margin-top: 2rem;
 }
 
-.vhs-talk-image {
-  line-height: 0;
-  
-  > img {
-    border-radius: 3px;
-    width: auto;
-    height: 70%;
-    max-height: 500px;
-  }
-}
-
-.vhs-talk-title {
-  margin: 0;
-}
-
 .vhs-title-prelude {
   margin-bottom: 0.2rem;
   font-size: 17px;
@@ -27,21 +12,49 @@
   border-bottom: 1px solid #444;
 }
 
+.vhs-talk-title {
+  margin: 0;
+}
+
+.vhs-talk-image {
+  line-height: 0;
+  padding: 1rem 0;
+  text-align: center;
+
+  > img {
+    border-radius: 3px;
+    width: auto;
+    height: 70%;
+    max-height: 500px;
+  }
+}
+
 .vhs-talk-meta {
-  display: inline-block;
-  min-width: 25%;
-  color: #333;
-  font-size: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  > div {
+    &:not(:last-child) {
+      margin-right: 1rem;
+    }
+  }
+
+  border-bottom: #444 1px solid;
+  padding-bottom: 0.7rem;
+
+  color: #444;
+  font-size: 14px;
   line-height: 2;
   i {
     letter-spacing: 5px;
   }
   .date {
-    font-weight: 700;
+    font-weight: 800;
   }
 }
 
-
 .vhs-talk-content {
-  max-width: 60ch;
+  font-size: 17px;
+  line-height: 1.65;
 }

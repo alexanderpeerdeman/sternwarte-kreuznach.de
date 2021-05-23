@@ -3,22 +3,30 @@
   <div class="content">
     <span class="vhs-title-prelude">VHS-Vortrag</span>
     <h1 class="vhs-talk-title">{{ .Title }}</h1>
-    <div class="vhs-talk-meta frame">
-      {{ with .Params.talk_date }}
-      <time class="date published" datetime="{{ . }}"><i class="far fa-calendar-alt" title="Datum des Vortrags"></i> {{ partial "date.html" (dict "date" . "monate" $.Site.Data.monate )}}</time><br>
+    {{ if .Params.talk_images }}
+      {{ $img := (.Resources.GetMatch (index .Params.talk_images 0)) }}
+      {{ if gt $img.Width 750}}
+        {{ $img := $img.Resize "750x" }} 
       {{ end }}
-      {{ range .Params.talk_speakers }}
-      <i class="fas fa-user" title="Referent/Referentin"></i> {{ .name }}{{ if .extra }} <small>{{ .extra }}</small>{{ end }}<br>
-      {{ end }}
-      <i class="fas fa-info-circle" title="Weitere Informationen"></i> <a href="/infos/vortraege">Eintritt & Zeiten</a>
-    </div>
-    {{ if .Params.talk_images }} {{ $img := (.Resources.GetMatch (index
-    .Params.talk_images 0)) }} {{ if gt $img.Width 750}} {{ $img := $img.Resize
-    "750x" }} {{ end }}
-    <div class="vhs-talk-image">
-      <img src="{{ $img.RelPermalink }}" alt="{{ $img.Title }}" />
-    </div>
+      <div class="vhs-talk-image">
+        <img src="{{ $img.RelPermalink }}" alt="{{ $img.Title }}" />
+      </div>
     {{ end }}
+    <div class="vhs-talk-meta">
+      <div>
+        {{ with .Params.talk_date }}
+        <time class="date published" datetime="{{ . }}"><i class="far fa-calendar-alt" title="Datum des Vortrags"></i> {{
+          partial "date.html" (dict "date" . "monate" $.Site.Data.monate )}}</time><br>
+          {{ end }}
+          <i class="fas fa-info-circle" title="Weitere Informationen"></i> <a href="/infos/vortraege">Eintritt & Zeiten</a>
+      </div>
+      <div>
+        {{ range .Params.talk_speakers }}
+        <i class="fas fa-user" title="Referent/Referentin"></i> {{ .name }}{{ if .extra }} <small>{{ .extra }}</small>{{ end }}</br>
+        {{ end }}
+      </div>
+      
+    </div>
     <div class="vhs-talk-content">{{ .Content }}</div>
   </div>
 </article>
