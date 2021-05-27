@@ -1,8 +1,8 @@
 {{ define "main" }}
 <article class="vhs-talk">
   <div class="content">
-    <span class="vhs-title-prelude">VHS-Vortrag</span>
-    <h1 class="vhs-talk-title">{{ .Title }}</h1>
+    <span class="vhs-title-prelude">{{ if .Params.talk_type_raw}}{{.Params.talk_type_raw}}{{else}}VHS-Vortrag{{end}}</span>
+    <h1 class="vhs-talk-title">{{ .Title | safeHTML }}</h1>
     {{ if .Params.talk_images }}
       {{ $img := (.Resources.GetMatch (index .Params.talk_images 0)) }}
       {{ if gt $img.Width 750}}
@@ -14,11 +14,16 @@
     {{ end }}
     <div class="vhs-talk-meta">
       <div>
+        {{ if .Params.talk_date_raw }}
+          <time class="date published" datetime="{{ . }}"><i class="far fa-calendar-alt"></i>
+          {{ .Params.talk_date_raw }}</time><br>
+        {{ else }}
         {{ with .Params.talk_date }}
-        <time class="date published" datetime="{{ . }}"><i class="far fa-calendar-alt" title="Datum des Vortrags"></i> {{
-          partial "date.html" (dict "date" . "monate" $.Site.Data.monate )}}</time><br>
-          {{ end }}
-          <i class="fas fa-info-circle" title="Weitere Informationen"></i> <a href="/infos/vortraege">Eintritt & Zeiten</a>
+          <time class="date published" datetime="{{ . }}"><i class="far fa-calendar-alt" title="Datum des Vortrags"></i>
+          {{ partial "date.html" (dict "date" . "monate" $.Site.Data.monate )}}</time><br>
+        {{ end }}
+        {{ end }}
+        <i class="fas fa-info-circle" title="Weitere Informationen"></i> <a href="/infos/vortraege">Eintritt & Zeiten</a>
       </div>
       <div>
         {{ range .Params.talk_speakers }}

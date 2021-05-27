@@ -2,7 +2,7 @@
     <div class="talk-entry">
         <span class="vhs-title-prelude">VHS-Vortrag</span>
         <a href="{{ .RelPermalink }}" title='Permanenter Link zu "{{ .Title }}"'>
-            <h2>{{ .Title }}</h2>
+            <h2>{{ .Title | plainify }}</h2>
         </a>
         <div class="talk-meta">
             {{ with .Params.talk_date }}

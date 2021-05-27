@@ -17,7 +17,7 @@
             <h2 id="{{ .Key}}">{{ .Key }}</h2>
             <ul>
             {{ range .Pages }}
-                <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+                <li><a href="{{ .RelPermalink }}">{{ .Title | plainify }}</a></li>
             {{ end }}
             </ul>
             <a class="uplink" href="#" title="Zurück zum Seitenanfang">▲</a>

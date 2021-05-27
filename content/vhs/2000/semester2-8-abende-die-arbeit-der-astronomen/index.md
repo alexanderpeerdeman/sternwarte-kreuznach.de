@@ -1,10 +1,12 @@
 ---
 date: '2016-08-24T23:35:00'
-talk_date: '2000-10-01T00:00:00'
+talk_date: 2000-10-16
+talk_date_raw: 16. Oktober 2000 - 04. Dezember 2000
 talk_speakers:
   speaker1:
     name: Mitglieder der Sternwarte
-title: '2. Semester - 8 Abende - 16.10.2000-04.12.2000 - Die Arbeit der Astronomen'
+talk_type: VHS-Kurs
+title: 'Astronomie - 8 Abende:<br>Die Arbeit der Astronomen'
 ---
 In diesem Semester steht die Arbeit der Astronomen im Mittelpunkt der Vortragsthemen: 
 - Die Methoden der Landvermesser funktionieren in kosmischen Dimensionen nicht, wie kartieren Astronomen das All?

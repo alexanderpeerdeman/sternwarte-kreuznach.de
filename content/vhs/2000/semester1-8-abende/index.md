@@ -1,10 +1,12 @@
 ---
 date: '2016-08-24T23:35:00'
-talk_date: '2000-03-01T00:00:00'
+talk_date: '2000-03-13'
+talk_date_raw: 13. März 2000 - 22. Mai 2000
+talk_type_raw: VHS-Kurs
 talk_speakers:
   speaker1:
     name: Mitglieder der Sternwarte
-title: '1. Semester - 8 Abende - 13.03.2000-22.05.2000'
+title: 'Astronomie - 8 Abende'
 ---
  Dies sind die Themen des Kurses, die mit Dia-, Video- und Computerunterstützung vorgestellt werden:
  - Sind wir allein im All?
