@@ -1,36 +1,33 @@
 {{ define "main" }}
-<article>
-  {{ if .Params.talk_images }} {{ $img := (.Resources.GetMatch (index
-  .Params.talk_images 0)) }} {{ if gt $img.Width 750}} {{ $img := $img.Resize
-  "750x" }} {{ end }}
-  <div class="vhs-talk-image">
-    <img src="{{ $img.RelPermalink }}" alt="{{ $img.Title }}" />
-  </div>
-  {{ end }}
-  <div class="wrapper">
+<article class="vhs-talk">
+  <div class="content">
+    <span class="vhs-title-prelude">VHS-Vortrag</span>
     <h1 class="vhs-talk-title">{{ .Title }}</h1>
-    <div class="vhs-talk-container">
-      <div class="vhs-talk-content">{{ .Content }}</div>
-      <div class="vhs-talk-info">
-        {{ with .Params.talk_date }}
-        <p>
-          <time class="date published" datetime="{{ . }}"
-            >{{ partial "date.html" (dict "date" . "monate" $.Site.Data.monate
-            )}}</time
-          >
-        </p>
-        {{ end }} {{ with .Params.talk_speakers }}
-        <ul class="nobullets">
-          {{ range . }}
-          <li>
-            {{ .name }}{{ if .extra }}<br /><small>{{ .extra }}</small>{{ end }}
-          </li>
-          {{ end }}
-        </ul>
-        {{ end }}
-        <p><a href="/infos/vortraege">Eintritt & Zeiten</a></p>
+    {{ if .Params.talk_images }}
+      {{ $img := (.Resources.GetMatch (index .Params.talk_images 0)) }}
+      {{ if gt $img.Width 750}}
+        {{ $img := $img.Resize "750x" }} 
+      {{ end }}
+      <div class="vhs-talk-image">
+        <img src="{{ $img.RelPermalink }}" alt="{{ $img.Title }}" />
       </div>
+    {{ end }}
+    <div class="vhs-talk-meta">
+      <div>
+        {{ with .Params.talk_date }}
+        <time class="date published" datetime="{{ . }}"><i class="far fa-calendar-alt" title="Datum des Vortrags"></i> {{
+          partial "date.html" (dict "date" . "monate" $.Site.Data.monate )}}</time><br>
+          {{ end }}
+          <i class="fas fa-info-circle" title="Weitere Informationen"></i> <a href="/infos/vortraege">Eintritt & Zeiten</a>
+      </div>
+      <div>
+        {{ range .Params.talk_speakers }}
+        <i class="fas fa-user" title="Referent/Referentin"></i> {{ .name }}{{ if .extra }} <small>{{ .extra }}</small>{{ end }}</br>
+        {{ end }}
+      </div>
+      
     </div>
+    <div class="vhs-talk-content">{{ .Content }}</div>
   </div>
 </article>
 {{ end }}
