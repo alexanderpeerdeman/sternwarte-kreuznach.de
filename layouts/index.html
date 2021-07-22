@@ -1,29 +1,4 @@
 {{ define "main" }}
-<section id="hero">
-  <div class="hero-content">
-    <div id="hero-logo">
-      <img src="svg/logo.svg" alt="logo" />
-    </div>
-    <div class="frame">
-      <h3><i class="far fa-clock"></i> Öffnungszeiten</h3>
-      <p>
-        oder ähnliche Informationen: Hier sollte stehen, was der Besucher als
-        erstes finden sollte
-      </p>
-    </div>
-    <div class="frame">
-      <h3><i class="fas fa-exclamation-triangle"></i> Coronavirus</h3>
-      <p>Jetzt haben wir es bald geschafft!</p>
-    </div>
-    <div class="frame">
-      <h3><i class="fas fa-bomb"></i> Die letzte Box</h3>
-      <p>
-        Läuft jetzt schon aus dem View heraus und streck deshalb das Bild nach
-        unten. Wenn möglich, vermeiden!
-      </p>
-    </div>
-  </div>
-</section>
 <section id="featured">
   <article
     class="article-card"
@@ -53,7 +28,6 @@
   <div class="cards">
     {{ range (.GetPage "home-cards").Resources.ByType "page" }}
     <div class="card">
-      <h2 class="card-header">{{ .Title }}</h2>
       <div class="card-content">{{ .Content }}</div>
       <a class="btn small" href="{{ .Params.button_link }}"
         >{{ .Params.button_text }}</a

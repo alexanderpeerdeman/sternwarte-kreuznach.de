@@ -17,6 +17,7 @@ footer {
       justify-content: space-around;
       align-items: center;
       flex-wrap: wrap;
+      padding-top: 1.2rem;
 
       @media #{$phone} {
         flex-direction: column;

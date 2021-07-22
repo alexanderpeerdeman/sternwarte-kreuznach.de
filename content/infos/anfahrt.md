@@ -11,5 +11,6 @@ menu:
 - Interaktive Karten nur als Link, nicht direkt eingebunden.
 - Schriftliche Beschreibung:
     - Waldweg, dann Vitrine links neben einem Stahltor. Da rein.
-- Möglichkeit über öffentliche Verkehrsmittel (?)
-- 
+- Auto
+- öffentliche Verkehrsmittel?
+- zu Fuß?
