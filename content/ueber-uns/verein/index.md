@@ -6,9 +6,7 @@ menu:
     parent: "Über uns"
     weight: 1
 ---
-
-![Sternwarte Eins](sternwarte-1.jpg)
-Unser Gelände auf dem Kuhberg
+{{< figure src="sternwarte-1.jpg" caption="Unser Gelände auf dem Kuhberg" >}}
 
 ## Astronomieverein auf dem Kuhberg in Bad Kreuznach:
 
@@ -18,8 +16,7 @@ Der eingetragene Verein hat aktuell 38 Mitglieder. Wir sehen unsere Aufgabe dari
 
 Unser vielfältiges Angebot umfasst Vorträge für Schulklassen und interessierte Gruppen, VHS Fachvorträge, Beratung rund um die Astronomie, Beobachtungsabende und Sonnenbeobachtung, Beteiligung am bundesweiten Astronomietag und unseren Tag der offenen Tür.
 
-![Meade LX200 EMC 12" - Fornax 102](sternwarte-1-instrument.jpg)
-Meade LX200 EMC 12" - Fornax 102 - Vixen Super Polaris Flourite - APO-FL-S | 90/810 | f/9 mit Herschelprisma
+{{< figure src="sternwarte-1-instrument.jpg" caption="Meade LX200 EMC 12\" - Fornax 102 - Vixen Super Polaris Flourite - APO-FL-S | 90/810 | f/9 mit Herschelprisma" >}}
 
 Bei astronomischen Ereignissen sind wir mit unserer mobilen Ausrüstung in der Stadt Bad Kreuznach unterwegs und können so die Bevölkerung daran teilnehmen lassen. Vorträge und Veranstaltungen bescheren uns pro Jahr ca. 2.500 Besucher.
 

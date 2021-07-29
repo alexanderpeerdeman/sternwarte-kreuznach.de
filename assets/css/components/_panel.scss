@@ -1,0 +1,28 @@
+.panel {
+  display: block;
+  line-height: 1.5;
+  margin: 1rem 0;
+  border-radius: 8px;
+  padding: 1rem 1.2rem;
+  box-shadow: 0 0 1rem 0 #ccc;
+
+  background-color: #003366;
+  color: rgba(white, 0.85);
+  border: 0.2rem rgba($color: white, $alpha: 0.15) dashed;
+
+  &.success {
+    background-color: #143109;
+    color: rgba(white, 0.85);
+    border: 0.2rem rgba($color: white, $alpha: 0.15) dashed;
+  }
+  &.warning {
+    background-color: #FA9500;
+    color: rgba(black, 0.85);
+    border: 0.2rem rgba($color: black, $alpha: 0.15) dashed;
+  }
+  &.danger {
+    background-color: #A4031F;
+    color: rgba(white, 0.85);
+    border: 0.2rem rgba($color: white, $alpha: 0.30) dashed;
+  }
+}

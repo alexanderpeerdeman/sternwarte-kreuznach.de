@@ -4,6 +4,11 @@ date: 2020-08-11T00:41:25+02:00
 # description: "This is a short description of this page."
 ---
 
+{{< panel >}}
+Hier steht ein einigermaßen wichtiger Hinweis zum Thema Inhalt.  
+Besuchen Sie die neu gestaltete Sektion **"Über uns"**.
+{{< /panel>}}
+
 Auf unserer Website erfahren Sie sowohl etwas über den [Verein](/ueber-uns/verein/) als auch über unser [Programmangebot](/ueber-uns/angebot/) und unsere [VHS-Vorträge](/vhs/).
 
 Seit vielen Jahren bieten wir der Bevölkerung die Möglichkeit, [Sonnenbeobachtung](/ueber-uns/sonnenbeobachtung/) unter professioneller Anleitung durchzuführen. Es können im sichtbaren Bereich des Spektrums der Sonne ihre Sonnenflecken und Protuberanzen betrachtet werden.

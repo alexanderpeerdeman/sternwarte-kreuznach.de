@@ -1,11 +1,27 @@
 .frame {
-  $bg: #036;
-  $amount: 78;
-  padding: 1rem 1.4rem;
-  min-width: 25%;
-  margin: 1rem 0;
-  display: inline-block;
-  border: lighten($color: $bg, $amount: $amount - 10) solid 1px;
-  border-radius: 3px;
-  background-color: lighten($color: $bg, $amount: $amount);
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin: 1.5rem auto;
+  max-width: 67%;
+  @media #{$phone} {
+    max-width: 100%;
+  }
+  padding: 1.4rem;
+  box-shadow: 0 0 20px 0 rgba($color: #000000, $alpha: 0.2);
+  border-radius: 12px;
+  > img {
+    max-height: 13em;
+  }
+  > .frame-content {
+    max-width: 30ch;
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      margin-top: 0;
+    }
+  }
 }

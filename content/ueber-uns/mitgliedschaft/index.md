@@ -6,12 +6,7 @@ menu:
         parent: 'Über uns'
         weight: 2
 ---
-## Todo:
-- Mitgliedsbeitrag ist jährlich
-- Warum sollte ich Mitglied werden?
-
-
-Haben Sie Freude an der Astronomie? Dann kommen Sie zu uns. Unterstützen Sie die Sternwarte durch ihre Mitgliedschaft.
+Haben Sie Freude an der Astronomie? Dann kommen Sie zu uns und treten Sie dem Verein bei. Unterstützen Sie die Sternwarte durch ihre Mitgliedschaft.
 
 | Beitragsart | Jährlicher Beitrag |
 |:--|--:|
@@ -22,13 +17,16 @@ Haben Sie Freude an der Astronomie? Dann kommen Sie zu uns. Unterstützen Sie di
 | Familien mit Kindern unter 18 Jahren | **120 €** |
 | Ehepaare | **150 €** |
 
-## Fördermitgliedschaft
+## Beitrittserklärung und Satzung des Vereins
+
+Wir bieten die [Beitrittserklärung](beitrittserklaerung.pdf) direkt hier zum Download an.  
+Hier finden Sie auch die [Satzung](satzung.pdf) des Vereins.
+
+### Fördermitgliedschaft
+
+Zusätzlich bieten wir die Möglichkeit einer Fordermitgliedschaft an.
 
 | Beitragsart | Jährlicher Beitrag |
 |:--|--:|
 | Fördermitglieder (Mindestbeitrag) | **48 €** |
 | Fördermitglieder (freiwilliger Beitrag) |**> 48 €**|
-
-### Weitere Informationen
-
-Die Beitrittserklärung finden Sie in der Sektion [Downloads](/infos/downloads).

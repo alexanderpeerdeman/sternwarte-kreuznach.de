@@ -34,21 +34,25 @@ Die Reise beginnt auf der Sternwarte Bad Kreuznach mit Informationen über den V
 Anschließend gehen wir zu unseren Teleskopen und erläutern Ihnen die Funktionsweise einer Sternwarte. Sollte das Wetter mitspielen, werden wir Ihnen einige astronomische Objekte mit unseren Instrumenten zeigen. Bei schlechtem Wetter können wir Ihnen mit einer Simulationssoftware den
 Sternhimmel in Echtzeit präsentieren.
 
+![hausvortrag.jpg](hausvortrag.jpg)
+
 ## Programm 2:
 
 **Raketen basteln, Dauer ca. 3 Stunden**
 
 Der Renner bei den Kindern ist unser Raketen basteln.
-Näheres dazu finden Sie hier.
+Näheres dazu finden Sie unter dem Thema [Modellraketen](/ueber-uns/modellraketen).
 
-raketen basteln
+![raketen-basteln.jpg](raketen-basteln.jpg)
 
 ## Programm 3:
 
 **Kita - Vortag Max und sein Teleskop, Dauer ca. 45 min**
 
 Für Kinder im Vorschulalter bieten wir seit 2013 ein speziell abgestimmtes Programm an. Im Vortrag „Max und sein Teleskop“ erleben die Kinder, wie Max das Sonnensystem erkundet. Wir machen Station auf dem Mond und erklären die Schutzmaßnahmen, die  insbesondere bei der Sonnenbeobachtung sehr wichtig sind. Die Kinder haben dann die Möglichkeit, ein Teleskop selbst auszuprobieren und Gelegenheit zum Malen und Spielen. Danach geht's weiter im Vortrag. Wir fliegen mit Max an fernen Galaxien und anderen astronomischen Objekten vorbei und landen anschließend wohlbehalten wieder auf der Sternwarte.
-[Titel Kita.JPG]
-20180411 MG 7635
 
-**Unser Vortragsraum wird speziell für diesen Vortrag umgestaltet, daher können max. 15 Kinder daran teilnehmen.**
+![kita.jpg](kita.jpg)
+
+![vortragsraum-umgestaltet.jpg](vortragsraum-umgestaltet.jpg)
+
+**Unser Vortragsraum wird speziell für diesen Vortrag umgestaltet, daher ist die Teilnahme auf maximal 15 Kinder beschränkt.**

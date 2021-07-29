@@ -33,6 +33,11 @@ anchor = "center"
     name = "Infos"
     weight = 5
 
+[[menu.main]]
+    name = "Kontakt"
+    url = "/infos/kontakt"
+    weight = 6
+
 
 [[menu.social]]
     name = "Facebook"

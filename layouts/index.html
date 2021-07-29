@@ -37,14 +37,15 @@
   </div>
 </section>
 <section id="next-vhs" class="content">
-  {{ $currentTime := now.Format "2006-01-02T15:04:05" }} {{ $currentTime :=
-  (time "2019-09-01").Format "2006-01-02T15:04:05" }} {{ $talks := (where
-  ((.GetPage "/vhs").Pages.ByParam "talk_date") ".Params.talk_date" "ge"
-  $currentTime) }}
+  {{/*  {{ $currentTime := now.Format "2006-01-02T15:04:05" }}
+  {{ $currentTime := (time "2019-09-01").Format "2006-01-02T15:04:05" }}
+  {{ $talks := (where ((.GetPage "/vhs").Pages.ByParam "talk_date") ".Params.talk_date" "ge" $currentTime) }}  */}}
+  {{ $talks := ((.GetPage "vhs").Pages.ByParam "talk_date") }}
+
 
   <div class="announcement">
     <h2><a href="/vhs">Aktuelle Veranstaltungen</a></h2>
-    {{ range (first 4 $talks)}}
+    {{ range (last 4 $talks)}}
     <article>
       <a href="{{ .RelPermalink }}" title='Permanenter Link zu "{{ .Title }}"'>
         {{ with .Params.talk_date }}
