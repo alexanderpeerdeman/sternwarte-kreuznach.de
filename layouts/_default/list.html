@@ -3,10 +3,10 @@
     <h1 class="title">{{ .Title }}</h1>
 </div>
 <div class="content">
-    {{ with .Content }}
-    {{ . }}
+    {{ .Content }}
+    {{ if (and .Content .Pages) }}
     <hr>
-    {{ end}}
+    {{ end }}
     {{ range .Pages }}
        <p><a href="{{ .RelPermalink }}">{{ .Title }}</a></p>
     {{ end }}
