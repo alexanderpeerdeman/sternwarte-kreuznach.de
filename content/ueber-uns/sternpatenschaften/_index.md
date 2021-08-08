@@ -10,7 +10,7 @@ menu:
 ## Werden Sie Sternpate
 
 Übernehmen Sie eine Sternpatenschaft für die Sternwarte Bad Kreuznach. Mit einem einmaligen Beitrag unterstützen Sie nicht nur Betrieb und Erhalt der Sternwarte und deren Technik, sondern auch die Förderung unserer Jugend- und Öffentlichkeitsarbeit.  
-Da die reinen Mitgliedsbeiträge in der Regel nicht ausreichen, um uns zu finanzieren, sind wir auf private und öffentliche Spenden angewiesen.
+Da die reinen Mitgliedsbeiträge in der Regel nicht ausreichen um uns zu finanzieren, sind wir auf private und öffentliche Spenden angewiesen.
 
 Natürlich können wir keine Sterne verkaufen und wir können auch keinen Stern nach Ihnen benennen.  
 Eine Sternpatenschaft ist daher eine Spende an die Sternwarte Bad Kreuznach, um unsere Arbeit zu unterstützen.  

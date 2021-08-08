@@ -34,7 +34,7 @@ anchor = "center"
     weight = 5
 
 [[menu.main]]
-    name = "Kontakt"
+    name = "Kontakt & Anfahrt"
     url = "/infos/kontakt"
     weight = 6
 

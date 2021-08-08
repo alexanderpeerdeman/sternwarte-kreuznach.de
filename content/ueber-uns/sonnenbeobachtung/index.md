@@ -11,7 +11,7 @@ Erleben Sie die Sonne, wie Sie sie noch nie gesehen haben.
 Bei uns können Sie unseren Heimatstern in verschiedenen Wellenlänge beobachten.
 
 {{< panel class="warning" >}}
-**Coronabedingt findet zur Zeit keine Sonnenbeobachtung statt.**
+Coronabedingt findet zur Zeit keine Sonnenbeobachtung statt.
 {{< /panel >}}
 
 ### Öffnungszeiten: Sonntags, jeweils von 10:30 Uhr bis 13:00 Uhr
@@ -20,7 +20,7 @@ Anfang März bis Ende September: **Jeden Sonntag**
 Anfang Oktober bis Ende Februar: **Jeden zweiten** und **vierten Sonntag**
 
 {{< panel class="danger" >}}
-**Schauen Sie bitte _niemals_ ungeschützt in die Sonne!**
+Schauen Sie bitte **niemals** ungeschützt in die Sonne!
 {{< /panel >}}
 
 Auf der unten dargestellten Fotomontage sind die Wellenlängen aufgezeigt, wie sie mit unseren Filtern zu sehen sind.

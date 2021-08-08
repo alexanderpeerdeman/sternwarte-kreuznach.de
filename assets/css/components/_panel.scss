@@ -7,22 +7,38 @@
   box-shadow: 0 0 1rem 0 #ccc;
 
   background-color: #003366;
-  color: rgba(white, 0.85);
+  color: white;
   border: 0.2rem rgba($color: white, $alpha: 0.15) dashed;
 
+  a {
+    color: lighten($color: #003366, $amount: 60);
+  }
+
   &.success {
-    background-color: #143109;
-    color: rgba(white, 0.85);
+    background-color: lighten($color: #143109, $amount: 15);
+    color: white;
     border: 0.2rem rgba($color: white, $alpha: 0.15) dashed;
+
+    a {
+      color: lighten($color: #143109, $amount: 45);
+    }
   }
   &.warning {
-    background-color: #FA9500;
-    color: rgba(black, 0.85);
+    background-color: #fa9500;
+    color: black;
     border: 0.2rem rgba($color: black, $alpha: 0.15) dashed;
+
+    a {
+      color: darken($color: #fa9500, $amount: 25);
+    }
   }
   &.danger {
-    background-color: #A4031F;
-    color: rgba(white, 0.85);
-    border: 0.2rem rgba($color: white, $alpha: 0.30) dashed;
+    background-color: #a4031f;
+    color: white;
+    border: 0.2rem rgba($color: white, $alpha: 0.3) dashed;
+
+    a {
+      color: lighten($color: #a4031f, $amount: 45);
+    }
   }
 }
