@@ -5,7 +5,6 @@ date: 2020-08-11T00:41:25+02:00
 ---
 
 {{< panel >}}
-Hier steht ein einigermaßen wichtiger Hinweis zum Thema Inhalt.  
 Besuchen Sie die neu gestaltete Sektion [Über uns](/ueber-uns/).
 {{< /panel>}}
 

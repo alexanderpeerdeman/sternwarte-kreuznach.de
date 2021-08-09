@@ -2,7 +2,6 @@ baseURL = "https://apeer.uber.space/"
 languageCode = "de"
 title = "Sternwarte Bad Kreuznach e.V."
 summaryLength = 25
-# googleAnalytics = "UA-123-45"
 
 [imaging]
 anchor = "center"
@@ -48,11 +47,3 @@ anchor = "center"
     name = "YouTube"
     url = "https://www.youtube.com/channel/UCiPx2XenNCDxbFA-XXnfnvg?sub_confirmation=1"
     pre = "svg/028-youtube.svg"
-
-
-#[outputFormats.SearchIndex]
-#    baseName = "search"
-#    mediaType = "application/json"
-
-#[outputs]
-#    home = ["HTML", "SearchIndex"]
