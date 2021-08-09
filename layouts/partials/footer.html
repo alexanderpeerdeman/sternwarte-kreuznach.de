@@ -1,41 +1,85 @@
 <footer>
   <div class="content">
-    <div class="footer-wrapper">
+    <div class="wrapper">
       <div class="footer-logo">
         <img src="/svg/logo.svg" />
       </div>
+
+      <div class="other-logos">
+        <ul>
+          <li>
+            <a href="https://sternfreunde.de/" target="_blank">
+              <img
+                src="/images/vds-logo.jpg"
+                alt="Vereinigung der Sternfreunde"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="http://astronomie-mitte.de/" target="_blank">
+              <img
+                src="/images/astronomie-mitte-logo.jpg"
+                alt="Astronomie in der Mitte Deutschlands"
+              />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <hr />
+    <div class="wrapper">
+      <div class="address">
+        <div class="map">
+          <a
+            href="https://goo.gl/maps/u4AQZdLQkoJJjjYt7"
+            title="Die Sternwarte auf Maps"
+            ><img src="/images/map.png" alt="Die Sternwarte auf Maps"
+          /></a>
+        </div>
+        <address>
+          <p>
+            <strong>Addresse</strong><br />
+            An der Sternwarte 2<br />
+            55543 Bad Kreuznach<br />
+            <a
+              href="mailto:info@sternwarte-kreuznach.de"
+              title="info@sternwarte-kreuznach.de"
+              >info@sternwarte-kreuznach.de</a
+            >
+          </p>
+        </address>
+      </div>
       <div class="links">
+        <h3>Rechtliches</h3>
         <ul>
           <li><a href="impressum">Impressum</a></li>
           <li><a href="datenschutz">Datenschutz</a></li>
-          <li><a href="https://sternfreunde.de/">Vereinigung der Sternfreunde e.V.</a></li>
-          <li><a href="https://vhs-bad-kreuznach.de/">VHS Bad Kreuznach</a></li>
         </ul>
       </div>
-      <div class="address">
-        <address>
-          <p>
-            <b>Adresse</b><br />
-            An der Sternwarte 2<br />
-            55543 Bad Kreuznach<br />
-          </p>
-          <p>
-            <b>Postanschrift</b><br />
-            Sternwarte Bad Kreuznach e.V.<br />
-            c/o Bernd Peerdeman<br />
-            Königsbergerstr. 21 a<br />
-            55543 Bad Kreuznach<br />
-            <a href="mailto:info@sternwarte-kreuznach.de" title="info@sternwarte-kreuznach.de">info@sternwarte-kreuznach.de</a>
-          </p>
-        </address>
-        <div class="map">
-          <a href="geo:49.810851,7.858663" title="Die Sternwarte auf einer Karte öffnen"><img src="/images/map.png" alt="Die Sternwarte auf der Karte"/></a>
-        </div>
+      <div class="links">
+        <h3>Links</h3>
+        <ul>
+          <li>
+            <a href="https://vhs-bad-kreuznach.de/" target="_blank"
+              >VHS Bad Kreuznach</a
+            >
+          </li>
+          <li>
+            <a href="https://sternfreunde.de/" target="_blank"
+              >Vereinigung der Sternfreunde e.V.</a
+            >
+          </li>
+          <li>
+            <a href="http://astronomie-mitte.de/" target="_blank"
+              >Astronomie in der Mitte Deutschlands</a
+            >
+          </li>
+        </ul>
       </div>
     </div>
-    <span id="copyright">
-      &copy; 2000-{{ now.Format "2006"}} | Sternwarte Bad Kreuznach e.V. –
-      Astronomie auf dem Kuhberg
-    </span>
+    <hr />
+    <div id="copyright">
+      &copy; {{ now.Format "2006"}} Sternwarte Bad Kreuznach e.V.
+    </div>
   </div>
 </footer>
