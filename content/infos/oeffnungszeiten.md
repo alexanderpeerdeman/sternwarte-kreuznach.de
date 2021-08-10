@@ -11,13 +11,13 @@ menu:
 
 **Freitags ab 19:00 Uhr**  
 Besucher sind recht herzlich willkommen. Der Eintritt ist frei!  
-Wir möchten vermeiden, dass Sie möglicherweise verschlossene Türen vorfinden. Bitte kontaktieren Sie uns vorher per [Mail](/kontakt).
+Wir möchten vermeiden, dass Sie möglicherweise verschlossene Türen vorfinden.  
+Bitte kontaktieren Sie uns vorher per [Mail](/kontakt).
 
 ## Sonnenbeobachtung
 
 **Jeden Sonntag von 10:30 bis 13:00 Uhr**  
-*Von Oktober bis einschließlich Februar*  
-Die Sonnenbeobachtung findet in den Wintermonaten nur jeden zweiten und vierten Sonntag im Monat statt.
+Im Winter (von Oktober bis einschließlich Februar) findet die Sonnenbeobachtung nur jeden zweiten und vierten Sonntag im Monat statt.
 
 [Weitere Informationen zur Sonnenbeobachtung](/ueber-uns/sonnenbeobachtung)
 

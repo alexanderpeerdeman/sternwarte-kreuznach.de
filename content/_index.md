@@ -17,6 +17,10 @@ Für Fragen, Anmerkungen oder zur Terminabsprache stehen wir Ihnen gerne zur Ver
 
 Auf der Seite [Kontakt](/infos/kontakt) erhalten Sie alle wichtigen Details zur Kontaktaufnahme.
 
+---
+
+Werfen Sie einen Blick auf unseren [Flyer](flyer.pdf). Er enthält viele Informationen bequem auf einer Doppelseite zusammengefasst.
+
 
 <!-- # Todo:
 - Erstes Bild was man sehen kann am besten von einem Teleskop oder vom Gelände (Sternhimmel / Objekt)
