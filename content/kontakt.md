@@ -1,7 +1,7 @@
 ---
 title: "Kontakt & Anfahrt"
 date: 2020-08-30T12:38:56+02:00
-aliases: [/infos/anfahrt, /anfahrt, /kontakt]
+aliases: [/infos/anfahrt, /anfahrt, /infos/kontakt, /kontakt]
 ---
 
 **Mail**: [info@sternwarte-kreuznach.de](mailto:info@sternwarte-kreuznach.de "info@sternwarte-kreuznach.de")  

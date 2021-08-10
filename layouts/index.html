@@ -28,10 +28,8 @@
   <div class="cards">
     {{ range (.GetPage "home-cards").Resources.ByType "page" }}
     <div class="card">
+      <h4 class="card-header"><a href="{{ .Params.link }}">{{ .Title }}</a></h4>
       <div class="card-content">{{ .Content }}</div>
-      <a class="btn small" href="{{ .Params.button_link }}"
-        >{{ .Params.button_text }}</a
-      >
     </div>
     {{ end }}
   </div>

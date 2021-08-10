@@ -79,6 +79,10 @@ footer {
       }
 
       .links {
+        @media #{$phone} {
+          max-width: unset;
+        }
+        max-width: 35ch;
         ul {
           list-style-type: none;
           padding: 0;

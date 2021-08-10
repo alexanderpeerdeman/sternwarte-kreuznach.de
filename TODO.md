@@ -1,19 +1,19 @@
-# TODO
 
-## Whole content migrated
-- [ ] Infos
-- [x] Über-uns
-- [ ] Vortragsarchiv aus Liste der Vorträge entfernen.
+# Pre-release [Ende August]
 
-## Kosmetische Verbesserungen
+Der gesamte Content ist migriert, die Seite ist umstrukturiert und vollständig auslieferbar mit hugo / statisch.
 
-- [ ] make links look good in panel (different background colors)
-- [ ] font-sizes (headings)
+- [ ] *** Whole content migrated
+    - [ ] Infos
+    - [x] Über-uns
+    - [x] Blog (summaries)
+    - [ ] Vorträge aus dem Archiv (nicht ich lol)
+- [ ] **·  Vortragsarchiv aus Liste der Vorträge entfernen.
+- [x] *·· make links look good in panel (different background colors)
+- [x] *·· font-sizes (headings)
+- [ ] **· VHS-Informationen auf eigener Unterseite
+- [ ] **· Sektion "Infos" komplett entfernen
 
----------------------------
+# Backlog
 
-## Umstrukturieren
-- [ ] VHS-Informationen auf eigener Unterseite
-- [ ] Sektion "Infos" komplett entfernen
-
-
+- [ ] **· Aufmacher-Bild auf der Hauptseite dynamisch machen (md?)

@@ -124,9 +124,11 @@
       &:last-of-type {
         border: none;
       }
-      a,
-      a:hover {
-        text-decoration: none;
+      a {
+        display: block;
+        &:hover {
+          text-decoration: none;
+        }
       }
 
       time {
@@ -171,7 +173,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: flex-end;
   max-width: 70rem;
   margin: 0 auto;
   padding: 0 1rem;
@@ -193,12 +194,9 @@
   }
 }
 .card-header {
-  font-size: 14px;
-  font-weight: 700;
-  color: #444;
-  margin: 0.4rem 0;
-  padding: 0;
+  margin: 0;
 }
+
 .card-content {
   font-size: 14px;
 }
