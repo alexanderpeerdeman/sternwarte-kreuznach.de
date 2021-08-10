@@ -1,13 +1,14 @@
 ---
 title: Blicke ins Universum
 date: 2017-01-01 18:31:27
-images: 
-    - allgemeine-zeitung.png
-summary: TODO...
+images:
+  - allgemeine-zeitung.png
+summary: 30 Jahre ist es her, dass sich Astronomie-Begeisterte zusammenfanden, um gemeinsam ihrem Hobby nachzugehen. Hieraus entstand der Verein „Sternwarte Bad Kreuznach e.V.“
 ---
+
 **STERNWARTE Seit 30 Jahren Faible für Astronomie / Feier im Haus des Gastes**
 
-*BAD KREUZNACH - (red).* Die Sternwarte Bad Kreuznach feiert am 1. Oktober Jubiläum:   
+_BAD KREUZNACH - (red)._ Die Sternwarte Bad Kreuznach feiert am 1. Oktober Jubiläum:  
 30 Jahre ist es her, dass sich Astronomie-Begeisterte zusammenfanden, um gemeinsam ihrem Hobby nachzugehen. Hieraus entstand der Verein „Sternwarte Bad Kreuznach e.V.“.
 
 Die Sternwarte ist längst zu einem festen Bestandteil des öffentlichen Lebens in der Stadt geworden. Durch zahlreiche Veranstaltungen auf dem Kuhberg ist sie auch über die Grenzen Bad Kreuznachs hinaus bekannt. Mit fachkundigen, aber allgemein verständlichen Vorträgen, Beobachtungsabenden, dem Workshop „Raketen basteln“, Beratungen rund um die Astronomie und dem jährlich stattfindenden Astronomietag hat sich das Sternwarte-Team einen Namen gemacht.

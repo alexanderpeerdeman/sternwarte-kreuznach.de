@@ -1,10 +1,11 @@
 ---
 title: Die Sternwarte nimmt teilweise ihr Programm wieder auf
 date: 2020-05-23 13:01:08
-images: 
-    - wiederaufnahme.jpg
+images:
+  - wiederaufnahme.jpg
 summary: Die Sternwarte nimmt ihr Programm unter Einhaltung von Hygiene- und Abstandsregeln teilweise wieder auf.
 ---
+
 Liebe Besucher,
 
 wir möchten Ihnen ab sofort wieder die beliebte Sonnenbeobachtung am Sonntagmorgen von 10:30 Uhr bis 13:00 Uhr anbieten und die Möglichkeit geben, uns am Freitag ab 19:00 Uhr, sei es zur Beobachtung, zur Beratung, etc. auf der Sternwarte zu besuchen.

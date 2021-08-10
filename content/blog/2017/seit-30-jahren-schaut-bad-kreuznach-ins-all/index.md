@@ -1,10 +1,10 @@
 ---
 title: Seit 30 Jahren schaut Bad Kreuznach ins All
 date: 2017-01-01 19:02:48
-images: 
-    - zeitung.jpg
+images:
+  - zeitung.jpg
 caption: "Vorsitzender Bernd Peerdeman (rechts) konnte so manchen Politiker zum 30. Geburtstag der Sternwarte begrüßen. Foto: Joseph Nürnberg"
-summary: TODO...
+summary: Sternwarte feiert runden Geburtstag - Verein ist nach Wanderjahren seit 2000 auf den Kuhberg sesshaft
 ---
 
 **Jubiläum** - Sternwarte feiert runden Geburtstag - Verein ist nach Wanderjahren seit 2000 auf den Kuhberg sesshaft

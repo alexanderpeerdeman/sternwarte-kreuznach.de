@@ -1,13 +1,14 @@
 ---
 title: Perseidenbeobachtung
 date: 2016-07-24 11:57:17
-images: 
-    - perseiden.jpg
+images:
+  - perseiden.jpg
 summary: Am Freitag, den 12. August 2016 findet wieder die Perseidenbeobachtung statt. Dazu sind Sie recht herzlich eingeladen.
 ---
-Am Freitag, den **12. August 2016** findet wieder die Perseidenbeobachtung statt. Dazu sind Sie recht herzlich eingeladen. Ab **19:00 Uhr** beobachten wir gemeinsam dieses Naturschauspiel auf dem Gelände der Sternwarte Bad Kreuznach. 
 
-Bitte denken Sie an einen **bequemen Stuhl** und an **warme Kleidung**, denn im August können die Abende schon recht kühl sein. 
+Am Freitag, den **12. August 2016** findet wieder die Perseidenbeobachtung statt. Dazu sind Sie recht herzlich eingeladen. Ab **19:00 Uhr** beobachten wir gemeinsam dieses Naturschauspiel auf dem Gelände der Sternwarte Bad Kreuznach.
+
+Bitte denken Sie an einen **bequemen Stuhl** und an **warme Kleidung**, denn im August können die Abende schon recht kühl sein.
 
 ---
 
@@ -49,31 +50,31 @@ nach [Wikipedia](https://de.wikipedia.org/wiki/Perseiden).
 
 **[Eigenschaften](http://de.wikipedia.org/wiki/Bahnelement) des [Orbits](http://de.wikipedia.org/wiki/Umlaufbahn)**
 
-|||
-|-|-|
-|Orbittyp|[kurzperiodisch](http://de.wikipedia.org/wiki/Komet#Kometenbahnen)|
-|[Numerische Exzentrizität](http://de.wikipedia.org/wiki/Exzentrizit%C3%A4t_%28Astronomie%29)|0,963|
-|[Perihel](http://de.wikipedia.org/wiki/Apsis_%28Astronomie%29)|0,960 [AE](http://de.wikipedia.org/wiki/Astronomische_Einheit)|
-|[Aphel](http://de.wikipedia.org/wiki/Apsis_%28Astronomie%29)|51,225 [AE](http://de.wikipedia.org/wiki/Astronomische_Einheit)|
-|[Große Halbachse](http://de.wikipedia.org/wiki/Gro%C3%9Fe_Halbachse)|26,092 [AE](http://de.wikipedia.org/wiki/Astronomische_Einheit)|
-|[Siderische Umlaufzeit](http://de.wikipedia.org/wiki/Siderische_Periode)|133[a](http://de.wikipedia.org/wiki/Jahr) 103[d](http://de.wikipedia.org/wiki/Tag)|
-|Neigung der Bahnebene|113,454[°](http://de.wikipedia.org/wiki/Winkel)|
-|Periheldurchgang|11. Dezember 1992|
-|[Bahngeschwindigkeit](http://de.wikipedia.org/wiki/Bahngeschwindigkeit_%28Astronomie%29) im Perihel|42,59 km/s|
+|                                                                                                     |                                                                                    |
+| --------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| Orbittyp                                                                                            | [kurzperiodisch](http://de.wikipedia.org/wiki/Komet#Kometenbahnen)                 |
+| [Numerische Exzentrizität](http://de.wikipedia.org/wiki/Exzentrizit%C3%A4t_%28Astronomie%29)        | 0,963                                                                              |
+| [Perihel](http://de.wikipedia.org/wiki/Apsis_%28Astronomie%29)                                      | 0,960 [AE](http://de.wikipedia.org/wiki/Astronomische_Einheit)                     |
+| [Aphel](http://de.wikipedia.org/wiki/Apsis_%28Astronomie%29)                                        | 51,225 [AE](http://de.wikipedia.org/wiki/Astronomische_Einheit)                    |
+| [Große Halbachse](http://de.wikipedia.org/wiki/Gro%C3%9Fe_Halbachse)                                | 26,092 [AE](http://de.wikipedia.org/wiki/Astronomische_Einheit)                    |
+| [Siderische Umlaufzeit](http://de.wikipedia.org/wiki/Siderische_Periode)                            | 133[a](http://de.wikipedia.org/wiki/Jahr) 103[d](http://de.wikipedia.org/wiki/Tag) |
+| Neigung der Bahnebene                                                                               | 113,454[°](http://de.wikipedia.org/wiki/Winkel)                                    |
+| Periheldurchgang                                                                                    | 11. Dezember 1992                                                                  |
+| [Bahngeschwindigkeit](http://de.wikipedia.org/wiki/Bahngeschwindigkeit_%28Astronomie%29) im Perihel | 42,59 km/s                                                                         |
 
 **Physikalische Eigenschaften des [Kerns](http://de.wikipedia.org/wiki/Komet#Kern)**
 
-|||
-|-|-|
-|[Durchmesser](http://de.wikipedia.org/wiki/Durchmesser)|31,2 km|
+|                                                         |         |
+| ------------------------------------------------------- | ------- |
+| [Durchmesser](http://de.wikipedia.org/wiki/Durchmesser) | 31,2 km |
 
 **Geschichte**
 
-|||
-|-|-|
-|Entdecker|[L. Swift](http://de.wikipedia.org/wiki/Lewis_A._Swift), [H. P. Tuttle](http://de.wikipedia.org/wiki/Horace_Parnell_Tuttle)|
-|Datum der Entdeckung|16. Juli 1862|
-|[Ältere Bezeichnung](http://de.wikipedia.org/wiki/Benennung_von_Asteroiden_und_Kometen)|1862 III, 1992t|
+|                                                                                         |                                                                                                                             |
+| --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| Entdecker                                                                               | [L. Swift](http://de.wikipedia.org/wiki/Lewis_A._Swift), [H. P. Tuttle](http://de.wikipedia.org/wiki/Horace_Parnell_Tuttle) |
+| Datum der Entdeckung                                                                    | 16. Juli 1862                                                                                                               |
+| [Ältere Bezeichnung](http://de.wikipedia.org/wiki/Benennung_von_Asteroiden_und_Kometen) | 1862 III, 1992t                                                                                                             |
 
 Swift-Tuttle (offizielle Bezeichnung 109P/Swift-Tuttle) ist ein kurzperiodischer [Komet](http://de.wikipedia.org/wiki/Komet), der am 16. Juli 1862 von [Lewis A. Swift](http://de.wikipedia.org/wiki/Lewis_A._Swift) und am 19. Juli 1862 von [Horace Parnell Tuttle](http://de.wikipedia.org/wiki/Horace_Parnell_Tuttle) unabhängig voneinander entdeckt wurde.
 

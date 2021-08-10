@@ -1,8 +1,8 @@
 ---
 title: Perseidenbeobachtung
 date: 2019-08-05 17:05:52
-images: 
-    - perseiden.jpg
+images:
+  - perseiden.jpg
 summary: Am Freitag, den 09. August 2019 findet wieder die Perseidenbeobachtung statt. Dazu sind Sie recht herzlich eingeladen.
 ---
 

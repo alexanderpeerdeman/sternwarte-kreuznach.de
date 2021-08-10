@@ -2,11 +2,12 @@
 title: Bundesweiter Astronomietag
 date: 2019-03-14 13:07:57
 images:
-    - astronomietag.jpg
+  - astronomietag.jpg
 summary: Wir laden ein zur Starparty. Es gibt viele interessante Vorträge zu Sonnensystem, Sonne, Mond, Astrofotografie, cooler Freeware und weiteren Themen.
 ---
 
 ## Wir laden ein zur STARPARTY
+
 Am Samstag, den **30. März 2019** sind wir **ab 14:00 Uhr** für Sie da.  
 **Der Eintritt ist frei!**
 

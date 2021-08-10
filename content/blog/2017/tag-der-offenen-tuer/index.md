@@ -1,9 +1,9 @@
 ---
 title: Tag der offenen Tür
 date: 2017-10-25 13:24:24
-images: 
-    - tdot.jpg
-summary: TODO...
+images:
+  - tdot.jpg
+summary: "Es findet wieder ein Tag der offenen Tür auf dem Gelände der Sternwarte Bad Kreuznach statt. Das Motto lautet: Herbststernbilder und Nacht der Teleskope"
 ---
 
 Am **Samstag, den 18. November 2017** findet wieder ein Tag der offenen Tür auf dem Gelände der Sternwarte Bad Kreuznach e.V. auf dem Kuhberg in Bad Kreuznach statt.
@@ -17,7 +17,7 @@ Freuen Sie sich bis zum Einbruch der Dunkelheit auf unsere Kurzvorträge:
 - Die Software Stellarium
 - Astrofotografie
 - Sternschnuppennächte November 2017:  
-Leoniden: Zeitraum: 6. – 30. November, mit der größten Aktivität in der Nacht auf den 18. November.
+  Leoniden: Zeitraum: 6. – 30. November, mit der größten Aktivität in der Nacht auf den 18. November.
 
 **Um 16:00 Uhr werden wir den VHS-Vortrag vom Oktober 2017, "Sternbilder und die Mythen, die Sie umgeben“ von Roland Zahn nachholen.**
 

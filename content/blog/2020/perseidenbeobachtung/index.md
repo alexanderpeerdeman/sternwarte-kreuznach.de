@@ -1,10 +1,11 @@
 ---
 title: Perseidenbeobachtung 2020
 date: 2020-08-07 11:46:23
-images: 
-    - perseiden.jpg
-summary: Am Mittwoch, den 12. August 2020 findet wieder die Perseidenbeobachtung statt. Dazu sind Sie recht herzlich eingeladen.  
+images:
+  - perseiden.jpg
+summary: Am Mittwoch, den 12. August 2020 findet wieder die Perseidenbeobachtung statt. Dazu sind Sie recht herzlich eingeladen.
 ---
+
 Am Mittwoch, den **12. August 2020** findet wieder die Perseidenbeobachtung statt. Dazu sind Sie recht herzlich eingeladen. Ab **21:00 Uhr** beobachten wir gemeinsam dieses Naturschauspiel auf dem Gelände der Sternwarte Bad Kreuznach.
 
 {{< panel >}}

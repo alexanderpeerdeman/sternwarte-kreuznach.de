@@ -1,16 +1,17 @@
 ---
 title: Kreuznacher Sternfreunde feiern ihr 30-jähriges Bestehen
 date: 2017-01-01 18:21:43
-images: 
-    - haus-des-gastes-sternfreunde.jpg
-summary: TODO...
+images:
+  - haus-des-gastes-sternfreunde.jpg
+summary: Bei besonderen Anlässen, etwa wenn ein neues Teleskop getestet werden soll, macht die Sonne den Kreuznacher Sternfreunden schon einmal einen Strich durch die Rechnung und versteckt sich hinter grauen Wolken.
 ---
+
 Bei besonderen Anlässen, etwa wenn ein neues Teleskop getestet werden soll, macht die Sonne den Kreuznacher Sternfreunden schon einmal einen Strich durch die Rechnung und versteckt sich hinter grauen Wolken. So war es für die Himmelsgucker vom Kuhberg dann auch nicht weiter verwunderlich, dass die geplanten Sonnenbeobachtungen beim 30. Jahrestag der Sternwarte ins Wasser fielen. Die zahlreichen Gäste, die zur Geburtstagsfeier im [Haus des Gastes](http://www.bad-kreuznach-tourist.de/kultur-geniessen-und-einkaufen/haus-des-gastes/) gekommen waren, mussten aber nicht traurig sein:  
 Auch ohne den Blick auf das Zentralgestirn gab es jede Menge zum Staunen – angefangen von atemberaubenden astronomischen Impressionen bis zu einer Ausstellung über die Entwicklung der Sternwarte, die 1986 gebaut wurde zur Beobachtung des alle 76 Jahre wiederkehrenden Halleyschen Kometen.
 
 Beeindruckend waren auch die Arbeiten der Jugendgruppe, die plastische Krater der Mondoberfläche gebaut hatten oder mit viel Kreativität eine ganz detailreiche Mondstation mit zahlreichen Astronauten. Besonderes faszinierend waren die mächtigen Teleskope, die nicht nur dazu dienten, die Sterne „näher heranzuholen“, wie der Laie hätte vermuten können. Mit diesen Geräten konnte man die Sonne in verschiedenen Wellengängen beobachten, etwa im speziellen H-Alpha-Licht, das bei exakt 656,28 Nanometer die Protuberanzen am Rande der Sonne in kräftigem Orange-Rot zeigte. Andere Teleskope zeigten eindrucksvoll eine „schwarze Sonne“ die ansonsten nur bei einer Sonnenfinsternis kurz zu sehen ist. Besonderheiten waren auch ein altes Linsenteleskop, das die Sonne projiziert und mehreren Beobachtern gleichzeitig einen Blick auf die zahlreichen Details ermöglicht oder ein ganz simples aber funktionsfähiges Teleskop, das die Jugendgruppe aus lauter Baumarkt-Teilen konstruiert hatte.
 
-*Astrophysiker Vogelsberger reist aus Massachusetts an*
+_Astrophysiker Vogelsberger reist aus Massachusetts an_
 
 Vorsitzender Bernd Peerdeman ging in seiner Begrüßung noch einmal kurz auf die Geschichte des Vereins und der Sternwarte ein. Die Ehrengäste wie etwa Oberbürgermeisterin Heike Kaster-Meurer oder Landrat Franz-Josef Diel würdigten die Leistung der Sternfreunde als wichtigen Beitrag für die Wissensvermittlung an Schulen, die man gerne noch intensivieren würde.
 

@@ -1,12 +1,11 @@
 ---
-title: Nachlese zum "Tag der offenen Tür" am 18.11.2017
+title: Nachlese zum „Tag der offenen Tür“ am 18.11.2017
 date: 2017-11-23 09:20:35
-images: 
-    - zeitung.jpg
+images:
+  - zeitung.jpg
 caption: "Neugierige Besucher der Sternwarte lassen sich das Sonnenteleskop erklären - nur theoretisch, denn leider bedecken Wolken den Himmel. Foto: Wolfgang Bartels"
-summary: TODO...
+summary: Leoniden locken viele Besucher zur Sternwarte auf den Bad Kreuznacher Kuhberg
 ---
-
 
 Allgemeine Zeitung: Bad Kreuznach 22.11.2017
 

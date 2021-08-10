@@ -1,8 +1,8 @@
 ---
 title: Aus aktuellem Anlass
 date: 2020-03-14 16:52:47
-images: 
-    - platzhalter.png
+images:
+  - platzhalter.png
 summary: Aus aktuellem Anlass, zu Ihrem und unserem Schutz, werden wir mit sofortiger Wirkung alle Aktivitäten der Sternwarte bis auf Weiteres aussetzen.
 ---
 

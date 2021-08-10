@@ -1,10 +1,11 @@
 ---
 title: Einweihung des neuen Sonnenteleskops
 date: 2015-09-26 13:56:38
-images: 
-    - spender.jpg
-summary: TODO...
+images:
+  - spender.jpg
+summary: 18 Monate ist es her, dass wir den Besuchern der Sternwarte auf dem Kuhberg nicht mehr die Möglichkeit bieten konnten, die Sonne im H-Alpha-Licht zu beobachten.
 ---
+
 Der diesjährige Astronomietag der Sternwarte Bad Kreuznach e. V. stand unter einem ganz besonderen Vorzeichen. 18 Monate ist es her, dass wir den Besuchern der Sternwarte auf dem Kuhberg nicht mehr die Möglichkeit bieten konnten, die Sonne im H-Alpha-Licht zu beobachten.  
 Ende Mai haben wir uns dazu entschieden, eine Spendenaktion zu starten, mit dem Ziel, Geld zur Anschaffung eines neuen H-Alpha-Teleskops zusammen zu tragen.
 
