@@ -17,3 +17,4 @@ Der gesamte Content ist migriert, die Seite ist umstrukturiert und vollständig 
 # Backlog
 
 - [ ] **· Aufmacher-Bild auf der Hauptseite dynamisch machen (md?)
+- [ ] *·· Analytics: Plausible.io, goaccess, matomo

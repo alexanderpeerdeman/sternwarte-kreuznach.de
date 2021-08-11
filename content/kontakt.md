@@ -7,18 +7,18 @@ aliases: [/infos/anfahrt, /anfahrt, /infos/kontakt, /kontakt]
 **Mail**: [info@sternwarte-kreuznach.de](mailto:info@sternwarte-kreuznach.de "info@sternwarte-kreuznach.de")  
 **Telefon**: [0671 62433](tel:+4967162433)
 
-## Bankverbindung:
+### Bankverbindung:
 
-Sparkasse Rhein-Nahe  
-IBAN: DE34 5605 0180 0000 0443 21  
-BIC: MALADE51KRE
+**Sparkasse Rhein-Nahe**  
+IBAN: `DE34 5605 0180 0000 0443 21`  
+BIC: `MALADE51KRE`
 
-## Adresse:
+### Adresse:
 
 An der Sternwarte 2  
 55543 Bad Kreuznach
 
-#### Postanschrift:
+### Postanschrift:
 
 Sternwarte Bad Kreuznach e.V.  
 c/o Bernd Peerdeman  
