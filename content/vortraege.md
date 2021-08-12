@@ -1,10 +1,7 @@
 ---
 title: "VHS-Vorträge"
 date: 2020-08-30T12:39:22+02:00
-menu:
-    main: 
-        parent: 'Infos'
-        weight: 4
+aliases: [/vorträge]
 ---
 
 ## Allgemeines zu VHS-Vorträgen
@@ -17,7 +14,7 @@ menu:
 - Warum arbeiten wir mit denen zusammen?
 
 ### Nachthimmel nach dem Vortrag
-- Da die Vorträge immer zu recht später Stunde stattfinden, ist es vor allem in den Wintermonaten nach Ende des Vortrags schon dunkel. Wir können dann, wenn Interesse besteht, die Sternwarte betreten und die Instrumente begutachten. Wenn das Wetter es zulässt können die verschiedenen Objekte am Nachthimmel begutachtet werden.
+- Da die Vorträge immer zu recht später Stunde stattfinden, ist es vor allem in den Wintermonaten nach Ende des Vortrags schon dunkel. Wir können dann, wenn Interesse besteht, die Sternwarte betreten und die Instrumente begutachten. Wenn das Wetter es zulässt besteht die Möglichkeit zur angeleiteten Beobachtung der verschiedenen Objekte am Nachthimmel.
 
 ## Zeiten, Termine, etc.
 - Wann finden die Vorträge statt?

@@ -10,32 +10,33 @@ anchor = "center"
     description = "This is the Sternwarte Website built with Hugo"
 
 [[menu.main]]
-    name = "Über uns"
     weight = 1
+    name = "Über uns"
 
 [[menu.main]]
+    weight = 2
     name = "VHS"
     url = "/vhs"
-    weight = 2
 
 [[menu.main]]
+    weight = 3
     name = "Blog"
     url = "/blog"
-    weight = 3
 
 [[menu.main]]
+    weight = 4
     name = "Galerie"
     url = "/galerie"
-    weight = 4
 
 [[menu.main]]
-    name = "Infos"
     weight = 5
+    name = "Öffnungszeiten"
+    url = "/oeffnungszeiten"
 
 [[menu.main]]
-    name = "Kontakt & Anfahrt"
-    url = "/infos/kontakt"
     weight = 6
+    name = "Kontakt & Anfahrt"
+    url = "/kontakt"
 
 
 [[menu.social]]

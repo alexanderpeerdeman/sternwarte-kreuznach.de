@@ -1,11 +1,7 @@
 ---
 title: "Öffnungszeiten"
 date: 2020-08-30T12:39:04+02:00
-aliases: [/oeffnungszeiten]
-menu:
-    main: 
-        parent: 'Infos'
-        weight: 3
+aliases: [/infos/oeffnungszeiten, /öffnungszeiten, /infos/öffnungszeiten]
 ---
 
 ## Vereinsabend
@@ -29,7 +25,7 @@ Sofern das Wetter es zulässt, gibt es anschließend immer die Möglichkeit zur 
 
 [Zu den aktuellen VHS-Vorträgen](/vhs)
 
-[Weitere Informationen](/infos/vortraege)
+[Weitere Informationen](/vortraege)
 
 ## Jugendgruppe
 
