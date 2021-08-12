@@ -34,14 +34,15 @@
   </div>
 </section>
 <section id="next-vhs" class="content">
-  {{/*  {{ $currentTime := now.Format "2006-01-02T15:04:05" }}
-  {{ $currentTime := (time "2019-09-01").Format "2006-01-02T15:04:05" }}
-  {{ $talks := (where ((.GetPage "/vhs").Pages.ByParam "talk_date") ".Params.talk_date" "ge" $currentTime) }}  */}}
-  {{ $talks := ((.GetPage "vhs").Pages.ByParam "talk_date") }}
+  {{ $currentTime := now.Format "2006-01-02T15:04:05" }}
+  {{/* $talks := ((.GetPage "/vhs").Pages.ByParam "talk_date") */}} {{/* all talks */}}
+  {{ $talks := (where ((.GetPage "/vhs").Pages.ByParam "talk_date") ".Params.talk_date" "ge" $currentTime) }} {{/* future talks */}} 
+  {{ $talks := (where $talks "Params.layout" "!=" "archiv") }}
 
 
   <div class="announcement">
     <h2><a href="/vhs">Aktuelle Veranstaltungen</a></h2>
+    {{ if le (len $talks) 0 }}<p>Bisher sind keine weiteren Vorträge angekündigt.</p>{{ end }}
     {{ range (last 4 $talks)}}
     <article>
       <a href="{{ .RelPermalink }}" title='Permanenter Link zu "{{ .Title }}"'>
