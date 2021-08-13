@@ -39,13 +39,14 @@ $pseudo-full-bleed-fixed-width: 1000px;
 .full-bleed {
   width: 100%;
   grid-column: 1 / -1;
-
+  line-height: 1;
+  
   //   constrain width for really large monitor sized
   max-width: $pseudo-full-bleed-fixed-width;
   //   center element
   margin: 0 auto;
   text-align: center;
-
+  
   img {
     max-width: 100%;
   }
