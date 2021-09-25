@@ -6,7 +6,7 @@ talk_type_raw: VHS-Kurs
 talk_speakers:
   speaker1:
     name: Mitglieder der Sternwarte
-title: 'Astronomie für Einsteiger - 6 Abende'
+title: 'Kurs 2: Astronomie für Einsteiger - 6 Abende'
 ---
 - Der Wintersternhimmel
 - Der Urknall
@@ -14,3 +14,4 @@ title: 'Astronomie für Einsteiger - 6 Abende'
 - Die äußeren Planeten
 - Explodierende Sterne
 - Besuch der Kreuznacher Sternwarte
+---

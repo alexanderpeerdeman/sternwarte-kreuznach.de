@@ -6,10 +6,11 @@ talk_type_raw: VHS-Kurs
 talk_speakers:
   speaker1:
     name: Mitglieder der Sternwarte
-title: 'Astronomie für Einsteiger - 6 Abende'
+title: 'Kurs 1: Astronomie für Einsteiger - 6 Abende'
 ---
 - Dimensionen im Weltall
 - Himmlische Objekte, die jeder findet
 - Woraus besteht unser Weltall, woher kommen wir, wohin gehen wir?
 - Vom Balkon- zum Orbit-Fernrohr zwischen Amateur und Profi
 - Besuch der Sternwarte auf dem Kuhberg
+---
