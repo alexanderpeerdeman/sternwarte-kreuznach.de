@@ -1,12 +1,12 @@
 ---
 date: '2016-08-24T23:35:00'
 talk_date: '2001-03-26T19:30:00'
-talk_date_raw:  26. März 2001 - 28. Mai 2001
+talk_date_raw: 26. März 2001 - 28. Mai 2001
 talk_type_raw: VHS-Kurs
 talk_speakers:
   speaker1:
     name: Mitglieder der Sternwarte
-title: Astronomie - 8 Abende
+title: Astronomie Kurs - 8 Abende
 ---
   Mit einem Vortrag zur "Geschichte des Teleskops" beginnt die Vortragsreihe des Vereins der Sternfreunde auf der Kreuznacher Sternwarte.
    
