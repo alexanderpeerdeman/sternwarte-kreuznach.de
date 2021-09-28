@@ -6,7 +6,7 @@ talk_type_raw: 'VHS-Kurs'
 talk_speakers: 
   speaker1:
     name: Mitglieder der Sternwarte
-title: 'Astronomie Kurs 1 - Wissenschaft zum Staunen und Mitmachen - 8 Abende'
+title: 'Astronomie - Kurs 1, 8 Abende<br>Wissenschaft zum Staunen und Mitmachen'
 ---
   - Das Licht der Sterne
   - Die Sonne, unser Stern
@@ -16,4 +16,3 @@ title: 'Astronomie Kurs 1 - Wissenschaft zum Staunen und Mitmachen - 8 Abende'
   - Nebel im Weltall
   - Unsere kosmische Zukunft
   - Gefahr aus dem All
----

@@ -6,11 +6,10 @@ talk_type_raw: VHS-Kurs
 talk_speakers:
   speaker1:
     name: Mitglieder der Sternwarte
-title: 'Kurs 2: Astronomie für Einsteiger – 6 Abende'
+title: 'Astronomie für Einsteiger – Kurs 2, 6 Abende'
 ---
   - Was sehe ich am Himmel
   - Wie kann ich selbst beobachten 
   - Was war der Urknall?
   - Schwarze Löcher
   - Dunkle Materie
----

@@ -6,17 +6,17 @@ talk_type_raw: VHS-Kurs
 talk_speakers:
   speaker1:
     name: Mitglieder der Sternwarte
-title: Astronomie Kurs - 8 Abende
+title: Astronomie - Kurs - 8 Abende
 ---
   Mit einem Vortrag zur "Geschichte des Teleskops" beginnt die Vortragsreihe des Vereins der Sternfreunde auf der Kreuznacher Sternwarte.
    
   Weitere Themen an den 8 Abenden sind: 
-  * Das Leben der Sterne
-  * Supernovae
-  * Sterne des Frühlings
-  * Unsere Heimat, die Milchstraße
-  * Pluto und Charon
-  * Atmosphärische Erscheinungen
-  * je nach Wetterlage ein Beobachtungsabend mit beiden Sternwartenteleskopen.
+  - Das Leben der Sterne
+  - Supernovae
+  - Sterne des Frühlings
+  - Unsere Heimat, die Milchstraße
+  - Pluto und Charon
+  - Atmosphärische Erscheinungen
+  - je nach Wetterlage ein Beobachtungsabend mit beiden Sternwartenteleskopen.
 
 Die Zuhörer erfahren auch etwas über die neueste Literatur zu den besprochenen Themen und der Astronomie allgemein. Auch wird gerne Hilfestellung beim Kauf eines Teleskops gegeben.

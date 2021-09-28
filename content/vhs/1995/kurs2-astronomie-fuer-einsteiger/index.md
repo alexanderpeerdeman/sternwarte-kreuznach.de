@@ -6,9 +6,8 @@ talk-type_raw: VHS-Kurs
 talk_speakers:
   speaker1:
     name: Mitglieder der Sternwarte
-title: 'Kurs 2: Astronomie für Einsteiger – 6 Abende'
+title: 'Astronomie für Einsteiger – Kurs 2, 6 Abende'
 ---
   - Wie beginne ich mein neues Hobby, die Astronomie, richtig?
   - Wie beobachte ich den Himmel, was kann man selber sehen?
   - Vorträge und Videos über unser Sonnensystem und das Universum'
----

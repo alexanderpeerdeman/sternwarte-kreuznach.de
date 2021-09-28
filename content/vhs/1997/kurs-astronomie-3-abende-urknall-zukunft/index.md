@@ -6,7 +6,7 @@ talk_type_raw: VHS-Kurs
 talk_speakers:
   speaker1:
     name: Mitglieder der Sternwarte
-title: 'Astronomie - Kurs – 3 Abende:'
+title: 'Astronomie - Kurs, 3 Abende'
 ---
   - Urknall
   - Zukunft des Universums
@@ -15,4 +15,3 @@ title: 'Astronomie - Kurs – 3 Abende:'
   - Sonnensysteme
   - Besuch der Sternwarte auf dem Kuhberg
   - Informationen über Teleskope
----

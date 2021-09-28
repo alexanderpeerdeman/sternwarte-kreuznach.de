@@ -6,11 +6,10 @@ talk_type_raw: VHS-Kurs
 talk_speakers:
   speaker1:
     name: Mitglieder der Sternwarte
-title: 'Astronomie Kurs 2 - Wissenschaft zum Staunen und Mitmachen - 8 Abende'
+title: 'Astronomie - Kurs 2, 8 Abende<br>Wissenschaft zum Staunen und Mitmachen'
 ---
   - Kaufberatung für Teleskope
   - Orientierung am Winterhimmel
   - Kosmische Entfernungen
   - Sternhaufen und Galaxien
   - Besuch der Sternwarte mit Möglichkeit der Beobachtung
----
