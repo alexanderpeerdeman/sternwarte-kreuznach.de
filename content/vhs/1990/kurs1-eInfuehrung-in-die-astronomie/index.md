@@ -6,7 +6,7 @@ talk_type_raw: VHS-Kurs
 talk_speakers:
   speaker1:
     name: Mitglieder der Sternwarte
-title: 'Einführung in die Astronomie<br>Kurs 1, 6 Abende'
+title: 'Einführung in die Astronomie -<br>Kurs 1, 6 Abende'
 ---
 - Sternbilder der Nordhalbkugel und Gebrauch einer drehbaren Sternkarte
 - Der Planet Jupiter und seine Galileischen Monde

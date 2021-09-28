@@ -6,7 +6,7 @@ talk_type_raw: VHS-Kurs
 talk_speakers:
   speaker1:
     name: Mitglieder der Sternwarte
-title: Astronomie - Kurs - 8 Abende
+title: Astronomie - Kurs, 8 Abende
 ---
   Mit einem Vortrag zur "Geschichte des Teleskops" beginnt die Vortragsreihe des Vereins der Sternfreunde auf der Kreuznacher Sternwarte.
    

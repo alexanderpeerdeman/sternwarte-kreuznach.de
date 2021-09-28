@@ -6,7 +6,7 @@ talk_type_raw: VHS-Kurs
 talk_speakers:
   speaker1:
     name: Mitglieder der Sternwarte
-title: 'Astronomie – 6 Abende<br>Himmelsforschung als Wissenschaft und Hobby'
+title: 'Astronomie – Kurs 2, 6 Abende –<br>Himmelsforschung als Wissenschaft und Hobby'
 ---
 - Die Kosmologie
 - Sternbilder und Orientierung
