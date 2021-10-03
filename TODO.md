@@ -13,8 +13,11 @@ Der gesamte Content ist migriert, die Seite ist umstrukturiert und vollständig 
 - [x] *·· make links look good in panel (different background colors)
 - [x] *·· font-sizes (headings)
 - [ ] **· VHS-Informationen auf eigener Unterseite
+- [ ] **· Anfahrt
 - [x] **· Sektion "Infos" komplett entfernen
-- [ ] *·· PayPal-Link einbinden
+- [x] *·· PayPal-Link einbinden
+- [ ] *·· "Eintritt und Zeiten" nur bei neuen Vorträgen zeigen
+
 
 # Backlog
 

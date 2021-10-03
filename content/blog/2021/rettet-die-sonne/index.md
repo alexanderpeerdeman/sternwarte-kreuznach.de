@@ -24,7 +24,7 @@ Ihre Spende richten Sie bitte an:
 IBAN: `DE14 5609 0000 0007 1231 34`  
 BIC:  `GENODE51KRE`  
 
-oder auf unser PayPal-Konto: [info@sternwarte-kreuznach.de](#)
+oder auf unser PayPal-Konto: [info@sternwarte-kreuznach.de](https://www.paypal.com/donate/?hosted_button_id=824GDMD9MRET8)
 
 ---
 
