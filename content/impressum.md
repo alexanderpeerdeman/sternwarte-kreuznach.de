@@ -7,16 +7,16 @@ gemäß § 5 TMG
 
 **Postanschrift:**  
 Sternwarte Bad Kreuznach e. V.  
-c/o Bernd Peerdeman  
-Königsberger Straße 21a  
+c/o Mehmet Ergün  
+Mathildenstr. 12  
 55543 Bad Kreuznach  
 
 **Vertreten durch:**  
-Bernd Peerdeman (1. Vorsitzender)  
-Roland Zahn (2. Vorsitzender)  
-Artur Kappesser (Schriftführer)  
+Mehmet Ergün (1. Vorsitzender)  
+Johannes Lind (2. Vorsitzender)  
+Rainer Kesper (Schriftführer)  
 Reinhold Frey (Kassenwart)  
-Thorsten Baumgardt (Beisitzer)  
+Bernd Orth (Beisitzer)  
 
 **Kontakt:**  
 E-Mail: [info@sternwarte-kreuznach.de](mailto:info@sternwarte-kreuznach.de "info@sternwarte-kreuznach.de")
@@ -33,11 +33,11 @@ Registernummer: VR1285
 
 **Für den Inhalt verantwortlich:**  
 Bernd Peerdeman  
-Königsbergerstraße 21a  
+Königsbergerstr. 21a  
 55543 Bad Kreuznach
 
 **Webmaster:**  
-Alexander Peerdeman
+[Alexander Peerdeman](mailto:webmaster@sternwarte-kreuznach.de "webmaster@sternwarte-kreuznach.de")
 
 ## Haftungsausschluss:
 

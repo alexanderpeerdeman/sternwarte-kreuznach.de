@@ -1,4 +1,7 @@
-$link-color: lighten($color: #036, $amount: 10%);
+$link-color: lighten(
+  $color: #036,
+  $amount: 10%,
+);
 
 html {
   scroll-padding-top: 70px;
@@ -13,7 +16,7 @@ body {
 
 hr {
   border: 0;
-  border-top: 2px solid lighten($color: #036, $amount: 15%);
+  border-top: 1px solid #ccc;
   margin-top: 20px;
   padding-top: 10px;
 }
@@ -23,16 +26,20 @@ h2,
 h3,
 h4,
 h5,
-h6,
-strong {
+h6 {
+  hyphens: auto;
   color: #222;
-  font-weight: 600;
+  font-weight: 700;
+}
+
+strong {
+  font-weight: 800;
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   @media #{$phone} {
-    font-size: 2rem;
+    font-size: 1.75rem;
   }
 }
 
@@ -42,13 +49,15 @@ h2 {
 
 .titlebar {
   background-color: #eee;
+  hyphens: auto;
 }
 
 .title {
+  font-size: 2.5rem;
   max-width: 55rem;
   padding: 1.75rem 2rem;
   @media #{$phone} {
-    padding: 1.75rem  1rem;
+    padding: 1.75rem 1rem;
   }
   margin: 0 auto;
 }
@@ -128,5 +137,23 @@ table {
     &:nth-of-type(2n) {
       background-color: #f7f7f7;
     }
+  }
+}
+
+figure {
+  display: block;
+  margin: 1rem 0;
+  line-height: 0;
+  &.right {
+    text-align: right;
+  }
+  &.center {
+    text-align: center;
+  }
+  figcaption {
+    font-weight: 400;
+    line-height: 1.125;
+    font-size: 0.92rem;
+    margin-top: -0.4rem;
   }
 }

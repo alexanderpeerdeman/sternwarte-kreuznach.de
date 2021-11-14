@@ -46,14 +46,13 @@
     top: 67px;
     left: 0;
     background: white;
-    max-height: calc(100vh - 67px);
+    height: calc(100vh - 67px);
     overflow-y: auto;
-    width: calc(100vw - calc(2 * 2rem));
-    padding: 0 2rem;
+    width: calc(100vw - calc(2 * 1rem));
+    padding: 0 1rem;
   }
 }
 
-.site-title,
 .navbar a,
 .navbar button {
   text-decoration: none;
@@ -66,14 +65,6 @@
   background: none;
   padding: 25px 1rem;
   transition: background-color ease 0.2s;
-}
-
-.site-title {
-  display: none;
-  @media #{$phone} {
-    display: block;
-    padding: 0 0.5rem;    
-  }
 }
 
 .hamburger {
@@ -225,7 +216,7 @@
     line-height: normal;
   }
 
-  .navbar > li:last-child > a {
-    margin-bottom: 10rem;
-  }
+  // .navbar > li:last-child > a {
+  //   margin-bottom: 5rem;
+  // }
 }

@@ -3,7 +3,7 @@ title: Komet 41P/Tuttle-Giacobini-Kresák
 date: 2017-04-08 11:23:12
 images: 
     - komet-41P.jpg
-summary: TODO...
+summary: Die Sternwarte lädt ein zur Beobachtung dieses Kometen. Sie können einen Blick durch unsere Teleskope werfen, ein einfaches Fernglas genügt aber auch.
 ---
 **Ostersamstag, 15. April 2017, ab 19:00 Uhr**
 

@@ -1,13 +1,14 @@
 {{ define "main" }}
 <div class="titlebar">
-<h1 class="title">{{ .Title }}</h1>
+    <h1 class="title">{{ .Title }}</h1>
 </div>
-    {{ with .Pages }}        
-    <ul>
-        {{ range . }}
-        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-        {{ end }}
-    </ul>    
+<div class="content">
+    {{ .Content }}
+    {{ if (and .Content .Pages) }}
+    <hr>
     {{ end }}
-{{ .Content }}
+    {{ range .Pages }}
+       <p><a href="{{ .RelPermalink }}">{{ .Title }}</a></p>
+    {{ end }}
+</div>
 {{ end }}

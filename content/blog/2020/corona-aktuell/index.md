@@ -1,19 +1,14 @@
 ---
 title: "Corona Aktuell"
-date: 2020-10-21T22:36:15+01:00
-images: 
-    - coronavirus.jpg
-summary: Aufgrund der aktuell rasant steigenden Fallzahlen müssen wir unsere Aktivitäten wieder einschränken. Wir bedauern diesen Schritt sehr.
+date: 2020-10-21 22:36:15
+images:
+  - coronavirus.jpg
+summary: Ab sofort bieten wir am Sonntagmorgen wieder unsere Sonnenbeobachtung an.
 ---
 
-## Liebe Besucher und Freunde der Sternwarte Bad Kreuznach
+**Liebe Besucher und Freunde der Sternwarte Bad Kreuznach,**  
+ab sofort bieten wir am Sonntagmorgen wieder unsere Sonnenbeobachtung an.
 
-die Coronazahlen steigen rasant.
-Aus diesem Anlass müssen wir unsere Freitagstreffen sowie die Sonnenbeobachtung für die Öffentlichkeit bis auf Weiteres wieder einstellen.
-Dies dient allein zu Ihrem und unserem Schutz. Unsere anderen Aktivitäten sind selbstverständlich auch davon betroffen.
+Selbstverständlich nur mit Mund- und Nasenschutz und nach den AHA-Regeln. Wir freuen uns auf Sie!
 
-Wir bedauern diesen Schritt sehr, bitten um Ihr Verständnis und hoffen, Sie bald wieder bei uns begrüßen zu dürfen.
-
-Aktuelle Informationen entnehmen Sie bitte unserer Website.
-
-Ihr Team von der Sternwarte
+Alle weiteren Termine und Veranstaltungen müssen wir für das gesamte Jahr 2021 leider aussetzen. Wir hoffen, dass wir im nächsten Jahr wieder vollumfänglich für Sie da sein können.

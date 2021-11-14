@@ -2,7 +2,6 @@ baseURL = "https://apeer.uber.space/"
 languageCode = "de"
 title = "Sternwarte Bad Kreuznach e.V."
 summaryLength = 25
-# googleAnalytics = "UA-123-45"
 
 [imaging]
 anchor = "center"
@@ -11,27 +10,33 @@ anchor = "center"
     description = "This is the Sternwarte Website built with Hugo"
 
 [[menu.main]]
-    name = "Über uns"
     weight = 1
+    name = "Über uns"
 
 [[menu.main]]
+    weight = 2
     name = "VHS"
     url = "/vhs"
-    weight = 2
 
 [[menu.main]]
+    weight = 3
     name = "Blog"
     url = "/blog"
-    weight = 3
 
 [[menu.main]]
+    weight = 4
     name = "Galerie"
     url = "/galerie"
-    weight = 4
 
 [[menu.main]]
-    name = "Infos"
     weight = 5
+    name = "Öffnungszeiten"
+    url = "/oeffnungszeiten"
+
+[[menu.main]]
+    weight = 6
+    name = "Kontakt & Anfahrt"
+    url = "/kontakt"
 
 
 [[menu.social]]
@@ -43,11 +48,3 @@ anchor = "center"
     name = "YouTube"
     url = "https://www.youtube.com/channel/UCiPx2XenNCDxbFA-XXnfnvg?sub_confirmation=1"
     pre = "svg/028-youtube.svg"
-
-
-#[outputFormats.SearchIndex]
-#    baseName = "search"
-#    mediaType = "application/json"
-
-#[outputs]
-#    home = ["HTML", "SearchIndex"]

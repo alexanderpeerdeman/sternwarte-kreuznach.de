@@ -1,12 +1,11 @@
 ---
 title: Interview mit Michael Brake - taz.am Wochenende - Berlin
 date: 2017-04-08 19:33:31
-images: 
-    - taz.jpg
+images:
+  - taz.jpg
 caption: "Gruppenbild ohne Pluto: die acht Planeten unseres Sonnensystems"
-summary: TODO...
+summary: Mit Planet 9 müssten auch Planetenwege neu arrangiert werden. Eine unterschätzte Herausforderung.
 ---
-
 
 Sonnenabend / Sonntag, 18./19. März 2017
 
@@ -14,9 +13,7 @@ Sonnenabend / Sonntag, 18./19. März 2017
 Mit Planet 9 müssten auch Planetenwege neu arrangiert werden.  
 Eine unterschätzte Herausforderung.
 
->  
 > „Pluto bleibt da!“
-> 
 
 Interview: Michael Brake
 

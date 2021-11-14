@@ -7,7 +7,7 @@
 .article-card {
   border-radius: 8px;
   min-height: 30rem;
-  max-width: 80rem;
+  max-width: 70rem;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -76,7 +76,7 @@
 
 .main-with-aside {
   display: flex;
-  max-width: 80rem;
+  max-width: 70rem;
   margin: 0 auto 2rem auto;
   padding: 0 2rem;
   justify-content: space-between;
@@ -124,9 +124,11 @@
       &:last-of-type {
         border: none;
       }
-      a,
-      a:hover {
-        text-decoration: none;
+      a {
+        display: block;
+        &:hover {
+          text-decoration: none;
+        }
       }
 
       time {
@@ -170,27 +172,31 @@
 .cards {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-  max-width: 100rem;
+  justify-content: space-between;
+  max-width: 70rem;
   margin: 0 auto;
   padding: 0 1rem;
+  @media #{$phone} {
+    flex-direction: row;
+    justify-content: center;
+  }
 }
 .card {
-  max-width: 15rem;
-  padding: 1rem;
+  max-width: 28%;
+  margin: 1rem;
   text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  border-radius: 12px;
   align-items: center;
+  @media #{$phone} {
+    max-width: 100%;
+  }
 }
 .card-header {
-  font-size: 14px;
-  font-weight: 700;
-  color: #444;
-  margin: 0.4rem 0;
-  padding: 0;
+  margin: 0;
 }
+
 .card-content {
   font-size: 14px;
 }

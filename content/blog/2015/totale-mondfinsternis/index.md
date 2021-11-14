@@ -1,9 +1,9 @@
 ---
 title: Totale Mondfinsternis am Montag, den 28. September 2015
 date: 2015-09-26 14:47:34
-images: 
-    - mofi.jpg
-summary: TODO...
+images:
+  - mofi.jpg
+summary: Endlich ist es wieder soweit. Nach fast 7 ½ Jahren ist in Mitteleuropa eine Mondfinsternis in voller Länge zu bestaunen.
 ---
 
 ## Überblick:

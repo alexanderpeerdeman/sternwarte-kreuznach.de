@@ -1,0 +1,22 @@
+.panel {
+  display: block;
+  line-height: 1.25;
+  margin: 1rem 0;
+  padding: 1rem 0.9rem;
+
+  background-color: lighten(#003366, 72);
+  border-left: 0.35rem #003366 solid;
+
+  &.success {
+    background-color: lighten($color: #30790e, $amount: 65);
+    border-left: 0.35rem #30790e solid;
+  }
+  &.warning {
+    background-color: lighten($color: #cc6300, $amount: 55);
+    border-left: 0.35rem #cc6300 solid;
+  }
+  &.danger {
+    background-color: lighten($color: #a4031f, $amount: 62);
+    border-left: 0.35rem #a4031f solid;
+  }
+}

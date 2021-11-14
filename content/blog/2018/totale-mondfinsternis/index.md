@@ -3,7 +3,7 @@ title: Totale Mondfinsternis und Mars in Erdnähe
 date: 2018-06-03 15:07:18
 images: 
     - mofi.jpg
-summary: TODO...
+summary: Eine totale Mondfinsternis ist ein großes astronomisches Ereigniss unserer Zeit. Die Sternwarte ist an diesem Tag *nicht* geöffnet, stattdessen finden Sie uns auf dem Rosenhof.
 ---
 
 ---

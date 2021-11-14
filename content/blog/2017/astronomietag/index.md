@@ -3,7 +3,7 @@ title: Astronomietag 2017
 date: 2017-03-27 20:55:13
 images: 
     - astronomietag.jpg
-summary: TODO...
+summary: Unser diesjähriger Astronomietag war ein voller Erfolg. Das Wetter hatte ein Einsehen und zeigte sich von der besten Seite.  
 ---
 Unser diesjähriger Astronomietag war ein voller Erfolg.
 

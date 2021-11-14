@@ -1,97 +1,106 @@
 {{ define "main" }}
-  <section id="featured">
-    <article class="article-card" style="background-image: url('/blog/2020/corona-aktuell/coronavirus.jpg')">
-      <div class="article-card-content">
-        <div class="heading">Corona Aktuell</div>
-        <p>
-          Aufgrund der aktuell rasant steigenden Fallzahlen müssen wir unsere
-          Aktivitäten wieder einschränken. Wir bedauern diesen Schritt sehr.
-        </p>
-        <p><a href="/blog/2020/corona-aktuell/">Weiterlesen ...</a></p>
+<section id="featured">
+  <article
+    class="article-card"
+    style="background-image: url('/blog/2020/corona-aktuell/coronavirus.jpg')"
+  >
+    <div class="article-card-content">
+      <div class="heading">Corona Aktuell</div>
+      <p>
+        Ab sofort bieten wir am Sonntagmorgen wieder unsere Sonnenbeobachtung an.
+      </p>
+      <p><a href="/blog/2020/corona-aktuell/">Weiterlesen ...</a></p>
+    </div>
+  </article>
+</section>
+<section class="main-with-aside">
+  <article class="main-content">{{ .Content }}</article>
+  {{ with (.GetPage "home-content").Resources.GetMatch "aside.md" }}
+  <section class="main-aside">    
+    {{ .Content }}
+  </section>
+  {{ end }}
+</section>
+
+<section id="cards-wrapper">
+  <div class="cards">
+    {{ range (.GetPage "home-cards").Resources.ByType "page" }}
+    <div class="card">
+      <h4 class="card-header"><a href="{{ .Params.link }}">{{ .Title }}</a></h4>
+      <div class="card-content">{{ .Content }}</div>
+    </div>
+    {{ end }}
+  </div>
+</section>
+<section id="next-vhs" class="content">
+  {{ $currentTime := now.Format "2006-01-02T15:04:05" }}
+  {{/* $talks := ((.GetPage "/vhs").Pages.ByParam "talk_date") */}} {{/* all talks */}}
+  {{ $talks := (where ((.GetPage "/vhs").Pages.ByParam "talk_date") ".Params.talk_date" "ge" $currentTime) }} {{/* future talks */}} 
+  {{ $talks := (where $talks "Params.layout" "!=" "archiv") }}
+
+
+  <div class="announcement">
+    <h2><a href="/vhs">Aktuelle Veranstaltungen</a></h2>
+    {{ if le (len $talks) 0 }}<p>Bisher sind keine weiteren Vorträge angekündigt.</p>{{ end }}
+    {{ range (last 4 $talks)}}
+    <article>
+      <a href="{{ .RelPermalink }}" title='Permanenter Link zu "{{ .Title }}"'>
+        {{ with .Params.talk_date }}
+        <time class="date published" datetime="{{ . }}">
+          {{ partial "date.html" (dict "date" . "monate" $.Site.Data.monate )}}
+        </time>
+        {{ end }}
+        <div class="title">{{ .Title }}</div>
+      </a>
+    </article>
+    {{ end }}
+  </div>
+  <div class="oeffnungszeiten">
+    <h3>VHS-Vorträge</h3>
+    <p>Jeden letzten Freitag im Monat um 20:00 Uhr.</p>
+    <p>
+      Anschließend gibt es, sofern es das Wetter zulässt, die Möglichkeit zur
+      Beobachtung verschiedener Himmelskörper durch unsere Instrumente.
+    </p>
+    <p><a href="/vortraege">Weitere Informationen</a></p>
+  </div>
+</section>
+<section class="blog-newest">
+  <h2><a href="/blog">Aktuelles im Blog</a></h2>
+  <div class="posts-grid">
+    {{ range (first 3 (where .Site.RegularPages "Type" "blog")) }}
+    <article class="post">
+      <header class="post-header">
+        <a
+          class="post-link"
+          href="{{ .RelPermalink }}"
+          title='Permanenter Link zu "{{ .Title }}"'
+        >
+          <div class="post-image">
+            {{ if .Params.images }} {{ with (.Resources.GetMatch (index
+            .Params.images 0)).Fill "600x330 q80 smart" }}
+            <img src="{{ .RelPermalink }}" alt="{{ .Title }}" />
+            {{ end }} {{ end }}
+          </div>
+          <h2 class="post-title">{{ .Title }}</h2>
+        </a>
+        <div class="post-info">
+          {{ with .PublishDate }}
+          <time class="date published" datetime="{{ . }}">
+            {{ partial "date.html" (dict "date" . "monate" $.Site.Data.monate
+            )}}</time
+          >
+          {{ end }}
+        </div>
+      </header>
+      <div class="post-summary">
+        <p>{{ .Summary }}</p>
+        <a class="go" href="{{ .RelPermalink }}"
+          >Weiterlesen {{ partial "arrow.html" }}</a
+        >
       </div>
     </article>
-  </section>
-  <section class="main-with-aside">
-    <article class="main-content">{{ .Content }}</article>
-    {{ with (.GetPage "home-content").Resources.GetMatch "aside.md" }}
-    <section class="main-aside">
-      <h4>{{ .Title }}</h4>
-      {{ .Content }}
-    </section>
     {{ end }}
-  </section>
-
-  <section id="cards-wrapper">
-    <div class="cards">
-      {{ range (.GetPage "home-cards").Resources.ByType "page" }}
-      <div class="card">
-        <h2 class="card-header">{{ .Title }}</h2>
-        <div class="card-content">{{ .Content }}</div>
-        <a class="btn small" href="{{ .Params.button_link }}">{{ .Params.button_text }}</a>
-      </div>
-      {{ end }}
-    </div>
-  </section>
-  <section id="next-vhs" class="content">
-    {{ $currentTime := now.Format "2006-01-02T15:04:05" }} {{ $currentTime :=
-    (time "2019-09-01").Format "2006-01-02T15:04:05" }} {{ $talks := (where
-    ((.GetPage "/vhs").Pages.ByParam "talk_date") ".Params.talk_date" "ge"
-    $currentTime) }}
-
-    <div class="announcement">
-      <h2><a href="/vhs">Aktuelle Veranstaltungen</a></h2>
-      {{ range (first 4 $talks)}}
-      <article>
-        <a href="{{ .RelPermalink }}" title='Permanenter Link zu "{{ .Title }}"'>
-          {{ with .Params.talk_date }}
-          <time class="date published" datetime="{{ . }}">
-            {{ partial "date.html" (dict "date" . "monate" $.Site.Data.monate )}}
-          </time>
-          {{ end }}
-          <div class="title">{{ .Title }}</div>
-        </a>
-      </article>
-      {{ end }}
-    </div>
-    <div class="oeffnungszeiten">
-      <h3>VHS-Vorträge</h3>
-      <p>Jeden letzten Freitag im Monat um 20:00 Uhr.</p>
-      <p>
-        Anschließend gibt es, sofern es das Wetter zulässt, die Möglichkeit zur
-        Beobachtung verschiedener Himmelskörper durch unsere Instrumente.
-      </p>
-      <p><a href="/infos/vortraege">Weitere Informationen</a></p>
-    </div>
-  </section>
-  <section class="blog-newest">
-    <h2><a href="/blog">Aktuelles im Blog</a></h2>
-    <div class="posts-grid">
-      {{ range (first 3 (where .Site.RegularPages "Type" "blog")) }}
-      <article class="post">
-        <header class="post-header">
-          <a class="post-link" href="{{ .RelPermalink }}" title='Permanenter Link zu "{{ .Title }}"'>
-            <div class="post-image">
-              {{ if .Params.images }}
-              {{ with (.Resources.GetMatch (index .Params.images 0)).Fill "600x330 q80 smart" }}
-              <img src="{{ .RelPermalink }}" alt="{{ .Title }}" />
-              {{ end }}
-              {{ end }}
-            </div>
-            <h2 class="post-title">{{ .Title }}</h2>
-          </a>
-          <div class="post-info">
-            {{ with .PublishDate }}
-            <time class="date published" datetime="{{ . }}">
-            {{ partial "date.html" (dict "date" . "monate" $.Site.Data.monate )}}</time>
-            {{ end }}
-          </div>
-        </header>
-        <div class="post-summary">
-          <p>{{ .Summary }}</p>
-          <a class="go" href="{{ .RelPermalink }}">Weiterlesen {{ partial "arrow.html" }}</a>
-        </div>
-      </article>
-      {{ end }}
-    </div>
-  </section>
+  </div>
+</section>
 {{ end }}

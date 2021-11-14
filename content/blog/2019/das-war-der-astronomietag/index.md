@@ -2,9 +2,10 @@
 title: Das war der Astronomietag
 date: 2019-04-05 11:13:55
 images:
-    - allgemeine-zeitung.jpg
+  - allgemeine-zeitung.jpg
 summary: Bei strahlendem Wetter konnten wir ca. 500 Besucher zu unserem Astronomietag begrüßen. Im Weißen- und H-Alpha Licht war unsere Sonne der „Star“ am Himmel ...
 ---
+
 Bei strahlendem Wetter konnten wir **ca. 500 Besucher** zu unserem Astronomietag begrüßen. Im Weißen- und H-Alpha Licht war unsere Sonne der „Star“ am Himmel.
 
 {{< fullBleedImage src="beobachter-podest.jpg" alt="beobachter-podest.jpg" >}}
@@ -15,34 +16,38 @@ Bei strahlendem Wetter konnten wir **ca. 500 Besucher** zu unserem Astronomietag
 
 Mit unseren Kurzvorträgen über...
 
-- Astrofotografie – M.- Ergün  
-- Die Software „Stellarium“ – B. Peerdeman  
-- Zirkumpolar Sternbilder – R. Frey  
-- Himmelsbeobachtung mit einfachen Mitteln – J. Bock  
+- Astrofotografie – M.- Ergün
+- Die Software „Stellarium“ – B. Peerdeman
+- Zirkumpolar Sternbilder – R. Frey
+- Himmelsbeobachtung mit einfachen Mitteln – J. Bock
 - Teleskopkaufberatung – B. Peerdeman
 
 {{< fullBleedImage src="swr-aktuell.png" alt="swr-aktuell.png" >}}
 
 ... konnten wir unseren Besuchern ein abwechslungsreiches Programm anbieten.
 
-### Wie sind Sie auf uns aufmerksam geworden?  
+### Wie sind Sie auf uns aufmerksam geworden?
+
 Anhand von vier Kriterien hatten unsere Besucher die Wahl.
 
 ![auf-uns-aufmerksam-geworden.jpg](auf-uns-aufmerksam-geworden.jpg)
 
 ## SWR berichtet
+
 Den ganzen Tag hat uns ein Fernsehteam vom SWR begleitet und einen interessanten Bericht zusammengestellt.
 
 {{< youtube FXaqX4GMLxQ >}}
 
 Eine großartige Werbung für die Sternwarte - mit freundlicher Genehmigung vom SWR.
 
-## Einweihung der neuen Montierung 
+## Einweihung der neuen Montierung
+
 Das Highlight des Tages war die Einweihung unserer neuen Sternwarten-Montierung vom Typ Fornax 102 mit Schmidt-Cassegrain 12“ Meade LX 200 emc.
 
 ![hauptsternwarte.jpg](hauptsternwarte.jpg)
 
 ## Raketenstarts
+
 Nicht zu vergessen: Unsere beim Publikum sehr beliebten Raketenstarts.
 
 Abends, bei guten Wetterbedingungen, hatten wir sehr viele Besucher an unseren Teleskopen. Die Gespräche mit den Besuchern sind dabei am interessantesten. Neben dem Mars, den Plejaden, Alkor und Mizar war M 42 _das Objekt_ am Abend.
