@@ -1,8 +1,8 @@
 ---
-date: '2016-08-03T12:55:24'
-talk_date: '2016-03-25T20:00:00'
+date: "2016-08-03T12:55:24"
+talk_date: "2016-03-25T20:00:00"
 talk_images:
-- wo-ist-eigentlich-der-nordpol-unseres-himmels-title.jpg
+  - wo-ist-eigentlich-der-nordpol-unseres-himmels-title.jpg
 talk_speakers:
   speaker1:
     name: Rüdiger Brenner

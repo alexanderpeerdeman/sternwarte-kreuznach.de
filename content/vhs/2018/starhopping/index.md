@@ -1,8 +1,8 @@
 ---
-date: '2018-07-02T19:22:50'
-talk_date: '2018-09-28T00:00:00'
+date: "2018-07-02T19:22:50"
+talk_date: "2018-09-28T00:00:00"
 talk_images:
-- starhopping-title.gif
+  - starhopping-title.gif
 talk_speakers:
   speaker1:
     name: Perry Black

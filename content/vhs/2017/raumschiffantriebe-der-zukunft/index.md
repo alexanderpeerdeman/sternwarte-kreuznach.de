@@ -1,8 +1,8 @@
 ---
-date: '2017-06-16T21:56:44'
-talk_date: '2017-08-25T20:00:00'
+date: "2017-06-16T21:56:44"
+talk_date: "2017-08-25T20:00:00"
 talk_images:
-- raumschiffantriebe-der-zukunft-title.jpg
+  - raumschiffantriebe-der-zukunft-title.jpg
 talk_speakers:
   speaker1:
     name: Rüdiger Brenner

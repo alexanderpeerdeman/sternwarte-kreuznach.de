@@ -23,7 +23,10 @@
           {{ partial "date.html" (dict "date" . "monate" $.Site.Data.monate )}}</time><br>
         {{ end }}
         {{ end }}
+
+        {{ if lt now (time .Params.talk_date) }}
         <i class="fas fa-info-circle" title="Weitere Informationen"></i> <a href="/infos/vortraege">Eintritt & Zeiten</a>
+        {{ end }}
       </div>
       <div>
         {{ range .Params.talk_speakers }}
@@ -32,7 +35,15 @@
       </div>
       
     </div>
-    <div class="vhs-talk-content">{{ .Content }}</div>
+    <div class="vhs-talk-content">
+      {{ if .Content }}
+        {{ .Content }}
+      {{ else }}
+        <p>
+          <i>Keine Beschreibung</i>
+        </p>
+      {{ end }}
+    </div>
   </div>
 </article>
 {{ end }}

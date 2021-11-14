@@ -1,8 +1,8 @@
 ---
-date: '2016-11-27T14:32:48'
-talk_date: '2017-04-28T20:00:00'
+date: "2016-11-27T14:32:48"
+talk_date: "2017-04-28T20:00:00"
 talk_images:
-- die-erde-und-ihre-schutzhuellen-atmosphaere-und-van-allen-guertel-title.jpg
+  - die-erde-und-ihre-schutzhuellen-atmosphaere-und-van-allen-guertel-title.jpg
 talk_speakers:
   speaker1:
     name: Reinhold Frey

@@ -1,8 +1,8 @@
 ---
-date: '2016-11-27T14:24:33'
-talk_date: '2017-01-27T20:00:00'
+date: "2016-11-27T14:24:33"
+talk_date: "2017-01-27T20:00:00"
 talk_images:
-- spacex-die-menschheit-wird-zu-einer-multiplanetarischen-spezies-title.jpg
+  - spacex-die-menschheit-wird-zu-einer-multiplanetarischen-spezies-title.jpg
 talk_speakers:
   speaker1:
     name: Andreas Metzen
