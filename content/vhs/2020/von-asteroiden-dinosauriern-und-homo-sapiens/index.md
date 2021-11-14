@@ -1,13 +1,14 @@
 ---
-date: '2019-12-27T12:07:24'
-talk_date: '2020-01-31T20:00:00'
+date: "2019-12-27T12:07:24"
+talk_date: "2020-01-31T20:00:00"
 talk_images:
-- von-asteroiden-dinosauriern-und-homo-sapiens-title.jpg
+  - von-asteroiden-dinosauriern-und-homo-sapiens-title.jpg
 talk_speakers:
   speaker1:
     name: Rainer Kesper
 title: Von Asteroiden, Dinosauriern und Homo Sapiens!
 ---
+
 Asteroiden können die Erde treffen.
 
 Dies ist in der Vergangenheit geschehen und wird auch in der Zukunft vorkommen. Das Sonnensystem ist seit langer Zeit stabil, jedoch kreuzen immer noch eine Vielzahl von Objekten unsere Umlaufbahn um die Sonne. Sind wir in der Lage, einen Einschlag abzuwenden, wenn es eng wird?

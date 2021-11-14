@@ -1,8 +1,8 @@
 ---
-date: '2016-11-27T14:35:13'
-talk_date: '2017-05-26T20:00:00'
+date: "2016-11-27T14:35:13"
+talk_date: "2017-05-26T20:00:00"
 talk_images:
-- faszination-astronomie-title.jpg
+  - faszination-astronomie-title.jpg
 talk_speakers:
   speaker1:
     name: Rainer Kesper

@@ -1,8 +1,8 @@
 ---
-date: '2016-08-01T01:22:41'
-talk_date: '2016-07-29T20:00:00'
+date: "2016-08-01T01:22:41"
+talk_date: "2016-07-29T20:00:00"
 talk_images:
-- sternschnuppen-die-perseiden-im-august-title.jpg
+  - sternschnuppen-die-perseiden-im-august-title.jpg
 talk_speakers:
   speaker1:
     name: Reinhold Frey

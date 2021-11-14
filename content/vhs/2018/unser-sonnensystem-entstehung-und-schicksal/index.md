@@ -1,8 +1,8 @@
 ---
-date: '2017-11-25T21:40:18'
-talk_date: '2018-02-23T20:00:00'
+date: "2017-11-25T21:40:18"
+talk_date: "2018-02-23T20:00:00"
 talk_images:
-- unser-sonnensystem-entstehung-und-schicksal-title.jpg
+  - unser-sonnensystem-entstehung-und-schicksal-title.jpg
 talk_speakers:
   speaker1:
     name: Rainer Kesper

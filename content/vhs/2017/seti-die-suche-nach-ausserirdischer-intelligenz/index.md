@@ -1,8 +1,8 @@
 ---
-date: '2016-11-27T14:26:25'
-talk_date: '2017-02-24T20:00:00'
+date: "2016-11-27T14:26:25"
+talk_date: "2017-02-24T20:00:00"
 talk_images:
-- seti-die-suche-nach-ausserirdischer-intelligenz-title.gif
+  - seti-die-suche-nach-ausserirdischer-intelligenz-title.gif
 talk_speakers:
   speaker1:
     name: Erich Pompl

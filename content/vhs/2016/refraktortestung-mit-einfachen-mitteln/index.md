@@ -1,14 +1,15 @@
 ---
-date: '2016-08-03T12:54:49'
-talk_date: '2016-02-26T20:00:00'
+date: "2016-08-03T12:54:49"
+talk_date: "2016-02-26T20:00:00"
 talk_images:
-- praktische-astronomie-title.jpg
+  - praktische-astronomie-title.jpg
 talk_speakers:
   speaker1:
     name: Dr. med. Carsten Blumenröther
     extra: Alzeyer Sternenfreunde
 title: Refraktortestung mit einfachen Mitteln und Beispiel der Modifikation an einem catadioptrischen Kaufhausteleskop aus den 80er Jahren
 ---
+
 In dem Vortrag des Alzeyer Amateurastronoms Dr. med. Carsten Blumenröther wird zunächst über die Beurteilung der optischen Leistung amateurüblicher Teleskope unter Zuhilfenahme einfacher Mittel berichtet.
 Themenschwerpunkte sind in diesem ersten Teil eine Einführung in die Methode des sogenannten Sterntestes, zwei sich ergänzenden Methoden der Zentrierung einer Fraunhofer-Refraktoroptik und eine einführende Erläuterung zum sogenannten Strehlwert. Ferner schildert er seine persönlichen Erfahrungen mit einer einfachen Methode der orientierenden Vergleichsbeurteilung für Farbfehler von Refraktoroptiken, die nicht der besonderen Hilfsmittel von Profis oder Optikern bedarf.
 

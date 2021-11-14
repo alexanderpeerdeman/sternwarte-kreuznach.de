@@ -1,8 +1,8 @@
 ---
-date: '2018-07-02T19:28:13'
-talk_date: '2018-11-30T00:00:00'
+date: "2018-07-02T19:28:13"
+talk_date: "2018-11-30T00:00:00"
 talk_images:
-- teleskopberatung-title.jpg
+  - teleskopberatung-title.jpg
 talk_speakers:
   speaker1:
     name: Roman Schneider
