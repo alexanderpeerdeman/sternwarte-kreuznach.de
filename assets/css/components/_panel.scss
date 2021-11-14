@@ -1,44 +1,22 @@
 .panel {
   display: block;
-  line-height: 1.5;
+  line-height: 1.25;
   margin: 1rem 0;
-  border-radius: 8px;
-  padding: 1rem 1.2rem;
-  box-shadow: 0 0 1rem 0 #ccc;
+  padding: 1rem 0.9rem;
 
-  background-color: #003366;
-  color: white;
-  border: 0.2rem rgba($color: white, $alpha: 0.15) dashed;
-
-  a {
-    color: lighten($color: #003366, $amount: 60);
-  }
+  background-color: lighten(#003366, 72);
+  border-left: 0.35rem #003366 solid;
 
   &.success {
-    background-color: lighten($color: #143109, $amount: 15);
-    color: white;
-    border: 0.2rem rgba($color: white, $alpha: 0.15) dashed;
-
-    a {
-      color: lighten($color: #143109, $amount: 45);
-    }
+    background-color: lighten($color: #30790e, $amount: 65);
+    border-left: 0.35rem #30790e solid;
   }
   &.warning {
-    background-color: #fa9500;
-    color: black;
-    border: 0.2rem rgba($color: black, $alpha: 0.15) dashed;
-
-    a {
-      color: darken($color: #fa9500, $amount: 25);
-    }
+    background-color: lighten($color: #cc6300, $amount: 55);
+    border-left: 0.35rem #cc6300 solid;
   }
   &.danger {
-    background-color: #a4031f;
-    color: white;
-    border: 0.2rem rgba($color: white, $alpha: 0.3) dashed;
-
-    a {
-      color: lighten($color: #a4031f, $amount: 45);
-    }
+    background-color: lighten($color: #a4031f, $amount: 62);
+    border-left: 0.35rem #a4031f solid;
   }
 }

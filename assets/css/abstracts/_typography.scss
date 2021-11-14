@@ -27,6 +27,7 @@ h3,
 h4,
 h5,
 h6 {
+  hyphens: auto;
   color: #222;
   font-weight: 700;
 }
@@ -48,6 +49,7 @@ h2 {
 
 .titlebar {
   background-color: #eee;
+  hyphens: auto;
 }
 
 .title {
