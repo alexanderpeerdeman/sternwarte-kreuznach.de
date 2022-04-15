@@ -4,7 +4,7 @@ date: 2020-08-30T12:34:35+02:00
 menu:
     main: 
         parent: 'Über uns'
-        weight: 3
+        weight: 4
 ---
 
 ##  Wir zeigen Ihnen die Schönheit des Universums mit:

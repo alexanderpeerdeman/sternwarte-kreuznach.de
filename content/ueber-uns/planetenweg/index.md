@@ -6,7 +6,7 @@ menu:
   main:
     parent: "Über uns"
     name: "Planetenweg"
-    weight: 5
+    weight: 6
 ---
 
 Ein kleiner Spaziergang bringt Sie von unserer Sonne bis zum Zwergplaneten Pluto. Sie wandern dabei Nahe aufwärts, entlang der Priegerpromenade, durchs Salinental bis nach Ebernburg im Stadtteil Bad Münster am Stein-Ebernburg.

@@ -4,7 +4,7 @@ date: 2020-08-30T12:34:25+02:00
 menu:
     main: 
         parent: 'Über uns'
-        weight: 2
+        weight: 3
 ---
 Haben Sie Freude an der Astronomie? Dann kommen Sie zu uns und treten Sie dem Verein bei. Unterstützen Sie die Sternwarte durch ihre Mitgliedschaft.
 
