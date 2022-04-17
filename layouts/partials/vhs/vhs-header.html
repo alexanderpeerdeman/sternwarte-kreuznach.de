@@ -1,14 +1,36 @@
-<header class="vhs-header">
-  <h1>
-    {{ . }}
-    <span class="subtitle">
-      in Zusammenarbeit mit der <a href="https://vhs-bad-kreuznach.de/" target="_blank"rel="noopener noreferrer">Volkshochschule der Stadt Bad Kreuznach</a>.
-    </span>
-    <span class="subtitle">
-      Das <a href="/vhs/archiv" title="Permanenter Link zum VHS-Archiv">VHS-Archiv</a> beinhaltet alle bisher gehaltenen Vorträge.
-    </span>
-  </h1>
-  <a href="https://vhs-bad-kreuznach.de/" target="_blank" rel="noopener noreferrer" title="Volkshochschule der Stadt Bad Kreuznach">
-    <img id="vhs-logo" src='{{ relURL "svg/vhs_logo.svg" }}' alt="Logo der Volkhochschule Bad Kreuznach"/>
-  </a>
+<header class="wrapper">
+  <div class="vhs-header">
+    <h1>
+      {{ . }}
+      <span class="subtitle">
+        in Zusammenarbeit mit der
+        <a
+          href="https://vhs-bad-kreuznach.de/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Volkshochschule der Stadt Bad Kreuznach</a
+        >.
+      </span>
+      <hr />
+      <span class="subtitle">
+        Das
+        <a href="/vhs/archiv" title="Permanenter Link zum VHS-Archiv"
+          >VHS-Archiv</a
+        >
+        beinhaltet alle bisher gehaltenen Vorträge.
+      </span>
+    </h1>
+    <a
+      href="https://vhs-bad-kreuznach.de/"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Volkshochschule der Stadt Bad Kreuznach"
+    >
+      <img
+        id="vhs-logo"
+        src='{{ relURL "svg/vhs_logo.svg" }}'
+        alt="Logo der Volkhochschule Bad Kreuznach"
+      />
+    </a>
+  </div>
 </header>

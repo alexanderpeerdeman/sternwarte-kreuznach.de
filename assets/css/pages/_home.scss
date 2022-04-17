@@ -1,12 +1,15 @@
 #featured {
-  padding: 2rem;
+  padding: 0rem 2rem 2rem;
   @media #{$phone} {
-    padding: 1rem;
+    padding: 0rem 1rem 1rem;
   }
 }
 .article-card {
   border-radius: 8px;
-  min-height: 30rem;
+  @media #{$phone} {
+    min-height: 15rem;
+  }
+  min-height: 24rem;
   max-width: 70rem;
   margin: 0 auto;
   display: flex;
@@ -105,13 +108,6 @@
 
 #next-vhs {
   max-width: 70rem;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  @media #{$phone} {
-    justify-content: flex-start;
-  }
-  align-items: baseline;
   .announcement {
     width: 60%;
     @media #{$phone} {
@@ -144,24 +140,6 @@
       }
     }
   }
-  .oeffnungszeiten {
-    width: 35%;
-    @media #{$phone} {
-      width: 40ch;
-    }
-  }
-}
-
-#wrapper-oeffnungszeiten {
-  // background-color: #aaa;
-  padding: 1rem 0;
-}
-
-#banner-oeffnungszeiten {
-  text-align: center;
-  max-width: 65ch;
-  margin: 0 auto;
-  padding: 0 3rem;
 }
 
 #cards-wrapper {

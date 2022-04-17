@@ -7,12 +7,7 @@ menu:
     weight: 4
 ---
 
-Erleben Sie die Sonne, wie Sie sie noch nie gesehen haben.  
-Bei uns können Sie unseren Heimatstern in verschiedenen Wellenlänge beobachten.
-
-{{< panel class="warning" >}}
-Coronabedingt findet zur Zeit keine Sonnenbeobachtung statt.
-{{< /panel >}}
+Erleben Sie die Sonne, wie Sie sie noch nie gesehen haben. Seit vielen Jahren bieten wir die Möglichkeit, Sonnenbeobachtung unter professioneller Anleitung durchzuführen. Es können im sichtbaren Bereich des Spektrums der Sonne ihre Sonnenflecken und Protuberanzen betrachtet werden.
 
 ### Öffnungszeiten: Sonntags, jeweils von 10:30 Uhr bis 13:00 Uhr
 
@@ -25,14 +20,13 @@ Schauen Sie bitte **niemals** ungeschützt in die Sonne!
 
 Auf der unten dargestellten Fotomontage sind die Wellenlängen aufgezeigt, wie sie mit unseren Filtern zu sehen sind.
 
-Mit dem **Herschelprisma** im Weißlicht und mit Continuum-Filter im grünen Licht.  
-Der **Kontinuum Filter** erhöht deutlich den Kontrast auf der Sonnenoberfläche und bei den Sonnenflecken.
-
+Mit dem **Herschelprisma** sieht man die Sonne im Weißlicht.  
+Durch den **Continuum-Filter** ist die Sonne in grünem Licht zu sehen. Das erhöht deutlich den Kontrast auf der Sonnenoberfläche und bei den Sonnenflecken.  
 Mit dem speziellen **Lunt Sonnenteleskop** sehen Sie die Protuberanzen am Rand der Sonne im H-Alpha Licht.
 
 ![Sonnenbeobachtung klein](Sonnenbeobachtung-klein.png)
 
-## Sonnenbeobachtung
+## Sonnenprojektion
 
 Eine weitere Möglichkeit die Sonne zu beobachten ist die Sonnenprojektion.
 

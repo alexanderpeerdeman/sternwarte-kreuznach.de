@@ -3,16 +3,28 @@ backend:
   repo: alexanderpeerdeman/sternwarte-kreuznach.de
 media_folder: static/uploads
 public_folder: /uploads
+site_url: https://sternwarte-kreuznach.de
+logo_url: https://sternwarte-kreuznach.de/svg/logo.svg
+locale: "de"
 collections:
-  - name: 'blog'
-    label: 'Blog'
-    folder: 'content/blog'
+  - label: "Blog"
+    name: "blog"
+    folder: "content/blog"
     create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
-    editor:
-      preview: false
+    media_folder: ""
+    public_folder: ""
+    nested:
+      depth: 3
+    # slug: "{{year}}/{{slug}}"
     fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Description', name: 'description', widget: 'string' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: "Titel", name: "title", widget: "string" }
+      - {
+          label: "Veröffentlichungsdatum",
+          name: "date",
+          widget: "datetime",
+          date_format: "DD. MMMM YYYY",
+          time_format: "HH:mm:ss",
+        }
+      - { label: "Bild", name: "images", widget: "image", choose_url: false }
+      - { label: "Zusammenfassung", name: "summary", widget: "string" }
+      - { label: "Inhalt", name: "body", widget: "markdown" }

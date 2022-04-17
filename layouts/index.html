@@ -1,28 +1,26 @@
 {{ define "main" }}
+{{ with (.GetPage "home-content").Resources.GetMatch "intro.md" }}
+<section class="content">{{ .Content }}</section>
+{{ end }}
 <section id="featured">
   <article
     class="article-card"
-    style="background-image: url('/blog/2020/corona-aktuell/coronavirus.jpg')"
+    style="background-image: url('/blog/2022/wiederaufnahme-programm/wiederaufnahme.jpg')"
   >
     <div class="article-card-content">
-      <div class="heading">Corona Aktuell</div>
-      <p>
-        Ab sofort bieten wir am Sonntagmorgen wieder unsere Sonnenbeobachtung an.
-      </p>
-      <p><a href="/blog/2020/corona-aktuell/">Weiterlesen ...</a></p>
+      <div class="heading">Die Sternwarte nimmt teilweise ihr Programm wieder auf.</div>
+      <p>Die Infektionszahlen sinken. Schrittweise geht es zurück in die Normalität.</p>
+      <p><a href="/blog/2022/wiederaufnahme-programm/">Weiterlesen ...</a></p>
     </div>
   </article>
 </section>
 <section class="main-with-aside">
   <article class="main-content">{{ .Content }}</article>
   {{ with (.GetPage "home-content").Resources.GetMatch "aside.md" }}
-  <section class="main-aside">    
-    {{ .Content }}
-  </section>
+  <section class="main-aside">{{ .Content }}</section>
   {{ end }}
 </section>
-
-<section id="cards-wrapper">
+{{/*  <section id="cards-wrapper">
   <div class="cards">
     {{ range (.GetPage "home-cards").Resources.ByType "page" }}
     <div class="card">
@@ -31,18 +29,19 @@
     </div>
     {{ end }}
   </div>
-</section>
+</section>  */}}
 <section id="next-vhs" class="content">
-  {{ $currentTime := now.Format "2006-01-02T15:04:05" }}
-  {{/* $talks := ((.GetPage "/vhs").Pages.ByParam "talk_date") */}} {{/* all talks */}}
-  {{ $talks := (where ((.GetPage "/vhs").Pages.ByParam "talk_date") ".Params.talk_date" "ge" $currentTime) }} {{/* future talks */}} 
+  <hr>
+  {{ $currentTime := now.Format "2006-01-02T15:04:05" }} 
+  {{/* $talks := ((.GetPage "/vhs").Pages.ByParam "talk_date") /*}} {{/* all talks */}} 
+  {{ $talks := (where ((.GetPage "/vhs").Pages.ByParam "talk_date") ".Params.talk_date" "ge" $currentTime) }} {{/* future talks */}}
   {{ $talks := (where $talks "Params.layout" "!=" "archiv") }}
 
-
   <div class="announcement">
-    <h2><a href="/vhs">Aktuelle Veranstaltungen</a></h2>
-    {{ if le (len $talks) 0 }}<p>Bisher sind keine weiteren Vorträge angekündigt.</p>{{ end }}
-    {{ range (last 4 $talks)}}
+    <h2><a href="/vhs">Aktuelle Vorträge</a></h2>
+    {{ if le (len $talks) 0 }}
+    <p>Bisher sind keine weiteren Vorträge angekündigt.</p>
+    {{ end }} {{ range (last 4 $talks)}}
     <article>
       <a href="{{ .RelPermalink }}" title='Permanenter Link zu "{{ .Title }}"'>
         {{ with .Params.talk_date }}
@@ -54,15 +53,6 @@
       </a>
     </article>
     {{ end }}
-  </div>
-  <div class="oeffnungszeiten">
-    <h3>VHS-Vorträge</h3>
-    <p>Jeden letzten Freitag im Monat um 20:00 Uhr.</p>
-    <p>
-      Anschließend gibt es, sofern es das Wetter zulässt, die Möglichkeit zur
-      Beobachtung verschiedener Himmelskörper durch unsere Instrumente.
-    </p>
-    <p><a href="/vortraege">Weitere Informationen</a></p>
   </div>
 </section>
 <section class="blog-newest">

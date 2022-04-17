@@ -106,6 +106,9 @@
 }
 
 .post-content {
+  * {
+    margin-bottom: 0; // need to remove bottom margin because the use of css grid makes collapsing margins impossible.
+  }
   .post-info {
     padding: 0;
   }

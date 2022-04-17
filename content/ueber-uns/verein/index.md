@@ -8,8 +8,6 @@ menu:
 ---
 {{< figure src="sternwarte-1.jpg" caption="Unser Gelände auf dem Kuhberg" >}}
 
-## Astronomieverein auf dem Kuhberg in Bad Kreuznach:
-
 Gegründet wurde die Sternwarte Bad Kreuznach im September 1986. In den folgenden Jahren wurden in Eigenleistung mehrere Sternwartengebäude und ein Gebäude speziell für Vorträge konzipiert und errichtet.
 
 Der eingetragene Verein hat aktuell 38 Mitglieder. Wir sehen unsere Aufgabe darin, der Bevölkerung das Thema Astronomie näher zu bringen, wissenschaftliche Zusammenhänge zu veranschaulichen und mit unserer professionellen Ausrüstung auch praktisch vorzuführen.

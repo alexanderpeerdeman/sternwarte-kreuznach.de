@@ -2,7 +2,7 @@
 title: Die Sonnenskulptur im Wandel der Zeit
 date: 2021-07-22 21:33:00
 images:
-  - Komposit-v4.jpg
+  - Komposit-2.jpg
 summary: Nach umfangreichen Restaurierungsarbeiten erstrahlt die Sonnenskulptur am Beginn des Planetenwegs der Sternwarte Bad Kreuznach e.V. wieder in neuem Glanz.
 ---
 

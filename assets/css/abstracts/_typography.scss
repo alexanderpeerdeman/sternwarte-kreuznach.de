@@ -10,8 +10,8 @@ html {
 body {
   font-family: "Metropolis", "Arial", "Helvetica", sans-serif;
   line-height: 1.5;
-  font-size: 16px;
   font-weight: 500;
+  font-size: 14px;  
 }
 
 hr {
@@ -39,7 +39,7 @@ strong {
 h1 {
   font-size: 2rem;
   @media #{$phone} {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -57,7 +57,8 @@ h2 {
   max-width: 55rem;
   padding: 1.75rem 2rem;
   @media #{$phone} {
-    padding: 1.75rem 1rem;
+    padding: 1.25rem 1rem;
+    font-size: 1.75rem;
   }
   margin: 0 auto;
 }
@@ -68,6 +69,10 @@ a {
   &:hover {
     text-decoration: underline;
   }
+}
+
+address {
+  font-style: normal;
 }
 
 blockquote {
@@ -155,5 +160,6 @@ figure {
     line-height: 1.125;
     font-size: 0.92rem;
     margin-top: -0.4rem;
+    color: #888;
   }
 }

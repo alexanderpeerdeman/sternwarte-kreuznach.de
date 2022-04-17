@@ -12,9 +12,9 @@ menu:
 Übernehmen Sie eine Sternpatenschaft für die Sternwarte Bad Kreuznach. Mit einem einmaligen Beitrag unterstützen Sie nicht nur Betrieb und Erhalt der Sternwarte und deren Technik, sondern auch die Förderung unserer Jugend- und Öffentlichkeitsarbeit.  
 Da die reinen Mitgliedsbeiträge in der Regel nicht ausreichen um uns zu finanzieren, sind wir auf private und öffentliche Spenden angewiesen.
 
-Natürlich können wir keine Sterne verkaufen und wir können auch keinen Stern nach Ihnen benennen.  
+Natürlich können wir keine Sterne verkaufen, und wir können auch keinen Stern nach Ihnen benennen.  
 Eine Sternpatenschaft ist daher eine Spende an die Sternwarte Bad Kreuznach, um unsere Arbeit zu unterstützen.  
-Mit Anschaffungen wie Teleskopen und Zubehör, sowie modernen Präsentationsmitteln ermöglichen Sie es uns, Ihnen bei Ihrem Besuch auf der Sternwarte die Schönheit des Weltalls noch näher zu bringen.
+Mit Anschaffungen wie Teleskopen und Zubehör sowie modernen Präsentationsmitteln ermöglichen Sie es uns, Ihnen bei Ihrem Besuch auf der Sternwarte die Schönheit des Weltalls noch näher zu bringen.
 
 ## Eine Patenschaft beantragen
 

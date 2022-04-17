@@ -1,26 +1,21 @@
 ---
 title: "Sternwarte Bad Kreuznach"
 date: 2020-08-11T00:41:25+02:00
-# description: "This is a short description of this page."
 ---
 
-{{< panel >}}
-Besuchen Sie die neu gestaltete Sektion [Über uns](/ueber-uns/).
-{{< /panel>}}
+## Öffnungszeiten
 
-Auf unserer Website erfahren Sie sowohl etwas über den [Verein](/ueber-uns/verein/) als auch über unser [Programmangebot](/ueber-uns/angebot/) und unsere [VHS-Vorträge](/vhs/).
+**Vereinsabend:**  
+Freitags ab 19:00 Uhr, Besucher sind recht herzlich willkommen. Der Eintritt ist frei.
 
-Seit vielen Jahren bieten wir der Bevölkerung die Möglichkeit, [Sonnenbeobachtung](/ueber-uns/sonnenbeobachtung/) unter professioneller Anleitung durchzuführen. Es können im sichtbaren Bereich des Spektrums der Sonne ihre Sonnenflecken und Protuberanzen betrachtet werden.
+**Sonnenbeobachtung:**  
+Jeden Sonntag von 10:30 bis 13:00 Uhr  
+Von Oktober bis einschließlich Februar nur jeden zweiten und vierten Sonntag im Monat.
 
-Mehr Informationen zu unseren Öffnungszeiten finden Sie [hier](/infos/oeffnungszeiten).
-Für Fragen, Anmerkungen oder zur Terminabsprache stehen wir Ihnen gerne zur Verfügung.
-
-Auf der Seite [Kontakt](/infos/kontakt) erhalten Sie alle wichtigen Details zur Kontaktaufnahme.
-
----
-
-Werfen Sie einen Blick auf unseren [Flyer](flyer.pdf). Er enthält viele Informationen bequem auf einer Doppelseite zusammengefasst.
-
+**VHS-Vorträge:**  
+Jeden letzten Freitag im Monat um 20:00 Uhr.  
+Anschließend gibt es, sofern es das Wetter zulässt, die Möglichkeit zur Beobachtung verschiedener Himmelskörper durch unsere Instrumente.  
+[Weitere Informationen](/vortraege)
 
 <!-- # Todo:
 - Erstes Bild was man sehen kann am besten von einem Teleskop oder vom Gelände (Sternhimmel / Objekt)

@@ -28,7 +28,7 @@ footer {
     padding: 2rem 3rem 1rem;
     margin: 0 auto;
 
-    .wrapper {
+    .wrapper-footer {
       &:first-of-type {
         align-items: flex-end;
         @media #{$phone} {

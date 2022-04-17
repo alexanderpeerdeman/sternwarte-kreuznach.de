@@ -8,7 +8,20 @@
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   </head>
   <body>
-    <!-- Include the script that builds the page and powers Netlify CMS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment-with-locales.min.js"></script>
     <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+    <script>
+      // https://github.com/netlify/netlify-cms/pull/3458
+      const data = moment.localeData("de");
+      let locale = {};
+      Object.keys(data).forEach((key) => {
+        const value = data[key];
+        if (key.startsWith("_")) {
+          key = key.substring(1);
+        }
+        locale[key] = value;
+      });
+      CMS.moment.locale("de", locale);
+    </script>
   </body>
 </html>

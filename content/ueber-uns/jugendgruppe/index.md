@@ -18,7 +18,9 @@ Das Mindestalter liegt bei 12 Jahren.
 
 {{< figure class="center" src="logo-jugendgruppe.jpg" alt="Logo Jugendgruppe" width="350" >}}
 
-Kommen Sie zum Schnuppern zu uns, ein Anruf genügt (andere [Kontaktmöglichkeiten](/infos/kontakt)).
+Kommen Sie zum Schnuppern zu uns, ein Anruf genügt.  
+
+{{< button href="/kontakt" text="Kontakt" class="small" >}}
 
 
 ---
