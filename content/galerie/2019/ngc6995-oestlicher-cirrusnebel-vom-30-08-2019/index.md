@@ -5,7 +5,7 @@ images:
 - ngc6995-oestlicher-cirrusnebel-vom-30-08-2019.jpg
 title: NGC6995 östlicher. Cirrusnebel vom 30.08.2019
 ---
-Das Foto entstand unter Mithilfe der Besucher unserer Sternwarte nach dem Vortag "Relativitätstheorie & Gravitationswellen"
+Das Foto entstand unter Mithilfe der Besucher unserer Sternwarte nach dem Vortrag "Relativitätstheorie & Gravitationswellen"
 
 Der Cirrusnebel ist ein Supernovaüberrest im Sternbild Schwan. Die Quelle der Supernova war ein Stern mit der 20igfachen Masse unserer Sonne, der vor circa 8000 Jahren explodierte. Der Überrest ist seitdem über ein Areal am Himmel von 3°, bzw. 6 Durchmesser eines Vollmonds, expandiert.
 Die Analyse der Emissionsspektren zeigt die Anwesenheit von Sauerstoff, Schwefel und Wasserstoff. Der Cirrusnebel emitiert starke Radiowellen und Röntgenstrahlung.

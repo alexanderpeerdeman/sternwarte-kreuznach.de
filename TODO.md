@@ -20,7 +20,10 @@ Der gesamte Content ist migriert, die Seite ist umstrukturiert und vollständig 
 - [x] +·· Vorträge aus dem Archiv durchgehen und einpflegen
 
 # Current
-- [ ] Sternwarte Bad Kreuznach Schriftzug in der Navigationsleiste
+- Bilder
+  - Vortragsgebäude von außen
+  - Eingang: Tor von außen
+  - Schönes Bild vom Gelände/der Sternwarte --> Als Aufmacher/zum präsentieren
 
 # Backlog
 

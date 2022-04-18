@@ -9,12 +9,20 @@
   font-weight: 500;
   color: #fff;
   display: inline-block;
+  margin-bottom: 0.1rem;
+  margin-right: 0.1rem;
   &.small {
     padding: 0.3rem 0.5rem;
     border-radius: 4px;
     font-size: inherit;
   }
-  margin-bottom: 0.1rem;
-  margin-right: 0.1rem;
-
+  &.inline {
+    display: inline;
+    font-size: inherit;
+    padding: 0.2rem 0.4rem;
+    margin-left: 0.1rem;
+    border-radius: 4px;
+    font-size: inherit;
+    min-width: unset;
+  }
 }
