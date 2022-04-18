@@ -1,30 +1,35 @@
 {{ $currentPage := . }}
 <nav class="navigation">
   <div class="menu">
-    <a class="logo" href="/"><img src='{{ relURL "svg/logo.svg" }}' alt="Logo"></a>
-    <div class="navbar-container">
-      <input class="navbar-toggle" type="checkbox">
-      <ul class="navbar">
-        {{ range .Site.Menus.main }}
-        {{ if .HasChildren }}
-        <li class="dropdown">
-          <button class="dropdown-button">{{ .Name }}</button>
-          <ul class="dropdown-items">
-            {{ range .Children }}
-            <li><a href="{{ .URL }}">{{ .Name }}</a></li>
-            {{ end }}
-          </ul>
-        </li>
-        {{ else}}
-        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
-        {{ end }}
-        {{ end }}
-        {{/*  {{ partial "components/search.html" -}}  */}}
-      </ul>
-      <div class="hamburger">
-        <span></span>
-        <span></span>
-        <span></span>
+    <div class="logo-wrapper">
+      <a class="logo" href="/"></a>
+    </div>
+    <a class="brand" href="/">
+      <span>Sternwarte</span><br />
+      <span>Bad Kreuznach e.V.</span>
+    </a>
+    <div class="navbar-container-wrapper">
+      <div class="navbar-container">
+        <input class="navbar-toggle" type="checkbox" />
+        <ul class="navbar">
+          {{ range .Site.Menus.main }} {{ if .HasChildren }}
+          <li class="dropdown">
+            <button class="dropdown-button">{{ .Name }}</button>
+            <ul class="dropdown-items">
+              {{ range .Children }}
+              <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+              {{ end }}
+            </ul>
+          </li>
+          {{ else}}
+          <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+          {{ end }} {{ end }} {{/* {{ partial "components/search.html" -}} */}}
+        </ul>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
       </div>
     </div>
   </div>

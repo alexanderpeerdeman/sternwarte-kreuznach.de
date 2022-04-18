@@ -20,7 +20,7 @@ Das Mindestalter liegt bei 12 Jahren.
 
 Kommen Sie zum Schnuppern zu uns, ein Anruf genügt.  
 
-{{< button href="/kontakt" text="Kontakt" class="small" >}}
+{{< button link="/kontakt" text="Kontakt" class="small" >}}
 
 
 ---

@@ -24,7 +24,7 @@ Seit vielen Jahren bieten wir unseren Gästen ein umfangreiches Vortragsprogramm
 Gruppenführungen sind nur **Montags bis Donnerstags** nach Terminvereinbarung möglich. Kontaktieren Sie uns [hier](/kontakt).
 
 
-{{< button href="//uploads/Programmangebot-Sternwarte-Bad-Kreuznach.pdf" text="Download Programmangebot" class="small" >}}
+{{< button link="/uploads/Programmangebot-Sternwarte-Bad-Kreuznach.pdf" text="Download Programmangebot" class="small" >}}
 
 ## Programm 1: „Eine Reise ins Universum“
 

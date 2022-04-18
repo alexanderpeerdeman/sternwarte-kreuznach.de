@@ -11,6 +11,6 @@ date: 2021-04-06T16:43:04+02:00
 An der Sternwarte 2  
 55543 Bad Kreuznach
 
-{{< button href="/kontakt" text="Wegbeschreibung" class="small" >}}
+{{< button link="/kontakt#anfahrt" text="Wegbeschreibung" class="small" >}}
 
 

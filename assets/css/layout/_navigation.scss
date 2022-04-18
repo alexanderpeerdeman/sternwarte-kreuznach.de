@@ -10,26 +10,57 @@
   font-size: 16px;
 }
 
-  .logo {
+.logo-wrapper {
+  width: 3.6rem;
+  display: flex;
+}
+
+.logo {
+  background-image: url("/svg/logo.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 3.6rem;
+  height: 3.6rem;
+}
+
+.navbar-container-wrapper {
+  @media #{$phone} {
+    width: 3.6rem;
     display: flex;
-    max-width: 100px;
-    > img {
-      height: 47px;
-      padding: 10px 1rem;
-      width: 100%;
-    }
+    justify-content: end;
   }
+}
+
+.brand {
+  &:hover {
+    text-decoration: none;
+    text-emphasis: none;
+  }
+  cursor: pointer;
+  padding: 0.6rem;
+  display: none;
+  @media #{$phone} {
+    display: block;
+  }
+  font-family: Arial, Helvetica, sans-serif;
+  & :first-child {
+    font-size: 18px;
+  }
+  font-size: 13px;
+  color: white;
+  text-align: center;
+}
 
 .menu {
   display: flex;
   max-width: 70rem;
   margin: 0 auto;
   align-items: center;
-  padding-left: 1rem;
-
+  padding: 0 2rem;
   @media #{$phone} {
+    padding: 0 1rem;
     justify-content: space-between;
-    padding: 0 0.5rem 0 0;
   }
 }
 
@@ -37,7 +68,7 @@
   display: flex;
   list-style: none;
   margin: 0;
-  padding: 0 0 0 1.5rem;
+  padding: 0 0 0 0.8rem;
   align-items: center;
 
   @media #{$phone} {
