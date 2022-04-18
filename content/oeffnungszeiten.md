@@ -7,9 +7,8 @@ aliases: [/infos/oeffnungszeiten, /öffnungszeiten, /infos/öffnungszeiten]
 ## Vereinsabend
 
 **Freitags ab 19:00 Uhr**  
-Besucher sind recht herzlich willkommen. Der Eintritt ist frei!  
-Wir möchten vermeiden, dass Sie möglicherweise verschlossene Türen vorfinden.  
-Bitte kontaktieren Sie uns vorher per [Mail](/kontakt).
+Besucher sind recht herzlich willkommen. Der Eintritt ist frei.  
+Wir wollen sicherstellen, dass Sie keine verschlossenen Türen vorfinden. Bitte kontaktieren Sie uns daher vorher per [Mail](/kontakt).
 
 ## Sonnenbeobachtung
 

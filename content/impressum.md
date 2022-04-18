@@ -8,8 +8,8 @@ gemäß § 5 TMG
 **Postanschrift:**  
 Sternwarte Bad Kreuznach e. V.  
 c/o Mehmet Ergün  
-Mathildenstr. 12  
-55543 Bad Kreuznach  
+Schulstraße 17  
+55595 Traisen
 
 **Vertreten durch:**  
 Mehmet Ergün (1. Vorsitzender)  
@@ -23,8 +23,8 @@ E-Mail: [info@sternwarte-kreuznach.de](mailto:info@sternwarte-kreuznach.de "info
 
 **Bankverbindung:**  
 Volksbank Rhein-Nahe-Hunsrück eG  
-IBAN: `DE14 5609 0000 0007 1231 34`  
-BIC: `GENODE51KRE`
+IBAN: DE14 5609 0000 0007 1231 34  
+BIC: GENODE51KRE
 
 **Registereintrag:**  
 Eintragung im Vereinsregister  
