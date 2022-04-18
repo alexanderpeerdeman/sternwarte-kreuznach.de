@@ -1,0 +1,6 @@
+version: '1'
+jobs:
+  build:
+    image: klakegg/hugo:latest
+    script:
+      - hugo --cleanDestinationDir --minify
