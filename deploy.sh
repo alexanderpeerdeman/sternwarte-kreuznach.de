@@ -2,4 +2,4 @@
 
 rm -r public
 hugo --cleanDestinationDir --minify
-rsync -aP --delete public/* uberspace:./html
+rsync -avz --delete public/* uberspace:./html

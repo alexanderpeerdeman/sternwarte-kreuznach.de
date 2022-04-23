@@ -2,7 +2,7 @@
 date: 2021-04-06T16:43:04+02:00
 ---
 
-### Herzlich Willkommen auf der Website der Sternwarte Bad Kreuznach e.V.
+## Herzlich Willkommen auf der Website der Sternwarte Bad Kreuznach e.V.
 
 ![Intro](/ueber-uns/verein/sternwarte-1.jpg)
 
