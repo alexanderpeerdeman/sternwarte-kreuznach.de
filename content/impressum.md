@@ -14,7 +14,7 @@ Schulstraße 17
 **Vertreten durch:**  
 Mehmet Ergün (1. Vorsitzender)  
 Johannes Lind (2. Vorsitzender)  
-Rainer Kesper (Schriftführer)  
+Sven Heinrich (Schriftführer)  
 Reinhold Frey (Kassenwart)  
 Bernd Orth (Beisitzer)  
 

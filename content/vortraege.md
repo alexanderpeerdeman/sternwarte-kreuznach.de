@@ -4,8 +4,6 @@ date: 2020-08-30T12:39:22+02:00
 aliases: [/vorträge]
 ---
 
-TODO Bilder: Vortragsgebäude
-
 Unsere Vorträge die über die VHS Bad Kreuznach angeboten werden, sind unsere Möglichkeit, regelmäßig am letzten Freitag im Monat interessante Themen im Rahmen der Astronomie vorzustellen. Wir wollen damit die Diskussion zu aktuellen astronomischen Themen anregen. Sofern nicht anders angegeben, finden von Januar bis November alle Vorträge im Vortragsgebäude auf unserem Gelände statt.
 Die Vorträge finden jeden letzten Freitag im Monat statt.
 
