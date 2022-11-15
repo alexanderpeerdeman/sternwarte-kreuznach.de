@@ -108,11 +108,28 @@
 
 #next-vhs {
   max-width: 70rem;
-  .announcement {
-    width: 60%;
+  .row {
+    display: flex;
+    gap: 2.5rem;
     @media #{$phone} {
-      width: 100%;
+      flex-direction: column;
     }
+  }
+
+  #facebook-embed {
+    height: 650px;    
+    min-width: 500px;
+    text-align: right;
+    @media #{$phone} {
+      text-align: left;
+      min-width: unset;
+      max-width: 500px;
+    }
+
+  }
+
+  .announcement {
+    width: 100%;
     article {
       border-bottom: 1px #666 solid;
       padding: 1.4rem 0 0.9rem;
