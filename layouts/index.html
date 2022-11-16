@@ -44,11 +44,10 @@
   <hr />
   <div class="row">
 
-    {{ $currentTime := now.Format "2006-01-02T15:04:05" }} {{ $talks :=
-    ((.GetPage "/vhs").Pages.ByParam "talk_date") }} {{/* all talks */}} {{/* {{
-    $talks := (where ((.GetPage "/vhs").Pages.ByParam "talk_date")
-    ".Params.talk_date" "ge" $currentTime) }} future talks */}} {{ $talks :=
-    (where $talks "Params.layout" "!=" "archiv") }}
+    {{ $currentTime := now.Format "2006-01-02T15:04:05" }}
+    {{/*  {{ $talks := ((.GetPage "/vhs").Pages.ByParam "talk_date") }}  */}}
+    {{ $talks := (where ((.GetPage "/vhs").Pages.ByParam "talk_date") ".Params.talk_date" "ge" $currentTime) }} 
+    {{ $talks := (where $talks "Params.layout" "!=" "archiv") }}
 
     <div class="announcement">
       <h2><a href="/vhs">Aktuelle Vorträge</a></h2>
