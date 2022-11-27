@@ -1,28 +1,5 @@
 .blog-header {
   margin-bottom: 2rem;
-  background-color: #ddd;
-  background-image: url("/uploads/namibia.jpg");
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-
-  h1,
-  h4 {
-    padding: 5rem 2rem;
-    @media #{$phone} {
-      padding: 5rem 1rem;
-    }
-    max-width: 70rem;
-    margin: 0 auto;
-
-    span {
-      background-color: black;
-      color: white;
-      padding: 0 0.5rem;
-      font-weight: 200;
-      font-size: 2.5rem;
-    }
-  }
 }
 
 .post-title {

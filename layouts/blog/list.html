@@ -1,6 +1,6 @@
 {{ define "main" }}
-<div class="blog-header">
-    <h1><span>{{ .Title }}</span></h1>
+<div class="blog-header titlebar">
+    <h1 class="title">{{ .Title }}</h1>
 </div>
 <div class="posts-grid">        
     {{ range (.Paginator 12).Pages }}

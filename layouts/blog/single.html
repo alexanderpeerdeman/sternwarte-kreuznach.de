@@ -1,6 +1,6 @@
 {{ define "main" }}
-<div class="blog-header">
-  <h4><span>{{ .Parent.Title }}</span></h4>
+<div class="blog-header titlebar">
+  <h4 class="title">{{ .Parent.Title }}</h4>
 </div>
 {{ if .Params.images }}
 {{ $img := (.Resources.GetMatch (index .Params.images 0)) }}

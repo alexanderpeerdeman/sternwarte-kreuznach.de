@@ -1,0 +1,6 @@
+<div class="" style="display: flex; flex-wrap: wrap; gap: 1rem; margin-top: 1rem; justify-content: space-between;" >
+  <div class="" style="max-width: 45ch;">    
+    {{ .Inner | markdownify }}
+  </div>
+  <img src='{{ .Get "src" }}' alt='{{ .Get "alt" }}' />
+</div>

@@ -24,12 +24,11 @@ Mit dem **Herschelprisma** sieht man die Sonne im Weißlicht.
 Durch den **Continuum-Filter** ist die Sonne in grünem Licht zu sehen. Das erhöht deutlich den Kontrast auf der Sonnenoberfläche und bei den Sonnenflecken.  
 Mit dem speziellen **Lunt Sonnenteleskop** sehen Sie die Protuberanzen am Rand der Sonne im H-Alpha Licht.
 
-![Sonnenbeobachtung klein](Sonnenbeobachtung-klein.png)
+![Sonnenbeobachtung-klein](Sonnenbeobachtung-klein.png)
 
 ## Sonnenprojektion
 
-Eine weitere Möglichkeit die Sonne zu beobachten ist die Sonnenprojektion.
+Eine weitere Möglichkeit die Sonne zu beobachten ist die Sonnenprojektion. Es ist eine sehr sichere Beobachtungsmethode die den Vorzug hat, dass mehrere Personen gleichzeitig beobachten können. Dabei wird das Sonnenbild auf eine Projektionfläche hinter dem Okular abgebildet.
 
-{{< figure src="Vixen-NP-L-80.jpg" caption="Vixen NP L 80 auf Gemini G40" >}}
-
-Eine sehr sichere Beobachtungsmethode die den Vorzug hat, dass mehrere Personen gleichzeitig beobachten können. Dabei wird das Sonnenbild auf eine Projektionfläche hinter dem Okular abgebildet.
+{{< figure src="Sonnenprojektion-1.jpg" caption="Vixen NP L 80 auf Gemini G40" >}}
+![Sonnenprojektion-2](Sonnenprojektion-2.jpg)
