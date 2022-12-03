@@ -1,0 +1,2 @@
+# Create 404 error page in /layouts
+ErrorDocument 404 /404.html

@@ -4,11 +4,16 @@ date: 2020-08-30T12:39:04+02:00
 aliases: [/infos/oeffnungszeiten, /öffnungszeiten, /infos/öffnungszeiten]
 ---
 
+
 ## Vereinsabend
+
 
 **Freitags ab 19:00 Uhr**  
 Besucher sind recht herzlich willkommen. Der Eintritt ist frei.  
-Wir wollen sicherstellen, dass Sie keine verschlossenen Türen vorfinden. Bitte kontaktieren Sie uns daher vorher per [Mail](/kontakt).
+
+{{< panel >}}
+Wir wollen sicherstellen, dass Sie keine verschlossenen Türen vorfinden. Wir bitten deshalb um vorherige Anmeldung oder Absprache mit uns. Am besten per [Mail](/kontakt).
+{{< /panel >}}
 
 ## Sonnenbeobachtung
 
@@ -25,9 +30,3 @@ Sofern das Wetter es zulässt, gibt es anschließend immer die Möglichkeit zur 
 [Zu den aktuellen VHS-Vorträgen](/vhs)
 
 [Weitere Informationen](/vortraege)
-
-## Jugendgruppe
-
-Jeden zweiten und vierten Samstag im Monat um 16:00 Uhr (außer in den Schulferien)
-
-[Weitere Informationen zur Jugendgruppe](/ueber-uns/jugendgruppe)
