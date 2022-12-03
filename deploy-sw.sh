@@ -1,5 +1,6 @@
 #!/bin/bash
 
-rm -r public
-hugo --cleanDestinationDir --minify
-rsync -avz --delete public/* sw:./new
+hugo
+rsync -avz --delete public/ sw:./new
+
+exit 0
