@@ -14,7 +14,7 @@
   margin: 0 auto;
   display: flex;
   align-items: center;
-  filter: drop-shadow(0 5px 15px rgba(0, 0, 0, 0.65));
+  box-shadow: rgba(0, 0, 0, 0.65) 0 5px 25px;   // filter: drop-shadow() leads to ugly rendering issue
 
   padding: 1.4rem 3rem;
   @media #{$phone} {
