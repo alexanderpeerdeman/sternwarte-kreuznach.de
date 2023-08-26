@@ -16,6 +16,10 @@ Wir wollen sicherstellen, dass Sie keine verschlossenen Türen vorfinden. Wir bi
 Jeden Sonntag von 10:30 bis 13:00 Uhr  
 Von Oktober bis einschließlich Februar nur jeden zweiten und vierten Sonntag im Monat.
 
+{{< panel >}}
+Bei ungünstigen Wetterbedingungen wie hohen Temperaturen (>30 °C) oder schlechtem Wetter findet keine Sonnenbeobachtung statt.
+{{< /panel >}}
+
 **VHS-Vorträge:**  
 Jeden letzten Freitag im Monat um 20:00 Uhr.  
 Anschließend gibt es, sofern es das Wetter zulässt, die Möglichkeit zur Beobachtung verschiedener Himmelskörper durch unsere Instrumente.  

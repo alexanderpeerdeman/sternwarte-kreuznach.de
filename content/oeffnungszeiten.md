@@ -20,6 +20,10 @@ Wir wollen sicherstellen, dass Sie keine verschlossenen Türen vorfinden. Wir bi
 **Jeden Sonntag von 10:30 bis 13:00 Uhr**  
 Im Winter (von Oktober bis einschließlich Februar) findet die Sonnenbeobachtung nur jeden zweiten und vierten Sonntag im Monat statt.
 
+{{< panel >}}
+Bei ungünstigen Wetterbedingungen wie hohen Temperaturen (>30 °C) oder schlechtem Wetter findet keine Sonnenbeobachtung statt.
+{{< /panel >}}
+
 [Weitere Informationen zur Sonnenbeobachtung](/ueber-uns/sonnenbeobachtung)
 
 ## VHS-Vorträge

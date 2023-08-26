@@ -7,12 +7,7 @@ menu:
     weight: 4
 ---
 
-Erleben Sie die Sonne, wie Sie sie noch nie gesehen haben. Seit vielen Jahren bieten wir die Möglichkeit, Sonnenbeobachtung unter professioneller Anleitung durchzuführen. Es können im sichtbaren Bereich des Spektrums der Sonne ihre Sonnenflecken und Protuberanzen betrachtet werden.
-
-### Öffnungszeiten: Sonntags, jeweils von 10:30 Uhr bis 13:00 Uhr
-
-Anfang März bis Ende September: **Jeden Sonntag**  
-Anfang Oktober bis Ende Februar: **Jeden zweiten** und **vierten Sonntag**
+Wir bieten seit vielen Jahren die Möglichkeit, Sonnenbeobachtung unter professioneller Anleitung durchzuführen. Es können im sichtbaren Bereich des Spektrums der Sonne ihre Sonnenflecken und Protuberanzen betrachtet werden.
 
 {{< panel class="danger" >}}
 Schauen Sie bitte **niemals** ungeschützt in die Sonne!
