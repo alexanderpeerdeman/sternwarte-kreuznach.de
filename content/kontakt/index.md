@@ -10,9 +10,6 @@ aliases: [/infos/anfahrt, /anfahrt, /kontakt, /infos/kontakt]
 Aufgrund der hohen Nachfrage bitten wir Sie, Ihre Anfragen ausschließlich an diese E-Mail-Adresse zu richten.
 {{< /panel >}}
 
-**1. Vorsitzender:**  
-Mehmet Ergün
-
 **2. Vorsitzender:**  
 Johannes Lind
 
@@ -21,9 +18,6 @@ Sven Heinrich
 
 **Kassenwart:**  
 Reinhold Frey
-
-**Beisitzer:**  
-Bernd Orth
 
 ### Bankverbindung
 
@@ -39,9 +33,9 @@ An der Sternwarte 2
 ### Postanschrift
 
 Sternwarte Bad Kreuznach e.V.  
-c/o Mehmet Ergün  
-Schulstraße 17  
-55595 Traisen
+c/o J. Lind  
+Paul-Klee-Str. 6  
+55595 Hargesheim
 
 ---
 

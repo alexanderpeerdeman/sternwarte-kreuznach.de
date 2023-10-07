@@ -10,6 +10,12 @@ hugo server -D --disableFastRender
 ```
 
 ## Deployment
+To deploy the static site onto live environment [sternwarte-kreuznach.de](https://sternwarte-kreuznach.de/), run the following command:
+```
+./deploy-sw
+```
+
+## Staging
 To deploy the static site onto staging environment [uberspace](https://apeer.uber.space/), run the following command:
 ```
 ./deploy

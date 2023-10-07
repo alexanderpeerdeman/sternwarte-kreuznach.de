@@ -16,7 +16,7 @@ Bei strahlendem Wetter konnten wir **ca. 500 Besucher** zu unserem Astronomietag
 
 Mit unseren Kurzvorträgen über...
 
-- Astrofotografie – M.- Ergün
+- Astrofotografie – M. Ergün
 - Die Software „Stellarium“ – B. Peerdeman
 - Zirkumpolar Sternbilder – R. Frey
 - Himmelsbeobachtung mit einfachen Mitteln – J. Bock
