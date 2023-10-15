@@ -5,21 +5,21 @@
 <section id="featured">
   <article
     class="article-card"
-    style="
-      background-image: url('/uploads/namibia.jpg');
-    "
+    style="background-image: url('/uploads/namibia.jpg')"
   >
     <div class="article-card-content">
-      <div class="heading">
-        Astronomietag am 28. Oktober 2023
-      </div>
-      <p>Die Sternwarte lädt ein zum bundesweiten Astronomietag.</p>
-      <p>Das Thema lautet <b>Unser Universum</b>.</p>
-      <p>Das Gelände der Sternwarte ist ab 14:00 Uhr geöffnet.<br>Der Eintritt ist frei.</p>
+      <div class="heading">Astronomietag</div>
       <p>
-        <a href="/blog/2023/astronomietag-2023"
-          >Weiterlesen ...</a
-        >
+        Die Sternwarte lädt ein zum bundesweiten Astronomietag <br>
+        am <strong>28. Oktober 2023</strong>.
+      </p>
+      <p>Das Thema lautet <b>Unser Universum</b>.</p>
+      <p>
+        Das Gelände der Sternwarte ist ab 14:00 Uhr geöffnet.<br />Der Eintritt
+        ist frei.
+      </p>
+      <p>
+        <a href="/blog/2023/astronomietag-2023">Weiterlesen ...</a>
       </p>
     </div>
   </article>
@@ -45,11 +45,11 @@
 <section id="next-vhs" class="content">
   <hr />
   <div class="row">
-
-    {{ $currentTime := now.Format "2006-01-02T15:04:05" }}
-    {{/*  {{ $talks := ((.GetPage "/vhs").Pages.ByParam "talk_date") }}  */}}
-    {{ $talks := (where ((.GetPage "/vhs").Pages.ByParam "talk_date") ".Params.talk_date" "ge" $currentTime) }} 
-    {{ $talks := (where $talks "Params.layout" "!=" "archiv") }}
+    {{ $currentTime := now.Format "2006-01-02T15:04:05" }} {{/* {{ $talks :=
+    ((.GetPage "/vhs").Pages.ByParam "talk_date") }} */}} {{ $talks := (where
+    ((.GetPage "/vhs").Pages.ByParam "talk_date") ".Params.talk_date" "ge"
+    $currentTime) }} {{ $talks := (where $talks "Params.layout" "!=" "archiv")
+    }}
 
     <div class="announcement">
       <h2><a href="/vhs">Aktuelle Vorträge</a></h2>

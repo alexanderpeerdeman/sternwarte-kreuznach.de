@@ -1,6 +1,6 @@
 ---
 title: Astronomietag am 28. Oktober 2023
-date: 2022-05-28 10:59:31
+date: 2023-10-14 10:20:57
 images:
   - VdS_Astronomietag-2023_Banner-1500x500.jpg
 summary: Die Sternwarte lädt ein zum bundesweiten Astronomietag. Das Gelände der Sternwarte ist ab 14:00 Uhr geöffnet. Der Eintritt ist frei.
