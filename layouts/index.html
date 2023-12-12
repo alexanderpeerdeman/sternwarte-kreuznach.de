@@ -1,32 +1,21 @@
-{{ define "main" }} {{ with (.GetPage "home-content").Resources.GetMatch
-"intro.md" }}
+{{ define "main" }} {{ with (.GetPage "home-content/intro") }}
 <section class="content">{{ .Content }}</section>
-{{ end }}
+{{ end }} {{ with .GetPage "home-content/featured" }}
 <section id="featured">
   <article
     class="article-card"
     style="background-image: url('/uploads/namibia.jpg')"
   >
     <div class="article-card-content">
-      <div class="heading">Astronomietag</div>
-      <p>
-        Die Sternwarte lädt ein zum bundesweiten Astronomietag <br>
-        am <strong>28. Oktober 2023</strong>.
-      </p>
-      <p>Das Thema lautet <b>Unser Universum</b>.</p>
-      <p>
-        Das Gelände der Sternwarte ist ab 14:00 Uhr geöffnet.<br />Der Eintritt
-        ist frei.
-      </p>
-      <p>
-        <a href="/blog/2023/astronomietag-2023">Weiterlesen ...</a>
-      </p>
+      <div class="heading">{{ .Title }}</div>
+      {{ .Content }}
     </div>
   </article>
 </section>
+{{ end }}
 <section class="main-with-aside">
   <article class="main-content">{{ .Content }}</article>
-  {{ with (.GetPage "home-content").Resources.GetMatch "aside.md" }}
+  {{ with (.GetPage "home-content/aside") }}
   <section class="main-aside">{{ .Content }}</section>
   {{ end }}
 </section>
