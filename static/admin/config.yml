@@ -4,12 +4,32 @@ backend:
 media_folder: static/uploads
 public_folder: /uploads
 site_url: https://sternwarte-kreuznach.de
-logo_url: https://sternwarte-kreuznach.de/svg/logo.svg
 locale: "de"
 collections:
-  - label: "Blog"
-    name: "blog"
-    folder: "content/blog"
+  # - label: "Blog"
+  #   name: "blog"
+  #   folder: "content/blog"
+  #   create: true
+  #   media_folder: ""
+  #   public_folder: ""
+  #   nested:
+  #     depth: 3
+  #   # slug: "{{year}}/{{slug}}"
+  #   fields:
+  #     - { label: "Titel", name: "title", widget: "string" }
+  #     - {
+  #         label: "Veröffentlichung",
+  #         name: "date",
+  #         widget: "datetime",
+  #         date_format: "DD. MMMM YYYY",
+  #         time_format: "HH:mm:ss",
+  #       }
+  #     - { label: "Bild", name: "images", widget: "image", choose_url: false }
+  #     - { label: "Zusammenfassung", name: "summary", widget: "string" }
+  #     - { label: "Inhalt", name: "body", widget: "markdown" }
+  - label: "Galerie"
+    name: "galerie"
+    folder: "content/galerie"
     create: true
     media_folder: ""
     public_folder: ""
@@ -19,7 +39,7 @@ collections:
     fields:
       - { label: "Titel", name: "title", widget: "string" }
       - {
-          label: "Veröffentlichungsdatum",
+          label: "Veröffentlichung",
           name: "date",
           widget: "datetime",
           date_format: "DD. MMMM YYYY",
