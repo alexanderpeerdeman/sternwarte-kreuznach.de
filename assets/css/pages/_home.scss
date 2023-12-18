@@ -1,4 +1,5 @@
 #featured {
+  text-align: center; // Weihnachtsgrüße
   padding: 0rem 2rem 2rem;
   @media #{$phone} {
     padding: 0rem 1rem 1rem;
@@ -31,26 +32,35 @@
     left: 0;
     border-radius: inherit;
     z-index: 10;
-    background: linear-gradient(
-      to right,
-      rgba(0, 0, 0, 0.925) 50%,
-      rgba(0, 0, 0, 0)
-    );
 
-    @media #{$phone} {
-      background: rgba(0, 0, 0, 0.6);
-    }
+    // Weihnachtsgrüße
+    // background: linear-gradient(
+    //  to right,
+    //  rgba(0, 0, 0, 0.925) 50%,
+    //  rgba(0, 0, 0, 0)
+    // );
+
+    
+    
+    background: rgba(0, 0, 0, 0.5);
+    
+    // Weihnachtsgrüße
+    // @media #{$phone} {
+    // background: rgba(0, 0, 0, 0.5);
+    // }
   }
 
   > .article-card-content {
     z-index: 11;
     color: white;
-    width: 65%;
+    // width: 65%; 
+    width: 100%; // Weihnachtsgrüße
 
     @media #{$phone} {
       width: 100%;
     }
-    font-size: 1.125rem;
+    // font-size: 1.125rem; // Weihnachtsgrüße
+    font-size: 2rem;
 
     :first-child {
       margin-top: 0;

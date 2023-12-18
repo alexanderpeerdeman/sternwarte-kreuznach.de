@@ -4,7 +4,7 @@
 <section id="featured">
   <article
     class="article-card"
-    style="background-image: url('/uploads/namibia.jpg')"
+    style="background-image: url('{{ ((.Resources.GetMatch "picture").Resize "1500x").RelPermalink  }}')"
   >
     <div class="article-card-content">
       <div class="heading">{{ .Title }}</div>

@@ -1,14 +1,13 @@
 ---
-title: Astronomietag
 headless: true
+resources:
+    - name: picture
+      src: Weihnachtsgrüße.jpg
 ---
 
-Die Sternwarte lädt ein zum bundesweiten Astronomietag  
-am **28. Oktober 2023**.
+Wir wünschen allen Besuchern  
+besinnliche Weihnachten  
+und einen  
+guten Rutsch ins neue Jahr
 
-Das Thema lautet **Unser Universum**.
-
-Das Gelände der Sternwarte ist ab 14:00 Uhr geöffnet.  
-Der Eintritt ist frei.
-
-[Weiterlesen ...](/blog/2023/astronomietag-2023)
+Bleiben oder werden Sie gesund
