@@ -8,6 +8,6 @@ resources:
 Wir wünschen allen Besuchern  
 besinnliche Weihnachten  
 und einen  
-guten Rutsch ins neue Jahr
+guten Rutsch ins neue Jahr.
 
-Bleiben oder werden Sie gesund
+Bleiben oder werden Sie gesund!
