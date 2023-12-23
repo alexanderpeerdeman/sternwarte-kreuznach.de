@@ -64,4 +64,4 @@ jobs:
           password: ${{ secrets.HE_SFTP_PW }}
           uploads: |
             ./public/ => ./github-actions/2/public/
-          dry-run: 'true'
+          delete: true
