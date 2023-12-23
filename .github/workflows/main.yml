@@ -57,14 +57,11 @@ jobs:
         with:
           path: ./public
       - name: Deploy to Hosteurope using SFTP
-        id: deployment-sftp
-        uses: Dylan700/sftp-upload-action@v1.2.2
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
           server: wp1033256.server-he.de
           username: ftp1033256-github
           password: ${{ secrets.HE_SFTP_PW }}
-          port: 21
-          uploads: |
-            ./public/ => ./github-actions/public/
-          dry-run: 'true'
-          # delete: 'true'
+          protocol: ftps
+          local-dir: ./public
+          server-dir: ./github-actions/public
