@@ -56,12 +56,12 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           path: ./public
-      - name: Deploy to Hosteurope using SFTP
+      - name: Deploy to Hosteurope using FTPS
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
           server: wp1033256.server-he.de
           username: ftp1033256-github
           password: ${{ secrets.HE_SFTP_PW }}
           protocol: ftps
-          local-dir: ./public
-          server-dir: ./github-actions/public
+          local-dir: ./public/
+          server-dir: ./github-actions/public/
