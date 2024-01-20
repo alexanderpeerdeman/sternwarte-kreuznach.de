@@ -1,5 +1,6 @@
 ---
 headless: true
+draft: true
 resources:
     - name: picture
       src: Weihnachtsgrüße.jpg
