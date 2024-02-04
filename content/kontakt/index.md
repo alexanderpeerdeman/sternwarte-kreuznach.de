@@ -23,7 +23,7 @@ Bernd Peerdeman
 Reinhold Frey
 
 **Beisitzer:**  
-Markus Behrwanger
+Markus Berwanger
 
 ### Bankverbindung
 

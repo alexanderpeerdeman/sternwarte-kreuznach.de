@@ -16,7 +16,7 @@ Roland Zahn (1. Vorsitzender)
 Johannes Lind (2. Vorsitzender)  
 Bernd Peerdeman (Schriftführer)  
 Reinhold Frey (Kassenwart)  
-Markus Behrwanger (Beisitzer)
+Markus Berwanger (Beisitzer)
 
 **Kontakt:**  
 E-Mail: [info@sternwarte-kreuznach.de](mailto:info@sternwarte-kreuznach.de "info@sternwarte-kreuznach.de")
