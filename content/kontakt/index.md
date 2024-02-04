@@ -10,14 +10,20 @@ aliases: [/infos/anfahrt, /anfahrt, /kontakt, /infos/kontakt]
 Aufgrund der hohen Nachfrage bitten wir Sie, Ihre Anfragen ausschließlich an diese E-Mail-Adresse zu richten.
 {{< /panel >}}
 
+**1. Vorsitzender:**  
+Roland Zahn
+
 **2. Vorsitzender:**  
 Johannes Lind
 
 **Schriftführer:**  
-Sven Heinrich
+Bernd Peerdeman
 
 **Kassenwart:**  
 Reinhold Frey
+
+**Beisitzer:**  
+Markus Behrwanger
 
 ### Bankverbindung
 
@@ -33,9 +39,9 @@ An der Sternwarte 2
 ### Postanschrift
 
 Sternwarte Bad Kreuznach e.V.  
-c/o J. Lind  
-Paul-Klee-Str. 6  
-55595 Hargesheim
+c/o Roland Zahn  
+Saarstraße 14  
+55283 Nierstein
 
 ---
 

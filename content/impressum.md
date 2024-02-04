@@ -7,14 +7,16 @@ gemäß § 5 TMG
 
 **Postanschrift:**  
 Sternwarte Bad Kreuznach e. V.  
-c/o J. Lind  
-Paul-Klee-Str. 6  
-55595 Hargesheim
+c/o J. Roland Zahn  
+Saarstraße 14  
+55283 Nierstein
 
 **Vertreten durch:**  
+Roland Zahn (1. Vorsitzender)  
 Johannes Lind (2. Vorsitzender)  
-Sven Heinrich (Schriftführer)  
-Reinhold Frey (Kassenwart)
+Bernd Peerdeman (Schriftführer)  
+Reinhold Frey (Kassenwart)  
+Markus Behrwanger (Beisitzer)
 
 **Kontakt:**  
 E-Mail: [info@sternwarte-kreuznach.de](mailto:info@sternwarte-kreuznach.de "info@sternwarte-kreuznach.de")
@@ -31,7 +33,7 @@ Registernummer: VR1285
 
 **Für den Inhalt verantwortlich:**  
 Bernd Peerdeman  
-[webmaster@sternwarte-kreuznach.de](mailto:webmaster@sternwarte-kreuznach.de "webmaster@sternwarte-kreuznach.de")
+[webmaster@sternwarte-kreuznach.de](mailto:webmaster@sternwarte-kreuznach.de "webmaster@sternwarte-kreuznach.de")  
 Königsbergerstr. 21a  
 55543 Bad Kreuznach
 
