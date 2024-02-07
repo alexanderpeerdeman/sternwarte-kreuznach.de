@@ -7,7 +7,7 @@ gemäß § 5 TMG
 
 **Postanschrift:**  
 Sternwarte Bad Kreuznach e. V.  
-c/o J. Roland Zahn  
+c/o Roland Zahn  
 Saarstraße 14  
 55283 Nierstein
 
