@@ -42,6 +42,9 @@
 
     <div class="announcement">
       <h2><a href="/vhs">Aktuelle Vorträge</a></h2>
+      <div class="panel info">
+        Ab Juli 2024 finden wieder VHS-Vorträge statt.        
+      </div>
       {{ if le (len $talks) 0 }}
       <p>Bisher sind keine weiteren Vorträge angekündigt.</p>
       {{ end }} {{ range (last 4 $talks)}}
@@ -61,7 +64,7 @@
       </article>
       {{ end }}
     </div>
-    {{ partial "social/facebookPagePlugin.html" }}
+    {{/*  {{ partial "social/facebookPagePlugin.html" }}  */}}
   </div>
 </section>
 <section class="blog-newest">

@@ -4,6 +4,21 @@ date: 2021-04-06T16:43:04+02:00
 
 ## Herzlich Willkommen auf der Website der Sternwarte Bad Kreuznach e.V.
 
+---
+
+{{< text-with-img-right src="uploads/abk-logo.jpg" alt="Logo der Astro-Börse Kreuznach" >}}
+
+### Auch dieses Jahr findet wieder eine Astro-Börse statt
+
+Die dritte Astro-Börse, veranstaltet von der Sternwarte Bad Kreuznach, findet am **19. Oktober** in der **Deutscher-Michel-Halle in Stromberg** statt.
+
+Weitere Informationen finden Sie unter  
+[https://www.astroboersekreuznach.de/](https://www.astroboersekreuznach.de/)
+
+{{< /text-with-img-right >}}
+
+---
+
 {{< imageWithClass src="/home-content/Luftbild.jpg" alt="Intro" class="decor" >}}
 
 Wir sind ein eingetragener Verein und haben es zu unserer Aufgabe gemacht, der Bevölkerung die Astronomie näher zu bringen, wissenschaftliche Zusammenhänge zu veranschaulichen und mit unserer professionellen Ausrüstung praktisch vorzuführen.
