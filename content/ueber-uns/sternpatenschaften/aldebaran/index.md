@@ -13,4 +13,4 @@ title: Aldebaran
 
 {{< figure src="rolf-steffen-elektrotechnik.jpg" alt="Rolf Steffen Elektrotechnik" width="350" >}}
 
-{{< button link="https://stellarium-web.org/skysource/Aldebaran" text="Stellarium Web">}}
+{{< button link="https://stellarium-web.org/skysource/Aldebaran" text="Stellarium Web" target="_blank" >}}

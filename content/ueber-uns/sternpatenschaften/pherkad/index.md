@@ -11,4 +11,4 @@ title: Pherkad
 
 ## Sternpate: Ben, Sunniva und Ella Ferri
 
-{{< button link="https://stellarium-web.org/skysource/Pherkad" text="Stellarium Web">}}
+{{< button link="https://stellarium-web.org/skysource/Pherkad" text="Stellarium Web" target="_blank" >}}

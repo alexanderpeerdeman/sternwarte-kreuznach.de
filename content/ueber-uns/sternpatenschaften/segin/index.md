@@ -11,4 +11,4 @@ title: Segin (Epsilon Cassiopeiae)
 
 ## Sternpate: Sandra Hey
 
-{{< button link="https://stellarium-web.org/skysource/EpsCas" text="Stellarium Web">}}
+{{< button link="https://stellarium-web.org/skysource/EpsCas" text="Stellarium Web" target="_blank" >}}

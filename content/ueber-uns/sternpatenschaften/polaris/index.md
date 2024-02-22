@@ -11,4 +11,4 @@ title: Polaris
 
 ## Sternpate: Elli Schaefer
 
-{{< button link="https://stellarium-web.org/skysource/Polaris" text="Stellarium Web">}}
+{{< button link="https://stellarium-web.org/skysource/Polaris" text="Stellarium Web" target="_blank" >}}

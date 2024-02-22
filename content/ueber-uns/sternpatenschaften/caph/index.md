@@ -11,4 +11,4 @@ title: Caph
 
 ## Sternpate: Dr. Karl-Heinz Kilian
 
-{{< button link="https://stellarium-web.org/skysource/Caph" text="Stellarium Web">}}
+{{< button link="https://stellarium-web.org/skysource/Caph" text="Stellarium Web" target="_blank" >}}

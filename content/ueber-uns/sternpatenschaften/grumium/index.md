@@ -11,4 +11,4 @@ title: Grumium
 
 ## Sternpate: Monika Herrmann
 
-{{< button link="https://stellarium-web.org/skysource/Grumium" text="Stellarium Web">}}
+{{< button link="https://stellarium-web.org/skysource/Grumium" text="Stellarium Web" target="_blank" >}}

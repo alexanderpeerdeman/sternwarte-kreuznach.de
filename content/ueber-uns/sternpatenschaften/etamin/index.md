@@ -11,4 +11,4 @@ title: Etamin
 
 ## Sternpate: Könemann
 
-{{< button link="https://stellarium-web.org/skysource/Etamin" text="Stellarium Web">}}
+{{< button link="https://stellarium-web.org/skysource/Etamin" text="Stellarium Web" target="_blank" >}}

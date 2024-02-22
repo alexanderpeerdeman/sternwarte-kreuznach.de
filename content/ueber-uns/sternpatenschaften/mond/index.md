@@ -6,3 +6,5 @@ title: Mond
 ## Sternpate: Hotel Caravelle
 
 ![Hotel Caravelle Logo](caravelle-logo.jpg)
+
+{{< button link="https://stellarium-web.org/skysource/Moon" text="Stellarium Web" target="_blank" >}}

@@ -11,4 +11,4 @@ title: Alwaid (Rastaban)
 
 ## Sternpate: Gisela Könemann
 
-{{< button link="https://stellarium-web.org/skysource/Rastaban" text="Stellarium Web">}}
+{{< button link="https://stellarium-web.org/skysource/Rastaban" text="Stellarium Web" target="_blank" >}}

@@ -11,4 +11,4 @@ title: Errai
 
 ## Sternpate: Sven und Thomas Talü
 
-{{< button link="https://stellarium-web.org/skysource/Errai" text="Stellarium Web">}}
+{{< button link="https://stellarium-web.org/skysource/Errai" text="Stellarium Web" target="_blank" >}}

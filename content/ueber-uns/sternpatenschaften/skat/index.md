@@ -11,4 +11,4 @@ title: Skat
 
 ## Sternpate: Liane Maria Backes
 
-{{< button link="https://stellarium-web.org/skysource/Skat" text="Stellarium Web">}}
+{{< button link="https://stellarium-web.org/skysource/Skat" text="Stellarium Web" target="_blank" >}}

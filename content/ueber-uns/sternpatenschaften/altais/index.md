@@ -11,4 +11,4 @@ title: Altais
 
 ## Sternpate: Hans-Jürgen Oberst
 
-{{< button link="https://stellarium-web.org/skysource/Altais" text="Stellarium Web">}}
+{{< button link="https://stellarium-web.org/skysource/Altais" text="Stellarium Web" target="_blank" >}}

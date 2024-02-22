@@ -10,5 +10,5 @@ title: Al Niyat
 
 ## Sternpate: Klaus Stellwagen
 
-{{< button link="https://stellarium-web.org/skysource/Alniyat" text="Stellarium Web">}}
+{{< button link="https://stellarium-web.org/skysource/Alniyat" text="Stellarium Web" target="_blank" >}}
 
