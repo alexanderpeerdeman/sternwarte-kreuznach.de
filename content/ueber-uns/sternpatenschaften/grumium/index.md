@@ -10,3 +10,5 @@ title: Grumium
 - Scheinbare Helligkeit: 3,7 mag
 
 ## Sternpate: Monika Herrmann
+
+{{< button link="https://stellarium-web.org/skysource/Grumium" text="Stellarium Web">}}

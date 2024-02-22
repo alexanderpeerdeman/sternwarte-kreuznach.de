@@ -9,3 +9,6 @@ title: Al Niyat
 - Scheinbare Helligkeit: 2,8 mag
 
 ## Sternpate: Klaus Stellwagen
+
+{{< button link="https://stellarium-web.org/skysource/Alniyat" text="Stellarium Web">}}
+

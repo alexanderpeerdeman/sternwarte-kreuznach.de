@@ -1,4 +1,13 @@
 {
     "python.pythonPath": "/home/apeer/git/hugo-sternwarte/venv/bin/python3.9",
     "cSpell.language": ",de",
+    "VsCodeTaskButtons.tasks": [
+        {
+            "label": "hugo: Server starten",
+            "type": "shell",
+            "task": "hugo: Serve site",
+            "group": "build",
+        }
+    ],
+    "VsCodeTaskButtons.showCounter": false
 }

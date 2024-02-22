@@ -1,6 +1,6 @@
 ---
 date: "2021-08-08T17:23:57+02:00"
-title: Segin
+title: Segin (Epsilon Cassiopeiae)
 ---
 
 - Sternbild: Cassiopeia
@@ -10,3 +10,5 @@ title: Segin
 - Scheinbare Helligkeit: 3,35 mag
 
 ## Sternpate: Sandra Hey
+
+{{< button link="https://stellarium-web.org/skysource/EpsCas" text="Stellarium Web">}}

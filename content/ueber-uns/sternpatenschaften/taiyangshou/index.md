@@ -1,6 +1,6 @@
 ---
 date: "2022-04-18T17:39:57+02:00"
-title: Taiyangshou
+title: Taiyangshou (Kappa Ursae Majoris - AL Kaphrah - Alkafzah)
 ---
 
 - Sternbild: Großer Bär
@@ -10,3 +10,5 @@ title: Taiyangshou
 - Scheinbare Helligkeit: 3,7 mag
 
 ## Sternpate: Herbert Thiem
+
+{{< button link="https://stellarium-web.org/skysource/KapUMa" text="Stellarium Web">}}

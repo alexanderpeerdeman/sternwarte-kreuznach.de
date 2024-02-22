@@ -10,3 +10,5 @@ title: Thuban
 - Scheinbare Helligkeit: 3,67 mag
 
 ## Sternpate: Kurt Jakoby
+
+{{< button link="https://stellarium-web.org/skysource/Thuban" text="Stellarium Web">}}

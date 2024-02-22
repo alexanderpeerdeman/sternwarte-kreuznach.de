@@ -1,6 +1,6 @@
 ---
 date: "2021-08-08T17:23:57+02:00"
-title: Tsih
+title: Tsih ( Navi oder Gamma Cassiopeae)
 ---
 
 - Sternbild: Cassiopeia
@@ -10,3 +10,5 @@ title: Tsih
 - Scheinbare Helligkeit: 2,15 mag
 
 ## Sternpate: Heinrich und Rosemarie Bensheimer
+
+{{< button link="https://stellarium-web.org/skysource/Navi" text="Stellarium Web">}}

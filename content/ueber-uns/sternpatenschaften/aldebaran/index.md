@@ -12,3 +12,5 @@ title: Aldebaran
 ## Sternpate: Rolf Steffen Elektrotechnik
 
 {{< figure src="rolf-steffen-elektrotechnik.jpg" alt="Rolf Steffen Elektrotechnik" width="350" >}}
+
+{{< button link="https://stellarium-web.org/skysource/Aldebaran" text="Stellarium Web">}}

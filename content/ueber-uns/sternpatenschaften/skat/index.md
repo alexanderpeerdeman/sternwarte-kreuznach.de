@@ -10,3 +10,5 @@ title: Skat
 - Scheinbare Helligkeit: 3,3 mag
 
 ## Sternpate: Liane Maria Backes
+
+{{< button link="https://stellarium-web.org/skysource/Skat" text="Stellarium Web">}}

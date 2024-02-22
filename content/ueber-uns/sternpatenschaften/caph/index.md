@@ -10,3 +10,5 @@ title: Caph
 - Scheinbare Helligkeit: 2,28 mag
 
 ## Sternpate: Dr. Karl-Heinz Kilian
+
+{{< button link="https://stellarium-web.org/skysource/Caph" text="Stellarium Web">}}

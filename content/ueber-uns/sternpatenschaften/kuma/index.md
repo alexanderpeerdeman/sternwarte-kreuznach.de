@@ -10,3 +10,5 @@ title: Kuma
 - Scheinbare Helligkeit: 4,87 mag
 
 ## Sternpate: MB Immobilien Margit Braun
+
+{{< button link="https://stellarium-web.org/skysource/Kuma" text="Stellarium Web">}}

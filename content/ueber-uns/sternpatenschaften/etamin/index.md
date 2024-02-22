@@ -10,3 +10,5 @@ title: Etamin
 - Scheinbare Helligkeit: 2,23 mag
 
 ## Sternpate: Könemann
+
+{{< button link="https://stellarium-web.org/skysource/Etamin" text="Stellarium Web">}}

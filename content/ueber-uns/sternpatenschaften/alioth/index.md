@@ -12,3 +12,5 @@ title: Alioth
 ## Sternpate: big easy Sascha Zuhl
 
 ![big easy logo](big-easy-logo.jpg)
+
+{{< button link="https://stellarium-web.org/skysource/Alioth" text="Stellarium Web">}}

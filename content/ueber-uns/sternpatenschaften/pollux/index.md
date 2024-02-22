@@ -10,3 +10,5 @@ title: Pollux
 - Scheinbare Helligkeit: 1,17 mag
 
 ## Sternpate: juwi Holding AG
+
+{{< button link="https://stellarium-web.org/skysource/Pollux" text="Stellarium Web">}}

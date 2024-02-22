@@ -1,6 +1,6 @@
 ---
 date: "2021-08-08T17:23:57+02:00"
-title: Schedar
+title: Schedar (Shedir)
 ---
 
 - Sternbild: Cassiopeia
@@ -12,3 +12,5 @@ title: Schedar
 ## Sternpate: Volksbank Rhein-Nahe-H.
 
 ![Volksbank Rhein-Nahe-Hunsrück](vb.jpg)
+
+{{< button link="https://stellarium-web.org/skysource/Shedir" text="Stellarium Web">}}

@@ -10,3 +10,5 @@ title: Errai
 - Scheinbare Helligkeit: 3,2 mag
 
 ## Sternpate: Sven und Thomas Talü
+
+{{< button link="https://stellarium-web.org/skysource/Errai" text="Stellarium Web">}}

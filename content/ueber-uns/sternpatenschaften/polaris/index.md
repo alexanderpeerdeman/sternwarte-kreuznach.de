@@ -10,3 +10,5 @@ title: Polaris
 - Scheinbare Helligkeit: 1,97 mag
 
 ## Sternpate: Elli Schaefer
+
+{{< button link="https://stellarium-web.org/skysource/Polaris" text="Stellarium Web">}}

@@ -1,6 +1,6 @@
 ---
 date: "2021-08-08T17:23:57+02:00"
-title: Phekda
+title: Phecda (Phad)
 ---
 
 - Sternbild: Großer Bär
@@ -10,3 +10,5 @@ title: Phekda
 - Scheinbare Helligkeit: 2,41 mag
 
 ## Sternpate: Dr. Jacob GmbH
+
+{{< button link="https://stellarium-web.org/skysource/Phad" text="Stellarium Web">}}

@@ -10,3 +10,5 @@ title: Megrez
 - Scheinbare Helligkeit: 3,4 mag
 
 ## Sternpate: Jutta Pullendörfer
+
+{{< button link="https://stellarium-web.org/skysource/Megrez" text="Stellarium Web">}}

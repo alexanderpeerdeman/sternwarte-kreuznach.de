@@ -10,3 +10,5 @@ title: Epsilon Draconis
 - Scheinbare Helligkeit: 7,8 mag
 
 ## Sternpate: Dennis Oberst
+
+{{< button link="https://stellarium-web.org/skysource/EpsDraA" text="Stellarium Web">}}

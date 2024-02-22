@@ -10,3 +10,5 @@ title: Altais
 - Scheinbare Helligkeit: 3,07 mag
 
 ## Sternpate: Hans-Jürgen Oberst
+
+{{< button link="https://stellarium-web.org/skysource/Altais" text="Stellarium Web">}}

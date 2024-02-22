@@ -5,7 +5,7 @@ aliases: [/infos/oeffnungszeiten, /öffnungszeiten, /infos/öffnungszeiten]
 ---
 
 
-## Vereinsabend
+## Öffentliche Himmelsbeobachtung & Vereinsabend
 
 
 **Freitags ab 19:00 Uhr**  
