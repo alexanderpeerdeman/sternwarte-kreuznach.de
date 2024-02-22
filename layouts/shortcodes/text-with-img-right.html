@@ -2,5 +2,7 @@
   <div class="" style="max-width: 45ch;">    
     {{ .Inner | markdownify }}
   </div>
-  <img src='{{ .Get "src" }}' alt='{{ .Get "alt" }}' />
+  <div>
+    <img src='{{ .Get "src" }}' alt='{{ .Get "alt" }}' />
+  </div>
 </div>
