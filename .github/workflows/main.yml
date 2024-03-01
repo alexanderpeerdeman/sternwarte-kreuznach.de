@@ -28,4 +28,4 @@ jobs:
         run: hugo --minify
 
       - name: Deploy the website
-        run: rsync --rsh="sshpass -p $DEPLOY_PASSWORD" -avz --delete public/ $DEPLOY_USERNAME@$DEPLOY_SERVER:./$DEPLOY_PATH
+        run: sshpass -p $DEPLOY_PASSWORD rsync -avz --delete public/ $DEPLOY_USERNAME@$DEPLOY_SERVER:./$DEPLOY_PATH
