@@ -1,7 +1,7 @@
 name: Deploy to sternwarte-kreuznach.de
 
 on:
-  # Only run on push to master
+  # Runs on pushes targeting the default branch
   push:
     branches: ["master"]
 
@@ -27,9 +27,4 @@ jobs:
         run: hugo --minify
 
       - name: Deploy the website
-        run: sshpass -p '${DEPLOY_PASSWORD}' rsync -avz --delete -e 'ssh -o StrictHostKeyChecking=no' public/ ${DEPLOY_USERNAME}@${DEPLOY_SERVER}:./${DEPLOY_PATH}
-        env:
-          DEPLOY_PASSWORD: ${{ secrets.DEPLOY_PASSWORD }}
-          DEPLOY_USERNAME: ${{ secrets.DEPLOY_USERNAME }}
-          DEPLOY_SERVER: ${{ secrets.DEPLOY_SERVER }}
-          DEPLOY_PATH: ${{ secrets.DEPLOY_PATH }}
+        run: sshpass -p '${{ secrets.DEPLOY_PASSWORD }}' rsync -avz --delete -e 'ssh -o StrictHostKeyChecking=no' public/ ${{ secrets.DEPLOY_USERNAME }}@${{ secrets.DEPLOY_SERVER }}:./${{ secrets.DEPLOY_PATH }}
