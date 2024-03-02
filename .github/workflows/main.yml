@@ -27,7 +27,7 @@ jobs:
         run: hugo --minify
 
       - name: Deploy the website
-        run: sshpass -p '$DEPLOY_PASSWORD' rsync -avz --delete -e 'ssh -o StrictHostKeyChecking=no' public/ $DEPLOY_USERNAME@$DEPLOY_SERVER:./$DEPLOY_PATH
+        run: sshpass -p '${DEPLOY_PASSWORD}' rsync -avz --delete -e 'ssh -o StrictHostKeyChecking=no' public/ ${DEPLOY_USERNAME}@${DEPLOY_SERVER}:./${DEPLOY_PATH}
         env:
           DEPLOY_PASSWORD: ${{ secrets.DEPLOY_PASSWORD }}
           DEPLOY_USERNAME: ${{ secrets.DEPLOY_USERNAME }}
