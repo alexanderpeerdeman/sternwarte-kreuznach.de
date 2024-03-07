@@ -11,4 +11,4 @@ title: Epsilon Draconis
 
 ## Sternpate: Dennis Oberst
 
-{{< button link="https://stellarium-web.org/skysource/EpsDraA" text="Stellarium Web">}}
+{{< button link="https://stellarium-web.org/skysource/EpsDraA" text="Stellarium Web" target="_blank" >}}

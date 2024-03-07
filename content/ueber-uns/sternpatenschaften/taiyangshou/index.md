@@ -11,4 +11,4 @@ title: Taiyangshou (Kappa Ursae Majoris - AL Kaphrah - Alkafzah)
 
 ## Sternpate: Herbert Thiem
 
-{{< button link="https://stellarium-web.org/skysource/KapUMa" text="Stellarium Web">}}
+{{< button link="https://stellarium-web.org/skysource/KapUMa" text="Stellarium Web" target="_blank" >}}

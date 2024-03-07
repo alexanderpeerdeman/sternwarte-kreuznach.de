@@ -13,4 +13,4 @@ title: Benetnasch (Alkaid)
 
 ![SCC Logo](scc-logo.jpg)
 
-{{< button link="https://stellarium-web.org/skysource/Alkaid" text="Stellarium Web">}}
+{{< button link="https://stellarium-web.org/skysource/Alkaid" text="Stellarium Web" target="_blank" >}}

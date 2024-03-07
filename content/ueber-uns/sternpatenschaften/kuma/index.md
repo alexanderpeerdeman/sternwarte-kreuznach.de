@@ -11,4 +11,4 @@ title: Kuma
 
 ## Sternpate: MB Immobilien Margit Braun
 
-{{< button link="https://stellarium-web.org/skysource/Kuma" text="Stellarium Web">}}
+{{< button link="https://stellarium-web.org/skysource/Kuma" text="Stellarium Web" target="_blank" >}}

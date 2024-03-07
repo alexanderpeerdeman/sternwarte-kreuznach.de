@@ -11,4 +11,4 @@ title: Pollux
 
 ## Sternpate: juwi Holding AG
 
-{{< button link="https://stellarium-web.org/skysource/Pollux" text="Stellarium Web">}}
+{{< button link="https://stellarium-web.org/skysource/Pollux" text="Stellarium Web" target="_blank" >}}

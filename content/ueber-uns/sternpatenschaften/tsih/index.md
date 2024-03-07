@@ -11,4 +11,4 @@ title: Tsih ( Navi oder Gamma Cassiopeae)
 
 ## Sternpate: Heinrich und Rosemarie Bensheimer
 
-{{< button link="https://stellarium-web.org/skysource/Navi" text="Stellarium Web">}}
+{{< button link="https://stellarium-web.org/skysource/Navi" text="Stellarium Web" target="_blank" >}}

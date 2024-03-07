@@ -1,13 +1,9 @@
-# Sample workflow for building and deploying a Hugo site to GitHub Pages
-name: Deploy Hugo site to Hosteurope via sftp
+name: Deploy to sternwarte-kreuznach.de
 
 on:
   # Runs on pushes targeting the default branch
   push:
     branches: ["master"]
-
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
 
 # Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
 # However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
@@ -15,39 +11,20 @@ concurrency:
   group: "pages"
   cancel-in-progress: false
 
-# Default to bash
-defaults:
-  run:
-    shell: bash
-
 jobs:
-  # Build job
   build:
     runs-on: ubuntu-latest
-    env:
-      HUGO_VERSION: 0.120.4
     steps:
-      - name: Install Hugo CLI
-        run: |
-          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
-          && sudo dpkg -i ${{ runner.temp }}/hugo.deb
+      - name: Install Hugo
+        env:
+          HUGO_VERSION: 0.123.7
+        run: wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb && sudo dpkg -i ${{ runner.temp }}/hugo.deb
+
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          submodules: recursive
+
       - name: Build with Hugo
-        env:
-          # For maximum backward compatibility with Hugo modules
-          HUGO_ENVIRONMENT: production
-          HUGO_ENV: production
-        run: |
-          hugo --minify
-      - name: Deploy to Hosteurope using SFTP        
-        uses: Dylan700/sftp-upload-action@latest
-        with:
-          server: ssh.server-he.de
-          username: wp1033256
-          password: ${{ secrets.HE_SFTP_PW }}
-          uploads: |
-            ./public/ => ./github-actions/2/public/
-          delete: true
+        run: hugo --minify
+
+      - name: Deploy the website
+        run: sshpass -p '${{ secrets.DEPLOY_PASSWORD }}' rsync -avz --delete -e 'ssh -o StrictHostKeyChecking=no' public/ ${{ secrets.DEPLOY_USERNAME }}@${{ secrets.DEPLOY_SERVER }}:./${{ secrets.DEPLOY_PATH }}

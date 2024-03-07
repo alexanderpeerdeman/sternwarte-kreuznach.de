@@ -11,4 +11,4 @@ title: Phecda (Phad)
 
 ## Sternpate: Dr. Jacob GmbH
 
-{{< button link="https://stellarium-web.org/skysource/Phad" text="Stellarium Web">}}
+{{< button link="https://stellarium-web.org/skysource/Phad" text="Stellarium Web" target="_blank" >}}

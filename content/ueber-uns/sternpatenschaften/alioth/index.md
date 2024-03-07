@@ -13,4 +13,4 @@ title: Alioth
 
 ![big easy logo](big-easy-logo.jpg)
 
-{{< button link="https://stellarium-web.org/skysource/Alioth" text="Stellarium Web">}}
+{{< button link="https://stellarium-web.org/skysource/Alioth" text="Stellarium Web" target="_blank" >}}

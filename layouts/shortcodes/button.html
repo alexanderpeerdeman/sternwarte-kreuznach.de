@@ -1,1 +1,1 @@
-<a class='btn {{ .Get "class" }}' href='{{ .Get "link" }}'>{{ .Get "text" }}</a> 
+<a class='btn {{ .Get "class" }}' href='{{ .Get "link" }}' {{ if .Get "target" }} target="_blank"{{ end }}>{{ .Get "text" }}</a> 

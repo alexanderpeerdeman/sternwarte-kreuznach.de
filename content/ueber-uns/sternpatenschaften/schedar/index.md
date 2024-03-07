@@ -13,4 +13,4 @@ title: Schedar (Shedir)
 
 ![Volksbank Rhein-Nahe-Hunsrück](vb.jpg)
 
-{{< button link="https://stellarium-web.org/skysource/Shedir" text="Stellarium Web">}}
+{{< button link="https://stellarium-web.org/skysource/Shedir" text="Stellarium Web" target="_blank" >}}

@@ -11,4 +11,4 @@ title: Megrez
 
 ## Sternpate: Jutta Pullendörfer
 
-{{< button link="https://stellarium-web.org/skysource/Megrez" text="Stellarium Web">}}
+{{< button link="https://stellarium-web.org/skysource/Megrez" text="Stellarium Web" target="_blank" >}}

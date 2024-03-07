@@ -11,4 +11,4 @@ title: Thuban
 
 ## Sternpate: Kurt Jakoby
 
-{{< button link="https://stellarium-web.org/skysource/Thuban" text="Stellarium Web">}}
+{{< button link="https://stellarium-web.org/skysource/Thuban" text="Stellarium Web" target="_blank" >}}
