@@ -2,6 +2,7 @@ baseURL = "https://sternwarte-kreuznach.de/"
 languageCode = "de"
 title = "Sternwarte Bad Kreuznach e.V."
 summaryLength = 25
+timeZone = 'Europe/Berlin'
 
 [imaging]
 anchor = "center"

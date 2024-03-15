@@ -208,7 +208,7 @@
 
 .blog-newest {
   background-color: #eee;
-  padding-top: 1rem;
+  padding: 0.5em 0;
   > h2 {
     margin: 1.5rem auto;
     max-width: 70rem;
@@ -216,5 +216,21 @@
     @media #{$phone} {
       padding: 0 1rem;
     }
+  }
+}
+
+#blog-featured {
+  > .post-header {
+    > .post-link {
+      > .post-title {
+        padding: 0;
+      }
+      > .post-image {
+        text-align: left;
+      }
+    }
+  }
+  > .post-summary {
+    padding: 0;
   }
 }

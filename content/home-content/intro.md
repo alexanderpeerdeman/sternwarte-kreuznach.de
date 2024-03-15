@@ -2,11 +2,7 @@
 date: 2021-04-06T16:43:04+02:00
 ---
 
-## Herzlich Willkommen auf der Website der Sternwarte Bad Kreuznach e.V.
-
----
-
-{{< text-with-img-right src="uploads/abk-logo.jpg" alt="Logo der Astro-Börse Kreuznach" >}}
+{{< text-with-img-right width="350px" src="svg/abk_logo.svg" alt="Logo der Astro-Börse Kreuznach" >}}
 
 ### Auch dieses Jahr findet wieder eine Astro-Börse statt
 

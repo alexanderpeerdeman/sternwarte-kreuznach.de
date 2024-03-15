@@ -1,6 +1,46 @@
-{{ define "main" }} {{ with (.GetPage "home-content/intro") }}
-<section class="content">{{ .Content }}</section>
-{{ end }} {{ with .GetPage "home-content/featured" }}
+{{ define "main" }}
+<section class="content">
+<h1 id="herzlich-willkommen">Herzlich Willkommen auf der Website der Sternwarte Bad Kreuznach e.V.</h1>
+</section>
+{{ range first 1 (where .Site.RegularPages "Type" "blog") }}
+
+{{ if (and (index .Params "announceUntilDate") ((time.AsTime .Params.announceUntilDate).After time.Now)) }}
+<section class="blog-newest">
+  <div class="content">
+    <h4>Aktueller Blog-Eintrag</h4>
+
+    <article id="blog-featured">
+      <header class="post-header">
+        <a class="post-link" href="{{ .RelPermalink }}" title='Permanenter Link zu "{{ .Title }}"'>
+          <h2 class="post-title">{{ .Title }}</h2>
+          <div class="post-image">
+            {{ if .Params.images }} {{ with (.Resources.GetMatch (index
+            .Params.images 0)).Fill "600x330 q80 smart" }}
+            <img src="{{ .RelPermalink }}" alt="{{ .Title }}" />
+            {{ end }} {{ end }}
+          </div>
+        </a>
+      </header>
+      <div class="post-summary">
+        <p>{{ .Summary }}</p>
+        <a class="go" href="{{ .RelPermalink }}"
+          >Weiterlesen {{ partial "arrow.html" }}</a
+        >
+      </div>
+    </article>
+  </div>
+</section>
+{{ else }}
+<div class="content">
+  <hr>
+</div>
+{{ end }}{{ end }}
+<section class="content">
+{{ with (.GetPage "home-content/intro") }}
+{{ .Content }}
+{{ end }}
+</section>
+{{ with .GetPage "home-content/featured" }}
 <section id="featured">
   <article
     class="article-card"
@@ -42,7 +82,7 @@
 
     <div class="announcement">
       <h2><a href="/vhs">Aktuelle Vorträge</a></h2>
-      <div class="panel info">
+      <div class="panel success">        
         Ab Juli 2024 finden wieder VHS-Vorträge statt.        
       </div>
       {{ if le (len $talks) 0 }}
@@ -68,7 +108,7 @@
   </div>
 </section>
 <section class="blog-newest">
-  <h2><a href="/blog">Aktuelles im Blog</a></h2>
+  <h2><a href="/blog">Blog-Einträge</a></h2>
   <div class="posts-grid">
     {{ range (first 3 (where .Site.RegularPages "Type" "blog")) }}
     <article class="post">
@@ -86,14 +126,6 @@
           </div>
           <h2 class="post-title">{{ .Title }}</h2>
         </a>
-        <div class="post-info">
-          {{ with .PublishDate }}
-          <time class="date published" datetime="{{ . }}">
-            {{ partial "date.html" (dict "date" . "monate" $.Site.Data.monate
-            )}}</time
-          >
-          {{ end }}
-        </div>
       </header>
       <div class="post-summary">
         <p>{{ .Summary }}</p>
@@ -105,4 +137,4 @@
     {{ end }}
   </div>
 </section>
-{{ partial "social/facebookSDK.html" }} {{ end }}
+{{ end }}
