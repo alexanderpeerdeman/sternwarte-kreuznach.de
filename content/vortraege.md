@@ -8,7 +8,7 @@ Unsere Vorträge die über die VHS Bad Kreuznach angeboten werden, sind unsere M
 Die Vorträge finden jeden letzten Freitag im Monat statt.
 
 **Vortragsbeginn: 20:00 Uhr**, Einlass ab 19:00 Uhr  
-**Eintritt: 6,00€**, Ermäßigt: 4,00€
+**Eintritt: 8,00€**
 
 Nur Barzahlung an der Abendkasse.  
 Es gibt keine Reservierungsmöglichkeit oder Vorverkauf von Karten.

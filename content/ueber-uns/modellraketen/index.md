@@ -17,4 +17,4 @@ Bei ungünstigen Wetterbedingungen muss das Starten der Raketen verschoben werde
 
 Die Kosten für diesen Nachmittag inklusive des Modellraketenbausatzes betragen 30€ pro Teilnehmer.
 
-Teilnehmeranzahl: Mindestens 5 Personen, Maximal 15 Personen.
+Teilnehmeranzahl: Mindestens 8 Personen, Maximal 15 Personen.
