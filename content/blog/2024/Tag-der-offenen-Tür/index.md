@@ -5,6 +5,7 @@ announceUntilDate: 2024-05-24 00:00:00
 images:
   - TdoT-2024.jpg
 summary: Die Sternwarte lädt ein zum Tag der offenen Tür am **Sonntag den 19. Mai 2024**. Ab **14:00 Uhr** ist das Gelände der Sternwarte geöffnet. Der Eintritt ist frei.
+draft: true
 ---
 
 Die Sternwarte Bad Kreuznach e.V. lädt ein zum:  
