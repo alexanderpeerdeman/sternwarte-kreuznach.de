@@ -2,6 +2,11 @@
 date: 2021-04-06T16:43:04+02:00
 ---
 
+{{< panel class=warning >}}
+Der **Tag der offenen Tür** (ursprünglich geplant für den 19. Mai 2024) wird verschoben.  
+Sobald ein neuer Termin feststeht werden wir dies hier bekanntgeben.  
+{{< /panel >}}
+
 {{< text-with-img-right width="350px" src="svg/abk_logo.svg" alt="Logo der Astro-Börse Kreuznach" >}}
 
 ### Auch dieses Jahr findet wieder eine Astro-Börse statt
