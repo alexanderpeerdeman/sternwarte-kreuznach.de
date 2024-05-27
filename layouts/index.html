@@ -74,20 +74,17 @@
 <section id="next-vhs" class="content">
   <hr />
   <div class="row">
-    {{ $currentTime := now.Format "2006-01-02T15:04:05" }} {{/* {{ $talks :=
-    ((.GetPage "/vhs").Pages.ByParam "talk_date") }} */}} {{ $talks := (where
-    ((.GetPage "/vhs").Pages.ByParam "talk_date") ".Params.talk_date" "ge"
-    $currentTime) }} {{ $talks := (where $talks "Params.layout" "!=" "archiv")
-    }}
+    {{ $currentTime := now.Format "2006-01-02T15:04:05" }}
+    {{/* {{ $talks := ((.GetPage "/vhs").Pages.ByParam "talk_date") }} */}} 
+    {{ $talks := (where ((.GetPage "/vhs").Pages.ByParam "talk_date") ".Params.talk_date" "ge" $currentTime) }}
+    {{ $talks := (where $talks "Params.layout" "!=" "archiv") }}
 
     <div class="announcement">
       <h2><a href="/vhs">Aktuelle Vorträge</a></h2>
-      <div class="panel success">        
-        Ab Juli 2024 finden wieder VHS-Vorträge statt.        
-      </div>
       {{ if le (len $talks) 0 }}
       <p>Bisher sind keine weiteren Vorträge angekündigt.</p>
-      {{ end }} {{ range (last 4 $talks)}}
+      {{ end }} 
+      {{ range (first 2 $talks)}}
       <article>
         <a
           href="{{ .RelPermalink }}"
@@ -104,7 +101,6 @@
       </article>
       {{ end }}
     </div>
-    {{/*  {{ partial "social/facebookPagePlugin.html" }}  */}}
   </div>
 </section>
 <section class="blog-newest">
