@@ -17,8 +17,8 @@ Wir wollen sicherstellen, dass Sie keine verschlossenen Türen vorfinden. Wir bi
 
 ## Sonnenbeobachtung
 
-**Jeden Sonntag von 10:30 bis 13:00 Uhr**  
-Im Winter (von Oktober bis einschließlich Februar) findet die Sonnenbeobachtung nur jeden zweiten und vierten Sonntag im Monat statt.
+**Jeden Sonntag von 10:30 bis 13:00 Uhr (im Sommer)**  
+In den Wintermonaten (von Oktober bis einschließlich Februar) findet die Sonnenbeobachtung nur jeden zweiten und vierten Sonntag im Monat statt.
 
 {{< panel >}}
 Bei ungünstigen Wetterbedingungen wie hohen Temperaturen (>30 °C) oder schlechtem Wetter findet keine Sonnenbeobachtung statt.
@@ -28,9 +28,8 @@ Bei ungünstigen Wetterbedingungen wie hohen Temperaturen (>30 °C) oder schlech
 
 ## VHS-Vorträge
 
-**Jeden letzten Freitag im Monat um 20:00 Uhr**  
-Sofern das Wetter es zulässt, gibt es anschließend immer die Möglichkeit zur Beobachtung verschiedener Himmelskörper durch unsere Instrumente.
+Sofern nicht anders [angeküngt](/vhs), finden die VHS-Vorträge **jeden letzten Freitag im Monat um 20:00 Uhr** statt.  
+An diesen Tagen entfällt der Vereinsabend.
+Sollte das Wetter es zulassen, gibt es nach dem Vortrag die Möglichkeit zur Beobachtung des Nachthimmels durch unsere Instrumente.
 
 [Zu den aktuellen VHS-Vorträgen](/vhs)
-
-[Weitere Informationen](/vortraege)
