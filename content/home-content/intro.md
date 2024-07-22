@@ -1,8 +1,11 @@
 ---
 date: 2021-04-06T16:43:04+02:00
 ---
+{{< panel class=info >}}
+Der **Tag der offenen Tür** (ursprünglich geplant für den 19. Mai 2024) wurde verschoben und mit dem **Astronomietag** zusammengelegt. [Weitere Informationen finden Sie hier](/blog/2024/astronomietag-2024/)
+{{< /panel >}}
 
-
+---
 
 {{< text-with-img-right width="350px" src="svg/abk_logo.svg" alt="Logo der Astro-Börse Kreuznach" >}}
 
@@ -10,26 +13,9 @@ date: 2021-04-06T16:43:04+02:00
 
 Liebe Hobbyastronomen und Freunde der Astronomie,
 
-mit großem Bedauern müssen wir mitteilen, dass die für den 19.10.2024 geplante Astronomiebörse Kreuznach leider nicht stattfinden kann. Trotz der Begeisterung und Vorfreude, die wir alle für dieses Event geteilt haben, sehen wir uns als Verein aufgrund eines akuten Mangels an ehrenamtlichen Helfern und unvorhergesehenen Verzögerungen bei den Umbaumaßnahmen der Veranstaltungshalle gezwungen, die Messe abzusagen.
-
-Wir verstehen, dass diese Nachricht enttäuschend ist, und möchten uns bei allen entschuldigen, die sich bereits auf die Messe vorbereitet und gefreut haben. Mit dem akuten Mangel an aktiven Vereinsmitgliedern geht es uns derzeit leider wie vielen anderen Vereinen in Deutschland. Mit der Folge, dass wir unsere Arbeit in der nahen Zukunft zunächst auf die Gewinnung neuer Mitglieder fokussieren werden. Wir schätzen Ihre Unterstützung und Ihr Verständnis in dieser Situation sehr.
-
-Bitte bleiben Sie über unsere Website und sozialen Medienkanäle auf dem Laufenden, um Neuigkeiten und Updates zu erhalten. Wir freuen uns darauf, Sie in naher Zukunft bei einer unserer Veranstaltungen begrüßen zu dürfen.
-
-Mit freundlichen Grüßen  
-Ihr Team der Astrobörse Kreuznach
-
-
-Weitere Informationen finden Sie unter  
-[https://www.astroboersekreuznach.de/](https://www.astroboersekreuznach.de/)
+mit großem Bedauern müssen wir mitteilen, dass die für den 19.10.2024 geplante Astronomiebörse Kreuznach leider nicht stattfinden kann. [Weitere Informationen finden Sie hier](/blog/2024/absage-der-abk/)
 
 {{< /text-with-img-right >}}
-
----
-{{< panel class=warning >}}
-Der **Tag der offenen Tür** (ursprünglich geplant für den 19. Mai 2024) wird verschoben.  
-Sobald ein neuer Termin feststeht werden wir dies hier bekanntgeben.  
-{{< /panel >}}
 
 ---
 
