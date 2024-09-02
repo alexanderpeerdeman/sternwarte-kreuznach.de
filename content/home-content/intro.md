@@ -1,21 +1,11 @@
 ---
 date: 2021-04-06T16:43:04+02:00
 ---
-{{< panel class=info >}}
-Der **Tag der offenen Tür** (ursprünglich geplant für den 19. Mai 2024) wurde verschoben und mit dem **Astronomietag** zusammengelegt. [Weitere Informationen finden Sie hier](/blog/2024/astronomietag-2024/)
-{{< /panel >}}
 
----
+{{< imageWithClass src="/blog/2024/astronomietag-2024/VdS_Astronomietag-2024_Banner-Astrotreff_333x50.jpg" alt="Astronomietag am 19. Oktober 2024 Banner" class="" >}}
 
-{{< text-with-img-right width="350px" src="svg/abk_logo.svg" alt="Logo der Astro-Börse Kreuznach" >}}
-
-## ABK 2024 muss leider ausfallen
-
-Liebe Hobbyastronomen und Freunde der Astronomie,
-
-mit großem Bedauern müssen wir mitteilen, dass die für den 19.10.2024 geplante Astronomiebörse Kreuznach leider nicht stattfinden kann. [Weitere Informationen finden Sie hier](/blog/2024/absage-der-abk/)
-
-{{< /text-with-img-right >}}
+Der **Tag der offenen Tür / Astronomietag** findet am Samstag, den **19. Oktober 2024**, ab 14:00 Uhr auf dem Gelände der Sternwarte statt.  
+[Weitere Informationen](/blog/2024/astronomietag-2024/)
 
 ---
 

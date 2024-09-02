@@ -22,7 +22,13 @@ menu:
 
 Seit vielen Jahren bieten wir unseren Gästen ein umfangreiches Vortragsprogramm an. Die meisten Besucher unserer Vorträge sind Schüler aus allen Bereichen und jeden Alters. Sogar Kindergärten haben vermehrt Interesse an der Astronomie gezeigt. Wir sind bemüht, den Erwachsenen, Jugendlichen und Kindern einen umfassenden Überblick über die Geschehnisse im Universum zu geben. So werden viele Bereiche der Astronomie leicht verständlich - aber wissenschaftlich korrekt - vermittelt.
 
-Gruppenführungen sind nur **Montags bis Donnerstags** nach Terminvereinbarung möglich. Kontaktieren Sie uns [hier](/kontakt).
+Gruppenführungen sind nur **Montags bis Donnerstags** nach Terminvereinbarung möglich. 
+
+{{< panel class=warning >}}
+Bitte beachten Sie, dass aus personellen Gründen **nur ein Termin pro Tag** gebucht werden kann.
+{{< /panel >}}
+
+ Kontaktieren Sie uns [hier](/kontakt).
 
 {{< button link="/uploads/Programmangebot-Sternwarte-Bad-Kreuznach.pdf" text="Download Programmangebot" class="small" >}}
 
