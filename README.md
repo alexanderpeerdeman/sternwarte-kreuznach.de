@@ -1,11 +1,25 @@
 # [sternwarte-kreuznach.de](https://sternwarte-kreuznach.de/)
 
-Website generation via hugo static site generator, deployment via github actions
+Die Website wird mithilfe des **hugo** static site generator (SSG) gebaut und mithilfe von Github Actions automatisch bereitgestellt.
 
-## Instructions
+## Entwicklungsanweisungen
 
-To start the live-reloading server built-in to hugo, use
+Um den **Live-Entwicklungsserver** zu starten, verwende
 
 ```
-hugo server -D --disableFastRender
+hugo server
+```
+
+oder wenn die Seite nicht richtig neu lädt, mit der zusätzlichen Flag `--disableFastRender`.
+
+Um auch **Entwürfe** (drafts) mitauszugeben:
+
+```
+hugo server -D
+```
+
+Um den Live-Server von **anderen Geräten im Netwerk** erreichbar zu machen, verwende:
+
+```
+hugo server -D --bind 0.0.0.0
 ```
