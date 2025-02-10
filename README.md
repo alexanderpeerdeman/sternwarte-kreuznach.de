@@ -24,3 +24,8 @@ To deploy the static site onto staging environment [uberspace](https://apeer.ube
 ## Search
 
 Inspiration for using Hugo to create the search index was taken from [https://palant.info/2020/06/04/the-easier-way-to-use-lunr-search-with-hugo/](https://palant.info/2020/06/04/the-easier-way-to-use-lunr-search-with-hugo/)
+
+VHS Vorträge, der Eintrag Date.
+Immer das momentane Datum eintragen.
+
+Zeilenumbrüche anlegen: Zwei Leerzeichen am Ende der Zeile.
