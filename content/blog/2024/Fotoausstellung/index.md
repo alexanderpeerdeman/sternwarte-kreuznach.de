@@ -5,7 +5,7 @@ images:
 - thumbnail.jpg
 ---
 
-Die Sternwarte präsentiert ab dem **31. Januar 2025** in Zusammenarbeit mit der Stadtbibliothek Bad Kreuznach eine Fotoausstellung mit dem Thema **Astrofotografie**. 
+Die Sternwarte präsentiert ab dem **31. Januar 2025** in Zusammenarbeit mit der [Stadtbibliothek Bad Kreuznach](https://www.bad-kreuznach.de/tourismus-kultur-sport/stadtbibliothek/aktuelles-neu/fotoausstellung-astrofotografie/) eine Fotoausstellung mit dem Thema **Astrofotografie**. 
 
 Sie können dort 30 Fotos mit astronomischen Motiven bewundern, die von Mitgliedern der Sternwarte aufgenommen wurden. **Der Eintritt ist frei**. 
 
