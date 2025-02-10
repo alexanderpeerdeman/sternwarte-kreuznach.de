@@ -15,6 +15,6 @@ Als Auftakt findet am **31. Januar ab 19 Uhr** eine Vernissage mit einem feierli
 
 Wir laden Sie recht herzlich zum Besuchen der Ausstellung ein und würden uns freuen, wenn Sie auch an der Eröffnungsveranstaltung teilnehmen. 
 
-Die Ausstellung ist bis **Ende März** geöffnet.
+Die Ausstellung bleibt bis zum **22. März** geöffnet.
 
 ![Plakat der Fotoausstellung](Plakat-Fotoausstellung.jpg)
