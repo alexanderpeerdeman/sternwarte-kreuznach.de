@@ -7,8 +7,6 @@ resources:
 ---
 
 Wir wünschen allen Besuchern  
-besinnliche Weihnachten  
+besinnliche **Weihnachten**  
 und einen  
-guten Rutsch ins neue Jahr.
-
-Bleiben oder werden Sie gesund!
+**guten Rutsch** ins Jahr 2025!
