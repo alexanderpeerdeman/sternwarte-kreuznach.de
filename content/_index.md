@@ -5,9 +5,17 @@ date: 2020-08-11T00:41:25+02:00
 
 ## Öffnungszeiten
 
+{{< panel class=danger >}}
+Achtung: Geänderte Öffnungszeiten!
+{{< /panel >}}
+
 **Freitags ab 19:00 Uhr:**  
 Öffentliche Himmelsbeobachtung & Vereinsabend.  
  Besucher sind recht herzlich willkommen. Der Eintritt ist frei.
+
+{{< panel class=danger >}}
+Neu: Ausgenommen davon ist **jeweils der zweite Freitag im Monat**. Hier finden rein **vereinsinterne Treffen** statt.
+{{< /panel >}}
 
 {{< panel >}}
 Wir wollen sicherstellen, dass Sie keine verschlossenen Türen vorfinden. Wir bitten deshalb um vorherige Anmeldung oder Absprache mit uns. Am besten per [Mail](/kontakt).

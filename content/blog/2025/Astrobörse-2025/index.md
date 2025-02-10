@@ -1,6 +1,6 @@
 ---
 title: Dritte Astrobörse
-date: 2024-12-23 17:49:03
+date: 2025-02-10 21:00:00
 draft: true
 images:
   - ABK-Logo-2.jpg
@@ -15,16 +15,27 @@ Und wir freuen uns, dieses Mal die Räumlichkeiten vom [Schloss Rheingrafenstein
 
 Die Börse richtet sich an private Hobbyastronomen, die nicht mehr benötigtes Equipment mit anderen Astronomiebegeisterten tauschen oder untereinander verkaufen möchten. Auch für den regen Austausch von Wissen und Expertise bietet die Börse ausreichend Gelegenheit.
 
+
+{{< panel class=danger >}}
 Todo:
 
 - Das Schloss Rheingrafenstein stellt die Verpflegung. Essen und Getränke.
 - Vorträge werden auch angeboten.
+  - Das Gelände der Sternwarte ist zeitgleich geöffnet und steht für Führungen und Kurzvorträge bereit.
+
+{{< /panel >}}
+
 
 <!-- Es stehen 33 Tische zur Verfügung. Buchen Sie einen oder maximal zwei Tische von der Größe 1,60 m x 0,70 m zu einem unschlagbaren Preis. Ein Tisch zu 15 EUR, zwei Tische für 25 EUR. Warten Sie nicht zu lange. -->
 
 ## Sind Sie dabei?
 
-Um für eine gute Planung der Veranstaltung zu sorgen, benötigen wir Ihre Anmeldung - kontaktieren Sie uns: info@sternwarte-kreuznach.de
+
+{{< panel >}}
+Um für eine gute Planung der Veranstaltung zu sorgen, benötigen wir **Ihre Anmeldung**.  
+Ein Anmeldeformular finden Sie auch auf [www.astroboersekreuznach.de](https://www.astroboersekreuznach.de/).
+{{< /panel >}}
+
 
 **Adresse:**  
 Schloss Rheingrafenstein  

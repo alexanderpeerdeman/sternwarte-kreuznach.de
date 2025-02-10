@@ -2,6 +2,11 @@
 date: 2021-04-06T16:43:04+02:00
 ---
 
+{{< panel class=danger >}}
+**Geänderte [Öffnungszeiten](/öffnungszeiten)** ab Februar 2025!
+{{< /panel >}}
+
+
 {{< imageWithClass src="/home-content/Luftbild.jpg" alt="Intro" class="decor" >}}
 
 Wir sind ein eingetragener Verein und haben es zu unserer Aufgabe gemacht, der Bevölkerung die Astronomie näher zu bringen, wissenschaftliche Zusammenhänge zu veranschaulichen und mit unserer professionellen Ausrüstung praktisch vorzuführen.
