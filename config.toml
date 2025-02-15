@@ -12,7 +12,8 @@ anchor = "center"
 
 [[menu.main]]
     weight = 1
-    name = "Über uns"
+    name = "Öffnungszeiten"
+    url = "/oeffnungszeiten"
 
 [[menu.main]]
     weight = 2
@@ -21,18 +22,17 @@ anchor = "center"
 
 [[menu.main]]
     weight = 3
-    name = "Blog"
-    url = "/blog"
-
-[[menu.main]]
-    weight = 4
     name = "Galerie"
     url = "/galerie"
 
 [[menu.main]]
+    weight = 4
+    name = "Blog"
+    url = "/blog"
+
+[[menu.main]]
     weight = 5
-    name = "Öffnungszeiten"
-    url = "/oeffnungszeiten"
+    name = "Über uns"
 
 [[menu.main]]
     weight = 6

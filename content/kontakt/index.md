@@ -4,11 +4,10 @@ date: 2020-08-30T12:38:56+02:00
 aliases: [/infos/anfahrt, /anfahrt, /kontakt, /infos/kontakt]
 ---
 
-{{< panel >}}
 **Mail**: [info@sternwarte-kreuznach.de](mailto:info@sternwarte-kreuznach.de "info@sternwarte-kreuznach.de")
 
-Aufgrund der hohen Nachfrage bitten wir Sie, Ihre Anfragen ausschließlich an diese E-Mail-Adresse zu richten.
-{{< /panel >}}
+
+---
 
 **1. Vorsitzender:**  
 Roland Zahn
