@@ -6,7 +6,6 @@ aliases: [/infos/anfahrt, /anfahrt, /kontakt, /infos/kontakt]
 
 **Mail**: [info@sternwarte-kreuznach.de](mailto:info@sternwarte-kreuznach.de "info@sternwarte-kreuznach.de")
 
-
 ---
 
 **1. Vorsitzender:**  
@@ -51,7 +50,7 @@ Saarstraße 14
 1. Aus Bad Kreuznach kommend, folgen Sie dem Verlauf der Rheingrafenstraße am Tierheim vorbei bis zum Kuhberg.
 2. Aus Richtung Hackenheim oder Wöllstein (L 412) kommend, biegen Sie nach dem Kreisel nach links auf die Panzerstraße ein.
 
-Vor dem Restaurant „Hofgut Rheingrafenstein“ folgen Sie der Beschilderung nach rechts in Richtung „Sternwarte“.  
-Parkplätze finden Sie vor dem „Schloß Rheingrafenstein“. Nehmen Sie den linken Weg und nach ca. 200 Metern Fußweg sind Sie am Ziel.
+Vor dem Restaurant Hofgut Rheingrafenstein folgen Sie der Beschilderung nach rechts in Richtung Sternwarte.  
+Parkplätze finden Sie um das Schloss Rheingrafenstein. Nehmen Sie den linken Weg und nach ca. 200 Metern Fußweg sind Sie am Ziel.
 
 ![Tor zur Sternwarte](vitrine.jpg)
