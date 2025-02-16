@@ -79,6 +79,7 @@ footer {
       }
 
       .links {
+        line-height: 1.25;
         @media #{$phone} {
           max-width: unset;
         }
@@ -86,6 +87,9 @@ footer {
         ul {
           list-style-type: none;
           padding: 0;
+          li {
+            margin-bottom: 0.4rem;
+          }
         }
       }
 
