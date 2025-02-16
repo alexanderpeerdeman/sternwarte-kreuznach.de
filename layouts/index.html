@@ -1,7 +1,14 @@
 {{ define "main" }}
-<section class="content">
-<h1 id="herzlich-willkommen">Herzlich Willkommen auf der Website der <span class="nowrap">Sternwarte Bad Kreuznach e.V.</span></h1>
+<section id="landing-container">
+  <div id="landing">
+    <div>Sternwarte Bad Kreuznach e.V.</div>
+    <div>Willkommen</div>
+    <div>Das Universum zum Greifen nah!</div>
+    <div>Erfahren Sie mehr über Astronomie. Schauen Sie vorbei!</div>
+  </div>
 </section>
+
+{{/*
 {{ range first 1 (where .Site.RegularPages "Type" "blog") }}
 
 {{ if (and (index .Params "announceUntilDate") ((time.AsTime .Params.announceUntilDate).After time.Now)) }}
@@ -35,11 +42,14 @@
   <hr>
 </div>
 {{ end }}{{ end }}
+*/}}
+
 <section class="content">
 {{ with (.GetPage "home-content/intro") }}
 {{ .Content }}
 {{ end }}
 </section>
+
 {{ with .GetPage "home-content/featured" }}
 <section id="featured">
   <article

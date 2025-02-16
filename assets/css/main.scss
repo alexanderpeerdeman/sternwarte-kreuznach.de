@@ -1,27 +1,27 @@
 $fa-font-path: "/fonts/fontawesome";
-@import '../icons/fontawesome.scss';
-@import '../icons/regular.scss';
-@import '../icons/solid.scss';
-@import '../icons/brands.scss';
+@import "../icons/fontawesome.scss";
+@import "../icons/regular.scss";
+@import "../icons/solid.scss";
+@import "../icons/brands.scss";
 
-@import 'abstracts/responsive';
-@import 'abstracts/typography';
+@import "abstracts/responsive";
+@import "abstracts/typography";
 
-@import 'layout/header';
-@import 'layout/navigation';
-@import 'layout/footer';
-@import 'layout/sections';
+@import "layout/header";
+@import "layout/navigation";
+@import "layout/footer";
+@import "layout/sections";
 
-@import 'components/pagination';
-@import 'components/button';
-@import 'components/frame';
-@import 'components/panel';
-@import 'components/image';
+@import "components/pagination";
+@import "components/button";
+@import "components/frame";
+@import "components/panel";
+@import "components/image";
 
-@import 'pages/home';
-@import 'pages/blog';
-@import 'pages/post';
-@import 'pages/vhs';
-@import 'pages/talk';
-@import 'pages/archiv';
-@import 'pages/galerie';
+@import "pages/home";
+@import "pages/blog";
+@import "pages/post";
+@import "pages/vhs";
+@import "pages/talk";
+@import "pages/archiv";
+@import "pages/galerie";
