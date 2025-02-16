@@ -8,7 +8,7 @@ timeZone = 'Europe/Berlin'
 anchor = "center"
 
 [params]
-    description = "This is the Sternwarte Website built with Hugo"
+    description = "Astronomie in Bad Kreuznach"
 
 [[menu.main]]
     weight = 1
