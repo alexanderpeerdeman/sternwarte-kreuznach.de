@@ -1,6 +1,8 @@
 ---
 title: Messiermarathon
 date: 2018-03-12 11:56:36
+images: 
+    - messiermarathon.jpg
 summary: Vorausgesetzt das Wetter spielt mit, können in dieser Nacht alle 110 Messier-Objekte beobachtet werden.
 ---
 Die Sternwarte Bad Kreuznach lädt ein zum:

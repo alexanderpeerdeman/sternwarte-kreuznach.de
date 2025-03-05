@@ -128,7 +128,7 @@
         >
           <div class="post-image">
             {{ if .Params.images }} {{ with (.Resources.GetMatch (index
-            .Params.images 0)).Fill "600x330 q80 smart" }}
+            .Params.images 0)).Fill "600x330 q80" }}
             <img src="{{ .RelPermalink }}" alt="{{ .Title }}" />
             {{ end }} {{ end }}
           </div>
