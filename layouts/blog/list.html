@@ -18,7 +18,7 @@
             </a>
             <div class="post-info">
                 {{ with .PublishDate }}
-                <time class="date published"
+                Veröffentlicht am <time class="date published"
                     datetime='{{ . }}'>{{ partial "date.html" (dict "date" . "monate" $.Site.Data.monate )}}</time>
                 {{ end }}
             </div>

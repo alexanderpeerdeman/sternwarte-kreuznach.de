@@ -1,41 +1,34 @@
 ---
 title: Dritte Astrobörse
-date: 2025-02-10 21:00:00
-draft: true
+date: 2025-03-05 16:00:00
 images:
-  - ABK-Logo-2.jpg
+  - ABK-Logo.png
 ---
 
 [www.astroboersekreuznach.de](https://www.astroboersekreuznach.de/)
 
-Bereits das dritte Mal findet unsere Astrobörse statt. Es ist dieses Jahr wieder eine öffentliche Veranstaltung, allerdings ohne Fachaussteller.
-Sie findet am **Samstag den 6. September 2025 von 10 bis 18 Uhr** statt.
+Bereits zum dritten Mal findet unsere Astrobörse statt! Dieses Jahr ist es wieder eine öffentliche Veranstaltung, allerdings ohne Fachaussteller. Die Börse findet am **Samstag, den 6. September 2025, von 10 bis 18 Uhr** statt.
 
-Und wir freuen uns, dieses Mal die Räumlichkeiten vom [Schloss Rheingrafenstein](https://www.schlossrheingrafenstein.de/) benutzen zu dürfen. Das Schloss befindet sich unweit des Geländes der Sternwarte und bietet ausreichend kostenfreie Parkplätze. Sowohl die Zufahrt als auch die Räumlichkeiten sind barrierefrei zugänglich.
+Wir freuen uns besonders, dieses Mal die **Räumlichkeiten des Schlosses Rheingrafenstein** nutzen zu dürfen. Das Schloss liegt unweit des Geländes der Sternwarte und bietet **ausreichend kostenfreie Parkplätze**. Sowohl die **Zufahrt als auch die Räumlichkeiten** sind barrierefrei zugänglich.
 
-Die Börse richtet sich an private Hobbyastronomen, die nicht mehr benötigtes Equipment mit anderen Astronomiebegeisterten tauschen oder untereinander verkaufen möchten. Auch für den regen Austausch von Wissen und Expertise bietet die Börse ausreichend Gelegenheit.
+Die Astrobörse richtet sich an **private Hobbyastronomen**, die nicht mehr benötigtes Equipment mit anderen Astronomiebegeisterten **tauschen oder verkaufen** möchten. Gleichzeitig bietet die Veranstaltung eine großartige Gelegenheit zum **Austausch von Wissen und Erfahrungen**.
 
+Begleitprogramm:
 
-{{< panel class=danger >}}
-Todo:
+- Das **Schloss Rheingrafenstein** stellt die Verpflegung bereit – **Essen und Getränke** sind vor Ort erhältlich.
+- Es werden **Vorträge** zu spannenden astronomischen Themen angeboten.
+- Das **Gelände der Sternwarte ist zeitgleich geöffnet**. Dort werden **Führungen und Kurzvorträge** angeboten.
 
-- Das Schloss Rheingrafenstein stellt die Verpflegung. Essen und Getränke.
-- Vorträge werden auch angeboten.
-  - Das Gelände der Sternwarte ist zeitgleich geöffnet und steht für Führungen und Kurzvorträge bereit.
-
-{{< /panel >}}
-
+Wir freuen uns auf eine tolle Veranstaltung mit vielen begeisterten Hobbyastronomen!
 
 <!-- Es stehen 33 Tische zur Verfügung. Buchen Sie einen oder maximal zwei Tische von der Größe 1,60 m x 0,70 m zu einem unschlagbaren Preis. Ein Tisch zu 15 EUR, zwei Tische für 25 EUR. Warten Sie nicht zu lange. -->
 
 ## Sind Sie dabei?
 
-
 {{< panel >}}
 Um für eine gute Planung der Veranstaltung zu sorgen, benötigen wir **Ihre Anmeldung**.  
 Ein Anmeldeformular finden Sie auch auf [www.astroboersekreuznach.de](https://www.astroboersekreuznach.de/).
 {{< /panel >}}
-
 
 **Adresse:**  
 Schloss Rheingrafenstein  

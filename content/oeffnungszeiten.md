@@ -29,7 +29,8 @@ Die Sonnenbeobachtung fällt bei ungünstigen Bedingungen wie beispielsweise hoh
 
 ## VHS-Vorträge
 
-Sofern nicht anders [angeküngt](/vhs), finden die VHS-Vorträge **jeden letzten Freitag im Monat um 20:00 Uhr** statt.  
+Sofern nicht anders [angekündigt](/vhs), finden die VHS-Vorträge **jeden letzten Freitag im Monat um 20:00 Uhr** statt.  
 Sollte das Wetter es zulassen, gibt es nach dem Vortrag die Möglichkeit zur Beobachtung des Nachthimmels durch unsere Instrumente.
 
 [Zu den aktuellen VHS-Vorträgen](/vhs)
+    

@@ -4,9 +4,7 @@ date: 2022-05-23 15:46:42
 images:
   - ABK-Logo-2.jpg
 summary: Erste Astronomie-Börse für die Mitte Deutschlands.
---- 
-
-[www.astro-boerse-kreuznach.de](https://www.astro-boerse-kreuznach.de/)
+---
 
 Diese Börse richtet sich an private Hobbyastronomen, die nicht mehr benötigtes Equipment mit anderen astronomiebegeisterten tauschen (verkaufen) möchten. Wir bieten die Räumlichkeiten, mit über 100 kostenfreien Parkplätzen. Zufahrt und Halle sind barrierefrei.
 
