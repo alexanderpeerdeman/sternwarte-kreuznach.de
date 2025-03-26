@@ -58,7 +58,7 @@
   {{- /*  Sort dates and limit to dates in the next two weeks  */ -}}
   {{- $sortedDates := sort $allDates "date" "asc" -}}
   {{- $sortedDates := where $sortedDates "date" "ge" now -}}
-  {{- $sortedDates := where $sortedDates "date" "le" (now.AddDate 0 0 14) -}}
+  {{- $sortedDates := where $sortedDates "date" "le" (now.AddDate 0 0 7) -}}
   {{- range $sortedDates -}}
     <span><time datetime="{{ .date.Format "2006-01-02" }}">
       {{- if eq (.date.Format "2006-01-02") (now.Format "2006-01-02") -}}
