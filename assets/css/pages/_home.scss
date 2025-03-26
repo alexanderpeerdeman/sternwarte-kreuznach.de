@@ -85,35 +85,6 @@
   }
 }
 
-.main-with-aside {
-  display: flex;
-  max-width: 70rem;
-  margin: 0 auto 2rem auto;
-  padding: 0 2rem;
-  justify-content: space-between;
-  align-items: baseline;
-  gap: 2rem;
-  @media #{$phone} {
-    padding: 0 1rem;
-    flex-direction: column;
-    gap: unset;
-  }
-}
-
-.main-content {
-  max-width: 65ch;
-}
-
-.main-aside {
-  max-width: 40ch;
-  min-width: 20ch;
-  @media #{$phone} {
-    width: 100%;
-    max-width: unset;
-    min-width: unset;
-  }
-}
-
 #next-vhs {
   max-width: 70rem;
   .row {
@@ -166,44 +137,7 @@
   }
 }
 
-#cards-wrapper {
-  background-color: #eee;
-  padding: 1rem 0;
-}
-
-.cards {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  max-width: 70rem;
-  margin: 0 auto;
-  padding: 0 1rem;
-  @media #{$phone} {
-    flex-direction: row;
-    justify-content: center;
-  }
-}
-.card {
-  max-width: 28%;
-  margin: 1rem;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  border-radius: 12px;
-  align-items: center;
-  @media #{$phone} {
-    max-width: 100%;
-  }
-}
-.card-header {
-  margin: 0;
-}
-
-.card-content {
-  font-size: 14px;
-}
-
-.blog-newest {
+#blog-newest {
   background-color: #eee;
   padding: 0.5em 0;
   > h2 {
@@ -213,22 +147,6 @@
     @media #{$phone} {
       padding: 0 1rem;
     }
-  }
-}
-
-#blog-featured {
-  > .post-header {
-    > .post-link {
-      > .post-title {
-        padding: 0;
-      }
-      > .post-image {
-        text-align: left;
-      }
-    }
-  }
-  > .post-summary {
-    padding: 0;
   }
 }
 
@@ -247,7 +165,7 @@
   height: 50vw;
 
   @media #{$large} {
-    height: calc(100vh - 67px);
+    height: 75vh;
     font-size: 0.8em;
   }
 
@@ -257,26 +175,58 @@
   }
 
   #landing {
-    width: 66%;
-
     @media #{$phone} {
       width: 80%;
     }
 
-    div:nth-child(1) {
+    > div:nth-child(1) {
       font-size: 3em;
     }
 
-    div:nth-child(2) {
+    > div:nth-child(2) {
       font-size: 10.5em;
     }
 
-    div:nth-child(3) {
+    > div:nth-child(3) {
       font-size: 6em;
     }
 
-    div:nth-child(4) {
+    > div:nth-child(4) {
       font-size: 2.2em;
+    }
+  }
+}
+
+#event-ribbon {
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  line-height: 1.8;
+  padding: 1.2rem 0;
+  > div {
+    max-width: 70rem;
+    padding: 0 1rem;
+    h4 {
+      display: inline-block;
+      font-weight: 700;
+      margin: 0;
+    }
+    > span {
+      display: inline-block;
+      margin-right: 1rem;
+      > a > .vhs {
+        font-weight: 700;
+        padding: 0.1rem 0.2rem;
+        border-radius: 4px;
+        margin-right: 0.2rem;
+      }
+      > time {
+        background-color: lighten($color: #036, $amount: 13);
+        border-radius: 4px;
+        color: white;
+        margin-right: 0.2rem;
+        padding: 0.2rem 0.3rem;
+      }
     }
   }
 }

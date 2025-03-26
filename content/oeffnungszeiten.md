@@ -4,7 +4,7 @@ date: 2020-08-30T12:39:04+02:00
 aliases: [/infos/oeffnungszeiten, /öffnungszeiten, /infos/öffnungszeiten]
 ---
 
-## Himmelsbeobachtung & Vereinsabend
+## Himmelsbeobachtung & Vereinsabend {#vereinsabend}
 
 Erster und dritter Freitag im Monat ab **19:00 Uhr**.  
 Besucher sind recht herzlich willkommen und der Eintritt ist frei.

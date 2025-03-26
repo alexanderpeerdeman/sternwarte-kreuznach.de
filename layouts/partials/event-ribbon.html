@@ -1,0 +1,84 @@
+<section id="event-ribbon">
+    <div>
+      <h4>Unsere Veranstaltungen:</h4>
+  {{- /* Vereinsabende */ -}}
+  {{- $currentDate := now.AddDate 0 0 (int (mod (sub 5 (int now.Weekday)) 7)) -}} {{/* Nächster Freitag */}}
+  {{- $vereinsabendDates := slice -}}
+  {{- $limit := 100 -}}
+  {{- range (mul $limit 2) -}}  
+    {{- if ge (len $vereinsabendDates) $limit -}}{{- break -}}{{- end -}}
+    {{- $day := $currentDate.Day -}}
+    {{- $month := $currentDate.Month -}}
+    {{- $fridayCount := (add 1 (div (sub $day 1) 7)) -}} {{/* Calculate which friday of the month it is */}}  
+    
+    {{- /*  Erster oder dritter Freitag  */ -}}
+    {{- if or (eq $fridayCount 1) (eq $fridayCount 3) -}}
+      {{- $vereinsabendDates = $vereinsabendDates | append $currentDate -}}
+    {{- end -}}
+    {{- $currentDate = $currentDate.AddDate 0 0 7 -}}
+  {{- end -}}
+  
+  {{- /* Sonnenbeobachtungsstermine */ -}}
+  {{- $currentDate := now.AddDate 0 0 (int (mod (sub 7 (int now.Weekday)) 7)) -}} {{/* Nächster Sonntag */}}
+  {{- $sonnenbeobachtungDates := slice -}}
+  {{- $limit := 100 -}}
+  {{- range (mul $limit 2) -}}  
+    {{- if ge (len $sonnenbeobachtungDates) $limit }}{{ break }}{{ end }}
+    {{- $day := $currentDate.Day -}}
+    {{- $month := $currentDate.Month -}}
+    {{- $sundayCount := (add 1 (div (sub $day 1) 7)) -}} {{/* Calculate which sunday of the month it is */}}  
+    {{- if and (gt $month 2) (lt $month 10) -}}
+      {{/*  Sommer: Jeder Sonntag  */}}
+      {{- $sonnenbeobachtungDates = $sonnenbeobachtungDates | append $currentDate -}}
+    {{- else -}}
+      {{/*  Winter: Jeder zweite und vierte Sonntag  */}}
+      {{- if or (eq $sundayCount 2) (eq $sundayCount 4) -}}
+        {{- $sonnenbeobachtungDates = $sonnenbeobachtungDates | append $currentDate -}}
+      {{ end }}
+    {{- end -}}
+    {{- $currentDate = $currentDate.AddDate 0 0 7 -}}
+  {{- end -}}
+  
+  {{- $events := where .Site.RegularPages "Params.event_date" "!=" nil -}}  {{/* Get all pages with an 'event_date' */}}
+  {{- $eventDates := slice -}}
+  {{- range $events }}
+    {{- $eventDates = $eventDates | append (dict "date" (time .Params.event_date) "type" "event" "title" .Title "relPermalink" .RelPermalink) }}
+  {{- end -}}
+  
+  {{- $vhsevents := where .Site.RegularPages "Params.talk_date" "!=" nil }}  {{/* Get all pages with an 'talk_date' */}}
+  {{- $vhseventDates := slice }}
+  {{- range $vhsevents }}
+      {{- $vhseventDates = $vhseventDates | append (dict "date" (time .Params.talk_date) "type" "vhsevent" "title" .Title "relPermalink" .RelPermalink) }}
+  {{- end }}
+  {{- $allDates := slice }}
+  {{- range $eventDates }} {{ $allDates = $allDates | append . }} {{ end }}
+  {{- range $vhseventDates }} {{ $allDates = $allDates | append . }} {{ end }}
+  {{- range $vereinsabendDates }} {{ $allDates = $allDates | append (dict "date" . "type" "vereinsabend") }} {{ end }}
+  {{- range $sonnenbeobachtungDates }} {{ $allDates = $allDates | append (dict "date" . "type" "sonnenbeobachtung") }} {{ end }}
+  {{/*  Sort dates and limit to dates in the next two weeks  */}}
+  {{- $sortedDates := sort $allDates "date" "asc" }}
+  {{- $sortedDates := where $sortedDates "date" "ge" now }}
+  {{- $sortedDates := where $sortedDates "date" "le" (now.AddDate 0 0 14) }}
+  {{- range $sortedDates -}}
+    <span><time datetime="{{ .date.Format "2006-01-02" }}">
+      {{- if eq (.date.Format "2006-01-02") (now.Format "2006-01-02") -}}
+      Heute:
+      {{- else if eq (.date.Format "2006-01-02") ((now.AddDate 0 0 1).Format "2006-01-02") -}}
+      Morgen:
+      {{- else -}}
+      {{- .date.Day -}}. {{ index $.Site.Data.monate (printf "%d" .date.Month) }}:
+      {{- end -}}
+      </time>
+      {{- if eq .type "event" -}}
+          <a href="{{- .relPermalink -}}">{{- .title -}}</a>.  
+      {{- else if eq .type "vereinsabend" -}}
+          <a href="/oeffnungszeiten#vereinsabend">Vereinsabend</a>
+      {{- else if eq .type "sonnenbeobachtung" -}}
+          <a href="/oeffnungszeiten#sonnenbeobachtung">Sonnenbeobachtung</a>
+      {{- else if eq .type "vhsevent" -}}
+          <a href="{{- .relPermalink -}}"><span class="vhs">VHS-Vortrag:</span> {{- .title -}}</a>
+      {{- end -}}
+    </span>       
+  {{- end -}}
+    </div>
+  </section>

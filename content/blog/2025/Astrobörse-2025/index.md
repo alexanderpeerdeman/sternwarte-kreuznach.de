@@ -1,6 +1,7 @@
 ---
 title: Dritte Astrobörse
 date: 2025-03-05 16:00:00
+event_date: 2025-09-06
 images:
   - ABK-Logo.png
 ---

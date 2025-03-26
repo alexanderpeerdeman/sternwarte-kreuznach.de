@@ -1,17 +1,18 @@
 ---
-title: Bundesweiter Astronomietag am Samstag, den 29. März 2025
+title: Sonnenfinsternis — Bundesweiter Astronomietag
 date: "2025-02-10T10:07:24"
+event_date: 2025-03-29
 images:
-- Astronomietag-2025.jpg
+  - Astronomietag-2025.jpg
 ---
+
 Die Sternwarte Bad Kreuznach e.V. lädt ein zum:  
 **Bundesweiten Astronomietag am Samstag, den 29. März 2025**
 
 Das Gelände der Sternwarte ist wegen der partiellen Sonnenfinsternis bereits ab 10:00 Uhr für Besucher geöffnet.  
 Der Eintritt ist frei.
 
-
-Das Thema des Astronomietages lautet: 
+Das Thema des Astronomietages lautet:
 
 **Partielle Sonnenfinsternis – Jupiter und seine Monde – roter Planet Mars**
 
@@ -29,7 +30,6 @@ https://astronomietag.de/
 - Interessante Videos rund um das Thema des Astronomietages
 - Beobachtungsmöglichkeit des Nachthimmels
 
-
 Für das leibliche Wohl ist bestens gesorgt.
 
-Wir freuen uns auf Ihren Besuch.  
+Wir freuen uns auf Ihren Besuch.
