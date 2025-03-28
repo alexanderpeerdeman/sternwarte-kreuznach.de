@@ -1,7 +1,7 @@
 ---
 title: Sonnenfinsternis — Bundesweiter Astronomietag
 date: "2025-02-10T10:07:24"
-event_date: 2025-03-29
+event_date: 2025-03-29 10:00:00
 images:
   - Astronomietag-2025.jpg
 ---
