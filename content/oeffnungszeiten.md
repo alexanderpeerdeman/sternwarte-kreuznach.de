@@ -4,7 +4,7 @@ date: 2020-08-30T12:39:04+02:00
 aliases: [/infos/oeffnungszeiten, /öffnungszeiten, /infos/öffnungszeiten]
 ---
 
-## Himmelsbeobachtung & Vereinsabend {#vereinsabend}
+## Öffentliche Himmelsbeobachtung {#himmelsbeobachtung}
 
 Erster und dritter Freitag im Monat ab **19:00 Uhr**.  
 Besucher sind recht herzlich willkommen und der Eintritt ist frei.
@@ -33,4 +33,3 @@ Sofern nicht anders [angekündigt](/vhs), finden die VHS-Vorträge **jeden letzt
 Sollte das Wetter es zulassen, gibt es nach dem Vortrag die Möglichkeit zur Beobachtung des Nachthimmels durch unsere Instrumente.
 
 [Zu den aktuellen VHS-Vorträgen](/vhs)
-    

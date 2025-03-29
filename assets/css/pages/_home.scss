@@ -215,12 +215,6 @@
     > span {
       display: inline-block;
       margin-right: 1rem;
-      > a > .vhs {
-        font-weight: 700;
-        padding: 0.1rem 0.2rem;
-        border-radius: 4px;
-        margin-right: 0.2rem;
-      }
       > time {
         background-color: lighten($color: #036, $amount: 13);
         border-radius: 4px;
