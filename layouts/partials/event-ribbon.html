@@ -4,7 +4,7 @@
   {{- with .Resources.Get "events.csv" -}}
     {{- with . | transform.Unmarshal -}}
       {{- $allDates := slice -}}
-      {{- range . -}}
+      {{- range after 1 . -}}
         {{- $date := (time (index . 0)).Format "2006-01-02" -}}
         {{- $type := index . 1 -}}
         {{- $title := index . 2 -}}
