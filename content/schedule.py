@@ -20,9 +20,15 @@ with open("content/events.csv") as events_file:
         )
 
 
+def is_in_sommerpause(termin: datetime) -> bool:
+    return termin >= datetime(2025, 5, 15) and termin <= datetime(2025, 8, 15)
+
+
 def is_himmelsbeobachtung(termin: datetime) -> bool:
+    # get a calendar for the month of the given date
     month_calendar = calendar.monthcalendar(termin.year, termin.month)
 
+    # assemble a list of fridays this month
     fridays = list()
     for week in month_calendar:
         day_of_friday = week[calendar.FRIDAY]
@@ -31,12 +37,14 @@ def is_himmelsbeobachtung(termin: datetime) -> bool:
 
     himmelsbeobachtung_termine = list()
     first_friday = datetime(termin.year, termin.month, fridays[0])
-    himmelsbeobachtung_termine.append(first_friday)
+
+    if not is_in_sommerpause(first_friday):
+        himmelsbeobachtung_termine.append(first_friday)
 
     third_friday = datetime(termin.year, termin.month,
                             fridays[2]) if len(fridays) >= 3 else None
 
-    if third_friday is not None:
+    if third_friday is not None and not is_in_sommerpause(first_friday):
         himmelsbeobachtung_termine.append(third_friday)
 
     for himmelsbeobachtung_termin in himmelsbeobachtung_termine:
