@@ -1,13 +1,14 @@
 ---
 title: Dritte Astrobörse
-date: 2025-03-05 16:00:00
+date: 2026-12-13 12:00:00
 images:
   - ABK-Logo.png
+draft: true
 ---
 
 [www.astroboersekreuznach.de](https://www.astroboersekreuznach.de/)
 
-Bereits zum dritten Mal findet unsere Astrobörse statt! Dieses Jahr ist es wieder eine öffentliche Veranstaltung, allerdings ohne Fachaussteller. Die Börse findet am **Samstag, den 6. September 2025, von 10 bis 18 Uhr** statt.
+Bereits zum dritten Mal findet unsere Astrobörse statt! Dieses Jahr ist es wieder eine öffentliche Veranstaltung, allerdings ohne Fachaussteller. Die Börse findet am **Samstag, den 5. September 2026, von 10 bis 18 Uhr** statt.
 
 Wir freuen uns besonders, dieses Mal die **Räumlichkeiten des Schlosses Rheingrafenstein** nutzen zu dürfen. Das Schloss liegt unweit des Geländes der Sternwarte und bietet **ausreichend kostenfreie Parkplätze**. Sowohl die **Zufahrt als auch die Räumlichkeiten** sind barrierefrei zugänglich.
 

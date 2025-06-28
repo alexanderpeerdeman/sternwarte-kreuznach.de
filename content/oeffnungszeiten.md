@@ -4,6 +4,12 @@ date: 2020-08-30T12:39:04+02:00
 aliases: [/infos/oeffnungszeiten, /öffnungszeiten, /infos/öffnungszeiten]
 ---
 
+{{< panel class="danger" >}}
+**Sommerpause** vom 15. Mai bis 15. August — Aufgrund der sehr spät eintretenden Dunkelheit.
+
+In diesem Zeitraum findet regulär **keine** öffentliche Himmelsbeobachtung statt
+{{< /panel >}}
+
 ## Öffentliche Himmelsbeobachtung {#himmelsbeobachtung}
 
 Erster und dritter Freitag im Monat ab **19:00 Uhr**.  

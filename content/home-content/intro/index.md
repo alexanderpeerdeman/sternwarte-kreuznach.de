@@ -2,6 +2,10 @@
 date: 2021-04-06T16:43:04+02:00
 ---
 
+{{< panel class="danger" >}}
+⚠️ Geänderte [Öffnungszeiten](/oeffnungszeiten) — Sommerpause bei der regulären Himmelsbeobachtung.
+{{< /panel >}}
+
 Wir sind ein eingetragener Verein und haben es zu unserer Aufgabe gemacht, der Bevölkerung die Astronomie näher zu bringen, wissenschaftliche Zusammenhänge zu veranschaulichen und mit unserer professionellen Ausrüstung praktisch vorzuführen.
 
 Auf unserer Website erfahren Sie sowohl etwas [über uns](/ueber-uns/verein/) als auch über unser [Angebot](/ueber-uns/angebot/) und unsere [VHS-Vorträge](/vhs/). Die Sternwarte gehört zum festen Stadtbild von Bad Kreuznach. Unser [Planetenweg](/ueber-uns/planetenweg) beginnt in der Priegerpromenade und führt Sie bis nach Bad Münster am Stein-Ebernburg.

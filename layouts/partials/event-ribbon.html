@@ -14,7 +14,7 @@
       {{- end -}}
 
       {{- $allDates := where $allDates "date" "ge" (now.Format "2006-01-02") -}}
-      {{- $allDates := where $allDates "date" "le" ((now.AddDate 0 0 28).Format "2006-01-02") -}}
+      {{- $allDates := where $allDates "date" "le" ((now.AddDate 0 0 50).Format "2006-01-02") -}}
       
       {{- range $allDates }}
     <span><time datetime="{{ .date }}">
@@ -27,7 +27,11 @@
       {{- end -}}
       </time>
       {{- if eq .type "event" -}}
+          {{- if .relPermalink -}}
           <a href="{{- .relPermalink -}}"><strong>{{- .title -}}</strong></a>
+          {{- else -}}
+          <strong>{{- .title -}}</strong>
+          {{- end -}}
       {{- else if eq .type "himmelsbeobachtung" -}}
           <a href="/oeffnungszeiten#himmelsbeobachtung">Öffentliche Himmelsbeobachtung</a>
       {{- else if eq .type "sonnenbeobachtung" -}}
