@@ -15,14 +15,13 @@
                     {{ $span := math.Ceil (div $resized_height $segment_size) }}                   
                     <div class="galerie-item"{{ if gt $span 0 }} style="grid-row: span {{ $span }};"{{ end }}>
                         {{ $quantized_height := (add (mul $segment_size $span) (mul (mul 2 $padding) (sub $span 2))) }}
-                        {{ $formatting_string := (print "500x" $quantized_height " q50 jpg") }}
+                        {{ $formatting_string := (print "500x" $quantized_height) }}
                         <a href="{{ $page.RelPermalink }}" title="{{ $page.Title }}">
                             {{ with .Fill $formatting_string }}
                                 <img src="{{ .RelPermalink }}" alt="{{ $page.Title }}" loading="lazy" width="{{ .Width }}" height="{{ .Height }}">
                             {{ end }}                     
                         </a>           
                     </div>
-
                 {{ end }}
             {{ end }}
         {{ end }}

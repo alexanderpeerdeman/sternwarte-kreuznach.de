@@ -63,7 +63,7 @@
         <a class="post-link" href="{{ .RelPermalink }}" title='Permanenter Link zu "{{ .Title }}"'>
           <div class="post-image">
             {{ if .Params.images }}
-            {{ with (.Resources.GetMatch (index .Params.images 0)).Fill "600x330 q80" }}
+            {{ with (.Resources.GetMatch (index .Params.images 0)).Fill "600x330" }}
             <img src="{{ .RelPermalink }}" alt="{{ .Title }}" />
             {{ end }}
             {{ end }}
