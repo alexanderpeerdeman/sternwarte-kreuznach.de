@@ -2,7 +2,7 @@
 title: "Nr. 10: Mond"
 date: "2025-07-13T10:33:10"
 images:
-  - 10.tif
+  - 10.jpg
 type: galerie
 creator: Johannes Lind
 weight: 10
