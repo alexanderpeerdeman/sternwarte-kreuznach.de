@@ -8,7 +8,7 @@
 </div>
 <article class="content galerie-detail-view">
     {{ if .Params.images }}
-        {{ with (.Resources.GetMatch (index .Params.images 0)) }}
+        {{ with (.Resources.GetMatch (index .Params.images 0)).Process "q90 webp" }}
             <a href="{{ .RelPermalink }}" title="{{ $page.Title }}"><img src="{{ .RelPermalink }}" alt="{{ $page.Title }}"></a>
         {{ end }}
     {{ end }}

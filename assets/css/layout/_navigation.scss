@@ -82,6 +82,12 @@
     width: calc(100vw - calc(2 * 1rem));
     padding: 0 1rem;
   }
+  .highlight {
+    a {
+      font-weight: 700;
+      text-shadow: 0 0 20px white;
+    }
+  }
 }
 
 .navbar a,

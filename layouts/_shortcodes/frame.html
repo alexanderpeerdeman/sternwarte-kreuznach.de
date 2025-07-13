@@ -1,0 +1,7 @@
+<div class="frame">
+  <img src='{{ .Get "src" }}' alt='{{ .Get "alt" }}' />
+  <div class="frame-content">
+    {{ if .Get "title"}}<h3>{{ .Get "title" }}</h3>{{ end }}
+    {{ .Inner | markdownify }}
+  </div>
+</div>

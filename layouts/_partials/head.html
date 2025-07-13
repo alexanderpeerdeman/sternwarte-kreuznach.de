@@ -1,0 +1,15 @@
+{{ $sass := resources.Get "css/main.scss" }}
+{{ $styles := $sass | css.Sass (dict "outputStyle" "compressed" "enableSourceMap" true) | minify | fingerprint "sha512" }}
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>{{ if not .IsHome }}{{ with .Title }}{{ . }} | {{ end }}{{ end }}{{ .Site.Title }}</title>
+    <meta name="description" content='{{ with .Description }}{{ . }}{{ else }}{{ with .Summary }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}{{ end }}'>
+    <link rel="canonical" href="{{ .Permalink }}" />
+    <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
+    <link rel="stylesheet" href='{{ relURL "fonts/metropolis/WOFF2/metropolis.css" }}'>
+    
+    {{- partial "favicon.html" . -}}
+    {{ partial "opengraph.html" . }}
+    {{ partial "twitter_cards.html" . }}
+</head>
