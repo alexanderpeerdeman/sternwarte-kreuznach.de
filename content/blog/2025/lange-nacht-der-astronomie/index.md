@@ -6,7 +6,7 @@ images:
 ---
 
 Die Sternwarte Bad Kreuznach e.V. lädt ein zur:  
-**Langen Nacht der Astronomietag am Samstag, den 13. September 2025**
+**Langen Nacht der Astronomie am Samstag, den 13. September 2025**
 
 Das Gelände der Sternwarte ist ab 20:00 Uhr für Besucher geöffnet.  
 Der Eintritt ist frei, Spenden sind gerne gesehen.  
