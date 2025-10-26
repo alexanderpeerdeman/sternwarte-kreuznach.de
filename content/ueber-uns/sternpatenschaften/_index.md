@@ -2,9 +2,9 @@
 title: "Sternpatenschaften"
 date: 2020-08-30T12:35:18+02:00
 menu:
-    main: 
-        parent: 'Über uns'
-        weight: 9
+  main:
+    parent: "Über uns"
+    weight: 9
 ---
 
 ## Werden Sie Sternpate
@@ -18,5 +18,9 @@ Mit Anschaffungen wie Teleskopen und Zubehör sowie modernen Präsentationsmitte
 
 ## Eine Patenschaft beantragen
 
-Schreiben Sie uns einfach eine E-Mail oder rufen Sie uns an. [Umfangreiches Infomaterial](sternpatenschaft-staffelung.pdf) bieten wir Ihnen hier zum Download an.
-Da die Sternwarte Bad Kreuznach vom Finanzamt als gemeinnützig anerkannt ist, erhalten Sie auf jeden Fall eine entsprechende Spendenquittung.
+Schreiben Sie uns einfach eine E-Mail oder rufen Sie uns an.  
+Zusätzlich stellen wir Ihnen Infomaterial zum Thema Sternpatenschaft als Download bereit.
+
+{{< button link="sternpatenschaft-staffelung.pdf" text="Download Infomaterial Sternpatenschaften" >}}
+
+Da die Sternwarte Bad Kreuznach als gemeinnützig anerkannt ist, erhalten Sie eine entsprechende Spendenquittung.
