@@ -1,6 +1,5 @@
 ---
 headless: true
-draft: true
 resources:
     - name: picture
       src: Weihnachtsgrüße.jpg
@@ -9,4 +8,4 @@ resources:
 Wir wünschen allen Besuchern  
 besinnliche **Weihnachten**  
 und einen  
-**guten Rutsch** ins Jahr 2025!
+**guten Rutsch** ins Jahr 2026!
