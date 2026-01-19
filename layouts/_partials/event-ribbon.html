@@ -1,20 +1,21 @@
+{{- with .Resources.Get "events.csv" -}}
+  {{- with . | transform.Unmarshal -}}
+    {{- $allDates := slice -}}
+    {{- range after 1 . -}}
+      {{- $date := (time (index . 0)).Format "2006-01-02" -}}
+      {{- $type := index . 1 -}}
+      {{- $title := index . 2 -}}
+      {{- $relPermalink := index . 3 -}}
+
+      {{- $allDates = $allDates | append (dict "date" $date "type" $type "title" $title "relPermalink" $relPermalink) -}}
+    {{- end -}}
+
+    {{- $allDates := where $allDates "date" "ge" (now.Format "2006-01-02") -}}
+    {{- $allDates := where $allDates "date" "le" ((now.AddDate 0 0 50).Format "2006-01-02") -}}
+    {{- if ge (len $allDates) 1 }}
 <section id="event-ribbon">
   <div>
     <h4>Unsere nächsten Termine:</h4>
-  {{- with .Resources.Get "events.csv" -}}
-    {{- with . | transform.Unmarshal -}}
-      {{- $allDates := slice -}}
-      {{- range after 1 . -}}
-        {{- $date := (time (index . 0)).Format "2006-01-02" -}}
-        {{- $type := index . 1 -}}
-        {{- $title := index . 2 -}}
-        {{- $relPermalink := index . 3 -}}
-
-        {{- $allDates = $allDates | append (dict "date" $date "type" $type "title" $title "relPermalink" $relPermalink) -}}
-      {{- end -}}
-
-      {{- $allDates := where $allDates "date" "ge" (now.Format "2006-01-02") -}}
-      {{- $allDates := where $allDates "date" "le" ((now.AddDate 0 0 50).Format "2006-01-02") -}}
       
       {{- range $allDates }}
     <span><time datetime="{{ .date }}">
@@ -45,3 +46,4 @@
 {{- end }}
   </div>
 </section>
+ {{- end -}}
