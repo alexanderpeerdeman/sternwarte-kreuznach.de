@@ -51,6 +51,13 @@ footer {
         }
       }
 
+      #abk-logo {
+        img {
+          height: 6rem;
+          margin-top: .5rem;
+        }
+      }
+
       .other-logos {
         padding: 1rem 0 0;
         h1,
@@ -79,6 +86,7 @@ footer {
       }
 
       .links {
+        line-height: 1.25;
         @media #{$phone} {
           max-width: unset;
         }
@@ -86,6 +94,9 @@ footer {
         ul {
           list-style-type: none;
           padding: 0;
+          li {
+            margin-bottom: 0.4rem;
+          }
         }
       }
 

@@ -1,0 +1,26 @@
+<article>
+    <div class="talk-entry">
+        <span class="vhs-title-prelude">VHS-Vortrag</span>
+        <a href="{{ .RelPermalink }}" title='Permanenter Link zu "{{ .Title }}"'>
+            <h2>{{ .Title | plainify }}</h2>
+        </a>
+        <div class="talk-meta">
+            {{ with .Params.talk_date }}
+            am 
+            <time class="date published" datetime='{{ . }}'>
+                {{ partial "date.html" (dict "date" . "monate" $.Site.Data.monate )}}
+            </time>
+            {{ end }}
+        </div>
+        <p>{{ .Summary }}</p>
+    </div>
+    <div class="talk-thumb">
+        {{ if .Params.talk_images }}
+        <a href="{{ .RelPermalink }}" title='Permanenter Link zu "{{ .Title }}"'>
+            {{ with (.Resources.GetMatch (index .Params.talk_images 0)).Fill "723x400" }}
+            <img class="vhs-image" src="{{ .RelPermalink }}" alt="{{ .Title }}">
+            {{ end }}
+        </a>
+        {{ end }}
+    </div>
+</article>

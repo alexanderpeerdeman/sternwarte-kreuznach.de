@@ -1,0 +1,47 @@
+<section id="event-ribbon">
+  <div>
+    <h4>Unsere nächsten Termine:</h4>
+  {{- with .Resources.Get "events.csv" -}}
+    {{- with . | transform.Unmarshal -}}
+      {{- $allDates := slice -}}
+      {{- range after 1 . -}}
+        {{- $date := (time (index . 0)).Format "2006-01-02" -}}
+        {{- $type := index . 1 -}}
+        {{- $title := index . 2 -}}
+        {{- $relPermalink := index . 3 -}}
+
+        {{- $allDates = $allDates | append (dict "date" $date "type" $type "title" $title "relPermalink" $relPermalink) -}}
+      {{- end -}}
+
+      {{- $allDates := where $allDates "date" "ge" (now.Format "2006-01-02") -}}
+      {{- $allDates := where $allDates "date" "le" ((now.AddDate 0 0 50).Format "2006-01-02") -}}
+      
+      {{- range $allDates }}
+    <span><time datetime="{{ .date }}">
+      {{- if eq .date (now.Format "2006-01-02") -}}
+      Heute:
+      {{- else if eq .date ((now.AddDate 0 0 1).Format "2006-01-02") -}}
+      Morgen:
+      {{- else -}}
+      {{- (time .date).Day -}}. {{ index $.Site.Data.monate (printf "%d" (time .date).Month) -}}:
+      {{- end -}}
+      </time>
+      {{- if eq .type "event" -}}
+          {{- if .relPermalink -}}
+          <a href="{{- .relPermalink -}}"><strong>{{- .title -}}</strong></a>
+          {{- else -}}
+          <strong>{{- .title -}}</strong>
+          {{- end -}}
+      {{- else if eq .type "himmelsbeobachtung" -}}
+          <a href="/oeffnungszeiten#himmelsbeobachtung">Öffentliche Himmelsbeobachtung</a>
+      {{- else if eq .type "sonnenbeobachtung" -}}
+          <a href="/oeffnungszeiten#sonnenbeobachtung">Sonnenbeobachtung</a>
+      {{- else if eq .type "vhs" -}}
+          <a href="{{- .relPermalink -}}"><strong>VHS-Vortrag:</strong> {{ .title }}</a>
+      {{- end -}}
+  </span>   
+    {{- end -}}
+  {{- end -}}
+{{- end }}
+  </div>
+</section>

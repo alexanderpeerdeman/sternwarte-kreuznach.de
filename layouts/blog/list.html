@@ -2,14 +2,14 @@
 <div class="blog-header titlebar">
     <h1 class="title">{{ .Title }}</h1>
 </div>
-<div class="posts-grid">        
-    {{ range (.Paginator 12).Pages }}
+<div class="posts-grid">    
+    {{ range (.Paginate .Pages 12).Pages }}
     <article class="post">
         <header class="post-header">
             <a class="post-link" href="{{ .RelPermalink }}" title='Permanenter Link zu "{{ .Title }}"'>
                 <div class="post-image">
                     {{ if .Params.images }}
-                        {{ with (.Resources.GetMatch (index .Params.images 0)).Fill "600x330 q80 smart" }}
+                        {{ with (.Resources.GetMatch (index .Params.images 0)).Fill "600x330" }}
                             <img src="{{ .RelPermalink }}" alt="{{ .Title }}">
                         {{ end }}
                     {{ end }}
@@ -18,7 +18,7 @@
             </a>
             <div class="post-info">
                 {{ with .PublishDate }}
-                <time class="date published"
+                Veröffentlicht am <time class="date published"
                     datetime='{{ . }}'>{{ partial "date.html" (dict "date" . "monate" $.Site.Data.monate )}}</time>
                 {{ end }}
             </div>
@@ -30,5 +30,5 @@
     </article>
     {{ end }}
 </div>    
-{{ template "_internal/pagination.html" . }}
+{{ partial "pagination.html" . }}
 {{ end }}

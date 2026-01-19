@@ -5,7 +5,7 @@ talk_images:
   - Sternwarte.jpg
 talk_speakers:
   speaker1:
-    name: Bernd Peerdeman
+    name: Bernd Peerdeman - Sternwarte Bad Kreuznach e.V.
 title: Astronomie für alle – Die Sternwarte Bad Kreuznach stellt sich vor
 ---
 

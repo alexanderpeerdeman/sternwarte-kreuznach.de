@@ -15,7 +15,7 @@
   margin: 0 auto;
   display: flex;
   align-items: center;
-  box-shadow: rgba(0, 0, 0, 0.65) 0 5px 25px;   // filter: drop-shadow() leads to ugly rendering issue
+  box-shadow: rgba(0, 0, 0, 0.65) 0 5px 25px; // filter: drop-shadow() leads to ugly rendering issue
 
   padding: 1.4rem 3rem;
   @media #{$phone} {
@@ -40,10 +40,8 @@
     //  rgba(0, 0, 0, 0)
     // );
 
-    
-    
     background: rgba(0, 0, 0, 0.5);
-    
+
     // Weihnachtsgrüße
     // @media #{$phone} {
     // background: rgba(0, 0, 0, 0.5);
@@ -53,7 +51,7 @@
   > .article-card-content {
     z-index: 11;
     color: white;
-    // width: 65%; 
+    // width: 65%;
     width: 100%; // Weihnachtsgrüße
 
     @media #{$phone} {
@@ -87,35 +85,6 @@
   }
 }
 
-.main-with-aside {
-  display: flex;
-  max-width: 70rem;
-  margin: 0 auto 2rem auto;
-  padding: 0 2rem;
-  justify-content: space-between;
-  align-items: baseline;
-  gap: 2rem;
-  @media #{$phone} {
-    padding: 0 1rem;
-    flex-direction: column;
-    gap: unset;
-  }
-}
-
-.main-content {
-  max-width: 65ch;
-}
-
-.main-aside {
-  max-width: 40ch;
-  min-width: 20ch;
-  @media #{$phone} {
-    width: 100%;
-    max-width: unset;
-    min-width: unset;
-  }
-}
-
 #next-vhs {
   max-width: 70rem;
   .row {
@@ -127,7 +96,7 @@
   }
 
   #facebook-embed {
-    height: 650px;    
+    height: 650px;
     min-width: 500px;
     text-align: right;
     @media #{$phone} {
@@ -135,7 +104,6 @@
       min-width: unset;
       max-width: 500px;
     }
-
   }
 
   .announcement {
@@ -169,44 +137,7 @@
   }
 }
 
-#cards-wrapper {
-  background-color: #eee;
-  padding: 1rem 0;
-}
-
-.cards {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  max-width: 70rem;
-  margin: 0 auto;
-  padding: 0 1rem;
-  @media #{$phone} {
-    flex-direction: row;
-    justify-content: center;
-  }
-}
-.card {
-  max-width: 28%;
-  margin: 1rem;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  border-radius: 12px;
-  align-items: center;
-  @media #{$phone} {
-    max-width: 100%;
-  }
-}
-.card-header {
-  margin: 0;
-}
-
-.card-content {
-  font-size: 14px;
-}
-
-.blog-newest {
+#blog-newest {
   background-color: #eee;
   padding: 0.5em 0;
   > h2 {
@@ -219,18 +150,78 @@
   }
 }
 
-#blog-featured {
-  > .post-header {
-    > .post-link {
-      > .post-title {
-        padding: 0;
-      }
-      > .post-image {
-        text-align: left;
-      }
+#landing-container {
+  background-image: url(/uploads/luftbild.jpg);
+  background-size: cover;
+  background-color: rgba($color: #000, $alpha: 0.6);
+  background-blend-mode: darken;
+  color: #eee;
+  line-height: 1.1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.9vw;
+  font-weight: 700;
+  height: 50vw;
+
+  @media #{$large} {
+    height: 75vh;
+    font-size: 0.8em;
+  }
+
+  @media #{$phone} {
+    height: 40vh;
+    font-size: 1.2vw;
+  }
+
+  #landing {
+    @media #{$phone} {
+      width: 80%;
+    }
+
+    > div:nth-child(1) {
+      font-size: 3em;
+    }
+
+    > div:nth-child(2) {
+      font-size: 10.5em;
+    }
+
+    > div:nth-child(3) {
+      font-size: 6em;
+    }
+
+    > div:nth-child(4) {
+      font-size: 2.2em;
     }
   }
-  > .post-summary {
-    padding: 0;
+}
+
+#event-ribbon {
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  line-height: 1.8;
+  padding: 1.2rem 0;
+  > div {
+    max-width: 70rem;
+    padding: 0 1rem;
+    h4 {
+      display: inline-block;
+      font-weight: 700;
+      margin: 0;
+      margin-right: 0.4rem;
+    }
+    > span {
+      display: inline-block;
+      margin-right: 1rem;
+      > time {
+        background-color: lighten($color: #036, $amount: 13);
+        border-radius: 4px;
+        color: white;
+        margin-right: 0.2rem;
+        padding: 0.2rem 0.3rem;
+      }
+    }
   }
 }

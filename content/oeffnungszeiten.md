@@ -4,15 +4,20 @@ date: 2020-08-30T12:39:04+02:00
 aliases: [/infos/oeffnungszeiten, /öffnungszeiten, /infos/öffnungszeiten]
 ---
 
-## Himmelsbeobachtung & Vereinsabend
+{{< panel class="danger" >}}
+**Sommerpause** vom 15. Mai bis 15. September — Aufgrund der sehr spät eintretenden Dunkelheit.
+
+In diesem Zeitraum findet regulär **keine** öffentliche Himmelsbeobachtung statt
+{{< /panel >}}
+
+## Öffentliche Himmelsbeobachtung {#himmelsbeobachtung}
 
 Erster und dritter Freitag im Monat ab **19:00 Uhr**.  
-Besucher sind recht herzlich willkommen und der Eintritt ist frei.  
+Besucher sind recht herzlich willkommen und der Eintritt ist frei.
 
 {{< panel >}}
 Wir wollen sicherstellen, dass Sie keine verschlossenen Türen vorfinden. Wir bitten deshalb um vorherige Anmeldung oder Absprache mit uns. Am besten kurz per [Mail](/kontakt).
 {{< /panel >}}
-
 
 ## Sonnenbeobachtung
 
@@ -30,8 +35,7 @@ Die Sonnenbeobachtung fällt bei ungünstigen Bedingungen wie beispielsweise hoh
 
 ## VHS-Vorträge
 
-Sofern nicht anders [angeküngt](/vhs), finden die VHS-Vorträge **jeden letzten Freitag im Monat um 20:00 Uhr** statt.  
-An diesen Tagen entfällt der Vereinsabend.
+Sofern nicht anders [angekündigt](/vhs), finden die VHS-Vorträge **jeden letzten Freitag im Monat um 20:00 Uhr** statt.  
 Sollte das Wetter es zulassen, gibt es nach dem Vortrag die Möglichkeit zur Beobachtung des Nachthimmels durch unsere Instrumente.
 
 [Zu den aktuellen VHS-Vorträgen](/vhs)

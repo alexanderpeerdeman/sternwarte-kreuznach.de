@@ -71,7 +71,7 @@
     <article>
       <a href="{{ .RelPermalink }}" title='Permanenter Link zu "{{ .Title }}"'>
         {{ with (.Resources.GetMatch (index .Params.talk_images 0)).Fill
-        "500x300 smart" }}
+        "500x300" }}
         <img src="{{ .RelPermalink }}" alt="{{ .Title }}" />
         {{ end }}
         <h2>{{ .Title }}</h2>
