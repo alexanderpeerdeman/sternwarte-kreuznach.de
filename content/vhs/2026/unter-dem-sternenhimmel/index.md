@@ -2,7 +2,7 @@
 date: "2026-01-19T10:07:24"
 talk_date: "2026-06-26T20:00:00"
 talk_images:
-  - 06-Unter-dem Sternenhimmel.jpg
+  - unter-dem-sternenhimmel.jpg
 talk_speakers:
   speaker1:
     name: Bernd Peerdeman - Sternwarte Bad Kreuznach e.V.
