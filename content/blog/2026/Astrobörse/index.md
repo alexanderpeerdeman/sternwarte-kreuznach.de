@@ -1,9 +1,8 @@
 ---
 title: Dritte Astrobörse
-date: 2026-12-13 12:00:00
+date: 2026-01-20 12:00:00
 images:
   - ABK-Logo.png
-draft: true
 ---
 
 [www.astroboersekreuznach.de](https://www.astroboersekreuznach.de/)
@@ -22,7 +21,6 @@ Begleitprogramm:
 
 Wir freuen uns auf eine tolle Veranstaltung mit vielen begeisterten Hobbyastronomen!
 
-<!-- Es stehen 33 Tische zur Verfügung. Buchen Sie einen oder maximal zwei Tische von der Größe 1,60 m x 0,70 m zu einem unschlagbaren Preis. Ein Tisch zu 15 EUR, zwei Tische für 25 EUR. Warten Sie nicht zu lange. -->
 
 ## Sind Sie dabei?
 
