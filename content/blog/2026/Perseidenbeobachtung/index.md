@@ -1,6 +1,6 @@
 ---
 title: Perseidenbeobachtung und partielle Sonnenfinsternis 2026
-date: 2026-01-25 11:46:23
+date: 2026-03-25 11:46:23
 images:
 - Perseiden-Sofi-2026.png
 summary: Am Mittwoch, den 12. August 2026 findet wieder die Perseidenbeobachtung statt. Dazu sind Sie recht herzlich eingeladen.
