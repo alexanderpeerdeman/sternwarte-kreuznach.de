@@ -8,7 +8,7 @@ images:
 Die Sternwarte Bad Kreuznach e.V. lädt ein zum:  
 **Bundesweiten Astronomietag am Samstag, den 28. März 2026**
 
-Das Gelände der Sternwarte ist wegen der partiellen Sonnenfinsternis bereits ab 10:00 Uhr für Besucher geöffnet.  
+Das Gelände der Sternwarte ist ab 14:00 Uhr für Besucher geöffnet.  
 Der Eintritt ist frei.
 
 Das Thema des Astronomietages lautet:
