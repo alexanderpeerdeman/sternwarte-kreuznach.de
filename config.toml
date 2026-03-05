@@ -43,7 +43,7 @@ name = "Über uns"
 
 [[menu.main]]
 weight = 7
-name = "Kontakt & Anfahrt"
+name = "Anfahrt & Kontakt"
 url = "/kontakt"
 
 
