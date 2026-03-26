@@ -5,6 +5,10 @@ images:
 - VdS-Astronomietag-2026.jpg
 ---
 
+{{< panel class="danger" >}}
+Diese Veranstaltung entfällt. [Mehr Details ...](/blog/2026/astronomietag-2026-entfaellt/)
+{{< /panel >}}
+
 Die Sternwarte Bad Kreuznach e.V. lädt ein zum:  
 **Bundesweiten Astronomietag am Samstag, den 28. März 2026**
 
