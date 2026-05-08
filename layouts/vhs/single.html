@@ -20,7 +20,7 @@
         {{ else }}
         {{ with .Params.talk_date }}
           <time class="date published" datetime="{{ . }}"><i class="far fa-calendar-alt" title="Datum des Vortrags"></i>
-          {{ partial "date.html" (dict "date" . "monate" $.Site.Data.monate )}}</time><br>
+          {{ partial "date.html" (dict "date" . "monate" hugo.Data.monate )}}</time><br>
         {{ end }}
         {{ end }}
 

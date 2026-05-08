@@ -44,7 +44,7 @@
         <a href="{{ .RelPermalink }}" title='Permanenter Link zu "{{ .Title }}"'>
           {{ with .Params.talk_date }}
           <time class="date published" datetime="{{ . }}">
-            {{ partial "date.html" (dict "date" . "monate" $.Site.Data.monate)}}
+            {{ partial "date.html" (dict "date" . "monate" hugo.Data.monate)}}
           </time>
           {{ end }}
           <div class="title">{{ .Title }}</div>

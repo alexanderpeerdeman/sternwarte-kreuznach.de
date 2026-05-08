@@ -19,7 +19,7 @@
     <p>
       Veröffentlicht am
       <time class="date published" datetime="{{ . }}"
-        >{{ partial "date.html" (dict "date" . "monate" $.Site.Data.monate
+        >{{ partial "date.html" (dict "date" . "monate" hugo.Data.monate
         )}}</time
       >
     </p>
@@ -35,7 +35,7 @@
         <strong class="entry-title">{{ .Title }}</strong>
         {{ with .PublishDate }}
         <time class="date" datetime="{{ . }}"
-          >{{ partial "date.html" (dict "date" . "monate" $.Site.Data.monate
+          >{{ partial "date.html" (dict "date" . "monate" hugo.Data.monate
           )}}</time
         >
         {{ end }}
@@ -48,7 +48,7 @@
         <strong class="entry-title">{{ .Title }}</strong>
         {{ with .PublishDate }}
         <time class="date" datetime="{{ . }}"
-          >{{ partial "date.html" (dict "date" . "monate" $.Site.Data.monate
+          >{{ partial "date.html" (dict "date" . "monate" hugo.Data.monate
           )}}</time
         >
         {{ end }}

@@ -78,7 +78,7 @@
       <p>
         <time class="date published" datetime="{{ .Params.talk_date }}">
           {{ partial "date.html" (dict "date" .Params.talk_date "monate"
-          $.Site.Data.monate )}}
+          hugo.Data.monate )}}
         </time>
       </p>
     </article>
