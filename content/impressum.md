@@ -7,9 +7,9 @@ gemäß § 5 TMG
 
 **Postanschrift:**  
 Sternwarte Bad Kreuznach e. V.  
-c/o Roland Zahn  
-Saarstraße 14  
-55283 Nierstein
+c/o Artur Kappesser  
+Uhlandstraße 12  
+55543 Bad Kreuznach
 
 **Vertreten durch:**  
 Artur Kappesser (1. Vorsitzender)  
