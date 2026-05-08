@@ -12,11 +12,11 @@ Saarstraße 14
 55283 Nierstein
 
 **Vertreten durch:**  
-Roland Zahn (1. Vorsitzender)  
+Artur Kappesser (1. Vorsitzender)  
 Johannes Lind (2. Vorsitzender)  
-Bernd Peerdeman (Schriftführer)  
 Reinhold Frey (Kassenwart)  
-Markus Berwanger (Beisitzer)
+Thomas Schumann (Schriftführer)  
+Wilfried Denecke (Beisitzer)
 
 **Kontakt:**  
 E-Mail: [info@sternwarte-kreuznach.de](mailto:info@sternwarte-kreuznach.de "info@sternwarte-kreuznach.de")

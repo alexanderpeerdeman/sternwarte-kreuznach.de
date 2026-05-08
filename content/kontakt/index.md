@@ -40,11 +40,11 @@ Saarstraße 14
 
 ## Vereinsvorstand
 
-1\. Vorsitzender: Roland Zahn  
+1\. Vorsitzender: Artur Kappesser  
 2\. Vorsitzender: Johannes Lind  
-Schriftführer: Bernd Peerdeman  
 Kassenwart: Reinhold Frey  
-Beisitzer: Markus Berwanger
+Schriftführer: Thomas Schumann  
+Beisitzer: Wilfried Denecke
 
 ---
 
