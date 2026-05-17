@@ -3,6 +3,7 @@ title: Neuer Vorstand der Sternwarte Bad Kreuznach e.V.
 date: 2026-05-08 11:46:23
 images:
 - Vorstand-Sternwarte-Kreuznach.jpeg
+summary: An der turnusmäßigen Jahreshauptversammlung wurde ein neuer Vereinsvorstand gewählt.
 ---
 
 Am 08. Mai fand die turnusmäßige Jahreshauptversammlung der Sternwarte Bad Kreuznach e.V. statt. Nach den üblichen Formalien und dem Tätigkeitsbericht des 1. Vorsitzenden, Roland Zahn, bescheinigten die Kassenprüfer dem Kassierer, Reinhold Frey, eine vorbildliche Arbeit und Buchführung. Hervorgehoben wurde die gute Finanzlage des Vereins, der schuldenfrei ist.
