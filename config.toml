@@ -1,5 +1,5 @@
 baseURL = "https://sternwarte-kreuznach.de/"
-languageCode = "de"
+locale = "de-DE"
 title = "Sternwarte Bad Kreuznach e.V."
 summaryLength = 25
 timeZone = 'Europe/Berlin'
@@ -35,7 +35,7 @@ weight = 5
 name = "Fotoausstellung"
 url = "/fotoausstellung-rueckblick"
 [menu.main.params]
-    highlight = true
+highlight = true
 
 [[menu.main]]
 weight = 6
@@ -43,7 +43,7 @@ name = "Über uns"
 
 [[menu.main]]
 weight = 7
-name = "Kontakt & Anfahrt"
+name = "Anfahrt & Kontakt"
 url = "/kontakt"
 
 

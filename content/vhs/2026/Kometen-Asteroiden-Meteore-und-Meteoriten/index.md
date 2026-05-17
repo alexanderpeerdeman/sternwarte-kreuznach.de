@@ -13,7 +13,7 @@ title: Kometen, Asteroiden, Meteore und Meteoriten!
 Definitionen der einzelnen Himmelskörper, über Größe und Formen.
 
 **Wo kommen sie her?**  
-Aus den unterschiedlichen Regionen des Sonnensystems, viel weiter hinaus. Einige tauchen immer wieder auf und andere verschwinden in den Tiefen des Alls.
+Aus den unterschiedlichen Regionen des Sonnensystems und viel weiter hinaus. Einige tauchen immer wieder auf und andere verschwinden in den Tiefen des Alls.
 
 **Können Sie uns gefährlich werden?**  
 Über Einschläge und Funde von Meteoriten.  

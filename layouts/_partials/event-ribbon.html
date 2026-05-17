@@ -24,7 +24,7 @@
       {{- else if eq .date ((now.AddDate 0 0 1).Format "2006-01-02") -}}
       Morgen:
       {{- else -}}
-      {{- (time .date).Day -}}. {{ index $.Site.Data.monate (printf "%d" (time .date).Month) -}}:
+      {{- (time .date).Day -}}. {{ index hugo.Data.monate (printf "%d" (time .date).Month) -}}:
       {{- end -}}
       </time>
       {{- if eq .type "event" -}}

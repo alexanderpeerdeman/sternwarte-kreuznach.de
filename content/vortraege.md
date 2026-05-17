@@ -4,20 +4,23 @@ date: 2020-08-30T12:39:22+02:00
 aliases: [/vorträge]
 ---
 
-Unsere Vorträge die über die VHS Bad Kreuznach angeboten werden, sind unsere Möglichkeit, regelmäßig am letzten Freitag im Monat interessante Themen im Rahmen der Astronomie vorzustellen. Wir wollen damit die Diskussion zu aktuellen astronomischen Themen anregen. Sofern nicht anders angegeben, finden von Januar bis November alle Vorträge im Vortragsgebäude auf unserem Gelände statt.
-Die Vorträge finden jeden letzten Freitag im Monat statt.
+
+Unsere Vorträge sind unsere Möglichkeit, regelmäßig am **letzten Freitag im Monat** interessante Themen im Rahmen der Astronomie vorzustellen. Damit wollen wir die Diskussion zu aktuellen astronomischen Themen anregen.
+
+Die Vorträge werden über die [VHS Bad Kreuznach](https://vhs-bad-kreuznach.de/) angeboten.  
+[![VHS Bad Kreuznach](/svg/vhs_logo.svg)](https://vhs-bad-kreuznach.de/)
 
 **Vortragsbeginn: 20:00 Uhr**, Einlass ab 19:00 Uhr  
 **Eintritt: 8,00€**
 
-Nur Barzahlung an der Abendkasse.  
-Es gibt keine Reservierungsmöglichkeit oder Vorverkauf von Karten.
+Es besteht keine Möglichkeit zur Reservierung oder zum Vorverkauf von Karten.  
+An der Abendkasse ist ausschließlich Barzahlung möglich.
 
 Es sind **35 Plätze** verfügbar. Erscheinen Sie deshalb pünktlich.  
-Sollten wir Sie nicht mehr platzieren können, werden wir in Ausnahmefällen versuchen, den Vortrag an einem anderen Tag zu wiederholen. Informationen dazu finden Sie hier auf der Website oder auf unserer Facebookseite.
+Sollten wir Sie nicht mehr platzieren können, werden wir versuchen, den Vortrag an einem anderen Tag zu wiederholen. Informationen dazu werden hier auf unserer Website bekanntgegeben.
 
-### Beobachten nach dem Vortrag
+Sofern nicht anders angegeben, finden von Januar bis November alle Vorträge im [Vortragsgebäude auf unserem Gelände](/kontakt) statt.
 
-Da die Vorträge immer zu recht später Stunde stattfinden, ist es vor allem in den Wintermonaten nach Ende des Vortrags schon dunkel. Wir können dann, wenn Interesse besteht, die Sternwarte betreten und die Instrumente präsentieren. Wenn das Wetter es zulässt besteht die Möglichkeit zur angeleiteten Beobachtung der verschiedenen Objekte am Nachthimmel.
+## Beobachten nach dem Vortrag
 
-![VHS Bad Kreuznach](/svg/vhs_logo.svg)
+Da die Vorträge immer zu recht später Stunde stattfinden, ist es vor allem in den Wintermonaten nach Ende des Vortrags schon dunkel. Wenn Interesse besteht, können wir die Sternwarte betreten und die Instrumente präsentieren. Wenn das Wetter es zulässt, besteht die dann die Möglichkeit zur angeleiteten Beobachtung der verschiedenen sichtbaren Objekte am Nachthimmel.

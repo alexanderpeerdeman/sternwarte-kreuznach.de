@@ -1,51 +1,16 @@
 ---
-title: "Kontakt & Anfahrt"
+title: "Anfahrt & Kontakt"
 date: 2020-08-30T12:38:56+02:00
 aliases: [/infos/anfahrt, /anfahrt, /kontakt, /infos/kontakt]
 ---
 
-**Mail**: [info@sternwarte-kreuznach.de](mailto:info@sternwarte-kreuznach.de "info@sternwarte-kreuznach.de")
+## E-Mail
+
+[info@sternwarte-kreuznach.de](mailto:info@sternwarte-kreuznach.de "info@sternwarte-kreuznach.de")
 
 ---
 
-**1. Vorsitzender:**  
-Roland Zahn
-
-**2. Vorsitzender:**  
-Johannes Lind
-
-**Schriftführer:**  
-Bernd Peerdeman
-
-**Kassenwart:**  
-Reinhold Frey
-
-**Beisitzer:**  
-Markus Berwanger
-
-### Bankverbindung
-
-**Volksbank Rhein-Nahe-Hunsrück eG**  
-IBAN: DE14 5609 0000 0007 1231 34  
-BIC: GENODE51KRE
-
-### Adresse
-
-An der Sternwarte 2  
-55543 Bad Kreuznach
-
-### Postanschrift
-
-Sternwarte Bad Kreuznach e.V.  
-c/o Roland Zahn  
-Saarstraße 14  
-55283 Nierstein
-
----
-
-# Anfahrt
-
-### Mit dem Auto
+## Anfahrt
 
 1. Aus Bad Kreuznach kommend, folgen Sie dem Verlauf der Rheingrafenstraße am Tierheim vorbei bis zum Kuhberg.
 2. Aus Richtung Hackenheim oder Wöllstein (L 412) kommend, biegen Sie nach dem Kreisel nach links auf die Panzerstraße ein.
@@ -53,4 +18,38 @@ Saarstraße 14
 Vor dem Restaurant Hofgut Rheingrafenstein folgen Sie der Beschilderung nach rechts in Richtung Sternwarte.  
 Parkplätze finden Sie um das Schloss Rheingrafenstein. Nehmen Sie den linken Weg und nach ca. 200 Metern Fußweg sind Sie am Ziel.
 
-![Tor zur Sternwarte](vitrine.jpg)
+![Bild vom Eingang des Geländes der Sternwarte: Ein Tor und eine Vitrine auf einem Waldweg](vitrine.jpg)
+
+---
+
+## Adresse
+
+An der Sternwarte 2  
+55543 Bad Kreuznach
+
+---
+
+## Postanschrift
+
+Sternwarte Bad Kreuznach e.V.  
+c/o Artur Kappesser  
+Uhlandstraße 12  
+55543 Bad Kreuznach
+
+---
+
+## Vereinsvorstand
+
+1\. Vorsitzender: Artur Kappesser  
+2\. Vorsitzender: Johannes Lind  
+Kassenwart: Reinhold Frey  
+Schriftführer: Thomas Schumann  
+Beisitzer: Wilfried Denecke
+
+---
+
+## Bankverbindung
+
+**Volksbank Rhein-Nahe-Hunsrück eG**  
+IBAN: DE14 5609 0000 0007 1231 34  
+BIC: GENODE51KRE
